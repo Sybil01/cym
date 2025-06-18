@@ -6,6 +6,27 @@
   "sessionStorage": "data",
   "sessions": [
     {
+      "start": "2025-05-29T12:02:00.186Z",
+      "total": 0,
+      "drafts": {
+        "02-mat/generatividad/Index.md": {
+          "total": 0,
+          "scenes": {
+            "Introducción": 0,
+            "Patrones geométricos": 0,
+            "Palíndromos": 0,
+            "Recursion": 0,
+            "Autómatas": 0,
+            "Azar": 0,
+            "Emergencia": 0,
+            "Fractales": 0,
+            "Hibridación (AR)": 0,
+            "Simulación (VR)": 0
+          }
+        }
+      }
+    },
+    {
       "start": "2025-05-13T12:15:38.732Z",
       "total": 0,
       "drafts": {

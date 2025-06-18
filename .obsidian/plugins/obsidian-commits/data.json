@@ -49,56 +49,6 @@
       "tags": 2,
       "links": 0
     },
-    "02-mat/que es git.md": {
-      "size": 6875,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/rant.md": {
-      "size": 1089,
-      "tags": 5,
-      "links": 0
-    },
-    "02-mat/python/python music.md": {
-      "size": 848,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/python/python abjad.md": {
-      "size": 576,
-      "tags": 1,
-      "links": 0
-    },
-    "02-mat/python/pycolors.md": {
-      "size": 1914,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/python/py-foundations.md": {
-      "size": 1700,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/partituras/unendilech freude.md": {
-      "size": 4043,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/partituras/canciones.md": {
-      "size": 520,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/partituras/bianco dolce signo.md": {
-      "size": 5014,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/partituras/ave maria palestrina.md": {
-      "size": 6768,
-      "tags": 0,
-      "links": 0
-    },
     "02-mat/procesos/r-vinculación bidireccional.md": {
       "size": 1775,
       "tags": 2,
@@ -108,41 +58,6 @@
       "size": 982,
       "tags": 0,
       "links": 1
-    },
-    "02-mat/org/i-theremin.md": {
-      "size": 127,
-      "tags": 3,
-      "links": 0
-    },
-    "02-mat/org/i-sackbut.md": {
-      "size": 1026,
-      "tags": 4,
-      "links": 2
-    },
-    "02-mat/jasvascript/js01-fundamentals.md": {
-      "size": 40520,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/jasvascript/js-playground.md": {
-      "size": 798,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/jasvascript/js-cheatsheet.md": {
-      "size": 128,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/cloud ides.md": {
-      "size": 212,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/html.md": {
-      "size": 239,
-      "tags": 0,
-      "links": 0
     },
     "01-proj/tp/tp02-aplicación.md": {
       "size": 381,
@@ -629,15 +544,10 @@
       "tags": 1,
       "links": 0
     },
-    "04-out/espacios/EAT Experiments in arts and technologies.md": {
-      "size": 40,
-      "tags": 1,
-      "links": 0
-    },
     "04-out/espacios/MIT Medialab.md": {
-      "size": 0,
+      "size": 2791,
       "tags": 0,
-      "links": 0
+      "links": 3
     },
     "04-out/glosario/PaaS.md": {
       "size": 0,
@@ -869,11 +779,6 @@
       "tags": 1,
       "links": 0
     },
-    "02-mat/css.md": {
-      "size": 661,
-      "tags": 0,
-      "links": 0
-    },
     "03-cla/c-cym03-mapas.md": {
       "size": 3706,
       "tags": 4,
@@ -903,11 +808,6 @@
       "size": 10545,
       "tags": 7,
       "links": 8
-    },
-    "02-mat/jasvascript/js-02 contextos de ejecución.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
     },
     "03-cla/c-cym06c-tonejs.md": {
       "size": 1315,
@@ -1030,9 +930,9 @@
       "links": 0
     },
     "00-in/Agregación limitada por difusión.md": {
-      "size": 23224,
+      "size": 3248,
       "tags": 0,
-      "links": 0
+      "links": 4
     },
     "04-out/bibliografía/El Azar y la Necesidad.md": {
       "size": 511,
@@ -1134,11 +1034,6 @@
       "tags": 6,
       "links": 6
     },
-    "02-mat/jasvascript/02-setup/02-setup.md": {
-      "size": 12609,
-      "tags": 1,
-      "links": 0
-    },
     "04-out/personas/Martin Rohrmeier.md": {
       "size": 342,
       "tags": 4,
@@ -1234,11 +1129,6 @@
       "tags": 1,
       "links": 0
     },
-    "02-mat/partituras/tonejs/01-tone.js.md": {
-      "size": 861,
-      "tags": 1,
-      "links": 0
-    },
     "04-out/personas/Susanne Kennedy.md": {
       "size": 0,
       "tags": 1,
@@ -1297,7 +1187,7 @@
     "00-moc/personas MOC.md": {
       "size": 176,
       "tags": 0,
-      "links": 0
+      "links": 2
     },
     "00-moc/proyectos MOC.md": {
       "size": 125,
@@ -1333,11 +1223,6 @@
       "size": 25111,
       "tags": 2,
       "links": 1
-    },
-    "02-mat/mat-partitura.md": {
-      "size": 249,
-      "tags": 0,
-      "links": 0
     },
     "04-out/bibliografía/b-Azar y necesidad.md": {
       "size": 0,
@@ -1663,14 +1548,389 @@
       "size": 5191,
       "tags": 2,
       "links": 0
+    },
+    "05-obs/tpl/mat-partitura.md": {
+      "size": 249,
+      "tags": 0,
+      "links": 0
+    },
+    "04-out/obras/papilarnie III.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "04-out/obras/stranger visions.md": {
+      "size": 2069,
+      "tags": 1,
+      "links": 0
+    },
+    "00-in/Hugh Le Caine.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/orq/Cicada.md": {
+      "size": 1833,
+      "tags": 2,
+      "links": 0
+    },
+    "02-mat/orq/Dadamachines.md": {
+      "size": 257,
+      "tags": 1,
+      "links": 1
+    },
+    "02-mat/orq/Glissotar.md": {
+      "size": 429,
+      "tags": 3,
+      "links": 0
+    },
+    "02-mat/orq/Hechtyphone.md": {
+      "size": 8028,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/HyperText.md": {
+      "size": 277,
+      "tags": 3,
+      "links": 0
+    },
+    "02-mat/orq/Hyperinstruments.md": {
+      "size": 2628,
+      "tags": 2,
+      "links": 4
+    },
+    "02-mat/orq/Infinite Scroll.md": {
+      "size": 1545,
+      "tags": 3,
+      "links": 0
+    },
+    "02-mat/orq/Intonarumori.md": {
+      "size": 280,
+      "tags": 2,
+      "links": 0
+    },
+    "02-mat/orq/Lava Genie.md": {
+      "size": 359,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/OTO.md": {
+      "size": 1723,
+      "tags": 2,
+      "links": 0
+    },
+    "02-mat/orq/ShoZyg I.md": {
+      "size": 1038,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/Soveida Harp.md": {
+      "size": 6345,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/TouchDisplay.md": {
+      "size": 4013,
+      "tags": 3,
+      "links": 0
+    },
+    "02-mat/orq/black box music.md": {
+      "size": 1546,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/chromaplane.md": {
+      "size": 993,
+      "tags": 1,
+      "links": 1
+    },
+    "02-mat/orq/cricket.md": {
+      "size": 138,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/daxophone.md": {
+      "size": 3349,
+      "tags": 1,
+      "links": 2
+    },
+    "02-mat/orq/digitAize.md": {
+      "size": 30533,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/estilo triunfal.md": {
+      "size": 83,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/orq/fello.md": {
+      "size": 1535,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/feral.md": {
+      "size": 2169,
+      "tags": 2,
+      "links": 0
+    },
+    "02-mat/orq/ferrous.md": {
+      "size": 519,
+      "tags": 3,
+      "links": 0
+    },
+    "02-mat/orq/gizmotron.md": {
+      "size": 1501,
+      "tags": 2,
+      "links": 0
+    },
+    "02-mat/orq/iPhone.md": {
+      "size": 206,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/orq/inflatable instruments.md": {
+      "size": 177,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/orq/javalele.md": {
+      "size": 1121,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/knurl.md": {
+      "size": 18688,
+      "tags": 2,
+      "links": 0
+    },
+    "02-mat/orq/magic piano.md": {
+      "size": 56,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/nux nec-1.md": {
+      "size": 1562,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/perini.the expandaded body.md": {
+      "size": 13088,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/orq/pianococktail.md": {
+      "size": 1986,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/potentiomètre d'espace.md": {
+      "size": 6087,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/priezor.md": {
+      "size": 886,
+      "tags": 8,
+      "links": 0
+    },
+    "02-mat/orq/ratchet.md": {
+      "size": 1091,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/sackbut.md": {
+      "size": 4371,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/sensy guitar.md": {
+      "size": 1255,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/sophtar.md": {
+      "size": 1682,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/sound urchin.md": {
+      "size": 326,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/orq/violiness.md": {
+      "size": 3299,
+      "tags": 2,
+      "links": 0
+    },
+    "05-obs/tpl/1 Bit-Music.md": {
+      "size": 203,
+      "tags": 1,
+      "links": 0
+    },
+    "00-moc/instrumentos MOC.md": {
+      "size": 5933,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/vida/ontogenia simulada en Jupiter.md": {
+      "size": 5329,
+      "tags": 0,
+      "links": 7
+    },
+    "02-mat/vida/ontogenia.md": {
+      "size": 3310,
+      "tags": 0,
+      "links": 3
+    },
+    "02-mat/vida/filogenia.md": {
+      "size": 3678,
+      "tags": 0,
+      "links": 2
+    },
+    "02-mat/vida/lenguaje simbólico en Jupiter.md": {
+      "size": 3421,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/vida/tolinas.md": {
+      "size": 3879,
+      "tags": 0,
+      "links": 2
+    },
+    "02-mat/vida/Niveles de cognición.md": {
+      "size": 3325,
+      "tags": 0,
+      "links": 1
+    },
+    "02-mat/vida/Momento de aparición de objetos tecnológicos.md": {
+      "size": 4480,
+      "tags": 0,
+      "links": 4
+    },
+    "02-mat/vida/contracción por gradientes térmicos.md": {
+      "size": 3524,
+      "tags": 0,
+      "links": 4
+    },
+    "02-mat/vida/instrumentos musicales de jupiter.md": {
+      "size": 7531,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/rant.md": {
+      "size": 1089,
+      "tags": 5,
+      "links": 0
+    },
+    "02-mat/código/cloud ides.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/css.md": {
+      "size": 661,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/html.md": {
+      "size": 239,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/que es git.md": {
+      "size": 6875,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js-playground.md": {
+      "size": 798,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js01-fundamentals.md": {
+      "size": 40520,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js-02 contextos de ejecución.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js-cheatsheet.md": {
+      "size": 128,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/02-setup/02-setup.md": {
+      "size": 12609,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/código/01-tone.js.md": {
+      "size": 861,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/código/python/py-foundations.md": {
+      "size": 1700,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/python/python abjad.md": {
+      "size": 576,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/código/python/python music.md": {
+      "size": 848,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/python/pycolors.md": {
+      "size": 1914,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym16-teología estética de los nuevos medios.md": {
+      "size": 3451,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/orq/aeolian harp.md": {
+      "size": 186,
+      "tags": 1,
+      "links": 0
+    },
+    "04-out/eventos/Experiments in Art and Technology.md": {
+      "size": 4101,
+      "tags": 1,
+      "links": 4
+    },
+    "04-out/eventos/Electronics Arts Intermix.md": {
+      "size": 3444,
+      "tags": 2,
+      "links": 3
+    },
+    "04-out/eventos/Visual Music.md": {
+      "size": 5684,
+      "tags": 0,
+      "links": 3
+    },
+    "2.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1175,
-      "Create": 449,
-      "Link": 896,
-      "Expand": 68
+      "Refactor": 1214,
+      "Create": 515,
+      "Link": 961,
+      "Expand": 85
     }
   },
   "dailyCommits": {
@@ -1687,10 +1947,10 @@
       "9": 184,
       "10": 63,
       "11": 144,
-      "12": 600,
-      "13": 60,
-      "14": 44,
-      "15": 26,
+      "12": 617,
+      "13": 71,
+      "14": 56,
+      "15": 152,
       "16": 69,
       "17": 46,
       "18": 204,
@@ -1698,23 +1958,40 @@
       "20": 85,
       "21": 69,
       "22": 620,
-      "23": 56
+      "23": 77
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 84,
       "Tue": 175,
-      "Wed": 718,
-      "Thu": 704,
+      "Wed": 746,
+      "Thu": 842,
       "Fri": 673,
       "Sat": 0,
-      "Sun": 234
+      "Sun": 255
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"00-moc/2.972.453.md\"> 2.972.453 </a>",
+        "<a class=\"internal-link\" href=\"04-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Visual Music.md\"> Visual Music </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym16-teología estética de los nuevos medios.md\"> c-cym16-teología estética de los nuevos medios </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/instrumentos musicales de jupiter.md\"> instrumentos musicales de jupiter </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/contracción por gradientes térmicos.md\"> contracción por gradientes térmicos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Momento de aparición de objetos tecnológicos.md\"> Momento de aparición de objetos tecnológicos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/tolinas.md\"> tolinas </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Niveles de cognición.md\"> Niveles de cognición </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia.md\"> ontogenia </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/filogenia.md\"> filogenia </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/lenguaje simbólico en Jupiter.md\"> lenguaje simbólico en Jupiter </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia simulada en Jupiter.md\"> ontogenia simulada en Jupiter </a>",
+        "<a class=\"internal-link\" href=\"00-moc/instrumentos MOC.md\"> instrumentos MOC </a>",
+        "<a class=\"internal-link\" href=\"04-out/obras/stranger visions.md\"> stranger visions </a>",
         "<a class=\"internal-link\" href=\"00-in/Locus Solus.md\"> Locus Solus </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
@@ -1748,79 +2025,86 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/Azar.md\"> Azar </a>",
         "<a class=\"internal-link\" href=\"04-out/SUMMARY.md\"> SUMMARY </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Forma Musical.md\"> Forma Musical </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"00-in/Susanne Kennedy.md\"> Susanne Kennedy </a>",
-        "<a class=\"internal-link\" href=\"00-in/Susanne Kennedy.md\"> Susanne Kennedy </a>",
-        "<a class=\"internal-link\" href=\"04-out/bibliografía/Nick Montfort_Exploratory Programming for the Arts and Humanities.md\"> Nick Montfort_Exploratory Programming for the Arts and Humanities </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Simon Steen-Andersen écouter, observer, hacker..ed.md\"> Simon Steen-Andersen écouter, observer, hacker..ed </a>",
-        "<a class=\"internal-link\" href=\"00-in/Patrones de Turing.md\"> Patrones de Turing </a>",
-        "<a class=\"internal-link\" href=\"00-in/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>",
-        "<a class=\"internal-link\" href=\"00-in/El metaverso es un territorio disputado.md\"> El metaverso es un territorio disputado </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/En conversación con Susanne Kennedy.md\"> En conversación con Susanne Kennedy </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Forma Musical.md\"> Forma Musical </a>",
-        "<a class=\"internal-link\" href=\"02-mat/jasvascript/js01-fundamentals.md\"> js01-fundamentals </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Música y Política.md\"> Música y Política </a>",
-        "<a class=\"internal-link\" href=\"02-mat/jasvascript/js01-fundamentals.md\"> js01-fundamentals </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym08-github pages+hydra.md\"> c-cym08-github pages+hydra </a>",
-        "<a class=\"internal-link\" href=\"02-mat/que es git.md\"> que es git </a>",
-        "<a class=\"internal-link\" href=\"02-mat/jasvascript/js01-fundamentals.md\"> js01-fundamentals </a>",
-        "<a class=\"internal-link\" href=\"00-in/que hace atractivo al arte interactivo?.md\"> que hace atractivo al arte interactivo? </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym02-fundamentales de js.md\"> c-cym02-fundamentales de js </a>"
+        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>"
       ],
       "Created": [
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Introducción.md\"> Introducción </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Palíndromos.md\"> Palíndromos </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Recursion.md\"> Recursion </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Patrones geométricos.md\"> Patrones geométricos </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Simulación (VR).md\"> Simulación (VR) </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Hibridación (AR).md\"> Hibridación (AR) </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Fractales.md\"> Fractales </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Autómatas.md\"> Autómatas </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Emergencia.md\"> Emergencia </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"02-mat/generatividad/Generatividad/Index.md\"> Index </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"smart-chats/UNTITLED CHAT 2024-10-23 06 21 03.md\"> UNTITLED CHAT 2024-10-23 06 21 03 </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"campbellDialogosIlusorios2000.md\"> campbellDialogosIlusorios2000 </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"smart-chats/UNTITLED CHAT 2024-10-16 14 50 42.md\"> UNTITLED CHAT 2024-10-16 14 50 42 </a>",
-        "<a class=\"internal-link\" href=\"smart-chats/UNTITLED CHAT 2024-10-16 03 34 12.md\"> UNTITLED CHAT 2024-10-16 03 34 12 </a>",
-        "<a class=\"internal-link\" href=\"00-in/David Rokeby.md\"> David Rokeby </a>",
-        "<a class=\"internal-link\" href=\"04-out/obras/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"00-in/hd-hydra.md\"> hd-hydra </a>",
-        "<a class=\"internal-link\" href=\"00-in/combinational creativity.md\"> combinational creativity </a>",
-        "<a class=\"internal-link\" href=\"00-in/Nicolas Schoffer.md\"> Nicolas Schoffer </a>",
-        "<a class=\"internal-link\" href=\"00-in/Max Bense.md\"> Max Bense </a>",
-        "<a class=\"internal-link\" href=\"00-in/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
-        "<a class=\"internal-link\" href=\"00-in/INGENIERIA INVERTIDA.md\"> INGENIERIA INVERTIDA </a>",
-        "<a class=\"internal-link\" href=\"00-in/Gustav Metzger.md\"> Gustav Metzger </a>",
-        "<a class=\"internal-link\" href=\"00-in/Clemens Wöllner.md\"> Clemens Wöllner </a>",
-        "<a class=\"internal-link\" href=\"00-in/catalexis.md\"> catalexis </a>",
-        "<a class=\"internal-link\" href=\"00-in/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Dick Raaijmakers.md\"> Dick Raaijmakers </a>",
-        "<a class=\"internal-link\" href=\"04-out/bibliografía/b-Azar y necesidad.md\"> b-Azar y necesidad </a>",
-        "<a class=\"internal-link\" href=\"02-mat/mat-partitura.md\"> mat-partitura </a>",
-        "<a class=\"internal-link\" href=\"00-in/INGENIERIA INVERTIDA.md\"> INGENIERIA INVERTIDA </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"04-out/bibliografía/title.md\"> title </a>",
-        "<a class=\"internal-link\" href=\"02-mat/obs/tpl/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"2.md\"> 2 </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/aeolian harp.md\"> aeolian harp </a>",
+        "<a class=\"internal-link\" href=\"03-cla/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/j.md\"> j </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/j.md\"> j </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/contracción por gradientes térmicos.md\"> contracción por gradientes térmicos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Momento de aparición de objetos tecnológicos.md\"> Momento de aparición de objetos tecnológicos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Niveles de cognición.md\"> Niveles de cognición </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/tolinas.md\"> tolinas </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/j.md\"> j </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/filogenia.md\"> filogenia </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia.md\"> ontogenia </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/violiness.md\"> violiness </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sound urchin.md\"> sound urchin </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sophtar.md\"> sophtar </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sensy guitar.md\"> sensy guitar </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sackbut.md\"> sackbut </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/ratchet.md\"> ratchet </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/priezor.md\"> priezor </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/potentiomètre d'espace.md\"> potentiomètre d'espace </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/pianococktail.md\"> pianococktail </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/perini.the expandaded body.md\"> perini.the expandaded body </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/nux nec-1.md\"> nux nec-1 </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/magic piano.md\"> magic piano </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/knurl.md\"> knurl </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/javalele.md\"> javalele </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/inflatable instruments.md\"> inflatable instruments </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/iPhone.md\"> iPhone </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/gizmotron.md\"> gizmotron </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/ferrous.md\"> ferrous </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/feral.md\"> feral </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/fello.md\"> fello </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/estilo triunfal.md\"> estilo triunfal </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/digitAize.md\"> digitAize </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/daxophone.md\"> daxophone </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/cricket.md\"> cricket </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/chromaplane.md\"> chromaplane </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/black box music.md\"> black box music </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/TouchDisplay.md\"> TouchDisplay </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Soveida Harp.md\"> Soveida Harp </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"04-out/eventos/2972453.md\"> 2972453 </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/2.972.453.md\"> 2.972.453 </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Visual Music.md\"> Visual Music </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/python/pycolors.md\"> pycolors </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/python/python music.md\"> python music </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/python/python abjad.md\"> python abjad </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/python/py-foundations.md\"> py-foundations </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/01-tone.js.md\"> 01-tone.js </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/02-setup/02-setup.md\"> 02-setup </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-cheatsheet.md\"> js-cheatsheet </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-02 contextos de ejecución.md\"> js-02 contextos de ejecución </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js01-fundamentals.md\"> js01-fundamentals </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-playground.md\"> js-playground </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/que es git.md\"> que es git </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/html.md\"> html </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/css.md\"> css </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/cloud ides.md\"> cloud ides </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/rant.md\"> rant </a>",
+        "<a class=\"internal-link\" href=\"05-obs/tpl/1 Bit-Music.md\"> 1 Bit-Music </a>",
+        "<a class=\"internal-link\" href=\"04-out/obras/stranger visions.md\"> stranger visions </a>",
+        "<a class=\"internal-link\" href=\"04-out/obras/papilarnie III.md\"> papilarnie III </a>",
+        "<a class=\"internal-link\" href=\"05-obs/tpl/mat-partitura.md\"> mat-partitura </a>",
         "<a class=\"internal-link\" href=\"04-out/obras/Locus Solus.md\"> Locus Solus </a>",
         "<a class=\"internal-link\" href=\"00-in/Projekte generativer Ästhetik.md\"> Projekte generativer Ästhetik </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
@@ -1847,33 +2131,51 @@
         "<a class=\"internal-link\" href=\"05-obs/tpl/t-obra.md\"> t-obra </a>",
         "<a class=\"internal-link\" href=\"05-obs/tpl/t-topoi.md\"> t-topoi </a>",
         "<a class=\"internal-link\" href=\"05-obs/tpl/t-templater.md\"> t-templater </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-movie.md\"> t-movie </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-lorem.md\"> t-lorem </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-person.md\"> t-person </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-liquid.md\"> t-liquid </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-cym-init-slide.md\"> t-cym-init-slide </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-evento.md\"> t-evento </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-entrevistas.md\"> t-entrevistas </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-espacios.md\"> t-espacios </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-cym-class.md\"> t-cym-class </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-concept.md\"> t-concept </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-alumno-POC.md\"> t-alumno-POC </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-book.md\"> t-book </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/sistemas.excalidraw.md\"> sistemas.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/gal.md\"> gal </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/Drawing 2023-09-10 16.27.21.excalidraw.md\"> Drawing 2023-09-10 16.27.21.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/Drawing 2023-09-12 20.17.31.excalidraw.md\"> Drawing 2023-09-12 20.17.31.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/23112422.excalidraw.md\"> 23112422.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"05-obs/check-out de imagenes.md\"> check-out de imagenes </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-yuda.md\"> a-yuda </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-snippets.md\"> a-snippets </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-plugins.md\"> a-plugins </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-dataview.md\"> a-dataview </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-dataview playground.md\"> a-dataview playground </a>",
-        "<a class=\"internal-link\" href=\"04-out/procedimientos/meta-aprendizaje.md\"> meta-aprendizaje </a>"
+        "<a class=\"internal-link\" href=\"05-obs/tpl/t-movie.md\"> t-movie </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"00-moc/2.972.453.md\"> 2.972.453 </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/aeolian harp.md\"> aeolian harp </a>",
+        "<a class=\"internal-link\" href=\"05-obs/tpl/1 Bit-Music.md\"> 1 Bit-Music </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Cicada.md\"> Cicada </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Dadamachines.md\"> Dadamachines </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Glissotar.md\"> Glissotar </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Hechtyphone.md\"> Hechtyphone </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/HyperText.md\"> HyperText </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Hyperinstruments.md\"> Hyperinstruments </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Infinite Scroll.md\"> Infinite Scroll </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Intonarumori.md\"> Intonarumori </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Lava Genie.md\"> Lava Genie </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/OTO.md\"> OTO </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/ShoZyg I.md\"> ShoZyg I </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Soveida Harp.md\"> Soveida Harp </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/TouchDisplay.md\"> TouchDisplay </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/black box music.md\"> black box music </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/chromaplane.md\"> chromaplane </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/cricket.md\"> cricket </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/daxophone.md\"> daxophone </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/digitAize.md\"> digitAize </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/fello.md\"> fello </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/feral.md\"> feral </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/ferrous.md\"> ferrous </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/gizmotron.md\"> gizmotron </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/javalele.md\"> javalele </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/knurl.md\"> knurl </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/magic piano.md\"> magic piano </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/nux nec-1.md\"> nux nec-1 </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/pianococktail.md\"> pianococktail </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/potentiomètre d'espace.md\"> potentiomètre d'espace </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/priezor.md\"> priezor </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/ratchet.md\"> ratchet </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sackbut.md\"> sackbut </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sensy guitar.md\"> sensy guitar </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sophtar.md\"> sophtar </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/sound urchin.md\"> sound urchin </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/violiness.md\"> violiness </a>",
+        "<a class=\"internal-link\" href=\"04-out/obras/papilarnie III.md\"> papilarnie III </a>",
+        "<a class=\"internal-link\" href=\"00-in/stranger visions.md\"> stranger visions </a>",
         "<a class=\"internal-link\" href=\"00-in/Locus Solus.md\"> Locus Solus </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Cecila Arditto.md\"> Cecila Arditto </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Dennis Smalley.md\"> Dennis Smalley </a>",
@@ -1882,58 +2184,31 @@
         "<a class=\"internal-link\" href=\"04-out/personas/Yotam Mann.md\"> Yotam Mann </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/George Legrady.md\"> George Legrady </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Jim Campbell.md\"> Jim Campbell </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/David Rokeby.md\"> David Rokeby </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Transindividuación.md\"> Transindividuación </a>",
-        "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Transindividuación.md\"> Transindividuación </a>",
-        "<a class=\"internal-link\" href=\"00-in/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
-        "<a class=\"internal-link\" href=\"00-in/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
-        "<a class=\"internal-link\" href=\"00-in/Patrones de Turing.md\"> Patrones de Turing </a>",
-        "<a class=\"internal-link\" href=\"00-in/Proto-Indo-European.md\"> Proto-Indo-European </a>",
-        "<a class=\"internal-link\" href=\"00-in/catalexis.md\"> catalexis </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/bergaglio/Supernova luna llena.md\"> Supernova luna llena </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/dinapoli/En los intersticios de lo causal. El camino es efecto.md\"> En los intersticios de lo causal. El camino es efecto </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/drocchi/Cómo suena el conocimiento.md\"> Cómo suena el conocimiento </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/ferrando/Tautología.md\"> Tautología </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/garcia/En progreso.md\"> En progreso </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/garcia fernandez/La sombra de lo abstracto.md\"> La sombra de lo abstracto </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/nievas/Drummer.md\"> Drummer </a>",
-        "<a class=\"internal-link\" href=\"01-proj/15/porrini/Un día bello.md\"> Un día bello </a>",
-        "<a class=\"internal-link\" href=\"01-proj/16/albarracin/Sonomaze.md\"> Sonomaze </a>",
-        "<a class=\"internal-link\" href=\"01-proj/16/cuenca/Explosision.md\"> Explosision </a>",
-        "<a class=\"internal-link\" href=\"01-proj/16/estrada/Cometa.md\"> Cometa </a>",
-        "<a class=\"internal-link\" href=\"01-proj/16/ferreyra/Juggling music.md\"> Juggling music </a>",
-        "<a class=\"internal-link\" href=\"01-proj/16/juan/Instalación.md\"> Instalación </a>",
-        "<a class=\"internal-link\" href=\"01-proj/16/lopez/Trazo 5.md\"> Trazo 5 </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/arcuri/Sensonorizando.md\"> Sensonorizando </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/borsalino/Condensador de eventos.md\"> Condensador de eventos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/herrera/Superficies sonoras blandas.md\"> Superficies sonoras blandas </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/julia/Nukzeiber.md\"> Nukzeiber </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/lopez/Boreal.md\"> Boreal </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/moscato/La forma de la identidad real.md\"> La forma de la identidad real </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/navarro/Ajedrez.md\"> Ajedrez </a>",
-        "<a class=\"internal-link\" href=\"01-proj/17/paladino/No music player.md\"> No music player </a>",
-        "<a class=\"internal-link\" href=\"01-proj/18/dipaola-lutteral/Compost sonoro.md\"> Compost sonoro </a>",
-        "<a class=\"internal-link\" href=\"01-proj/18/galetto/Moving sound.md\"> Moving sound </a>",
-        "<a class=\"internal-link\" href=\"01-proj/18/garella/Dédalo.md\"> Dédalo </a>",
-        "<a class=\"internal-link\" href=\"01-proj/18/gueglio/Posdata fluidos.md\"> Posdata fluidos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/18/vivona/Domo.md\"> Domo </a>",
-        "<a class=\"internal-link\" href=\"01-proj/19/barbaglia/Miradas dirigidas.md\"> Miradas dirigidas </a>",
-        "<a class=\"internal-link\" href=\"01-proj/19/costa/Canoa atemporal.md\"> Canoa atemporal </a>",
-        "<a class=\"internal-link\" href=\"01-proj/19/gawel/Metáforas.md\"> Metáforas </a>",
-        "<a class=\"internal-link\" href=\"01-proj/19/perez rivas/Reproduciéndonos.md\"> Reproduciéndonos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/20/amieva/Intensa.md\"> Intensa </a>",
-        "<a class=\"internal-link\" href=\"01-proj/20/belotti/Librería de Samples Universidad Tres de Febrero.md\"> Librería de Samples Universidad Tres de Febrero </a>"
+        "<a class=\"internal-link\" href=\"04-out/personas/David Rokeby.md\"> David Rokeby </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Forma Musical.md\"> Forma Musical </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Forma Musical.md\"> Forma Musical </a>",
         "<a class=\"internal-link\" href=\"image/23112422.excalidraw.md\"> 23112422.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>"
+        "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
+        "<a class=\"internal-link\" href=\"00-in/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"04-out/eventos/2972453.md\"> 2972453 </a>",
+        "<a class=\"internal-link\" href=\"04-out/espacios/EAT Experiments in arts and technologies.md\"> EAT Experiments in arts and technologies </a>",
+        "<a class=\"internal-link\" href=\"02-mat/partituras/canciones.md\"> canciones </a>",
+        "<a class=\"internal-link\" href=\"02-mat/partituras/unendilech freude.md\"> unendilech freude </a>",
+        "<a class=\"internal-link\" href=\"02-mat/partituras/bianco dolce signo.md\"> bianco dolce signo </a>",
+        "<a class=\"internal-link\" href=\"02-mat/partituras/ave maria palestrina.md\"> ave maria palestrina </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/j.md\"> j </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/j.md\"> j </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/j.md\"> j </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/org/i-theremin.md\"> i-theremin </a>",
+        "<a class=\"internal-link\" href=\"02-mat/org/i-sackbut.md\"> i-sackbut </a>",
         "<a class=\"internal-link\" href=\"04-out/obras/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Gustav Metzger 1.md\"> Gustav Metzger 1 </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Max Bense 1.md\"> Max Bense 1 </a>",
@@ -1970,23 +2245,32 @@
         "<a class=\"internal-link\" href=\"02-mat/obs/tpl/t-person.md\"> t-person </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Golan Levin.md\"> Golan Levin </a>",
         "<a class=\"internal-link\" href=\"00-in/Sin título.md\"> Sin título </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"02-mat/tonejs/01-tone.js.md\"> 01-tone.js </a>",
-        "<a class=\"internal-link\" href=\"01-proj/23/beltrame/\"Una mirada profunda\".md\"> \"Una mirada profunda\" </a>",
-        "<a class=\"internal-link\" href=\"00-in/eventos MOC.md\"> eventos MOC </a>",
-        "<a class=\"internal-link\" href=\"image/23110619.excalidraw.md\"> 23110619.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"04-ref/meta-aprendizaje.md\"> meta-aprendizaje </a>",
-        "<a class=\"internal-link\" href=\"04-ref/a-yuda.md\"> a-yuda </a>",
-        "<a class=\"internal-link\" href=\"04-ref/a-snippets.md\"> a-snippets </a>",
-        "<a class=\"internal-link\" href=\"04-ref/a-plugins.md\"> a-plugins </a>",
-        "<a class=\"internal-link\" href=\"04-ref/a-dataview.md\"> a-dataview </a>",
-        "<a class=\"internal-link\" href=\"04-ref/a-dataview playground.md\"> a-dataview playground </a>",
-        "<a class=\"internal-link\" href=\"00-in/Presentación para coloquio de Música visual.md\"> Presentación para coloquio de Música visual </a>",
-        "<a class=\"internal-link\" href=\"00-in/Ingeniería invertida.md\"> Ingeniería invertida </a>",
-        "<a class=\"internal-link\" href=\"00-in/01-tone.md\"> 01-tone </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"04-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",
+        "<a class=\"internal-link\" href=\"00-moc/Visual Music.md\"> Visual Music </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
+        "<a class=\"internal-link\" href=\"00-moc/personas MOC.md\"> personas MOC </a>",
+        "<a class=\"internal-link\" href=\"04-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
+        "<a class=\"internal-link\" href=\"00-moc/personas MOC.md\"> personas MOC </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia simulada en Jupiter.md\"> ontogenia simulada en Jupiter </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/contracción por gradientes térmicos.md\"> contracción por gradientes térmicos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Momento de aparición de objetos tecnológicos.md\"> Momento de aparición de objetos tecnológicos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia simulada en Jupiter.md\"> ontogenia simulada en Jupiter </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/tolinas.md\"> tolinas </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/Niveles de cognición.md\"> Niveles de cognición </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/tolinas.md\"> tolinas </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia simulada en Jupiter.md\"> ontogenia simulada en Jupiter </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia.md\"> ontogenia </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/filogenia.md\"> filogenia </a>",
+        "<a class=\"internal-link\" href=\"02-mat/vida/ontogenia simulada en Jupiter.md\"> ontogenia simulada en Jupiter </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Dadamachines.md\"> Dadamachines </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/Hyperinstruments.md\"> Hyperinstruments </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/chromaplane.md\"> chromaplane </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/daxophone.md\"> daxophone </a>",
+        "<a class=\"internal-link\" href=\"00-in/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>",
+        "<a class=\"internal-link\" href=\"04-out/obras/papilarnie III.md\"> papilarnie III </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"00-in/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
@@ -2014,30 +2298,7 @@
         "<a class=\"internal-link\" href=\"03-cla/c-cym08-github pages+hydra.md\"> c-cym08-github pages+hydra </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym08-hydra+p5.js.md\"> c-cym08-hydra+p5.js </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym09-hydra+tone.js.md\"> c-cym09-hydra+tone.js </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym09-networking.md\"> c-cym09-networking </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym09-visual.md\"> c-cym09-visual </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym12-Aframe2.md\"> c-cym12-Aframe2 </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym10y11-Aframe.md\"> c-cym10y11-Aframe </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym14-un instrumento online colectivo.md\"> c-cym14-un instrumento online colectivo </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym13-Proto-historia del arte numérico argentino.md\"> c-cym13-Proto-historia del arte numérico argentino </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Hito Steyerl.md\"> Hito Steyerl </a>",
-        "<a class=\"internal-link\" href=\"04-out/procedimientos/meta-aprendizaje.md\"> meta-aprendizaje </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Cuarta Revolución Industrial.md\"> Cuarta Revolución Industrial </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Física.md\"> Física </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Música Visual.md\"> Música Visual </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas de universos.md\"> Sistemas de universos </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Vida artificial.md\"> Vida artificial </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/arte de datos.md\"> arte de datos </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Introducción a la psicoacústica.md\"> Introducción a la psicoacústica </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-snippets.md\"> a-snippets </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-yuda.md\"> a-yuda </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/23112422.excalidraw.md\"> 23112422.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-movie.md\"> t-movie </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-hydra+tone.js.md\"> c-cym09-hydra+tone.js </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"04-out/personas/Cecila Arditto.md\"> Cecila Arditto </a>",

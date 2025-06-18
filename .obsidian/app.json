@@ -11,9 +11,10 @@
   "livePreview": true,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "05-obs/img",
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "newFileFolderPath": "00-in",
   "defaultViewMode": "source",
   "readableLineLength": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "trashOption": "local"
 }

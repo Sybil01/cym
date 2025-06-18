@@ -1,8 +1,11 @@
 ```dataview
-TABLE without ID  ("![|100](" + photo + ")") as foto, file.link as evento , tags, year
+TABLE without ID  ("![|100](" + photo + ")") as foto, file.link as evento , tags, year, curators
 FROM "04-out/eventos"
+SORT year asc
 
 ```
+
+
 
 Lista cronológica de las primeras exposiciones sobre arte digital por ordenador
 ## 1965

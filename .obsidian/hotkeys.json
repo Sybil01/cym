@@ -665,5 +665,14 @@
       ],
       "key": "E"
     }
+  ],
+  "obsidian-textgenerator-plugin:stop-stream": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "U"
+    }
   ]
 }
