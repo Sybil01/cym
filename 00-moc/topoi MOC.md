@@ -1,7 +1,6 @@
-
 ---
-cssClasses: cards
---- 
+cssClass: cards
+---
 
 
 ```dataview
