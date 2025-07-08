@@ -120,26 +120,6 @@
       "key": "]"
     }
   ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod",
-        "Shift"
-      ],
-      "key": "V"
-    }
-  ],
   "command-palette:open": [
     {
       "modifiers": [
@@ -673,6 +653,23 @@
         "Shift"
       ],
       "key": "U"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "X"
     }
   ]
 }

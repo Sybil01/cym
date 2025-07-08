@@ -1,0 +1,8 @@
+
+
+
+El trayecto de CyM se organiza a partir de una topología de contenidos que articula una unidad introductoria de carácter general (Unidad 1) con una serie de unidades modulares (Unidades 2 a 6), diseñadas para ofrecer múltiples entradas al campo artístico-científico. Esta estructura modular favorece un enfoque pedagógico basado en la personalización de trayectorias, permitiendo que cada estudiante configure su propio recorrido de acuerdo con intereses, necesidades y objetivos personales.
+
+A mitad de la cursada, en consonancia con los principios del aprendizaje basado en proyectos (ABP), los estudiantes seleccionan un itinerario específico que da lugar al desarrollo de un proyecto propio. Cada módulo está construido en torno a un compendio de Topoi —núcleos de conocimiento articulados en torno a problemas, conceptos y técnicas relevantes— que habilitan un trabajo situado, crítico y creativo (ver Programa Analítico).
+
+En articulación con la cátedra, se diseñan los proyectos artístico-científicos a desarrollar, adaptando los contenidos modulares a las distintas etapas formativas y a las exploraciones propias de cada estudiante. La cursada culmina con la presentación de un proyecto final, compuesto por una memoria escrita reflexiva y un prototipo o implementación preliminar del proyecto. Este proceso promueve la integración entre teoría y práctica, así como la consolidación de competencias transversales vinculadas a la investigación, la producción y la comunicación.
