@@ -16,5 +16,6 @@
   "defaultViewMode": "source",
   "readableLineLength": false,
   "showInlineTitle": true,
-  "trashOption": "local"
+  "trashOption": "local",
+  "autoConvertHtml": false
 }

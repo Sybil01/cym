@@ -12,7 +12,10 @@ horario: Martes de 18:00 a 22:00
 ---
 
 
-![|100x50](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/UNTREF_Logo_2016.svg/1280px-UNTREF_Logo_2016.svg.png)
+<img src="https://i.imgur.com/3dKJzNX.png" width="140px" height="40px" alt="GitHub Logo">
+
+
+
 # Ciencia  y Música
 
 Plan de estudios y [Repositorio](http://github.com/musiki/cym) de la cátedra de ciencia y música de la licenciatura en música de la Universidad Nacional de Tres de Febrero.
@@ -156,8 +159,8 @@ Fiebrink, R., & Caramiaux, B. (2016). The Machine Learning Algorithm as Creative
 * Stian korntved ruud, https://www.stiankorntvedruud.com , forks
 * Spencer Topel, https://www.spencertopel.com/
 ## representación
-	### shaders
-	- https://www.shadertoy.com/view/XdcGW2
+### shaders
+https://www.shadertoy.com/view/XdcGW2
 ## Bibliografía ampliatoria
 ### Ontologías
 Agamben, G., ŽiŽek, S., Nancy, J.-L., Berardi, F. B., López-Petit, S., Butler, J., Badiou, A., Harvey, D. W., Han, B.-C., Zibechi, R., Galindo, M., Gabriel, M., González, G. Y., Manrique, P., & Preciado, P. B. (2020). Sopa de Wuhan. ASPO.
