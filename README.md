@@ -45,16 +45,19 @@ https:/zoom.musiki.org.ar
 /
 ```
 
->[! información útil] 
-email: lazzigotti@untref.edu.ar
-musiki v1: https://musiki.org.ar
-edu:  https://edu.musiki.org
-[canal de discord](https://discord.gg/4dy2DS4)
-[github-repo](https://github.com/musiki/cym)
-[github-classroom](https://classroom.github.com/classrooms/46442123-musiki-cym)
-[carpeta púb](https://drive.google.com/drive/folders/0B_cN-bz0aPUjfm1mcEt1bHBvamdUUHBUMFlIX0thWmcxWGM3alRtalRMX1o5Sjh3eGNwMlk?resourcekey=0-YqY7ylNayzjGAKA7BFkWsA&usp=sharing)
-[repositorio](https://drive.google.com/drive/folders/1EsKeSeZXuxzBEJaqz91ZjhPcRBii8m9v?usp=sharing)
-[bibliografía general](https://drive.google.com/drive/folders/1QUgYIGUpHFos9RuKcltz6019UJpGZvn8?usp=drive_link)
+> ### ℹ️ Información útil
+>
+> **Email:** lazzigotti@untref.edu.ar  
+> **musiki v1:** https://musiki.org.ar  
+> **edu:** https://edu.musiki.org  
+> [Canal de Discord](https://discord.gg/4dy2DS4)  
+> [GitHub repo](https://github.com/musiki/cym)  
+> [GitHub Classroom](https://classroom.github.com/classrooms/46442123-musiki-cym)  
+> [Carpeta pública](https://drive.google.com/drive/folders/0B_cN-bz0aPUjfm1mcEt1bHBvamdUUHBUMFlIX0thWmcxWGM3alRtalRMX1o5Sjh3eGNwMlk?resourcekey=0-YqY7ylNayzjGAKA7BFkWsA&usp=sharing)  
+> [Repositorio general](https://drive.google.com/drive/folders/1EsKeSeZXuxzBEJaqz91ZjhPcRBii8m9v?usp=sharing)  
+> [Bibliografía general](https://drive.google.com/drive/folders/1QUgYIGUpHFos9RuKcltz6019UJpGZvn8?usp=drive_link)
+
+
 # Plan de Estudios 
 ## Fundamentos
 >“Tornar geométrica la representación, dibujar los fenómenos y ordenar en serie los acontecimientos decisivos de una experiencia, he ahí la primera tarea en la que se funda el espíritu científico”
