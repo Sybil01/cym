@@ -45,8 +45,8 @@ https:/zoom.musiki.org.ar
 /
 ```
 
-> ### ℹ️ Información útil
->
+### Información útil
+
 > **Email:** lazzigotti@untref.edu.ar  
 > **musiki v1:** https://musiki.org.ar  
 > **edu:** https://edu.musiki.org  
@@ -56,6 +56,9 @@ https:/zoom.musiki.org.ar
 > [Carpeta pública](https://drive.google.com/drive/folders/0B_cN-bz0aPUjfm1mcEt1bHBvamdUUHBUMFlIX0thWmcxWGM3alRtalRMX1o5Sjh3eGNwMlk?resourcekey=0-YqY7ylNayzjGAKA7BFkWsA&usp=sharing)  
 > [Repositorio general](https://drive.google.com/drive/folders/1EsKeSeZXuxzBEJaqz91ZjhPcRBii8m9v?usp=sharing)  
 > [Bibliografía general](https://drive.google.com/drive/folders/1QUgYIGUpHFos9RuKcltz6019UJpGZvn8?usp=drive_link)
+
+
+
 
 
 # Plan de Estudios 
