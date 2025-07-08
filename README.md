@@ -42,8 +42,6 @@ Aula de Tecnología Musical, Caseros II, UNTREF. Aula Virtual.
 ### online
 https:/zoom.musiki.org.ar
 
-[![cym](https://github-readme-stats.vercel.app/api?username=zzigo&show_icons=true&theme=transparent)](http://github.com/musiki/cym)
-
 ```ActivityHistory
 /
 ```
