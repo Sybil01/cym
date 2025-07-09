@@ -197,7 +197,9 @@
     "dss/case/materialElectronics": 6,
     "dss/acoustic": 3,
     "electronicsarts": 168,
-    "systemarts": 169
+    "systemarts": 169,
+    "dss/o": 4,
+    "dss/o/smi": 1
   },
   "_version": 3
 }

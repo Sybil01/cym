@@ -22,6 +22,7 @@ SORT publish DESC
 note: electronic music is part of media art, where the artistic subject concentrantes on the medium and its diffusion (?).  its possiblity of dealing with media allowed to create a suynesthesic and expanded-perceptive art.
 
 
+# topoi
 ### 10 ontológicos
  
 [[Método científico]], [[modelos de universos]], [[Filosofías del Siglo XXI]], [[Filosofía histórica]], [[Historia de la tecnología]]

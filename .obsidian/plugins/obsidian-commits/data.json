@@ -57,7 +57,7 @@
     "02-mat/procesos/r-como hacer un proyectual.md": {
       "size": 982,
       "tags": 0,
-      "links": 1
+      "links": 0
     },
     "01-proj/tp/tp02-aplicación.md": {
       "size": 381,
@@ -1928,14 +1928,29 @@
       "size": 2113,
       "tags": 0,
       "links": 0
+    },
+    "02-mat/orq/subwoofers.md": {
+      "size": 62728,
+      "tags": 1,
+      "links": 0
+    },
+    "02-mat/procesos/r-traducciones ciencia arte.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/procesos/r-procedimientos artísticos.md": {
+      "size": 9905,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1367,
-      "Create": 519,
-      "Link": 1033,
-      "Expand": 86
+      "Refactor": 1368,
+      "Create": 522,
+      "Link": 1034,
+      "Expand": 89
     }
   },
   "dailyCommits": {
@@ -1950,9 +1965,9 @@
       "7": 32,
       "8": 25,
       "9": 184,
-      "10": 63,
-      "11": 144,
-      "12": 617,
+      "10": 66,
+      "11": 147,
+      "12": 619,
       "13": 74,
       "14": 201,
       "15": 152,
@@ -1970,7 +1985,7 @@
     "/": {
       "Mon": 84,
       "Tue": 256,
-      "Wed": 894,
+      "Wed": 902,
       "Thu": 842,
       "Fri": 674,
       "Sat": 0,
@@ -1980,6 +1995,9 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"02-mat/procesos/r-procedimientos artísticos.md\"> r-procedimientos artísticos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/procesos/r-procedimientos artísticos.md\"> r-procedimientos artísticos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/subwoofers.md\"> subwoofers </a>",
         "<a class=\"internal-link\" href=\"04-out/eventos/2972453.md\"> 2972453 </a>",
         "<a class=\"internal-link\" href=\"00-moc/2.972.453.md\"> 2.972.453 </a>",
         "<a class=\"internal-link\" href=\"04-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",
@@ -2027,12 +2045,12 @@
         "<a class=\"internal-link\" href=\"01-proj/21/marazzi/Collage sonoro.md\"> Collage sonoro </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym-05b-relaciones sonolumínicas.md\"> c-cym-05b-relaciones sonolumínicas </a>",
         "<a class=\"internal-link\" href=\"04-out/bibliografía/Eric Sadin_La humanidad aumentada.md\"> Eric Sadin_La humanidad aumentada </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym05-integración.md\"> c-cym05-integración </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"04-out/SUMMARY.md\"> SUMMARY </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Forma Musical.md\"> Forma Musical </a>"
+        "<a class=\"internal-link\" href=\"03-cla/c-cym05-integración.md\"> c-cym05-integración </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"02-mat/procesos/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/procesos/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/orq/subwoofers.md\"> subwoofers </a>",
         "<a class=\"internal-link\" href=\"modelos de universos.md\"> modelos de universos </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"02-mat/orq/spring spyre.md\"> spring spyre </a>",
@@ -2080,10 +2098,7 @@
         "<a class=\"internal-link\" href=\"02-mat/orq/ferrous.md\"> ferrous </a>",
         "<a class=\"internal-link\" href=\"02-mat/orq/feral.md\"> feral </a>",
         "<a class=\"internal-link\" href=\"02-mat/orq/fello.md\"> fello </a>",
-        "<a class=\"internal-link\" href=\"02-mat/orq/estilo triunfal.md\"> estilo triunfal </a>",
-        "<a class=\"internal-link\" href=\"02-mat/orq/digitAize.md\"> digitAize </a>",
-        "<a class=\"internal-link\" href=\"02-mat/orq/daxophone.md\"> daxophone </a>",
-        "<a class=\"internal-link\" href=\"02-mat/orq/cricket.md\"> cricket </a>"
+        "<a class=\"internal-link\" href=\"02-mat/orq/estilo triunfal.md\"> estilo triunfal </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Filosofías del Siglo XXI.md\"> Filosofías del Siglo XXI </a>",
@@ -2139,6 +2154,7 @@
         "<a class=\"internal-link\" href=\"05-obs/tpl/t-topoi.md\"> t-topoi </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"02-mat/orq/subwoofers.md\"> subwoofers </a>",
         "<a class=\"internal-link\" href=\"00-in/catalexis.md\"> catalexis </a>",
         "<a class=\"internal-link\" href=\"01-proj/16/cuenca/Explosision.md\"> Explosision </a>",
         "<a class=\"internal-link\" href=\"01-proj/16/estrada/Cometa.md\"> Cometa </a>",
@@ -2188,8 +2204,7 @@
         "<a class=\"internal-link\" href=\"01-proj/18/galetto/Moving sound.md\"> Moving sound </a>",
         "<a class=\"internal-link\" href=\"01-proj/18/garella/Dédalo.md\"> Dédalo </a>",
         "<a class=\"internal-link\" href=\"01-proj/18/gueglio/Posdata fluidos.md\"> Posdata fluidos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/18/vivona/Domo.md\"> Domo </a>",
-        "<a class=\"internal-link\" href=\"01-proj/20/amieva/Intensa.md\"> Intensa </a>"
+        "<a class=\"internal-link\" href=\"01-proj/18/vivona/Domo.md\"> Domo </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2360,6 +2375,7 @@
         "<a class=\"internal-link\" href=\"01-proj/22/lopez/Máquina de ritmos.md\"> Máquina de ritmos </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"02-mat/procesos/r-como hacer un proyectual.md\"> r-como hacer un proyectual </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"00-in/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
@@ -2409,8 +2425,7 @@
         "<a class=\"internal-link\" href=\"05-obs/a-yuda.md\"> a-yuda </a>",
         "<a class=\"internal-link\" href=\"05-obs/img/23112422.excalidraw.md\"> 23112422.excalidraw </a>",
         "<a class=\"internal-link\" href=\"05-obs/tpl/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-movie.md\"> t-movie </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"05-obs/tpl/t-movie.md\"> t-movie </a>"
       ]
     }
   },

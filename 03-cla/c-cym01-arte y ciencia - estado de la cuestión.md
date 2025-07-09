@@ -85,7 +85,7 @@ En el auge de la reproducción técnica de la música **Varese** abstrae su func
 ---
 # topoi 
 
-![[topoi#definition]]
+![[topoi MOC#definition]]
 
 ---
 # relaciones 
