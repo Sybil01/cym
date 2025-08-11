@@ -20,7 +20,7 @@ UNTREF | CYM24
 
 ## procedimientos artísticos relacionados a cym
 
-- [[extrañamiento]]
+- [[04-out/procedimientos/extrañamiento]]
 - -arte dogmatico
 - astringencia
 - causticidad
