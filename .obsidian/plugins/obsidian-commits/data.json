@@ -1471,7 +1471,7 @@
     },
     "00-in/Jean-Robert Sedano et Solveig de Ory.md": {
       "size": 264,
-      "tags": 0,
+      "tags": 3,
       "links": 0
     },
     "00-in/Nicolas Schöffer.md": {
@@ -1486,8 +1486,8 @@
     },
     "01-proj/23/bassino/proyectual bassino/FITOn.md": {
       "size": 820,
-      "tags": 0,
-      "links": 0
+      "tags": 5,
+      "links": 1
     },
     "02-mat/obs/tpl/t-person.md": {
       "size": 134,
@@ -1496,12 +1496,12 @@
     },
     "04-out/bibliografía/Together in Music.md": {
       "size": 2310,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "04-out/topoi/aroma.md": {
       "size": 283,
-      "tags": 0,
+      "tags": 2,
       "links": 0
     }
   },
@@ -1509,7 +1509,7 @@
     "/": {
       "Refactor": 607,
       "Create": 556,
-      "Link": 367,
+      "Link": 372,
       "Expand": 54
     }
   },
@@ -1528,7 +1528,7 @@
       "10": 55,
       "11": 98,
       "12": 43,
-      "13": 43,
+      "13": 48,
       "14": 38,
       "15": 97,
       "16": 86,
@@ -1547,7 +1547,7 @@
       "Tue": 670,
       "Wed": 311,
       "Thu": 105,
-      "Fri": 141,
+      "Fri": 146,
       "Sat": 0,
       "Sun": 306
     }
@@ -1714,6 +1714,10 @@
         "<a class=\"internal-link\" href=\"01-proj/23/shifres/Multi-efecto 1.md\"> Multi-efecto 1 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"00-in/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
+        "<a class=\"internal-link\" href=\"01-proj/23/bassino/proyectual bassino/FITOn.md\"> FITOn </a>",
+        "<a class=\"internal-link\" href=\"04-out/bibliografía/Together in Music.md\"> Together in Music </a>",
+        "<a class=\"internal-link\" href=\"04-out/topoi/aroma.md\"> aroma </a>",
         "<a class=\"internal-link\" href=\"01-proj/23/Petroccelli/Dopplermanían´t (idea).md\"> Dopplermanían´t (idea) </a>",
         "<a class=\"internal-link\" href=\"01-proj/23/Petroccelli/Trazo Sonoro - PROYECTUAL.md\"> Trazo Sonoro - PROYECTUAL </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Susanne Kennedy.md\"> Susanne Kennedy </a>",
@@ -1760,11 +1764,7 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/Espacio.md\"> Espacio </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Filosofía 21.md\"> Filosofía 21 </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Filosofía histórica.md\"> Filosofía histórica </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Historia de la tecnología.md\"> Historia de la tecnología </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Humanos.md\"> Humanos </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Internetmusic.md\"> Internetmusic </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Intervencion del espacio público.md\"> Intervencion del espacio público </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Livecoding.md\"> Livecoding </a>"
+        "<a class=\"internal-link\" href=\"04-out/topoi/Historia de la tecnología.md\"> Historia de la tecnología </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/bibliografía/Eric Sadin_La humanidad aumentada.md\"> Eric Sadin_La humanidad aumentada </a>",
@@ -1828,6 +1828,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"01-proj/23/bassino/proyectual bassino/FITOn.md\"> FITOn </a>",
         "<a class=\"internal-link\" href=\"01-proj/23/bassino/proyectual bassino/CLOROLASER.md\"> CLOROLASER </a>",
         "<a class=\"internal-link\" href=\"04-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/arte de datos.md\"> arte de datos </a>",
@@ -1877,8 +1878,7 @@
         "<a class=\"internal-link\" href=\"04-ref/templates/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym15-vida digital.md\"> c-cym15-vida digital </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/tp01-topoi.md\"> tp01-topoi </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym15-vida digital.md\"> c-cym15-vida digital </a>",
-        "<a class=\"internal-link\" href=\"00-in/slider test.md\"> slider test </a>"
+        "<a class=\"internal-link\" href=\"03-cla/c-cym15-vida digital.md\"> c-cym15-vida digital </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"00-in/c-i102-Timbre y Materiales.md\"> c-i102-Timbre y Materiales </a>",
