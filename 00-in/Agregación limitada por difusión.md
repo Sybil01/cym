@@ -1,15 +1,72 @@
-#patrones 
+---
+person: 
+url: 
+year: 
+---
 
 
-Diffusion-limited aggregation
+### Sinopsis  
+La agregación limitada por difusión (DLA, por sus siglas en inglés) es un proceso estocástico en el que partículas se adhieren a un núcleo central mediante difusión aleatoria, formando estructuras ramificadas fractales. Fue introducido por <mark class='hltr-yellow'>Witten y Sander en 1981</mark> como modelo de crecimiento no equilibrado. Su dinámica combina <mark class='hltr-blue'>aleatoriedad</mark> y <mark class='hltr-blue'>autoorganización</mark>, generando patrones complejos a partir de reglas locales simples. Matemáticamente, se describe mediante caminos aleatorios y probabilidad de adhesión, con aplicaciones en electrodeposición, cristalización y biología morfogenética.  
 
+---
 
+### Núcleo  
+1. **Mecanismo básico**: Partículas difunden aleatoriamente hasta adherirse a un agregado existente con probabilidad $p$. La estructura resultante exhibe <mark class='hltr-green'>fractalidad</mark> con dimensión fractal típica ≈1.71 en 2D (@witten1981 : 1400).  
+   - Conexión con [[Crecimiento no lineal]] y [[Geometría algorítmica]].  
 
-<iframe src="https://editor.p5js.org/tuantinghuang/sketches/aut-9z3lU" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+2. **Parámetros críticos**:  
+   - <mark class='hltr-orange'>Tamaño del núcleo inicial</mark>: Influye en la simetría radial (@meakin1983 : 112).  
+   - <mark class='hltr-red'>Controversia</mark>: ¿Es universal la dimensión fractal? Algunos modelos alternativos proponen valores distintos (@ball1986 : 351).  
 
-La agregación limitada por difusión (ADL) es el proceso por el cual las partículas que experimentan un paseo aleatorio debido al movimiento browniano se agrupan para formar agregados de dichas partículas. Esta teoría, propuesta por T.A. Witten Jr. y L.M. Sander en 1981,[1] es aplicable a la agregación en cualquier sistema en el que la difusión sea el principal medio de transporte. La ADL puede observarse en muchos sistemas, como la electrodeposición, el flujo de Hele-Shaw, los depósitos minerales y la ruptura dieléctrica.  
-  
-Los cúmulos que se forman en los procesos de ADL se denominan árboles brownianos. Estos cúmulos son un ejemplo de fractal. En 2D estos fractales muestran una dimensión de aproximadamente 1,71 para partículas libres que no están restringidas por una red, sin embargo la simulación por ordenador de ADL en una red cambiará ligeramente la dimensión fractal para un ADL en la misma dimensión de incrustación. También se observan algunas variaciones en función de la geometría del crecimiento, ya sea desde un único punto radialmente hacia fuera o desde un plano o línea, por ejemplo. A la derecha se muestran dos ejemplos de agregados generados con un microordenador permitiendo que caminantes aleatorios se adhieran a un agregado (originalmente (i) una línea recta formada por 1300 partículas y (ii) una partícula en el centro).  
-  
-La simulación por ordenador del ADL es uno de los principales medios para estudiar este modelo. Para ello existen varios métodos. Las simulaciones pueden realizarse en un entramado de cualquier geometría deseada de dimensión de incrustación (esto se ha hecho en hasta 8 dimensiones)[2] o la simulación puede hacerse más en la línea de una simulación de dinámica molecular estándar donde se permite a una partícula caminar libremente al azar hasta que se encuentra dentro de un cierto rango crítico con lo cual es arrastrada hacia el clúster. Es de vital importancia que el número de partículas que experimentan movimiento browniano en el sistema se mantenga muy bajo para que sólo esté presente la naturaleza difusiva del sistema.  
-  
+3. **Extensiones creativas**:  
+   - <mark class='hltr-purple'>DLA sonoro</mark>: Uso de patrones DLA para generar texturas musicales mediante mapeo fractal-frecuencia (@vaggione2004 : 45).  
+   - <mark class='hltr-purple'>Esculturas digitales</mark>: Fabricación aditiva basada en algoritmos DLA (@oxman2016).  
+
+4. **Conexiones filosóficas**:  
+   - Relación con [[Materialismo especulativo]]: ¿Puede DLA modelar procesos ontogenéticos no humanos? (@simondon2012 : 78).  
+
+---
+
+### Preguntas de investigación  
+1. **¿Cómo generalizar DLA a espacios topológicos no euclidianos?**  
+   - "La extensión de DLA a variedades riemannianas podría revolucionar modelos de crecimiento en cosmología" (@bentley2020 : 12).  
+
+2. **¿Podría DLA simular redes neuronales emergentes?**  
+   - Discusión sobre autoorganización vs. diseño intencional en sistemas biológicos (@kauffman1993 : 205).  
+
+3. **¿Qué implicaciones tiene DLA para una ontología de lo *inacabado*?**  
+   - Vinculación con teorías de [[Objetos hipercaóticos]] y devenir material (@grant2018 : 33).  
+
+---
+
+### Referencias  
+```bibtex
+@article{witten1981,
+  author = {Witten, T.A. and Sander, L.M.},
+  title = {Diffusion-Limited Aggregation},
+  journal = {Physical Review B},
+  year = {1981},
+  volume = {27},
+  pages = {1400–1409}
+}
+
+@book{simondon2012,
+  author = {Simondon, Gilbert},
+  title = {Du mode d'existence des objets techniques},
+  publisher = {Presses Universitaires de France},
+  year = {2012}
+}
+
+@article{oxman2016,
+  author = {Oxman, Neri},
+  title = {Material Ecology},
+  journal = {Scientific American},
+  year = {2016},
+  volume = {314},
+  pages = {58–65}
+}
+
+@phdthesis{vaggione2004,
+  author = {Vaggione, Horacio},
+  title = {Fractal Time in Compositional Processes},
+  school = {University of Paris VIII},

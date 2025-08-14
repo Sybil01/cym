@@ -4,11 +4,12 @@ tags: cym, música visual, armonía-expandida, class
 unit: 0
 num:  2
 year: 2023
-theme: consult
+theme: sky
 ---
 
-<!-- slide bg="#010100" -->
-UNTREF | CYM23 | 02
+<!-- slide bg="#010100"--> 
+![[untref-logo-w.svg|100]]
+UNTREF | CYM24
 
 # Arte generativo
 
@@ -91,7 +92,7 @@ acúfenos [distorsiones perceptivas - audición]
 
 
 
-### FORMAS DE TRADUCCIÓn METáFORA CYM
+### Formas  de traducción-metáfora en CyM 
 
 - Utilizar la ciencia como una herramienta concreta de creación de material artístico: **Xenakis**.
 - Vinculan ciencia y material artístico con una transferencia **abductiva** de los atributos de un fenómeno natural (numérico, sistémico, abstracto) a uno artístico de un modo no totalmente lineal.

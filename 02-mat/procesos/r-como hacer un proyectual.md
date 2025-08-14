@@ -11,8 +11,6 @@
 - tipos: nombre propio ,  somático , procedimiento. 
 
 
-![[Pasted image 20220906234521.png]]
-
 # síntesis
 - está formada por 1 a 3 oraciones. 
 # objetivos  
