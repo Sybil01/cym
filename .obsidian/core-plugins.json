@@ -27,7 +27,11 @@
   "canvas": true,
   "bookmarks": true,
   "properties": true,
+<<<<<<< HEAD
   "webviewer": false,
   "footnotes": false,
   "bases": true
+=======
+  "webviewer": false
+>>>>>>> origin/main
 }

@@ -4,56 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48c3668697a3bbd2",
+        "id": "8d675a9231b24172",
         "type": "tabs",
         "children": [
           {
-            "id": "6c6c4c3fe9460b4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-out/obras/Boid Simulation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Boid Simulation"
-            }
-          },
-          {
-            "id": "a343a3e70210dd2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-moc/personas MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "personas MOC"
-            }
-          },
-          {
-            "id": "d075c053454df8ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-moc/procedimientos MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "procedimientos MOC"
-            }
-          },
-          {
-            "id": "6659769ea5f8ed36",
+            "id": "5b3eb5dde32efe18",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,129 +21,8 @@
               "icon": "lucide-file",
               "title": "tp25"
             }
-          },
-          {
-            "id": "db7748d7408cc860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-moc/personas MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "personas MOC"
-            }
-          },
-          {
-            "id": "a1aa66e2e46847d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-moc/eventos MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "eventos MOC"
-            }
-          },
-          {
-            "id": "7435a861d08ae495",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-out/espacios/MIT Medialab.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "MIT Medialab"
-            }
-          },
-          {
-            "id": "319423e01a7a775a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/vida/ontogenia simulada en Jupiter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ontogenia simulada en Jupiter"
-            }
-          },
-          {
-            "id": "8fffe20e57e8c02e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/vida/ontogenia simulada en Jupiter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ontogenia simulada en Jupiter"
-            }
-          },
-          {
-            "id": "f2546604b71a3935",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/vida/ontogenia simulada en Jupiter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ontogenia simulada en Jupiter"
-            }
-          },
-          {
-            "id": "051f9671aa272dd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/vida/ontogenia simulada en Jupiter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ontogenia simulada en Jupiter"
-            }
-          },
-          {
-            "id": "2a04ef17a3796b76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/vida/instrumentos musicales de jupiter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "instrumentos musicales de jupiter"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 377.5110321044922
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -390,55 +224,55 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6659769ea5f8ed36",
+  "active": "5b3eb5dde32efe18",
   "lastOpenFiles": [
     "01-proj/tp/tp25/tp paradigmas operativos.md",
+    "01-proj/tp/tp02-aplicación.md",
     "01-proj/tp/tp01-topoi.md",
-    "01-proj/tp/tp05-guía de lectura 1 GROYS.md",
-    "01-proj/tp/tp04-aplicación js fundamentals.md",
-    "01-proj/tp/tp06-guía de lectura SADIN.md",
     "01-proj/tp/tp03-guía de lectura MONTFORT.md",
-    "01-proj/tp/tp25/tp25.md",
+    "01-proj/tp/tp05-guía de lectura 1 GROYS.md",
+    "01-proj/tp/tp06-guía de lectura SADIN.md",
+    "01-proj/tp/tp04-aplicación js fundamentals.md",
+    "04-out/operativos/escritura icónica/icónica filosófica.md",
+    "04-out/operativos/escritura icónica/escritura icónica M0C.md",
+    "02-mat/vida/instrumentos musicales de jupiter.md",
+    "02-mat/vida/ontogenia simulada en Jupiter.md",
+    "04-out/espacios/MIT Medialab.md",
+    "00-moc/eventos MOC.md",
+    "00-moc/personas MOC.md",
+    "04-out/obras/Boid Simulation.md",
     "00-moc/procedimientos MOC.md",
+    "01-proj/tp/tp25/tp25.md",
+    "04-out/operativos/escritura icónica",
+    "05-obs/img/eventos MOC-1755180996466.jpeg",
+    "05-obs/img/23112422.excalidraw.md",
+    "05-obs/img/sensor de distancia 3.pdf",
+    "05-obs/img/sensor de distancia.pdf",
+    "05-obs/img/eventos MOC-1755180996389.jpeg",
+    "conflict-files-obsidian-git.md",
+    "05-obs/img/eventos MOC-1755180996415.jpeg",
+    "05-obs/img/eventos MOC-1755180996465.jpeg",
+    "05-obs/img/eventos MOC-1755180996421.jpeg",
+    "05-obs/img/eventos MOC-1755180996420.jpeg",
+    "04-out/topoi/energía MOC.md",
+    "05-obs/img/eventos MOC-1755180996464.jpeg",
+    "05-obs/img/eventos MOC-1755180996425.jpeg",
     "01-proj/tp/prueba tutorial.md",
     "01-proj/tp/tp25",
-    "01-proj/tp/tp02-aplicación.md",
     "04-out/operativos/inestabilidad de kelvin-helmholz/index4.html",
     "04-out/operativos/inestabilidad de kelvin-helmholz/index3.html",
     "04-out/operativos/inestabilidad de kelvin-helmholz/ref/Lacan_1963_Kant con Sade.pdf",
     "04-out/operativos/inestabilidad de kelvin-helmholz/ref/Budiana et al._2020_The meshless numerical simulation of Kelvin–Helmholtz instability during the wave growth of liquid–l.pdf",
     "04-out/operativos/inestabilidad de kelvin-helmholz/ref/1-s2.0-S0898122120303138-main.pdf",
     "04-out/operativos/inestabilidad de kelvin-helmholz/ref/Olcina Cantos_2014_Enseñanzas climáticas en la obra de Kant.pdf",
-    "04-out/operativos/inestabilidad de kelvin-helmholz/ref/Goethe_1825_El juego de las nubes.epub",
-    "04-out/operativos/inestabilidad de kelvin-helmholz/ref/El juego de las nubes -- Goethe, Johann Wolfgang von -- 1824 -- ePubLibre -- 31275f28206aa05b490c85ee0db5ef10 -- Anna’s Archive.epub",
-    "04-out/operativos/inestabilidad de kelvin-helmholz/ref/El juego de las nubes -- Goethe, Johann Wolfgang von -- 1824 -- ePubLibre -- 31275f28206aa05b490c85ee0db5ef10 -- Anna’s Archive.epub.crdownload",
     "00-moc/cym MOC.md",
     "04-out/topoi/energía/energía del gesto musical.md",
     "04-out/topoi/energía/energía MOC.md",
     "04-out/topoi/aroma.md",
     "04-out/topoi/Física.md",
-    "00-moc/topoi MOC.md",
-    "02-mat/procesos/procedimientos artísticos/r-procedimientos artísticos.md",
-    "02-mat/procesos/procedimientos artísticos/extrañamiento.md",
-    "02-mat/procesos/traducciones/r-traducciones ciencia arte.md",
-    "02-mat/procesos/traducciones/caso \"Consola Atómica\".md",
-    "02-mat/procesos/traducciones/caso \"El Cielo\".md",
-    "03-cla/c-cym01-arte y ciencia - estado de la cuestión.md",
-    "04-out/topoi/Filosofías del Siglo XXI.md",
-    "03-cla/c-cym00-presentación.md",
-    "00-moc/personas MOC.md",
-    "00-moc/teatro MOC.md",
     "cym-metamap.canvas",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
-    "05-obs/img/Pasted image 20250529140933.png",
-    "05-obs/img/image/Exploring the Decentralized Web-1731792320746.jpeg",
-    "05-obs/img/image/Exploring the Decentralized Web-1731791939353.jpeg",
-    "05-obs/img/image/Exploring the Decentralized Web-1731791911536.jpeg",
-    "05-obs/img/untref-logo-w.svg",
-    "05-obs/img/untref-logo-w.png",
-    "05-obs/img/probando Upstart-1696798852409.jpeg",
-    "05-obs/img/probando Upstart-1696798852406.jpeg",
     "Sin título 1.canvas",
     "Sin título.canvas",
     "Untitled.canvas",
