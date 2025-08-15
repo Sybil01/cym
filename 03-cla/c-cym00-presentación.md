@@ -1,15 +1,17 @@
 ---
-title: cym23
-tags: cym, class
+title: cym25
+tags:
+  - cym
+  - class
 ---
 
-# calendario cym 23
+# calendario cym 25
 
 ## tp1
-- [x] topoi | Monografía basada en textos de cym ⏫ 📅 2023-08-29 ✅ 2023-11-23
+- [ ] topoi | Monografía basada en textos de cym ⏫ 📅 2023-08-29 ✅ 2023-11-23
 
 ## tp2
-- [x] js | componer una pieza audiovisual online ⏫ 📅 2023-09-19 ✅ 2023-09-26
+- [ ] js | componer una pieza audiovisual online ⏫ 📅 2023-09-19 ✅ 2023-09-26
 
 ## tp3
 - [ ] proyectual |como hacer un dossier de un proyecto de música expandida ⏫ 📅 2023-11-15

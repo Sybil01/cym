@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-proj/23/beltrame/Exercise.md",
+                "file": "03-cla/c-cym00-presentación.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Exercise"
+              "title": "c-cym00-presentación"
             }
           }
         ]
@@ -238,11 +238,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "34b386926eabb429",
   "lastOpenFiles": [
+    "03-cla/c-cym01-arte y ciencia - estado de la cuestión.md",
+    "03-cla/c-cym00-presentación.md",
+    "04-tp/tp01-topoi.md",
+    "04-tp/tp paradigmas operativos.md",
+    "04-tp",
+    "04-tp/tp06-guía de lectura SADIN.md",
+    "04-tp/tp05-guía de lectura 1 GROYS.md",
+    "04-tp/tp04-aplicación js fundamentals.md",
+    "04-tp/tp03-guía de lectura MONTFORT.md",
+    "04-tp/tp02-aplicación.md",
+    "04-tp/tp25.md",
+    "01-proj/23/beltrame/Exercise.md",
     "00-moc/eventos MOC.md",
     "conflict-files-obsidian-git.md",
     "02-mat/obs/img/image",
@@ -265,30 +278,18 @@
     "05-obs/tpl/t-entrevistas.md",
     "05-obs/tpl/t-cym-init-slide.md",
     "05-obs/tpl/t-cym-class.md",
-    "05-obs/tpl/t-concept.md",
-    "05-obs/tpl/t-book.md",
-    "05-obs/tpl/t-alumno-POC.md",
-    "05-obs/tpl/mat-partitura.md",
-    "05-obs/tpl/conflict-files-obsidian-git.md",
-    "05-obs/tpl/1 Bit-Music.md",
     "05-obs/img/untref-logo-w.svg",
     "00-moc/eventos MOC-1755180996425.jpeg",
-    "05-obs/img/sistemas.excalidraw.md",
     "05-obs/img/sensor de distancia.pdf",
     "05-obs/img/sensor de distancia 3.pdf",
     "05-obs/img/sensor de distancia 2.pdf",
     "05-obs/img/sensor de distancia 1.pdf",
     "05-obs/img/proyectual_cym_bassino_borrador (1).pdf",
-    "05-obs/img/proyectual CLOROLASER.pdf",
     "00-moc/eventos MOC-1755180996421.jpeg",
     "00-moc/eventos MOC-1755180996420.jpeg",
-    "05-obs/img/gal.md",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
     "00-moc/eventos MOC-1755180996415.jpeg",
-    "05-obs/img/Drawing 2023-09-12 20.17.31.excalidraw.md",
-    "05-obs/img/Drawing 2023-09-10 16.27.21.excalidraw.md",
-    "05-obs/img/23112422.excalidraw.md",
     "cym-metamap.canvas",
     "Sin título 1.canvas",
     "Sin título.canvas"
