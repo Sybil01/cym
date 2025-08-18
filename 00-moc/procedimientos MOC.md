@@ -32,7 +32,7 @@
 
 
 # paradigmas operativos
-[[tp paradigmas operativos]]
+[[tp01-paradigmas operativos]]
 
 ```mermaid
 flowchart TD
