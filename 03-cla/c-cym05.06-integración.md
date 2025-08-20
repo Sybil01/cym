@@ -48,7 +48,7 @@ Una instalación no puede ser una copia de otra instalación porque una instal
 
 >[!note] > más en [[Eric Sadin_La humanidad aumentada]] 
 >[[La reología del arte]]
->[[La instalación como forma del arte contemporáneo]]
+>[[Instalaciones]]
 ---
 # partes web
 

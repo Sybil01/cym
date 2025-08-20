@@ -1861,11 +1861,11 @@
     },
     "06-out/topoi/Filosofías del Siglo XXI.md": {
       "size": 2113,
-      "tags": 0,
+      "tags": 2,
       "links": 0
     },
     "06-out/topoi/Forma Musical.md": {
-      "size": 14586,
+      "size": 6051,
       "tags": 0,
       "links": 0
     },
@@ -1873,11 +1873,6 @@
       "size": 3303,
       "tags": 0,
       "links": 0
-    },
-    "06-out/topoi/Física.md": {
-      "size": 227,
-      "tags": 2,
-      "links": 1
     },
     "06-out/topoi/Generatividad.md": {
       "size": 275,
@@ -1914,11 +1909,6 @@
       "tags": 0,
       "links": 1
     },
-    "06-out/topoi/La instalación como forma del arte contemporáneo.md": {
-      "size": 27111,
-      "tags": 0,
-      "links": 0
-    },
     "06-out/topoi/La reología del arte.md": {
       "size": 444,
       "tags": 0,
@@ -1942,11 +1932,6 @@
     "06-out/topoi/Música y Política.md": {
       "size": 10044,
       "tags": 1,
-      "links": 0
-    },
-    "06-out/topoi/README.md": {
-      "size": 9,
-      "tags": 0,
       "links": 0
     },
     "06-out/topoi/Racionalizacion_(videojuegos).md": {
@@ -1974,35 +1959,10 @@
       "tags": 0,
       "links": 0
     },
-    "06-out/topoi/aroma.md": {
-      "size": 283,
-      "tags": 2,
-      "links": 0
-    },
-    "06-out/topoi/arte de datos.md": {
-      "size": 906,
-      "tags": 2,
-      "links": 1
-    },
-    "06-out/topoi/energía MOC.md": {
-      "size": 2910,
-      "tags": 2,
-      "links": 0
-    },
     "06-out/topoi/modelos de universos.md": {
       "size": 20490,
       "tags": 0,
       "links": 3
-    },
-    "06-out/topoi/sistemas-de-universos-topoi-sistemas-20de-universos.md.md": {
-      "size": 63,
-      "tags": 0,
-      "links": 0
-    },
-    "06-out/topoi/t-topoi.md": {
-      "size": 226,
-      "tags": 1,
-      "links": 0
     },
     "06-out/operativos/escritura icónica/escritura icónica M0C.md": {
       "size": 6908,
@@ -2018,13 +1978,48 @@
       "size": 2996,
       "tags": 0,
       "links": 0
+    },
+    "06-out/topoi/física/Física.md": {
+      "size": 227,
+      "tags": 2,
+      "links": 1
+    },
+    "05-obs/tpl/t-topoi 1.md": {
+      "size": 226,
+      "tags": 1,
+      "links": 0
+    },
+    "06-out/topoi/Energía.md": {
+      "size": 2910,
+      "tags": 2,
+      "links": 0
+    },
+    "06-out/topoi/Instalaciones.md": {
+      "size": 27111,
+      "tags": 2,
+      "links": 0
+    },
+    "06-out/topoi/Arte de datos.md": {
+      "size": 906,
+      "tags": 2,
+      "links": 1
+    },
+    "06-out/topoi/Aroma.md": {
+      "size": 283,
+      "tags": 2,
+      "links": 0
+    },
+    "06-out/topoi/Sistemas de Universos.md": {
+      "size": 63,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1514,
+      "Refactor": 1524,
       "Create": 653,
-      "Link": 1117,
+      "Link": 1119,
       "Expand": 105
     }
   },
@@ -2038,8 +2033,8 @@
       "5": 29,
       "6": 6,
       "7": 32,
-      "8": 334,
-      "9": 192,
+      "8": 335,
+      "9": 203,
       "10": 72,
       "11": 150,
       "12": 633,
@@ -2060,7 +2055,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1220,
+      "Wed": 1232,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2176,6 +2171,14 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Marianne Amacher.md\"> Marianne Amacher </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/Sistemas de Universos.md\"> Sistemas de Universos </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Aroma.md\"> Aroma </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Arte de datos.md\"> Arte de datos </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Instalaciones.md\"> Instalaciones </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
+        "<a class=\"internal-link\" href=\"05-obs/tpl/t-topoi 1.md\"> t-topoi 1 </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/instalaciones.md\"> instalaciones </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/física/Física.md\"> Física </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp05-guía de lectura GROYS.md\"> tp05-guía de lectura GROYS </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/tp01-paradigmas operativos.md\"> tp01-paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp05-guía de lectura 1 GROYS.md\"> tp05-guía de lectura 1 GROYS </a>",
@@ -2218,17 +2221,11 @@
         "<a class=\"internal-link\" href=\"02-mat/código/01-tone.js.md\"> 01-tone.js </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/02-setup/02-setup.md\"> 02-setup </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-cheatsheet.md\"> js-cheatsheet </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-02 contextos de ejecución.md\"> js-02 contextos de ejecución </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js01-fundamentals.md\"> js01-fundamentals </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-playground.md\"> js-playground </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/que es git.md\"> que es git </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/html.md\"> html </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/css.md\"> css </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/cloud ides.md\"> cloud ides </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/rant.md\"> rant </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/1 Bit-Music.md\"> 1 Bit-Music </a>"
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-02 contextos de ejecución.md\"> js-02 contextos de ejecución </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/Filosofías del Siglo XXI.md\"> Filosofías del Siglo XXI </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/instalaciones.md\"> instalaciones </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-presentación.md\"> c-cym00-presentación </a>",
         "<a class=\"internal-link\" href=\"04-tp/arc/tp01-topoi.md\"> tp01-topoi </a>",
         "<a class=\"internal-link\" href=\"04-tp/arc/tp02-aplicación.md\"> tp02-aplicación </a>",
@@ -2277,9 +2274,7 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Arte participativo.md\"> Arte participativo </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Espacio.md\"> Espacio </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Filosofía histórica.md\"> Filosofía histórica </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Física.md\"> Física </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Historia de la tecnología.md\"> Historia de la tecnología </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Interfaces.md\"> Interfaces </a>"
+        "<a class=\"internal-link\" href=\"06-out/topoi/Física.md\"> Física </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2290,9 +2285,11 @@
         "<a class=\"internal-link\" href=\"00-in/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"00-moc/procedimientos MOC.md\"> procedimientos MOC </a>",
-        "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>"
+        "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Forma Musical.md\"> Forma Musical </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/t-topoi.md\"> t-topoi </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/sistemas-de-universos-topoi-sistemas-20de-universos.md.md\"> sistemas-de-universos-topoi-sistemas-20de-universos.md </a>",
@@ -2342,8 +2339,7 @@
         "<a class=\"internal-link\" href=\"04-out/personas/Max Bense.md\"> Max Bense </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Mario Bunge.md\"> Mario Bunge </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Marianne Amacher.md\"> Marianne Amacher </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Klaus Schwab.md\"> Klaus Schwab </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Juan Sorrentino.md\"> Juan Sorrentino </a>"
+        "<a class=\"internal-link\" href=\"04-out/personas/Klaus Schwab.md\"> Klaus Schwab </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"06-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",

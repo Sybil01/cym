@@ -1,11 +1,8 @@
 [
   "obsidian-git",
-  "dataview",
-  "auto-note-mover",
   "obsidian-shortcuts-for-starred-files",
   "canvas-presentation",
   "obsidian-advanced-slides",
-  "music-code-blocks",
   "better-inline-fields",
   "notion-like-tables",
   "obsidian-activity-history",
@@ -58,5 +55,7 @@
   "obsidian-imgur-plugin",
   "obsidian-markdown-formatting-assistant-plugin",
   "settings-search",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "music-code-blocks",
+  "dataview"
 ]

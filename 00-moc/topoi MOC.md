@@ -1,13 +1,15 @@
----
-cssClass: cards
----
-
 
 ```dataview
 Table  without ID("![|100](" + banner + ")") as foto, file.link as name, author as author, publish as "año", tags
-FROM "04-out/topoi"
+FROM "06-out/topoi"
 SORT publish DESC
 ```
+
+
+
+
+
+
 
 
 # definition

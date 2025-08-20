@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.folder == "06-out/topoi"
+views:
+  - type: cards
+    name: TOPOI gal
+    filters:
+      and:
+        - type == "topoi"
+        - '!file.name.startsWith("t-")'
+    order:
+      - file.name
+      - author
+    image: note.banner

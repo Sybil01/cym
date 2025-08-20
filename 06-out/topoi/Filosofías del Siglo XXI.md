@@ -1,12 +1,16 @@
 ---
 type: topoi
-tags: filosofía , posthumanismo, topoi
+tags: 
+- filosofía
+- posthumanismo
 unit: 12
 publish: 2015
 author: zztt 
-banner: "https://terremoto.mx/wp-content/uploads/2015/06/Grant-Harman-Meillassoux-Brassier-700x461.jpg"
+banner: https://i.imgur.com/BMjgaea.png
 ---
 
+![](https://i.imgur.com/BMjgaea.png)
+*de izquierda a derecha Iain Hamilton Grant, Graham Harman, Quentin Meillassoux y Ray Brassier.*
 
 La Escuela de Londres es conocida por su énfasis en el análisis lógico-lingüístico de los conceptos filosóficos. Su objetivo es clarificar y simplificar los problemas filosóficos mediante la descomposición y análisis detallado de los términos y conceptos utilizados.
 

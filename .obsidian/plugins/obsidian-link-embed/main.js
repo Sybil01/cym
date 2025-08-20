@@ -323,10 +323,18 @@ aspectRatio: "{{aspectRatio}}"{{/aspectRatio}}{{#metadata}}
 \`\`\``;
 var HTMLTemplate = `<div class="embed">
   <div class="w _lc _sm _od _lh14 _ts">
-    <div class="refresh-button" style="position: absolute; bottom: 5px; right: 5px; cursor: pointer; z-index: 10; opacity: 0; transition: opacity 0.2s ease;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
-      </svg>
+    <div class="embed-buttons">
+      <div class="refresh-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+        </svg>
+      </div>
+      <div class="copy-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
+      </div>
     </div>
     <div class="wf">
       <div class="wc{{#respectAR}} _wi{{/respectAR}}" {{#respectAR}}style="width: {{calculatedWidth}}px;"{{/respectAR}}>
@@ -1253,14 +1261,21 @@ var MicroLinkParser = class extends Parser {
 
 // src/parsers/IframelyParser.ts
 var IframelyParser = class extends Parser {
-  constructor() {
+  constructor(apiKey = "") {
     super();
-    this.api = "http://iframely.server.crestify.com/iframely?url={{{url}}}";
+    this.api = `https://iframe.ly/api/iframely?url={{{url}}}&api_key=${apiKey}`;
   }
   process(data) {
     var _a, _b, _c;
     const title = ((_a = data.meta) == null ? void 0 : _a.title) || "";
-    const image = ((_b = data.links[0]) == null ? void 0 : _b.href) || "";
+    const thumbnails = ((_b = data.links) == null ? void 0 : _b.thumbnail) || [];
+    const image = thumbnails.reduce((best, thumb) => {
+      if (best.includes("maxresdefault"))
+        return best;
+      if (thumb.href.includes("maxresdefault") || !best)
+        return thumb.href;
+      return best;
+    }, "") || "";
     let description = ((_c = data.meta) == null ? void 0 : _c.description) || "";
     description = description.replace(/\n/g, " ").replace(/\\/g, "\\\\");
     return { title, image, description };
@@ -1386,8 +1401,7 @@ var _LocalParser = class extends Parser {
   }
   getImage(doc, url) {
     return __async(this, null, function* () {
-      const baseEl = doc.querySelector("base[href]");
-      const base = baseEl && baseEl.href || url.href;
+      const base = url.href;
       const failedUrls = new Set();
       this.debugLog("[Link Embed] Image - Looking for image for:", url.href);
       this.debugLog("[Link Embed] Image - Base URL:", base);
@@ -1452,48 +1466,52 @@ var _LocalParser = class extends Parser {
     return "";
   }
   getFavicon(doc, url) {
-    const baseEl = doc.querySelector("base[href]");
-    const base = baseEl && baseEl.href || url.href;
-    this.debugLog("[Link Embed] Favicon - Looking for favicon for:", url.href);
-    this.debugLog("[Link Embed] Favicon - Base URL:", base);
-    const faviconLink = doc.querySelector('link[rel="icon"], link[rel="shortcut icon"]');
-    if (faviconLink) {
-      const hrefAttr = faviconLink.getAttribute("href");
-      this.debugLog("[Link Embed] Favicon - Found standard favicon link:", hrefAttr);
-      if (hrefAttr) {
-        try {
-          const resolvedUrl = new URL(hrefAttr, base).href;
-          this.debugLog("[Link Embed] Favicon - Resolved standard favicon URL:", resolvedUrl);
-          return resolvedUrl;
-        } catch (error) {
-          this.debugError("[Link Embed] Favicon - Error resolving standard favicon URL:", error);
-          return hrefAttr;
+    return __async(this, null, function* () {
+      const base = url.href;
+      const failedUrls = new Set();
+      this.debugLog("[Link Embed] Favicon - Looking for favicon for:", url.href);
+      this.debugLog("[Link Embed] Favicon - Base URL:", base);
+      const faviconSelectors = [
+        'link[rel="icon"]',
+        'link[rel="shortcut icon"]',
+        'link[rel="apple-touch-icon"]',
+        'link[rel="apple-touch-icon-precomposed"]'
+      ];
+      for (const selector of faviconSelectors) {
+        const faviconLink = doc.querySelector(selector);
+        if (faviconLink) {
+          const hrefAttr = faviconLink.getAttribute("href");
+          this.debugLog(`[Link Embed] Favicon - Found ${selector}:`, hrefAttr);
+          if (hrefAttr) {
+            try {
+              const resolvedUrl = new URL(hrefAttr, base).href;
+              this.debugLog(`[Link Embed] Favicon - Resolved ${selector} URL:`, resolvedUrl);
+              const verifiedUrl = yield this.verifyImageUrl(resolvedUrl, failedUrls);
+              if (verifiedUrl) {
+                this.debugLog("[Link Embed] Favicon - Successfully verified favicon:", verifiedUrl);
+                return verifiedUrl;
+              }
+            } catch (error) {
+              this.debugError(`[Link Embed] Favicon - Error resolving ${selector} URL:`, error);
+            }
+          }
         }
       }
-    }
-    const appleIcon = doc.querySelector('link[rel="apple-touch-icon"]');
-    if (appleIcon) {
-      const hrefAttr = appleIcon.getAttribute("href");
-      this.debugLog("[Link Embed] Favicon - Found apple-touch-icon:", hrefAttr);
-      if (hrefAttr) {
-        try {
-          const resolvedUrl = new URL(hrefAttr, base).href;
-          this.debugLog("[Link Embed] Favicon - Resolved apple-touch-icon URL:", resolvedUrl);
-          return resolvedUrl;
-        } catch (error) {
-          this.debugError("[Link Embed] Favicon - Error resolving apple-touch-icon URL:", error);
-          return hrefAttr;
+      try {
+        const defaultFaviconUrl = new URL("/favicon.ico", base).href;
+        this.debugLog("[Link Embed] Favicon - Trying default /favicon.ico:", defaultFaviconUrl);
+        const verifiedUrl = yield this.verifyImageUrl(defaultFaviconUrl, failedUrls);
+        if (verifiedUrl) {
+          this.debugLog("[Link Embed] Favicon - Successfully verified default favicon:", verifiedUrl);
+          return verifiedUrl;
         }
+      } catch (error) {
+        this.debugError("[Link Embed] Favicon - Error with default /favicon.ico:", error);
       }
-    }
-    try {
-      const defaultFaviconUrl = new URL("/favicon.ico", base).href;
-      this.debugLog("[Link Embed] Favicon - Using default favicon.ico URL:", defaultFaviconUrl);
-      return defaultFaviconUrl;
-    } catch (error) {
-      this.debugError("[Link Embed] Favicon - Error creating default favicon URL:", error);
-      return "";
-    }
+      const defaultFaviconDataUri = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABRklEQVR42mKgOqjq75ds7510YNL0uV9nAGqniqwKYiCIHIIjcAK22BGQLRdgBWvc3fnWk/FJhrkPO1xPgGvqPfLfJMHhT1yqurvS48bPaJhjD2efgidnVwa2yv59xecvEvi0UWCXq9t0ItfP2MMZ7nwIpkA8F1n8uLxZHM6yrBH7FIl2gFXDHYsErkn2hyKLHtcKrFntk58uVQJ+kSdQnmjhID4cwLLa8+K0BXsfNWCqBOsFdo2Yldv43DBrkxd30cjnNyYBhK0SQGkI9pG4Mu40D5b374DRCAyhHqXVfTmOwivivMkJxBz5wnHCtBfGgNFC+ChWKWRf3hsQIlyEoIv4IYEo5wkgtBLRekY9DE4Uin4Keae6hydGnljPmE8kRcCine6827AMsJ1IuW9ibnlQpXLBCR/WC875m2BP+VSu3c/0m+8V08OBngc0pxcAAAAASUVORK5CYII=";
+      this.debugLog("[Link Embed] Favicon - Using default favicon data URI");
+      return defaultFaviconDataUri;
+    });
   }
   getHtmlByRequest(url) {
     return __async(this, null, function* () {
@@ -1573,7 +1591,7 @@ var _LocalParser = class extends Parser {
       this.debugLog("[Link Embed] Doc:", doc);
       let title = this.getTitle(doc, uRL);
       let description = this.getDescription(doc);
-      let favicon = this.getFavicon(doc, uRL);
+      let favicon = yield this.getFavicon(doc, uRL);
       let image = yield this.getImage(doc, uRL);
       let processedData = this.process({
         title,
@@ -1604,7 +1622,12 @@ function createParser(parserType, settings, vault = null) {
       parser = new MicroLinkParser();
       break;
     case "iframely":
-      parser = new IframelyParser();
+      const iframelyApiKey = settings.iframelyApiKey;
+      if (!iframelyApiKey) {
+        console.log("[Link Embed] Iframely API key is not set");
+        throw new Error("Iframely API key is not set");
+      }
+      parser = new IframelyParser(iframelyApiKey);
       break;
     case "local":
       parser = new LocalParser();
@@ -1646,6 +1669,7 @@ var DEFAULT_SETTINGS = {
   delay: 0,
   linkpreviewApiKey: "",
   jsonlinkApiKey: "",
+  iframelyApiKey: "",
   metadataTemplate: 'parser: "{{parser}}"\ndate: "{{date}}"\ncustom_date: "{{#formatDate}}YYYY-MM-DD HH:mm:ss{{/formatDate}}"',
   useMetadataTemplate: false,
   saveImagesToVault: false,
@@ -1826,6 +1850,12 @@ ${content.split(origin).join(embed)}`);
         this.plugin.saveSettings();
       });
     });
+    new import_obsidian4.Setting(containerEl).setName("Iframely API Key").setDesc("Enter your API key for the Iframely provider.").addText((value) => {
+      value.setValue(this.plugin.settings.iframelyApiKey).onChange((value2) => {
+        this.plugin.settings.iframelyApiKey = value2;
+        this.plugin.saveSettings();
+      });
+    });
     containerEl.createEl("h3", { text: "Performance Settings" });
     new import_obsidian4.Setting(containerEl).setName("Max Concurrent Local Parsers").setDesc("Maximum number of simultaneous local parsing operations. Lower values reduce system load but might make link embeds appear more slowly.").addSlider((slider) => {
       slider.setLimits(1, 10, 1).setValue(this.plugin.settings.maxConcurrentLocalParsers).setDynamicTooltip().onChange((value) => {
@@ -1870,12 +1900,87 @@ var import_obsidian7 = __toModule(require("obsidian"));
 
 // src/errorUtils.ts
 var import_obsidian6 = __toModule(require("obsidian"));
-function errorNotice(error, debug = false) {
-  if (debug) {
-    console.log("[Link Embed] Failed to fetch data:", error);
+function showNotice(message, typeOrDebugOrOptions, debugOrOptions) {
+  let type = "info";
+  let options = {};
+  if (typeof typeOrDebugOrOptions === "string") {
+    type = typeOrDebugOrOptions;
+    if (typeof debugOrOptions === "boolean") {
+      options = { debug: debugOrOptions };
+    } else if (debugOrOptions) {
+      options = debugOrOptions;
+    }
+  } else if (typeof typeOrDebugOrOptions === "boolean") {
+    options = { debug: typeOrDebugOrOptions };
+  } else if (typeOrDebugOrOptions) {
+    options = typeOrDebugOrOptions;
+    if (options.type) {
+      type = options.type;
+    }
   }
-  const errorMessage = (error == null ? void 0 : error.message) || "Failed to fetch data";
-  new import_obsidian6.Notice(`Error: ${errorMessage}`);
+  const defaults = getDefaultsByType(type);
+  const {
+    debug = false,
+    duration = defaults.duration,
+    prefix = defaults.prefix,
+    defaultMessage = defaults.defaultMessage,
+    context = "Link Embed",
+    showNotice: showNotice2 = true
+  } = options;
+  let finalMessage;
+  if (message instanceof Error) {
+    finalMessage = message.message;
+  } else if (typeof message === "string") {
+    finalMessage = message;
+  } else if (message === null || message === void 0) {
+    finalMessage = defaultMessage;
+  } else {
+    try {
+      finalMessage = String(message);
+    } catch (e) {
+      finalMessage = defaultMessage;
+    }
+  }
+  if (debug) {
+    if (type === "error" && message instanceof Error) {
+      console.log(`[${context}] ${prefix}: ${finalMessage}`, message);
+    } else {
+      console.log(`[${context}] ${prefix}: ${finalMessage}`);
+    }
+  }
+  if (showNotice2) {
+    return new import_obsidian6.Notice(`${prefix}: ${finalMessage}`, duration);
+  }
+  return null;
+}
+function getDefaultsByType(type) {
+  switch (type) {
+    case "error":
+      return {
+        duration: 5e3,
+        prefix: "Error",
+        defaultMessage: "An operation failed"
+      };
+    case "success":
+      return {
+        duration: 3e3,
+        prefix: "Success",
+        defaultMessage: "Operation completed successfully"
+      };
+    case "warning":
+      return {
+        duration: 4e3,
+        prefix: "Warning",
+        defaultMessage: "Something needs attention"
+      };
+    case "info":
+    default:
+      return {
+        duration: 3e3,
+        prefix: "Info",
+        defaultMessage: "Information"
+      };
+  }
 }
 
 // src/utils.ts
@@ -1928,7 +2033,7 @@ function getFavicon(url, settings, cache, debug = false) {
       }
       return "";
     } catch (error) {
-      console.error("[Link Embed] Error fetching favicon:", error);
+      showNotice(error instanceof Error ? error : `Error fetching favicon: ${String(error)}`, { debug, context: "Link Embed - Favicon", type: "error" });
       return "";
     }
   });
@@ -1992,7 +2097,11 @@ function tryParsers(url, selectedParsers, settings, locationInfo) {
         }
         return { data, selectedParser };
       } catch (error) {
-        console.log("[Link Embed] Error:", error);
+        showNotice(error instanceof Error ? error : String(error), {
+          debug: settings.debug,
+          context: "Link Embed - Parser",
+          type: "error"
+        });
         idx += 1;
         if (idx === selectedParsers.length) {
           throw error;
@@ -2010,13 +2119,21 @@ function refreshEmbed(url, element, ctx, settings, vault) {
       }
       const file = vault.getAbstractFileByPath(ctx.sourcePath);
       if (!file) {
-        console.error("[Link Embed] File not found:", ctx.sourcePath);
-        return;
+        showNotice(`File not found: ${ctx.sourcePath}`, {
+          debug: settings.debug,
+          context: "Link Embed - Refresh",
+          type: "error"
+        });
+        return false;
       }
       const sectionInfo = ctx.getSectionInfo(element);
       if (!sectionInfo) {
-        console.error("[Link Embed] Could not get section info");
-        return;
+        showNotice("Could not get section info", {
+          debug: settings.debug,
+          context: "Link Embed - Refresh",
+          type: "error"
+        });
+        return false;
       }
       const locationInfo = `${ctx.sourcePath}:${sectionInfo.lineStart}`;
       const content = yield vault.read(file);
@@ -2038,11 +2155,22 @@ function refreshEmbed(url, element, ctx, settings, vault) {
         if (settings.debug) {
           console.log("[Link Embed] Successfully refreshed embed");
         }
+        return true;
       } catch (error) {
-        console.error("[Link Embed] All parsers failed to fetch metadata:", error);
+        showNotice(error instanceof Error ? error : `All parsers failed to fetch metadata: ${String(error)}`, {
+          debug: settings.debug,
+          context: "Link Embed - Refresh",
+          type: "error"
+        });
+        return false;
       }
     } catch (error) {
-      console.error("[Link Embed] Error refreshing embed:", error);
+      showNotice(error instanceof Error ? error : `Error refreshing embed: ${String(error)}`, {
+        debug: settings.debug,
+        context: "Link Embed - Refresh",
+        type: "error"
+      });
+      return false;
     }
   });
 }
@@ -2050,7 +2178,64 @@ function addRefreshButtonHandler(element, embedInfo, ctx, settings, vault) {
   const refreshButton = element.querySelector(".refresh-button");
   if (refreshButton && embedInfo.url) {
     refreshButton.addEventListener("click", () => __async(this, null, function* () {
-      yield refreshEmbed(embedInfo.url, element, ctx, settings, vault);
+      const success = yield refreshEmbed(embedInfo.url, element, ctx, settings, vault);
+      if (success) {
+        showNotice("Embed refreshed successfully", "success", {
+          debug: settings.debug,
+          context: "Link Embed - Refresh"
+        });
+      }
+    }));
+  }
+}
+function addCopyButtonHandler(element, embedInfo, ctx, vault, settings) {
+  const copyButton = element.querySelector(".copy-button");
+  if (copyButton) {
+    copyButton.addEventListener("click", () => __async(this, null, function* () {
+      try {
+        const file = vault.getAbstractFileByPath(ctx.sourcePath);
+        if (!file) {
+          showNotice(`File not found: ${ctx.sourcePath}`, {
+            debug: settings.debug,
+            context: "Link Embed - Copy",
+            type: "error"
+          });
+          return;
+        }
+        const sectionInfo = ctx.getSectionInfo(element);
+        if (!sectionInfo) {
+          showNotice("Could not get section info", {
+            debug: settings.debug,
+            context: "Link Embed - Copy",
+            type: "error"
+          });
+          return;
+        }
+        const content = yield vault.read(file);
+        const lines = content.split("\n");
+        const startLine = sectionInfo.lineStart;
+        const endLine = sectionInfo.lineEnd + 1;
+        const embedCode = lines.slice(startLine, endLine).join("\n");
+        navigator.clipboard.writeText(embedCode).then(() => {
+          showNotice("Embed code copied to clipboard", {
+            debug: (settings == null ? void 0 : settings.debug) || false,
+            context: "Link Embed - Copy",
+            type: "success"
+          });
+        }).catch((error) => {
+          showNotice(error instanceof Error ? error : `Error copying to clipboard: ${String(error)}`, {
+            debug: (settings == null ? void 0 : settings.debug) || false,
+            context: "Link Embed - Copy",
+            type: "error"
+          });
+        });
+      } catch (error) {
+        showNotice(error instanceof Error ? error : `Error copying embed code: ${String(error)}`, {
+          debug: (settings == null ? void 0 : settings.debug) || false,
+          context: "Link Embed - Copy",
+          type: "error"
+        });
+      }
     }));
   }
 }
@@ -2100,7 +2285,11 @@ function embedUrl(editor, selected, selectedParsers, settings, inPlace = false) 
       }
     } catch (error) {
       console.log("[Link Embed] Error:", error);
-      errorNotice(error instanceof Error ? error : new Error(String(error)), settings.debug);
+      showNotice(error instanceof Error ? error : String(error), {
+        debug: settings.debug,
+        context: "Link Embed - Embed URL",
+        type: "error"
+      });
     }
   });
 }
@@ -2134,7 +2323,12 @@ function handleEmbedCodeBlock(source, el, ctx, settings, cache, vault, imageLoad
           originalInfo.image = base64Image;
         }
       } catch (error) {
-        console.error("[Link Embed] Failed to convert local image to base64:", error);
+        showNotice(error instanceof Error ? error : `Failed to convert local image to base64: ${String(error)}`, {
+          debug: settings.debug,
+          context: "Link Embed - Image",
+          duration: 8e3,
+          type: "error"
+        });
       }
     }
     const promises = [];
@@ -2162,12 +2356,20 @@ function handleEmbedCodeBlock(source, el, ctx, settings, cache, vault, imageLoad
               }
             }
           }).catch((error) => {
-            console.error("[Link Embed] Error fetching favicon for existing embed:", error);
+            showNotice(error instanceof Error ? error : `Error fetching favicon for existing embed: ${String(error)}`, {
+              debug: settings.debug,
+              context: "Link Embed - Favicon",
+              type: "error"
+            });
           });
           promises.push(faviconPromise);
         }
       } catch (error) {
-        console.error("[Link Embed] Error setting up favicon fetching:", error);
+        showNotice(error instanceof Error ? error : `Error setting up favicon fetching: ${String(error)}`, {
+          debug: settings.debug,
+          context: "Link Embed - Favicon Setup",
+          type: "error"
+        });
       }
     }
     if (settings.respectImageAspectRatio && !info.aspectRatio && info.image) {
@@ -2195,25 +2397,41 @@ function handleEmbedCodeBlock(source, el, ctx, settings, cache, vault, imageLoad
             }
           }).catch((error) => {
             var _a2;
-            console.error("[Link Embed] Error calculating dynamic aspect ratio at " + (ctx.sourcePath ? ctx.sourcePath + ":" + (((_a2 = ctx.getSectionInfo(el)) == null ? void 0 : _a2.lineStart) + 1 || "unknown") : "unknown location") + ":", error);
+            const location = ctx.sourcePath ? `${ctx.sourcePath}:${((_a2 = ctx.getSectionInfo(el)) == null ? void 0 : _a2.lineStart) + 1 || "unknown"}` : "unknown location";
+            showNotice(error instanceof Error ? error : `Error calculating dynamic aspect ratio at ${location}: ${String(error)}`, "error", {
+              debug: settings.debug,
+              context: "Link Embed - Aspect Ratio",
+              duration: 7e3
+            });
           });
           promises.push(aspectRatioPromise);
         }
       } catch (error) {
-        console.error("[Link Embed] Error setting up aspect ratio calculation:", error);
+        showNotice(error instanceof Error ? error : `Error setting up aspect ratio calculation: ${String(error)}`, {
+          debug: settings.debug,
+          context: "Link Embed - Aspect Ratio Setup",
+          type: "error"
+        });
       }
     }
     const newEl = renderEmbed(info, info.image, info.aspectRatio, el, settings);
     addRefreshButtonHandler(newEl, info, ctx, settings, vault);
+    addCopyButtonHandler(newEl, info, ctx, vault, settings);
     if (promises.length > 0) {
       Promise.all(promises).then(() => {
         const finalEl = renderEmbed(originalInfo, originalInfo.image, originalInfo.aspectRatio, newEl, settings);
         addRefreshButtonHandler(finalEl, originalInfo, ctx, settings, vault);
+        addCopyButtonHandler(finalEl, originalInfo, ctx, vault, settings);
         if (settings.debug) {
           console.log("[Link Embed] Final render completed with real values:", originalInfo);
         }
       }).catch((error) => {
-        console.error("[Link Embed] Error during data fetching:", error);
+        showNotice(error instanceof Error ? error : `Error during data fetching: ${String(error)}`, {
+          debug: settings.debug,
+          context: "Link Embed - Data Fetch",
+          type: "warning",
+          prefix: "Warning"
+        });
       });
     }
   });

@@ -1,6 +1,8 @@
 ---
 type: topoi
-tags: vidaartificial, generative , topoi
+tags: 
+- vidaartificial
+- generative
 unit: 30
 publish: 2020
 author: zztt

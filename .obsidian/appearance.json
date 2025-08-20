@@ -2,8 +2,7 @@
   "accentColor": "#337175",
   "cssTheme": "Things",
   "enabledCssSnippets": [
-    "s1",
-    "s1 2"
+    "s1"
   ],
   "theme": "moonstone",
   "interfaceFontFamily": "DankMono Nerd Font,Consolas",
