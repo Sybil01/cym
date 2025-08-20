@@ -11,7 +11,7 @@
 		{"type":"text","text":"ArsElectrónica","id":"cd409a92d6b88fa2","x":703,"y":618,"width":157,"height":53,"color":"1"},
 		{"type":"text","text":"Institute of Sonology","id":"a2bf3be2efd1216a","x":703,"y":18,"width":157,"height":62,"color":"1"},
 		{"type":"text","text":"<iframe width=\"2000px\" height=\"1000px\" src=\"https://miro.com/app/live-embed/uXjVO89lGbw=/?moveToViewport=-17499,-1859,8352,4549&embedId=158479448268\" frameborder=\"0\" scrolling=\"no\" allow=\"fullscreen; clipboard-read; clipboard-write\" allowfullscreen></iframe>","id":"c126621a5b618f5e","x":2640,"y":-459,"width":2060,"height":1060,"color":"6"},
-		{"id":"77958b2696a7e970","type":"file","file":"06-out/personas/Dick Raaijmakers.md","x":1380,"y":475,"width":250,"height":50,"color":"6"},
+		{"id":"77958b2696a7e970","type":"file","file":"04-out/personas/Dick Raaijmakers.md","x":1380,"y":475,"width":250,"height":50,"color":"6"},
 		{"type":"text","text":"Henry Cowell\n","id":"a7a8a308e84f5255","x":1380,"y":-74,"width":250,"height":51,"color":"6"},
 		{"type":"text","text":"Charles Ives","id":"429bb574be740671","x":1380,"y":-546,"width":250,"height":51,"color":"6"},
 		{"type":"text","text":"Henry David Thoreau","id":"710cd8fae6f7e108","x":1380,"y":-680,"width":250,"height":51,"color":"6"},
@@ -32,7 +32,7 @@
 		{"type":"text","text":"Bell Labs","id":"e033db8d2fd0807e","x":703,"y":-49,"width":157,"height":53,"color":"1"},
 		{"type":"text","text":"\nDavid Tudor","id":"f7c32750d3288c8c","x":1020,"y":-156,"width":250,"height":51,"color":"6"},
 		{"id":"c871e3cf70d51538","type":"file","file":"04-out/espacios/EAT Experiments in arts and technologies.md","x":159,"y":-156,"width":239,"height":107,"color":"#fff71a"},
-		{"id":"66d4f6b9e61bde53","x":200,"y":-508,"width":198,"height":57,"type":"file","file":"06-out/eventos/Cybernetic Serendipity.md"}
+		{"id":"66d4f6b9e61bde53","x":200,"y":-508,"width":198,"height":57,"type":"file","file":"04-out/eventos/Cybernetic Serendipity.md"}
 	],
 	"edges":[
 		{"id":"931bf32d8a5ecb95","fromNode":"e033db8d2fd0807e","fromSide":"right","toNode":"3a6bb4260b1fcf91","toSide":"left"},

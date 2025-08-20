@@ -1,0 +1,9 @@
+{
+  "minimal-style@@embed-strict": true,
+  "things-style@@active-line": true,
+  "things-style@@fancy-code": true,
+  "things-style@@fancy-highlight": true,
+  "things-style@@no-kanban-styles": true,
+  "things-style@@h1-color": "#BFB000",
+  "things-style@@h2-color": "#B63EE8"
+}

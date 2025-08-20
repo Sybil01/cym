@@ -1,0 +1,175 @@
+{
+  "logLevel": "off",
+  "createAtObsidianAttachmentFolder": false,
+  "customFolderForNewFiles": "",
+  "removeMarkdownOnExport": true,
+  "defaultEmbedWidth": "100%",
+  "defaultEmbedHeight": "340px",
+  "hasMigratedTo800": true,
+  "showWelcomeModal": false,
+  "defaultFrozenColumnCount": 1,
+  "pluginVersion": "8.16.1",
+  "showWhatsNewModal": true,
+  "shouldDebug": false,
+  "showDonationModal": true,
+  "exportRenderMarkdown": true,
+  "appData": {},
+  "state": {
+    "04-ref/a-yuda.md": {
+      "0": {
+        "data": {
+          "headers": [
+            {
+              "id": "20359719-2cf4-4dbd-9770-5ba80c13e2f4",
+              "content": "New Column",
+              "sortDir": "default",
+              "width": "100px",
+              "shouldWrapOverflow": true,
+              "useAutoWidth": false,
+              "type": "text"
+            },
+            {
+              "id": "c90e3a3a-47c8-48df-9cd2-9203e106f3b1",
+              "content": "New Column",
+              "sortDir": "default",
+              "width": "100px",
+              "shouldWrapOverflow": true,
+              "useAutoWidth": false,
+              "type": "text"
+            },
+            {
+              "id": "20a4bf8d-0ff0-4076-bbc5-60b957f5d955",
+              "content": "New Column",
+              "sortDir": "default",
+              "width": "100px",
+              "shouldWrapOverflow": true,
+              "useAutoWidth": false,
+              "type": "text"
+            },
+            {
+              "id": "9e28877e-78c0-485b-af28-f3ee133cc161",
+              "content": "New Column",
+              "sortDir": "default",
+              "width": "100px",
+              "shouldWrapOverflow": true,
+              "useAutoWidth": false,
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "a437332e-ce59-4cc8-81cf-733d942e6719",
+              "initialIndex": 0,
+              "creationTime": 1661923683826
+            },
+            {
+              "id": "03229284-6523-4cfd-91f6-85210c46c638",
+              "initialIndex": 1,
+              "creationTime": 1661923683921
+            },
+            {
+              "id": "16048143-780b-4fc1-b4fe-16149c41f860",
+              "initialIndex": 2,
+              "creationTime": 1661923683900
+            }
+          ],
+          "cells": [
+            {
+              "id": "da32919b-8a69-48f1-a1c6-1fda22b20e02",
+              "rowId": "a437332e-ce59-4cc8-81cf-733d942e6719",
+              "headerId": "20359719-2cf4-4dbd-9770-5ba80c13e2f4",
+              "type": "text",
+              "text": "hello"
+            },
+            {
+              "id": "0dc6e5d6-9790-40cf-8cd5-a1f14901e101",
+              "rowId": "a437332e-ce59-4cc8-81cf-733d942e6719",
+              "headerId": "c90e3a3a-47c8-48df-9cd2-9203e106f3b1",
+              "type": "text",
+              "text": "lyric"
+            },
+            {
+              "id": "d4f75f54-3073-4f22-ab56-d4f2dd717575",
+              "rowId": "a437332e-ce59-4cc8-81cf-733d942e6719",
+              "headerId": "20a4bf8d-0ff0-4076-bbc5-60b957f5d955",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "7f580d5b-01d4-4087-b4e0-934ceffd8468",
+              "rowId": "a437332e-ce59-4cc8-81cf-733d942e6719",
+              "headerId": "9e28877e-78c0-485b-af28-f3ee133cc161",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "aa5e839c-b163-4110-9470-25959227272a",
+              "rowId": "03229284-6523-4cfd-91f6-85210c46c638",
+              "headerId": "20359719-2cf4-4dbd-9770-5ba80c13e2f4",
+              "type": "text",
+              "text": "world"
+            },
+            {
+              "id": "619f2ce1-4532-43c4-a397-67d196f91134",
+              "rowId": "03229284-6523-4cfd-91f6-85210c46c638",
+              "headerId": "c90e3a3a-47c8-48df-9cd2-9203e106f3b1",
+              "type": "text",
+              "text": "joya"
+            },
+            {
+              "id": "1310d891-0531-4ae5-be51-5b9b71db596d",
+              "rowId": "03229284-6523-4cfd-91f6-85210c46c638",
+              "headerId": "20a4bf8d-0ff0-4076-bbc5-60b957f5d955",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "5890e164-8042-4ae1-8ddc-6a002bc99c8d",
+              "rowId": "03229284-6523-4cfd-91f6-85210c46c638",
+              "headerId": "9e28877e-78c0-485b-af28-f3ee133cc161",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "36e80d3e-8228-467e-b7dd-000461ff8943",
+              "rowId": "16048143-780b-4fc1-b4fe-16149c41f860",
+              "headerId": "20359719-2cf4-4dbd-9770-5ba80c13e2f4",
+              "type": "text",
+              "text": "sum"
+            },
+            {
+              "id": "660b4d51-bebe-43ad-8354-57b44f8a5ebb",
+              "rowId": "16048143-780b-4fc1-b4fe-16149c41f860",
+              "headerId": "c90e3a3a-47c8-48df-9cd2-9203e106f3b1",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "79a342c4-a754-4038-9dac-2d88d6b7e59f",
+              "rowId": "16048143-780b-4fc1-b4fe-16149c41f860",
+              "headerId": "20a4bf8d-0ff0-4076-bbc5-60b957f5d955",
+              "type": "text",
+              "text": ""
+            },
+            {
+              "id": "6741b8b6-859a-400f-a563-d862a6e4e581",
+              "rowId": "16048143-780b-4fc1-b4fe-16149c41f860",
+              "headerId": "9e28877e-78c0-485b-af28-f3ee133cc161",
+              "type": "text",
+              "text": ""
+            }
+          ],
+          "tags": []
+        },
+        "shouldUpdate": false,
+        "viewType": "reading",
+        "tableCacheVersion": 425
+      }
+    }
+  },
+  "focusedElement": {
+    "id": "-1",
+    "type": "unfocused"
+  },
+  "excludedFiles": []
+}
