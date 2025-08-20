@@ -13,7 +13,7 @@ author: zztt
 
 <!-- slide bg="#010100"--> 
 ![[untref-logo-w.svg|100]]
-UNTREF | CYM24
+UNTREF | CYM25
 # principios generativos
 ---
 
