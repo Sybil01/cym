@@ -1,24 +1,25 @@
 {
   "main": {
-    "id": "6d5ad45ab2fa4057",
+    "id": "06155fffeb6c2afa",
     "type": "split",
     "children": [
       {
-        "id": "3b43974834539115",
+        "id": "8d675a9231b24172",
         "type": "tabs",
         "children": [
           {
-            "id": "34b386926eabb429",
+            "id": "5b3eb5dde32efe18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym00-presentación.md",
+                "file": "README.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym00-presentación"
+              "title": "README"
             }
           }
         ]
@@ -27,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7b72b6e633658761",
+    "id": "b602c04a731b296c",
     "type": "split",
     "children": [
       {
-        "id": "aa81e05a93e1f3b7",
+        "id": "af95db91370f3ee0",
         "type": "tabs",
         "children": [
           {
-            "id": "dd1acde2c75a4600",
+            "id": "58a6bf3eeea06c75",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +49,7 @@
             }
           },
           {
-            "id": "a6fc3c908590302f",
+            "id": "9c932be67380cd5c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +66,7 @@
             }
           },
           {
-            "id": "e70db39f67d2e2a7",
+            "id": "74b08449f93c0350",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,33 +79,36 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 200
   },
   "right": {
-    "id": "1b4d810c45a86442",
+    "id": "f8c878636ee6998f",
     "type": "split",
     "children": [
       {
-        "id": "abf50bafd100c21b",
+        "id": "aaca835876e592bb",
         "type": "tabs",
+        "dimension": 45.46296296296296,
         "children": [
           {
-            "id": "187795aa940abde3",
+            "id": "8c7ec6495dcddec6",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "type": "outline",
+              "state": {
+                "file": "00-moc/obras MOC.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of obras MOC"
             }
           },
           {
-            "id": "c45796f39414d797",
+            "id": "144c44b7b3935a93",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-proj/23/beltrame/Exercise.md",
+                "file": "00-moc/obras MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,26 +118,21 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Exercise"
+              "title": "Backlinks for obras MOC"
             }
           },
           {
-            "id": "8fb58ad72ddf111c",
+            "id": "e36f2709c75460b4",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
-            "id": "d8305907f103c00c",
+            "id": "52f74587519419f6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -142,155 +141,153 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           },
           {
-            "id": "872b0dec30b2797f",
+            "id": "dadcd00ddeddea13",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "e8d2d76e9a26b86c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
               "state": {
-                "file": "01-proj/23/beltrame/Exercise.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-list",
-              "title": "Outline of Exercise"
-            }
-          },
-          {
-            "id": "c416048f139cfb27",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "d1aaae4c7b9cd41d",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "e613445849e97392",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "169c42c19bab02ca",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "f3e1dbe1ecabd44a",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "0adcee809c6bd13c",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
+      },
+      {
+        "id": "b33cb9828f682814",
+        "type": "tabs",
+        "dimension": 18.51851851851852,
+        "children": [
+          {
+            "id": "20c732dc2cc0ecaf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0b21d0481a2a08a7",
+        "type": "tabs",
+        "dimension": 36.01851851851852,
+        "children": [
+          {
+            "id": "d666d2187372564f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 236.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "notion-like-tables:Create loom": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "callout-manager:Insert Callout": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "34b386926eabb429",
+  "active": "5b3eb5dde32efe18",
   "lastOpenFiles": [
-    "04-tp/tp paradigmas operativos.md",
-    "03-cla/c-cym06-principios generativos.md",
-    "03-cla/c-cym06b-relaciones sonolumínicas.md",
-    "03-cla/c-cym05.06-integración.md",
-    "03-cla/c-cym00-presentación.md",
-    "03-cla/c-cym04-vida digital.md",
-    "03-cla/c-cym06c-tonejs.md",
-    "03-cla/c-cym07-creative computing.md",
-    "03-cla/c-cym12-Aframe2.md",
-    "03-cla/c-cym14-un instrumento online colectivo.md",
-    "03-cla/c-cym15-interactividad.md",
-    "03-cla/c-cym16-teología estética de los nuevos medios.md",
-    "03-cla/c-cym10y11-Aframe.md",
-    "03-cla/c-cym09-visual.md",
-    "03-cla/c-cym08-hydra+p5.js.md",
-    "03-cla/c-cym03-mapas.md",
-    "03-cla/c-cym02-arte generativo.md",
-    "03-cla/c-cym01-arte y ciencia - estado de la cuestión.md",
-    "04-tp/tp06-guía de lectura SADIN.md",
-    "04-tp/tp05-guía de lectura 1 GROYS.md",
-    "04-tp/tp04-aplicación js fundamentals.md",
-    "04-tp/tp03-guía de lectura MONTFORT.md",
-    "04-tp/tp02-aplicación.md",
-    "cym-metamap.canvas",
-    "README.md",
     "home.md",
-    "04-tp/tp01-topoi.md",
-    "04-tp",
-    "02-mat/obs/img/image",
-    "00-moc/eventos MOC-1755180996466.jpeg",
-    "00-moc/eventos MOC-1755180996465.jpeg",
-    "00-moc/eventos MOC-1755180996464.jpeg",
-    "05-obs/img/231017-arthouse/VID-20231017-WA0099.mp4",
-    "05-obs/img/231017-arthouse/VID-20231017-WA0096.mp4",
-    "05-obs/img/231017-arthouse/VID-20231017-WA0093.mp4",
-    "05-obs/img/untref-logo-w.svg",
-    "00-moc/eventos MOC-1755180996425.jpeg",
-    "05-obs/img/sensor de distancia.pdf",
+    "01-proj/tp/arc/tp02-aplicación.md",
+    "01-proj/tp/arc/tp03-guía de lectura MONTFORT.md",
+    "01-proj/tp/arc/tp06-guía de lectura SADIN.md",
+    "01-proj/tp/arc/tp05-guía de lectura GROYS.md",
+    "01-proj/tp/arc/tp04-aplicación js fundamentals.md",
+    "01-proj/tp/tp01-paradigmas operativos.md",
+    "01-proj/tp/arc/tp01-topoi.md",
+    "01-proj/tp/tp25.md",
+    "01-proj/tp/arc",
+    "03-cla/c-cym08-hydra+p5.js.md",
+    "04-out/operativos/escritura icónica/icónica filosófica.md",
+    "04-out/operativos/escritura icónica/escritura icónica M0C.md",
+    "02-mat/vida/instrumentos musicales de jupiter.md",
+    "02-mat/vida/ontogenia simulada en Jupiter.md",
+    "04-out/espacios/MIT Medialab.md",
+    "00-moc/eventos MOC.md",
+    "00-moc/personas MOC.md",
+    "04-out/obras/Boid Simulation.md",
+    "00-moc/procedimientos MOC.md",
+    "04-out/operativos/escritura icónica",
+    "05-obs/img/eventos MOC-1755180996466.jpeg",
+    "05-obs/img/23112422.excalidraw.md",
     "05-obs/img/sensor de distancia 3.pdf",
-    "05-obs/img/sensor de distancia 2.pdf",
-    "05-obs/img/sensor de distancia 1.pdf",
-    "05-obs/img/proyectual_cym_bassino_borrador (1).pdf",
-    "00-moc/eventos MOC-1755180996421.jpeg",
-    "00-moc/eventos MOC-1755180996420.jpeg",
+    "05-obs/img/sensor de distancia.pdf",
+    "05-obs/img/eventos MOC-1755180996389.jpeg",
+    "conflict-files-obsidian-git.md",
+    "05-obs/img/eventos MOC-1755180996415.jpeg",
+    "05-obs/img/eventos MOC-1755180996465.jpeg",
+    "05-obs/img/eventos MOC-1755180996421.jpeg",
+    "05-obs/img/eventos MOC-1755180996420.jpeg",
+    "04-out/topoi/energía MOC.md",
+    "05-obs/img/eventos MOC-1755180996464.jpeg",
+    "05-obs/img/eventos MOC-1755180996425.jpeg",
+    "01-proj/tp/prueba tutorial.md",
+    "01-proj/tp/tp25",
+    "04-out/operativos/inestabilidad de kelvin-helmholz/index4.html",
+    "04-out/operativos/inestabilidad de kelvin-helmholz/index3.html",
+    "04-out/operativos/inestabilidad de kelvin-helmholz/ref/Lacan_1963_Kant con Sade.pdf",
+    "04-out/operativos/inestabilidad de kelvin-helmholz/ref/Budiana et al._2020_The meshless numerical simulation of Kelvin–Helmholtz instability during the wave growth of liquid–l.pdf",
+    "04-out/operativos/inestabilidad de kelvin-helmholz/ref/1-s2.0-S0898122120303138-main.pdf",
+    "00-moc/cym MOC.md",
+    "04-out/topoi/energía/energía del gesto musical.md",
+    "04-out/topoi/energía/energía MOC.md",
+    "cym-metamap.canvas",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
-    "00-moc/eventos MOC-1755180996415.jpeg",
     "Sin título 1.canvas",
-    "Sin título.canvas"
+    "Sin título.canvas",
+    "Untitled.canvas",
+    "03-cla/cym-map.canvas"
   ]
 }
