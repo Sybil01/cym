@@ -9,46 +9,6 @@
       "tags": 0,
       "links": 5
     },
-    "03-cla/c-cym14-un instrumento online colectivo.md": {
-      "size": 11934,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym12-Aframe2.md": {
-      "size": 1202,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym10y11-Aframe.md": {
-      "size": 1721,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym09-hydra+tone.js.md": {
-      "size": 827,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym08-hydra+p5.js.md": {
-      "size": 2839,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym02-arte generativo.md": {
-      "size": 8385,
-      "tags": 0,
-      "links": 8
-    },
-    "02-mat/procesos/r-vinculación bidireccional.md": {
-      "size": 1775,
-      "tags": 0,
-      "links": 1
-    },
-    "02-mat/procesos/r-como hacer un proyectual.md": {
-      "size": 982,
-      "tags": 0,
-      "links": 0
-    },
     "01-proj/22/lopez/tp-01-topoi.md": {
       "size": 33,
       "tags": 0,
@@ -434,11 +394,6 @@
       "tags": 3,
       "links": 0
     },
-    "03-cla/c-cym04-vida digital.md": {
-      "size": 8531,
-      "tags": 6,
-      "links": 17
-    },
     "01-proj/23/bassino/bassino POC.md": {
       "size": 0,
       "tags": 0,
@@ -459,60 +414,15 @@
       "tags": 0,
       "links": 0
     },
-    "03-cla/c-cym03-mapas.md": {
-      "size": 3706,
-      "tags": 2,
-      "links": 4
-    },
-    "03-cla/c-cym13-Proto-historia del arte numérico argentino.md": {
-      "size": 1575,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym05.06-integración.md": {
-      "size": 7030,
-      "tags": 0,
-      "links": 7
-    },
-    "03-cla/c-cym06-principios generativos.md": {
-      "size": 602,
-      "tags": 3,
-      "links": 3
-    },
-    "03-cla/c-cym06b-relaciones sonolumínicas.md": {
-      "size": 5963,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/c-cym07-cohesión audiovisual.md": {
-      "size": 10545,
-      "tags": 1,
-      "links": 8
-    },
-    "03-cla/c-cym06c-tonejs.md": {
-      "size": 1315,
-      "tags": 0,
-      "links": 4
-    },
     "04-out/personas/Enno Poppe.md": {
       "size": 192,
       "tags": 2,
       "links": 0
     },
-    "03-cla/c-cym09-networking.md": {
-      "size": 873,
-      "tags": 0,
-      "links": 1
-    },
     "01-proj/15/drocchi/Cómo suena el conocimiento.md": {
       "size": 9984,
       "tags": 1,
       "links": 0
-    },
-    "03-cla/c-cym07-creative computing.md": {
-      "size": 5500,
-      "tags": 0,
-      "links": 1
     },
     "00-in/Introducción a la Psicoacústica.md": {
       "size": 7900,
@@ -564,11 +474,6 @@
       "tags": 3,
       "links": 0
     },
-    "03-cla/c-cym15-interactividad.md": {
-      "size": 1,
-      "tags": 3,
-      "links": 0
-    },
     "00-in/Sun Thinking.md": {
       "size": 0,
       "tags": 0,
@@ -593,16 +498,6 @@
       "size": 51,
       "tags": 1,
       "links": 1
-    },
-    "03-cla/c-cym08-github pages+hydra.md": {
-      "size": 4900,
-      "tags": 6,
-      "links": 2
-    },
-    "03-cla/c-cym09-flex-grid.md": {
-      "size": 619,
-      "tags": 6,
-      "links": 2
     },
     "00-in/proyectual.md": {
       "size": 0,
@@ -638,11 +533,6 @@
       "size": 44,
       "tags": 0,
       "links": 0
-    },
-    "03-cla/c-cym09-visual.md": {
-      "size": 1442,
-      "tags": 0,
-      "links": 6
     },
     "04-out/personas/Martin Rohrmeier.md": {
       "size": 342,
@@ -990,11 +880,6 @@
       "links": 0
     },
     "02-mat/generatividad/Index.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/generatividad/Introducción.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -1369,11 +1254,6 @@
       "tags": 0,
       "links": 0
     },
-    "03-cla/c-cym16-teología estética de los nuevos medios.md": {
-      "size": 3451,
-      "tags": 0,
-      "links": 0
-    },
     "02-mat/orq/aeolian harp.md": {
       "size": 186,
       "tags": 1,
@@ -1387,21 +1267,6 @@
     "02-mat/orq/subwoofers.md": {
       "size": 62728,
       "tags": 1,
-      "links": 0
-    },
-    "02-mat/procesos/traducciones/r-traducciones ciencia arte.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/procesos/procedimientos artísticos/r-procedimientos artísticos.md": {
-      "size": 9905,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/procesos/procedimientos artísticos/extrañamiento.md": {
-      "size": 3266,
-      "tags": 0,
       "links": 0
     },
     "00-moc/procedimientos MOC.md": {
@@ -1779,26 +1644,6 @@
       "tags": 1,
       "links": 0
     },
-    "06-out/procedimientos/combinational creativity.md": {
-      "size": 668,
-      "tags": 1,
-      "links": 0
-    },
-    "06-out/procedimientos/meta-aprendizaje.md": {
-      "size": 1105,
-      "tags": 0,
-      "links": 2
-    },
-    "06-out/procedimientos/extrañamiento.md": {
-      "size": 199,
-      "tags": 0,
-      "links": 0
-    },
-    "06-out/procedimientos/tipologías de instalación.md": {
-      "size": 323,
-      "tags": 0,
-      "links": 0
-    },
     "06-out/topoi/Arte relacional.md": {
       "size": 14405,
       "tags": 0,
@@ -1996,7 +1841,7 @@
     },
     "03-cla/c-cym01 cym introducción.md": {
       "size": 22154,
-      "tags": 2,
+      "tags": 1,
       "links": 6
     },
     "03-cla/c-cym00-calendario.md": {
@@ -2009,27 +1854,187 @@
       "tags": 0,
       "links": 0
     },
-    "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md": {
+    "03-cla/arc/c-cym16-teología estética de los nuevos medios.md": {
+      "size": 3451,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/arc/c-cym02-arte generativo.md": {
+      "size": 8385,
+      "tags": 0,
+      "links": 8
+    },
+    "03-cla/arc/c-cym03-mapas.md": {
+      "size": 3706,
+      "tags": 2,
+      "links": 4
+    },
+    "03-cla/arc/c-cym04-vida digital.md": {
+      "size": 8531,
+      "tags": 6,
+      "links": 17
+    },
+    "03-cla/arc/c-cym05.06-integración.md": {
+      "size": 7030,
+      "tags": 0,
+      "links": 7
+    },
+    "03-cla/arc/c-cym06-principios generativos.md": {
+      "size": 602,
+      "tags": 3,
+      "links": 3
+    },
+    "03-cla/arc/c-cym06b-relaciones sonolumínicas.md": {
+      "size": 5963,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym06c-tonejs.md": {
+      "size": 1315,
+      "tags": 0,
+      "links": 4
+    },
+    "03-cla/arc/c-cym07-cohesión audiovisual.md": {
+      "size": 10545,
+      "tags": 1,
+      "links": 8
+    },
+    "03-cla/arc/c-cym07-creative computing.md": {
+      "size": 5500,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym08-github pages+hydra.md": {
+      "size": 4900,
+      "tags": 6,
+      "links": 2
+    },
+    "03-cla/arc/c-cym08-hydra+p5.js.md": {
+      "size": 2839,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym09-hydra+tone.js.md": {
+      "size": 827,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym09-networking.md": {
+      "size": 873,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym09-visual.md": {
+      "size": 1442,
+      "tags": 0,
+      "links": 6
+    },
+    "03-cla/arc/c-cym10y11-Aframe.md": {
+      "size": 1721,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym12-Aframe2.md": {
+      "size": 1202,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym13-Proto-historia del arte numérico argentino.md": {
+      "size": 1575,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym14-un instrumento online colectivo.md": {
+      "size": 11934,
+      "tags": 0,
+      "links": 1
+    },
+    "03-cla/arc/c-cym15-interactividad.md": {
+      "size": 1,
+      "tags": 3,
+      "links": 0
+    },
+    "03-cla/c-cym09-flex-grid.md": {
+      "size": 631,
+      "tags": 6,
+      "links": 2
+    },
+    "03-cla/c-cym02-paradigmas operativos.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "06-out/operativos/recursión/recursión MOC.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/herramientas/r-como hacer un proyectual.md": {
+      "size": 982,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/herramientas/r-vinculación bidireccional.md": {
+      "size": 1775,
+      "tags": 0,
+      "links": 1
+    },
+    "02-mat/herramientas/r-meta-aprendizaje.md": {
+      "size": 1105,
+      "tags": 3,
+      "links": 2
+    },
+    "02-mat/herramientas/r-tipologías de instalación.md": {
+      "size": 323,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos casos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md": {
       "size": 3180,
       "tags": 0,
       "links": 0
     },
-    "02-mat/procesos/traducciones/caso Consola Atómica.md": {
+    "06-out/operativos casos/consola atómica/caso Consola Atómica.md": {
       "size": 82462,
       "tags": 0,
       "links": 0
     },
-    "02-mat/procesos/traducciones/caso El Cielo.md": {
+    "06-out/operativos casos/el cielo/caso El Cielo.md": {
       "size": 7488,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos artísticos/extrañamiento.md": {
+      "size": 3266,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos artísticos/procedimientos artísticos MOC.md": {
+      "size": 9905,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos artísticos/creatividad combinatoria.md": {
+      "size": 668,
+      "tags": 1,
+      "links": 0
+    },
+    "06-out/imc/imc MOC.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "02-mat/generatividad/generatividad MOC.md": {
+      "size": 0,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1537,
-      "Create": 657,
-      "Link": 1125,
+      "Refactor": 1594,
+      "Create": 662,
+      "Link": 1131,
       "Expand": 116
     }
   },
@@ -2055,8 +2060,8 @@
       "17": 56,
       "18": 212,
       "19": 22,
-      "20": 87,
-      "21": 77,
+      "20": 138,
+      "21": 94,
       "22": 621,
       "23": 77
     }
@@ -2065,7 +2070,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1266,
+      "Wed": 1334,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2128,6 +2133,11 @@
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"06-out/imc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/recursión/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"03-cla/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/energía/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -2173,67 +2183,65 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Arte relacional.md\"> Arte relacional </a>",
         "<a class=\"internal-link\" href=\"06-out/procedimientos/tipologías de instalación.md\"> tipologías de instalación </a>",
-        "<a class=\"internal-link\" href=\"06-out/procedimientos/extrañamiento.md\"> extrañamiento </a>",
-        "<a class=\"internal-link\" href=\"06-out/procedimientos/meta-aprendizaje.md\"> meta-aprendizaje </a>",
-        "<a class=\"internal-link\" href=\"06-out/procedimientos/combinational creativity.md\"> combinational creativity </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Yotam Mann.md\"> Yotam Mann </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>"
+        "<a class=\"internal-link\" href=\"06-out/procedimientos/extrañamiento.md\"> extrañamiento </a>"
       ],
       "Renamed": [
-        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/caso El Cielo.md\"> caso El Cielo </a>",
-        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/caso Consola Atómica.md\"> caso Consola Atómica </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md\"> inestabilidad de Kelvin-Helmholz </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md\"> inestbalidad de Kelvin-Helmholz </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Sistemas de Universos.md\"> Sistemas de Universos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Aroma.md\"> Aroma </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Arte de datos.md\"> Arte de datos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Instalaciones.md\"> Instalaciones </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-topoi 1.md\"> t-topoi 1 </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/instalaciones.md\"> instalaciones </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/física/Física.md\"> Física </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp05-guía de lectura GROYS.md\"> tp05-guía de lectura GROYS </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp01-paradigmas operativos.md\"> tp01-paradigmas operativos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp05-guía de lectura 1 GROYS.md\"> tp05-guía de lectura 1 GROYS </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp04-aplicación js fundamentals.md\"> tp04-aplicación js fundamentals </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp03-guía de lectura MONTFORT.md\"> tp03-guía de lectura MONTFORT </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp02-aplicación.md\"> tp02-aplicación </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp01-topoi.md\"> tp01-topoi </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp06-guía de lectura SADIN.md\"> tp06-guía de lectura SADIN </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp paradigmas operativos.md\"> tp paradigmas operativos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp25.md\"> tp25 </a>",
-        "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/escritura icónica M0C.md\"> escritura icónica M0C </a>",
-        "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/escritura icónica MOC.md\"> escritura icónica MOC </a>",
-        "<a class=\"internal-link\" href=\"00-moc/escritura icónica MOC.md\"> escritura icónica MOC </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp25/tp paradigmas operativos.md\"> tp paradigmas operativos </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp25/tp25.md\"> tp25 </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp25.md\"> tp25 </a>",
-        "<a class=\"internal-link\" href=\"00-moc/tp25.md\"> tp25 </a>",
-        "<a class=\"internal-link\" href=\"00-moc/tp25 MOC.md\"> tp25 MOC </a>",
-        "<a class=\"internal-link\" href=\"01-proj/tp/tp25 MOC.md\"> tp25 MOC </a>",
-        "<a class=\"internal-link\" href=\"00-moc/tp25 MOC.md\"> tp25 MOC </a>",
-        "<a class=\"internal-link\" href=\"00-moc/procedimientos MOC.md\"> procedimientos MOC </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/energía/energía MOC.md\"> energía MOC </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/energía MOC.md\"> energía MOC </a>",
-        "<a class=\"internal-link\" href=\"02-mat/procesos/procedimientos artísticos/r-procedimientos artísticos.md\"> r-procedimientos artísticos </a>",
-        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/caso \"Consola Atómica\".md\"> caso \"Consola Atómica\" </a>",
-        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/caso \"El Cielo\".md\"> caso \"El Cielo\" </a>",
-        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/r-traducciones un caso \"El Cielo\".md\"> r-traducciones un caso \"El Cielo\" </a>",
-        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/r-traducciones ciencia arte.md\"> r-traducciones ciencia arte </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Filosofías del Siglo XXI.md\"> Filosofías del Siglo XXI </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/modelos de universos.md\"> modelos de universos </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/2972453.md\"> 2972453 </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/2.972.453.md\"> 2.972.453 </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/Visual Music.md\"> Visual Music </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/python/pycolors.md\"> pycolors </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/python/python music.md\"> python music </a>"
+        "<a class=\"internal-link\" href=\"02-mat/generatividad/generatividad MOC.md\"> generatividad MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos artísticos/creatividad combinatoria.md\"> creatividad combinatoria </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos artísticos/procedimientos artísticos MOC.md\"> procedimientos artísticos MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos artísticos/extrañamiento.md\"> extrañamiento </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/operativos artísticos/creatividad combinatoria.md\"> creatividad combinatoria </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/operativos artísticos/procedimientos artísticos MOC.md\"> procedimientos artísticos MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/operativos artísticos/extrañamiento.md\"> extrañamiento </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos casos/el cielo/caso El Cielo.md\"> caso El Cielo </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos casos/consola atómica/caso Consola Atómica.md\"> caso Consola Atómica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos casos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md\"> inestabilidad de Kelvin-Helmholz </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/operativos casos/el cielo/caso El Cielo.md\"> caso El Cielo </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/operativos casos/consola atómica/caso Consola Atómica.md\"> caso Consola Atómica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/operativos casos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md\"> inestabilidad de Kelvin-Helmholz </a>",
+        "<a class=\"internal-link\" href=\"02-mat/herramientas/r-tipologías de instalación.md\"> r-tipologías de instalación </a>",
+        "<a class=\"internal-link\" href=\"06-out/procedimientos/r-tipologías de instalación.md\"> r-tipologías de instalación </a>",
+        "<a class=\"internal-link\" href=\"02-mat/herramientas/r-meta-aprendizaje.md\"> r-meta-aprendizaje </a>",
+        "<a class=\"internal-link\" href=\"06-out/procedimientos/r-meta-aprendizaje.md\"> r-meta-aprendizaje </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/procedimientos artísticos/creatividad combinatoria.md\"> creatividad combinatoria </a>",
+        "<a class=\"internal-link\" href=\"06-out/procedimientos/creatividad combinatoria.md\"> creatividad combinatoria </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/casos operativos/el cielo/caso El Cielo.md\"> caso El Cielo </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/casos operativos/consola atómica/caso Consola Atómica.md\"> caso Consola Atómica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/casos operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md\"> inestabilidad de Kelvin-Helmholz </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/casos operativos/caso El Cielo.md\"> caso El Cielo </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/casos operativos/caso Consola Atómica.md\"> caso Consola Atómica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/procedimientos artísticos/procedimientos artísticos MOC.md\"> procedimientos artísticos MOC </a>",
+        "<a class=\"internal-link\" href=\"02-mat/herramientas/r-vinculación bidireccional.md\"> r-vinculación bidireccional </a>",
+        "<a class=\"internal-link\" href=\"02-mat/herramientas/r-como hacer un proyectual.md\"> r-como hacer un proyectual </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/traducciones/caso El Cielo.md\"> caso El Cielo </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/traducciones/caso Consola Atómica.md\"> caso Consola Atómica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/procedimientos artísticos/r-procedimientos artísticos.md\"> r-procedimientos artísticos </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/procedimientos artísticos/extrañamiento.md\"> extrañamiento </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym15-interactividad.md\"> c-cym15-interactividad </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym14-un instrumento online colectivo.md\"> c-cym14-un instrumento online colectivo </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym13-Proto-historia del arte numérico argentino.md\"> c-cym13-Proto-historia del arte numérico argentino </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym12-Aframe2.md\"> c-cym12-Aframe2 </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym10y11-Aframe.md\"> c-cym10y11-Aframe </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-visual.md\"> c-cym09-visual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-networking.md\"> c-cym09-networking </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-hydra+tone.js.md\"> c-cym09-hydra+tone.js </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym08-hydra+p5.js.md\"> c-cym08-hydra+p5.js </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym08-github pages+hydra.md\"> c-cym08-github pages+hydra </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-creative computing.md\"> c-cym07-creative computing </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-cohesión audiovisual.md\"> c-cym07-cohesión audiovisual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06b-relaciones sonolumínicas.md\"> c-cym06b-relaciones sonolumínicas </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06-principios generativos.md\"> c-cym06-principios generativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym05.06-integración.md\"> c-cym05.06-integración </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym04-vida digital.md\"> c-cym04-vida digital </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym03-mapas.md\"> c-cym03-mapas </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym02-arte generativo.md\"> c-cym02-arte generativo </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"02-mat/herramientas/r-meta-aprendizaje.md\"> r-meta-aprendizaje </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Vida artificial.md\"> Vida artificial </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Virtualidad y realidad.md\"> Virtualidad y realidad </a>",
@@ -2281,10 +2289,7 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Marianne Amacher.md\"> Marianne Amacher </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Yotam Mann.md\"> Yotam Mann </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>",
-        "<a class=\"internal-link\" href=\"06-out/procedimientos/combinational creativity.md\"> combinational creativity </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Arte participativo.md\"> Arte participativo </a>"
+        "<a class=\"internal-link\" href=\"06-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2299,6 +2304,10 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Forma Musical.md\"> Forma Musical </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"06-out/procedimientos/extrañamiento.md\"> extrañamiento </a>",
+        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/r-traducciones ciencia arte.md\"> r-traducciones ciencia arte </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"04-tp/TP2025.md\"> TP2025 </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/README.md\"> README </a>",
@@ -2345,13 +2354,12 @@
         "<a class=\"internal-link\" href=\"04-out/procedimientos/extrañamiento.md\"> extrañamiento </a>",
         "<a class=\"internal-link\" href=\"04-out/procedimientos/combinational creativity.md\"> combinational creativity </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Yotam Mann.md\"> Yotam Mann </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Nicolas Schoffer.md\"> Nicolas Schoffer </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Max Bense.md\"> Max Bense </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Mario Bunge.md\"> Mario Bunge </a>"
+        "<a class=\"internal-link\" href=\"04-out/personas/Yotam Mann.md\"> Yotam Mann </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"06-out/imc/imc MOC.md\"> imc MOC </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
@@ -2399,12 +2407,10 @@
         "<a class=\"internal-link\" href=\"02-mat/orq/Hyperinstruments.md\"> Hyperinstruments </a>",
         "<a class=\"internal-link\" href=\"02-mat/orq/chromaplane.md\"> chromaplane </a>",
         "<a class=\"internal-link\" href=\"02-mat/orq/daxophone.md\"> daxophone </a>",
-        "<a class=\"internal-link\" href=\"00-in/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>",
-        "<a class=\"internal-link\" href=\"04-out/obras/papilarnie III.md\"> papilarnie III </a>",
-        "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
-        "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>"
+        "<a class=\"internal-link\" href=\"00-in/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>"
       ],
       "Removed Tags from": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
         "<a class=\"internal-link\" href=\"00-in/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
         "<a class=\"internal-link\" href=\"00-in/catalexis.md\"> catalexis </a>",
@@ -2454,8 +2460,7 @@
         "<a class=\"internal-link\" href=\"01-proj/22/dure/Resampler.md\"> Resampler </a>",
         "<a class=\"internal-link\" href=\"01-proj/22/dure/Sequencer.md\"> Sequencer </a>",
         "<a class=\"internal-link\" href=\"01-proj/22/hydra.md\"> hydra </a>",
-        "<a class=\"internal-link\" href=\"01-proj/22/lopez/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"01-proj/22/lopez/Gentics.md\"> Gentics </a>"
+        "<a class=\"internal-link\" href=\"01-proj/22/lopez/Azar.md\"> Azar </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",

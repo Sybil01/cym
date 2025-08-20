@@ -1,14 +1,17 @@
 ---
 type: imc
-photo: https://en.wikipedia.org/wiki/File:Cosmic_Background_Explorer_spacecraft_model.png
+img: https://i.imgur.com/PPSBGwp.png
 year: 1989
 tags:
-  - imc
-person: "[[]]"
-sinopsis: El **Cosmic Observatory Background Explorer (COBE)** es un instrumento científico diseñado para estudiar el fondo cósmico de microondas (CMB), la radiación residual del Big Bang. Su objetivo principal es mapear las fluctuaciones térmicas en el CMB, proporcionando datos cruciales para comprender la estructura y evolución temprana del universo. COBE combina tecnologías avanzadas de medición, análisis matemático y procesamiento de datos para desentrañar los patrones primordiales del cosmos. Su trabajo ha sido fundamental en la cosmología moderna, permitiendo avances en la comprensión de la inflación cósmica, la materia oscura y la energía oscura.
+  - imc 
+person: 
+- John C. Mather
+- George F. Smoot
+sinopsis: El Cosmic Observatory Background Explorer (COBE)** es un instrumento científico diseñado para estudiar el fondo cósmico de microondas (CMB), la radiación residual del Big Bang. Su objetivo principal es mapear las fluctuaciones térmicas en el CMB, proporcionando datos cruciales para comprender la estructura y evolución temprana del universo. COBE combina tecnologías avanzadas de medición, análisis matemático y procesamiento de datos para desentrañar los patrones primordiales del cosmos. Su trabajo ha sido fundamental en la cosmología moderna, permitiendo avances en la comprensión de la inflación cósmica, la materia oscura y la energía oscura.
 ---
 
-Instrumento de medición científica
+![](https://i.imgur.com/PPSBGwp.png)
+
 
 # Científicos argentinos trabajando con COBE
 ## Matías Zaldariaga

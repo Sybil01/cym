@@ -1,6 +1,9 @@
 ---
 status: dev
-tags: pkm, knowledge, education
+tags: 
+- pkm
+- knowledge
+- education
 ---
 PKM [personal knowledge managment]
  lo

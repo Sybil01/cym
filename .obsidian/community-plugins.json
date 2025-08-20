@@ -1,8 +1,11 @@
 [
   "obsidian-git",
+  "dataview",
+  "auto-note-mover",
   "obsidian-shortcuts-for-starred-files",
   "canvas-presentation",
   "obsidian-advanced-slides",
+  "music-code-blocks",
   "better-inline-fields",
   "notion-like-tables",
   "obsidian-activity-history",
@@ -56,8 +59,23 @@
   "obsidian-markdown-formatting-assistant-plugin",
   "settings-search",
   "obsidian-style-settings",
+<<<<<<< HEAD
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "quickadd",
+  "obsidian-minimal-settings",
+  "obsidian-outliner",
+  "obsidian-linter",
+  "obsidian-markmind",
+  "obsidian-zotero-desktop-connector",
+  "obsidian-spaced-repetition",
+  "obsidian-banners",
+  "mermaid-tools",
+  "mermaid-themes"
+=======
   "music-code-blocks",
   "dataview",
   "local-media-embedder",
   "lilypond"
+>>>>>>> origin/main
 ]
