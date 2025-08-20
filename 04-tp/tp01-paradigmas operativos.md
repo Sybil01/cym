@@ -85,3 +85,28 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 
 ---
 
+# QS
+
+
+## ARQ
+
+ETS entrada transformación 
+
+OAT  objeto acción transformación
+
+
+## OBJETOS
+
+1. Ser   2. Devenir   3. Uno   4. Múltiple   5. Diferencia   6. Identidad   7. Tiempo   8. Espacio   9. Sustancia   10. Relación   11. Causa   12. Posibilidad   13. Actualidad   14. Potencia   15. Vacío   16. Lenguaje   17. Mundo   18. Acontecimiento   19. Límite   20. Negación
+
+
+
+## ACCIONES
+
+• Intersección (∩) → Coexistencia de propiedades (ej. Ser ∩ Tiempo = existencia temporal). • Unión (∪) → Coincidencia sin contradicción (ej. Devenir ∪ Diferencia). • Negación (¬) → Subversión del campo (ej. ¬Ser = Nada). • Inclusión (⊂) → Jerarquía ontológica (ej. Actualidad ⊂ Posibilidad). • Doble negación (¬¬) → Reafirmación paradojal (ej. ¬¬Devenir). • Implicación (→) → Transición lógica u ontológica (ej. Potencia → Actualidad). • Conmutación o torsión (↻) → Transformación sin pérdida (ej. Identidad ↻ Diferencia).
+
+
+## ABDUCTIVOS
+
+⊘ = Vacío  ; ● = Ser   ⇄ = Devenir   ○ = Posibilidad   ⧺ = Unión   → = Implicación
+
