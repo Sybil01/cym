@@ -2015,17 +2015,17 @@
       "links": 6
     },
     "03-cla/c-cym00-calendario.md": {
-      "size": 391,
+      "size": 2014,
       "tags": 2,
-      "links": 0
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 1531,
       "Create": 654,
-      "Link": 1123,
-      "Expand": 112
+      "Link": 1124,
+      "Expand": 113
     }
   },
   "dailyCommits": {
@@ -2043,7 +2043,7 @@
       "10": 73,
       "11": 157,
       "12": 638,
-      "13": 87,
+      "13": 89,
       "14": 201,
       "15": 152,
       "16": 145,
@@ -2060,7 +2060,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1251,
+      "Wed": 1253,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2070,6 +2070,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
@@ -2119,8 +2120,7 @@
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"05-obs/tpl/tg-concept.md\"> tg-concept </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Transindividuación.md\"> Transindividuación </a>",
-        "<a class=\"internal-link\" href=\"00-in/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>"
+        "<a class=\"internal-link\" href=\"02-mat/coloquial/Transindividuación.md\"> Transindividuación </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"05-obs/tpl/Untitled.md\"> Untitled </a>",
@@ -2347,6 +2347,7 @@
         "<a class=\"internal-link\" href=\"04-out/personas/Klaus Schwab.md\"> Klaus Schwab </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",
         "<a class=\"internal-link\" href=\"06-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
@@ -2396,8 +2397,7 @@
         "<a class=\"internal-link\" href=\"04-out/obras/papilarnie III.md\"> papilarnie III </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
-        "<a class=\"internal-link\" href=\"00-in/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
-        "<a class=\"internal-link\" href=\"00-in/Vedic Sanskrit.md\"> Vedic Sanskrit </a>"
+        "<a class=\"internal-link\" href=\"00-in/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
