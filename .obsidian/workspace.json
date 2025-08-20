@@ -11,17 +11,15 @@
             "id": "9134aea7d30b6ff5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "cym-metamap.canvas",
-                "viewState": {
-                  "x": 2050,
-                  "y": 25.5,
-                  "zoom": -2.812312641853572
-                }
+                "file": "03-cla/c-cym03-energía.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "cym-metamap"
+              "icon": "lucide-file",
+              "title": "c-cym03-energía"
             }
           }
         ]
@@ -232,6 +230,16 @@
   },
   "active": "9134aea7d30b6ff5",
   "lastOpenFiles": [
+    "03-cla/c-cym02-paradigmas operativos.md",
+    "03-cla/c-cym03-energía.md",
+    "03-cla/Untitled.md",
+    "03-cla/arc/c-cym09-flex-grid.md",
+    "06-out/operativos/escritura icónica/escritura icónica M0C.md",
+    "06-out/operativos artísticos/extrañamiento.md",
+    "06-out/operativos artísticos/creatividad combinatoria.md",
+    "06-out/operativos artísticos/procedimientos artísticos MOC.md",
+    "06-out/operativos casos/consola atómica/caso Consola Atómica.md",
+    "cym-metamap.canvas",
     "02-mat/generatividad/Simulación (VR).md",
     "02-mat/generatividad/Recursion.md",
     "02-mat/generatividad/Patrones geométricos.md",
@@ -250,17 +258,8 @@
     "06-out/operativos/escritura icónica/icónica filosófica.md",
     "02-mat/herramientas/r-tipologías de instalación.md",
     "02-mat/herramientas/r-meta-aprendizaje.md",
-    "06-out/operativos artísticos/creatividad combinatoria.md",
-    "02-mat/vida/tolinas.md",
-    "02-mat/vida/ontogenia.md",
-    "02-mat/vida/instrumentos musicales de jupiter.md",
-    "06-out/operativos artísticos/extrañamiento.md",
     "06-out/operativos casos/el cielo",
     "06-out/operativos casos/consola atómica",
-    "06-out/operativos artísticos/procedimientos artísticos MOC.md",
-    "03-cla/c-cym01 cym introducción.md",
-    "06-out/procedimientos/extrañamiento.md",
-    "02-mat/herramientas/r-vinculación bidireccional.md",
     "06-out/operativos/recursión",
     "03-cla/arc",
     "01-proj/25/licmusAp1 aaee2",
@@ -276,7 +275,6 @@
     "05-obs/img/eventos MOC-1755180996420.jpeg",
     "05-obs/img/eventos MOC-1755180996464.jpeg",
     "05-obs/img/eventos MOC-1755180996425.jpeg",
-    "cym-metamap.canvas",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
     "Sin título 1.canvas",

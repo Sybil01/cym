@@ -33,6 +33,7 @@ type: class
 	•	Wittgenstein (temprano): forma axiomática y aforística.
 
 ---
+### obras principales
 
 1957
 Probability and Scientific Inference
