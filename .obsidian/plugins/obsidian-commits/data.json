@@ -1939,11 +1939,6 @@
       "tags": 2,
       "links": 0
     },
-    "04-tp/tp paradigmas operativos.md": {
-      "size": 3921,
-      "tags": 0,
-      "links": 0
-    },
     "04-tp/tp01-topoi.md": {
       "size": 1417,
       "tags": 1,
@@ -1972,11 +1967,6 @@
     "04-tp/tp06-guía de lectura SADIN.md": {
       "size": 589,
       "tags": 1,
-      "links": 0
-    },
-    "04-tp/tp25.md": {
-      "size": 603,
-      "tags": 0,
       "links": 0
     },
     "06-out/bibliografía/Boris Groys_Arte y flujo.md": {
@@ -2533,11 +2523,16 @@
       "size": 3921,
       "tags": 0,
       "links": 0
+    },
+    "04-tp/TP2025.md": {
+      "size": 603,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1412,
+      "Refactor": 1414,
       "Create": 654,
       "Link": 1116,
       "Expand": 105
@@ -2545,7 +2540,7 @@
   },
   "dailyCommits": {
     "/": {
-      "0": 252,
+      "0": 254,
       "1": 31,
       "2": 85,
       "3": 6,
@@ -2575,7 +2570,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1118,
+      "Wed": 1120,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2691,6 +2686,7 @@
         "<a class=\"internal-link\" href=\"06-out/procedimientos/meta-aprendizaje.md\"> meta-aprendizaje </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"04-tp/TP2025.md\"> TP2025 </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp05-guía de lectura GROYS.md\"> tp05-guía de lectura GROYS </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/tp01-paradigmas operativos.md\"> tp01-paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"01-proj/tp/arc/tp05-guía de lectura 1 GROYS.md\"> tp05-guía de lectura 1 GROYS </a>",
@@ -2740,8 +2736,7 @@
         "<a class=\"internal-link\" href=\"02-mat/código/html.md\"> html </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/css.md\"> css </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/cloud ides.md\"> cloud ides </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/rant.md\"> rant </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/1 Bit-Music.md\"> 1 Bit-Music </a>"
+        "<a class=\"internal-link\" href=\"02-mat/código/rant.md\"> rant </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-presentación.md\"> c-cym00-presentación </a>",
@@ -2808,6 +2803,7 @@
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"04-tp/tp paradigmas operativos.md\"> tp paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/escritura icónica M0C.md\"> escritura icónica M0C </a>",
@@ -2857,8 +2853,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"04-out/bibliografía/El Azar y la Necesidad2.md\"> El Azar y la Necesidad2 </a>",
-        "<a class=\"internal-link\" href=\"02-mat/obs/tpl/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"02-mat/obs/tpl/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"06-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",

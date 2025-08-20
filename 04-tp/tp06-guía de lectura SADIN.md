@@ -1,9 +1,10 @@
 ---
 tags: lectura
+type: tp
 project: cym23
 date: 2022-08-30
 ---
-
+- [x] TP4  - Aplicación JS fundamentals ⏫ 📅 2022-30-08
 Desplegar brevemente el complejo conceptual : Big Data - motor de búsqueda/ indexación / composición algorítmica avanzada.
 
 ¿Qué relación propone el autor entre discernimiento algorítmico, la divinización de la computación y la actividad cuerpo-cognición humana?

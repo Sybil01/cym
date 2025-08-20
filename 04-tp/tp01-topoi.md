@@ -1,6 +1,7 @@
 ---
 tags:
   - tp
+type: tp
 project: cym23
 date: 2023-08-29
 ---

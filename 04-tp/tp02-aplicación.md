@@ -5,7 +5,6 @@ project: cym23
 date: 2023-08-19
 ---
 
-# aplicación audiovisual
 
 - [x] TP2  - Aplicación AV ⏫ 📅 2023-09-19 ✅ 2023-09-21
 
