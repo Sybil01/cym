@@ -1,13 +1,15 @@
 {
   "accentColor": "#337175",
-  "cssTheme": "Things",
+  "cssTheme": "OLED.Black",
   "enabledCssSnippets": [
     "s1",
+    "obsidian",
     "s1 2",
     "s1 3",
-    "s1 4"
+    "s1 4",
+    "cards"
   ],
-  "theme": "moonstone",
+  "theme": "obsidian",
   "interfaceFontFamily": "DankMono Nerd Font,Consolas",
   "textFontFamily": "DankMono Nerd Font,Dank Mono,Consolas"
 }

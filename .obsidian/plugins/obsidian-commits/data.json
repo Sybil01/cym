@@ -39,11 +39,6 @@
       "tags": 0,
       "links": 8
     },
-    "03-cla/c-cym00-presentación.md": {
-      "size": 391,
-      "tags": 2,
-      "links": 0
-    },
     "02-mat/procesos/r-vinculación bidireccional.md": {
       "size": 1775,
       "tags": 0,
@@ -2015,17 +2010,22 @@
       "links": 0
     },
     "03-cla/c-cym01 cym introducción.md": {
-      "size": 5520,
+      "size": 22154,
       "tags": 2,
-      "links": 10
+      "links": 6
+    },
+    "03-cla/c-cym00-calendario.md": {
+      "size": 391,
+      "tags": 2,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1526,
+      "Refactor": 1531,
       "Create": 654,
-      "Link": 1122,
-      "Expand": 106
+      "Link": 1123,
+      "Expand": 112
     }
   },
   "dailyCommits": {
@@ -2041,9 +2041,9 @@
       "8": 335,
       "9": 208,
       "10": 73,
-      "11": 151,
-      "12": 633,
-      "13": 86,
+      "11": 157,
+      "12": 638,
+      "13": 87,
       "14": 201,
       "15": 152,
       "16": 145,
@@ -2060,7 +2060,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1239,
+      "Wed": 1251,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2070,6 +2070,12 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/física/Física.md\"> Física </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
@@ -2114,13 +2120,7 @@
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"05-obs/tpl/tg-concept.md\"> tg-concept </a>",
         "<a class=\"internal-link\" href=\"02-mat/coloquial/Transindividuación.md\"> Transindividuación </a>",
-        "<a class=\"internal-link\" href=\"00-in/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/Exploring the Decentralized Web.md\"> Exploring the Decentralized Web </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/Exploring the Decentralized Web.md\"> Exploring the Decentralized Web </a>",
-        "<a class=\"internal-link\" href=\"00-in/George Legrady.md\"> George Legrady </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Filosofía 21.md\"> Filosofía 21 </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/un objecto mas allá de la música.md\"> un objecto mas allá de la música </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Las cabezas van a rodar, horror forma y la música de Kelley Sheehan.md\"> Las cabezas van a rodar, horror forma y la música de Kelley Sheehan </a>"
+        "<a class=\"internal-link\" href=\"00-in/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"05-obs/tpl/Untitled.md\"> Untitled </a>",
@@ -2176,6 +2176,7 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Sistemas de Universos.md\"> Sistemas de Universos </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Aroma.md\"> Aroma </a>",
@@ -2225,8 +2226,7 @@
         "<a class=\"internal-link\" href=\"02-mat/código/python/python abjad.md\"> python abjad </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/python/py-foundations.md\"> py-foundations </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/01-tone.js.md\"> 01-tone.js </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/02-setup/02-setup.md\"> 02-setup </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-cheatsheet.md\"> js-cheatsheet </a>"
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/02-setup/02-setup.md\"> 02-setup </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
@@ -2347,6 +2347,7 @@
         "<a class=\"internal-link\" href=\"04-out/personas/Klaus Schwab.md\"> Klaus Schwab </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",
         "<a class=\"internal-link\" href=\"06-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
         "<a class=\"internal-link\" href=\"06-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
@@ -2396,8 +2397,7 @@
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"00-in/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
-        "<a class=\"internal-link\" href=\"00-in/Vedic Sanskrit.md\"> Vedic Sanskrit </a>",
-        "<a class=\"internal-link\" href=\"00-in/hi augmentation.md\"> hi augmentation </a>"
+        "<a class=\"internal-link\" href=\"00-in/Vedic Sanskrit.md\"> Vedic Sanskrit </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
@@ -2453,6 +2453,10 @@
         "<a class=\"internal-link\" href=\"01-proj/22/lopez/Gentics.md\"> Gentics </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"02-mat/procesos/r-como hacer un proyectual.md\"> r-como hacer un proyectual </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
@@ -2499,11 +2503,7 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/arte de datos.md\"> arte de datos </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Introducción a la psicoacústica.md\"> Introducción a la psicoacústica </a>",
         "<a class=\"internal-link\" href=\"04-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-snippets.md\"> a-snippets </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-yuda.md\"> a-yuda </a>",
-        "<a class=\"internal-link\" href=\"05-obs/img/23112422.excalidraw.md\"> 23112422.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/t-movie.md\"> t-movie </a>"
+        "<a class=\"internal-link\" href=\"05-obs/a-snippets.md\"> a-snippets </a>"
       ]
     }
   },

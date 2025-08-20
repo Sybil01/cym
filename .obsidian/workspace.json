@@ -23,6 +23,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "3df6130b7c25735a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a2dda2973348118",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5110321044922
+    "width": 322.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -224,17 +240,20 @@
       "digitalgarden:Digital Garden Publication Center": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "local-media-embedder:Toggle media server": false
     }
   },
   "active": "d44b9402589abbad",
   "lastOpenFiles": [
-    "03-cla/c-cym00-presentación.md",
-    "05-obs/tpl/cym-header.md",
+    "03-cla/c-cym00-calendario.md",
     "03-cla/c-cym01 cym introducción.md",
+    "05-obs/img/1_The Known Universe by AMNH 1.mp4",
+    "05-obs/img/1_The Known Universe by AMNH.mp4",
+    "04-tp/TP2025.md",
+    "05-obs/tpl/cym-header.md",
     "03-cla/c-cym02-arte generativo.md",
     "04-tp/tp01-paradigmas operativos.md",
-    "04-tp/TP2025.md",
     "06-out/topoi/Energía.md",
     "06-out/topoi/energía/energía del gesto musical.md",
     "06-out/topoi/física/Física.md",
@@ -255,7 +274,6 @@
     "06-out/topoi/Intervencion del espacio público.md",
     "06-out/topoi/Augmented Cognition.md",
     "06-out/topoi/Aroma.md",
-    "06-out/topoi/Azar.md",
     "06-out/topoi/física",
     "06-out/operativos/inestabilidad de kelvin-helmholz/ref/Budiana et al._2020_The meshless numerical simulation of Kelvin–Helmholtz instability during the wave growth of liquid–l.pdf",
     "06-out/operativos/inestabilidad de kelvin-helmholz/ref/Goethe_1825_El juego de las nubes.epub",
@@ -263,8 +281,6 @@
     "06-out/operativos/inestabilidad de kelvin-helmholz/ref/Olcina Cantos_2014_Enseñanzas climáticas en la obra de Kant.pdf",
     "06-out/operativos/inestabilidad de kelvin-helmholz/ref/Lacan_1963_Kant con Sade.pdf",
     "06-out/operativos/inestabilidad de kelvin-helmholz/vendor",
-    "06-out/operativos/inestabilidad de kelvin-helmholz/ref",
-    "06-out/operativos/inestabilidad de kelvin-helmholz/index4.html",
     "05-obs/img/eventos MOC-1755180996466.jpeg",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
     "05-obs/img/eventos MOC-1755180996415.jpeg",
