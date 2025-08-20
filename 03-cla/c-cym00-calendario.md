@@ -8,6 +8,11 @@ tags:
 # calendario cym 25
 
 
+- [ ] 2025-08-23
+	- [ ] Presentación personal 2'
+		- [ ] obras,fotos, relatos, algo que lxs identifique ejemplos o lo que quieran mostrar.
+		- [ ] utopia o temas que les interesa abordar sin limits.
+	- [ ] HACER DUOS 1 TRIO (LICMUS+AAEE)
 ## tp1 paradigmas operativos
 
 - [ ] 2025-09-10
@@ -24,7 +29,7 @@ tags:
 ### textos sugeridos general.
 Bennett, J. (with Gonnet, M.). (2022). Materia vibrante: Una ecología política de las cosas. Caja Negra.
 
-Prefacio 
+Prefacio  
 Capítulo 2.
 
 ### energía y arte 
@@ -55,6 +60,12 @@ Realizar un blog del Paradigma operativo para el proyecto final.
 - Demo de obra resonante, audio, pieza audiovisual, prototipos. 
 	- hydra, js, azar, sonificación, arte de datos. 
 
+
+## visita a Atucha I y II  
+
+- [ ] 2025-11-12 7 AM -> Caseros II 
+- llevar DNI! 
+- seguir indicaciones de vestuario (a definir)
 
 ## tp4 Proyecto final CYM
 

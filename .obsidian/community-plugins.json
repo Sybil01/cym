@@ -59,6 +59,7 @@
   "obsidian-markdown-formatting-assistant-plugin",
   "settings-search",
   "obsidian-style-settings",
+<<<<<<< HEAD
   "templater-obsidian",
   "obsidian-tasks-plugin",
   "quickadd",
@@ -71,4 +72,10 @@
   "obsidian-banners",
   "mermaid-tools",
   "mermaid-themes"
+=======
+  "music-code-blocks",
+  "dataview",
+  "local-media-embedder",
+  "lilypond"
+>>>>>>> origin/main
 ]

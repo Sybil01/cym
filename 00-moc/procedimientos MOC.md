@@ -1,4 +1,9 @@
 
+
+TOPOI
+procedimiento
+paradigma operativos.
+
 1. Data Art – uso creativo de bases de datos científicas como materia artística (visual, sonora, performativa)
 2. Visualización artística de información – generación de gráficos, mapas, animaciones a partir de datos cuantificables
 3. Sonificación de datos – conversión de datos en estructuras sonoras o musicales
@@ -29,6 +34,9 @@
 28. Codificación performativa (live coding) – programación en vivo como performance artística
 29. Técnica de redes complejas – visualización o interacción con grafos científicos, sociales o neuronales
 30. Métodos paramétricos – diseño asistido por parámetros controlables como en arquitectura digital o síntesis sonora
+
+
+--- 
 
 
 # paradigmas operativos
@@ -98,6 +106,8 @@ flowchart TD
     class E1,E2,E3 compl
     class F1,F2,F3 narr
 ```
+
+
 
 
 

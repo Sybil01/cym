@@ -2523,12 +2523,22 @@
       "size": 4725,
       "tags": 2,
       "links": 1
+    },
+    "06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md": {
+      "size": 844,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/energía/help markdown.md": {
+      "size": 129,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1426,
-      "Create": 664,
+      "Refactor": 1428,
+      "Create": 668,
       "Link": 1129,
       "Expand": 106
     }
@@ -2546,7 +2556,7 @@
       "8": 61,
       "9": 192,
       "10": 72,
-      "11": 150,
+      "11": 156,
       "12": 633,
       "13": 86,
       "14": 201,
@@ -2565,7 +2575,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1156,
+      "Wed": 1162,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2630,6 +2640,10 @@
       "Created": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/energía/help markdown.md\"> help markdown </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md\"> inestbalidad de Kelvin-Helmholz </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/física/Física.md\"> Física </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Sistemas de Universos.md\"> Sistemas de Universos </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Instalaciones.md\"> Instalaciones </a>",
@@ -2674,11 +2688,7 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Intervencion del espacio público.md\"> Intervencion del espacio público </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Internetmusic.md\"> Internetmusic </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Interfaces.md\"> Interfaces </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Humanos.md\"> Humanos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Historia de la tecnología.md\"> Historia de la tecnología </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Generatividad.md\"> Generatividad </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Fragile Territories.md\"> Fragile Territories </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Forma Musical.md\"> Forma Musical </a>"
+        "<a class=\"internal-link\" href=\"06-out/topoi/Humanos.md\"> Humanos </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"04-tp/TP2025.md\"> TP2025 </a>",
@@ -2800,6 +2810,8 @@
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"04-tp/TP2025.md\"> TP2025 </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/t-topoi.md\"> t-topoi </a>",
@@ -2847,9 +2859,7 @@
         "<a class=\"internal-link\" href=\"04-out/personas/Max Bense 1.md\"> Max Bense 1 </a>",
         "<a class=\"internal-link\" href=\"04-out/personas/Nicolas Schoffer 1.md\"> Nicolas Schoffer 1 </a>",
         "<a class=\"internal-link\" href=\"00-in/INGENIERIA INVERTIDA.md\"> INGENIERIA INVERTIDA </a>",
-        "<a class=\"internal-link\" href=\"02-mat/obs/tpl/mat-partitura.md\"> mat-partitura </a>",
-        "<a class=\"internal-link\" href=\"smart-chats/UNTITLED CHAT 2024-10-23 06 21 03.md\"> UNTITLED CHAT 2024-10-23 06 21 03 </a>",
-        "<a class=\"internal-link\" href=\"smart-chats/UNTITLED CHAT 2024-10-16 03 34 12.md\"> UNTITLED CHAT 2024-10-16 03 34 12 </a>"
+        "<a class=\"internal-link\" href=\"02-mat/obs/tpl/mat-partitura.md\"> mat-partitura </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
