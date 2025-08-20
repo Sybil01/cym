@@ -11,13 +11,15 @@
             "id": "d44b9402589abbad",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "06-out/topoi/topoi BASE.base",
-                "viewName": "TOPOI gal"
+                "file": "03-cla/c-cym01 cym introducción.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "topoi BASE"
+              "icon": "lucide-file",
+              "title": "c-cym01 cym introducción"
             }
           }
         ]
@@ -94,10 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-moc/obras MOC.md"
+                "file": "03-cla/c-cym01 cym introducción.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obras MOC"
+              "title": "Outline of c-cym01 cym introducción"
             }
           },
           {
@@ -130,27 +135,13 @@
             }
           },
           {
-            "id": "52f74587519419f6",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
-            }
-          },
-          {
             "id": "dadcd00ddeddea13",
             "type": "leaf",
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -159,15 +150,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03-cla/c-cym01 cym introducción.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from c-cym01 cym introducción"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "b33cb9828f682814",
@@ -210,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,35 +227,36 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "9170bba114887a44",
+  "active": "d44b9402589abbad",
   "lastOpenFiles": [
+    "03-cla/c-cym00-presentación.md",
+    "05-obs/tpl/cym-header.md",
+    "03-cla/c-cym01 cym introducción.md",
+    "03-cla/c-cym02-arte generativo.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "04-tp/TP2025.md",
+    "06-out/topoi/Energía.md",
+    "06-out/topoi/energía/energía del gesto musical.md",
+    "06-out/topoi/física/Física.md",
     "06-out/topoi/topoi BASE.base",
+    "06-out/topoi/Forma Musical.md",
     "06-out/topoi/Sistemas de Universos.md",
     "06-out/topoi/Spectromorphology.md",
     "06-out/topoi/Vida artificial.md",
     "06-out/topoi/Virtualidad y realidad.md",
     "06-out/topoi/Sistemas complejos.md",
     "00-moc/topoi MOC.md",
-    "06-out/topoi/Energía.md",
     "06-out/topoi/Filosofías del Siglo XXI.md",
     "06-out/topoi/Humanos.md",
     "05-obs/tpl/t-topoi 1.md",
     "06-out/topoi/README.md",
-    "06-out/topoi/Forma Musical.md",
     "06-out/topoi/Instalaciones.md",
     "06-out/topoi/Historia de la tecnología.md",
     "06-out/topoi/Intervencion del espacio público.md",
     "06-out/topoi/Augmented Cognition.md",
     "06-out/topoi/Aroma.md",
     "06-out/topoi/Azar.md",
-    "06-out/topoi/Arte de datos.md",
-    "06-out/topoi/Arte participativo.md",
-    "06-out/topoi/La reología del arte.md",
-    "06-out/topoi/Arte relacional.md",
-    "06-out/topoi/física/Física.md",
     "06-out/topoi/física",
-    "conflict-files-obsidian-git.md",
-    "06-out/personas/Juan Sorrentino.md",
     "06-out/operativos/inestabilidad de kelvin-helmholz/ref/Budiana et al._2020_The meshless numerical simulation of Kelvin–Helmholtz instability during the wave growth of liquid–l.pdf",
     "06-out/operativos/inestabilidad de kelvin-helmholz/ref/Goethe_1825_El juego de las nubes.epub",
     "06-out/operativos/inestabilidad de kelvin-helmholz/vendor/tthree-module-js.min.",

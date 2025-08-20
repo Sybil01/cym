@@ -34,11 +34,6 @@
       "tags": 0,
       "links": 1
     },
-    "03-cla/c-cym01-arte y ciencia - estado de la cuestión.md": {
-      "size": 5520,
-      "tags": 2,
-      "links": 10
-    },
     "03-cla/c-cym02-arte generativo.md": {
       "size": 8385,
       "tags": 0,
@@ -1946,7 +1941,7 @@
     },
     "06-out/topoi/Vida artificial.md": {
       "size": 619,
-      "tags": 0,
+      "tags": 2,
       "links": 5
     },
     "06-out/topoi/Spectromorphology.md": {
@@ -1956,7 +1951,7 @@
     },
     "06-out/topoi/Virtualidad y realidad.md": {
       "size": 12430,
-      "tags": 0,
+      "tags": 3,
       "links": 0
     },
     "06-out/topoi/modelos de universos.md": {
@@ -1980,7 +1975,7 @@
       "links": 0
     },
     "06-out/topoi/física/Física.md": {
-      "size": 227,
+      "size": 4725,
       "tags": 2,
       "links": 1
     },
@@ -2013,14 +2008,24 @@
       "size": 63,
       "tags": 0,
       "links": 0
+    },
+    "05-obs/tpl/cym-header.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym01 cym introducción.md": {
+      "size": 5520,
+      "tags": 2,
+      "links": 10
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1524,
-      "Create": 653,
-      "Link": 1119,
-      "Expand": 105
+      "Refactor": 1526,
+      "Create": 654,
+      "Link": 1122,
+      "Expand": 106
     }
   },
   "dailyCommits": {
@@ -2034,9 +2039,9 @@
       "6": 6,
       "7": 32,
       "8": 335,
-      "9": 203,
-      "10": 72,
-      "11": 150,
+      "9": 208,
+      "10": 73,
+      "11": 151,
       "12": 633,
       "13": 86,
       "14": 201,
@@ -2055,7 +2060,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1232,
+      "Wed": 1239,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2065,6 +2070,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/física/Física.md\"> Física </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
         "<a class=\"internal-link\" href=\"04-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
@@ -2114,10 +2120,10 @@
         "<a class=\"internal-link\" href=\"00-in/George Legrady.md\"> George Legrady </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Filosofía 21.md\"> Filosofía 21 </a>",
         "<a class=\"internal-link\" href=\"02-mat/coloquial/un objecto mas allá de la música.md\"> un objecto mas allá de la música </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Las cabezas van a rodar, horror forma y la música de Kelley Sheehan.md\"> Las cabezas van a rodar, horror forma y la música de Kelley Sheehan </a>",
-        "<a class=\"internal-link\" href=\"02-mat/coloquial/Hace falta salir del software exclusivo de la música europea.md\"> Hace falta salir del software exclusivo de la música europea </a>"
+        "<a class=\"internal-link\" href=\"02-mat/coloquial/Las cabezas van a rodar, horror forma y la música de Kelley Sheehan.md\"> Las cabezas van a rodar, horror forma y la música de Kelley Sheehan </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"05-obs/tpl/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/energía/energía del gesto musical.md\"> energía del gesto musical </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
@@ -2167,10 +2173,10 @@
         "<a class=\"internal-link\" href=\"06-out/personas/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Nicolas Schoffer.md\"> Nicolas Schoffer </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Max Bense.md\"> Max Bense </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Marianne Amacher.md\"> Marianne Amacher </a>"
+        "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Sistemas de Universos.md\"> Sistemas de Universos </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Aroma.md\"> Aroma </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Arte de datos.md\"> Arte de datos </a>",
@@ -2220,10 +2226,12 @@
         "<a class=\"internal-link\" href=\"02-mat/código/python/py-foundations.md\"> py-foundations </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/01-tone.js.md\"> 01-tone.js </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/02-setup/02-setup.md\"> 02-setup </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-cheatsheet.md\"> js-cheatsheet </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-02 contextos de ejecución.md\"> js-02 contextos de ejecución </a>"
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-cheatsheet.md\"> js-cheatsheet </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Vida artificial.md\"> Vida artificial </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/Virtualidad y realidad.md\"> Virtualidad y realidad </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Filosofías del Siglo XXI.md\"> Filosofías del Siglo XXI </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/instalaciones.md\"> instalaciones </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-presentación.md\"> c-cym00-presentación </a>",
@@ -2271,10 +2279,7 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>",
         "<a class=\"internal-link\" href=\"06-out/procedimientos/combinational creativity.md\"> combinational creativity </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Arte participativo.md\"> Arte participativo </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Espacio.md\"> Espacio </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Filosofía histórica.md\"> Filosofía histórica </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Física.md\"> Física </a>"
+        "<a class=\"internal-link\" href=\"06-out/topoi/Arte participativo.md\"> Arte participativo </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2395,6 +2400,7 @@
         "<a class=\"internal-link\" href=\"00-in/hi augmentation.md\"> hi augmentation </a>"
       ],
       "Removed Tags from": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",
         "<a class=\"internal-link\" href=\"00-in/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
         "<a class=\"internal-link\" href=\"00-in/catalexis.md\"> catalexis </a>",
         "<a class=\"internal-link\" href=\"01-proj/16/albarracin/Sonomaze.md\"> Sonomaze </a>",
@@ -2444,8 +2450,7 @@
         "<a class=\"internal-link\" href=\"01-proj/22/dure/Sequencer.md\"> Sequencer </a>",
         "<a class=\"internal-link\" href=\"01-proj/22/hydra.md\"> hydra </a>",
         "<a class=\"internal-link\" href=\"01-proj/22/lopez/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"01-proj/22/lopez/Gentics.md\"> Gentics </a>",
-        "<a class=\"internal-link\" href=\"01-proj/22/lopez/Máquina de ritmos.md\"> Máquina de ritmos </a>"
+        "<a class=\"internal-link\" href=\"01-proj/22/lopez/Gentics.md\"> Gentics </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"02-mat/procesos/r-como hacer un proyectual.md\"> r-como hacer un proyectual </a>",

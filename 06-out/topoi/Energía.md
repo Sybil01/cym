@@ -5,7 +5,7 @@ tags:
   - física
 unit: 0
 publish: 2025
-author:zztt
+author: zztt
 banner: https://i.imgur.com/J3FZ1Ba.png
 ---
 ![](https://i.imgur.com/J3FZ1Ba.png)
@@ -37,3 +37,4 @@ banner: https://i.imgur.com/J3FZ1Ba.png
 - Performances que pongan en juego el gasto energético del cuerpo como parte del discurso.
 - Proyectos site-specific que trabajen en diálogo con centrales, subestaciones, espacios industriales o entornos de generación comunitaria.
 - Documentación y archivo de los procesos energéticos en la producción de la obra: huella energética como parte de la partitura o memoria del proyecto.
+

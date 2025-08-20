@@ -8,10 +8,10 @@ theme: zztt
 
 
 <!-- slide bg="#010100"--> 
-![[untref-logo-w.svg|100]]
-UNTREF | CYM25
-# arte y ciencia
-## estado de la cuestión
+![[cym-header]]
+
+# ciencia y música
+## introducción 
 ---
 # espectactivas
 
