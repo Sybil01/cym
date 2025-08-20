@@ -6,9 +6,9 @@ código: 900
 sigla: CYM
 titular: Luciano Azzigotti
 ayudante: Carolina Di Paola
-año: 2023
+año: 2025
 aula: Taller de tecnología musical
-horario: Martes de 18:00 a 22:00
+horario: Miércoles de 08:30 a 12:30
 ---
 
 
@@ -58,7 +58,7 @@ https:/zoom.musiki.org.ar
 > [GitHub Classroom](https://classroom.github.com/classrooms/46442123-musiki-cym)  
 > [Carpeta pública](https://drive.google.com/drive/folders/0B_cN-bz0aPUjfm1mcEt1bHBvamdUUHBUMFlIX0thWmcxWGM3alRtalRMX1o5Sjh3eGNwMlk?resourcekey=0-YqY7ylNayzjGAKA7BFkWsA&usp=sharing)  
 > [Repositorio general](https://drive.google.com/drive/folders/1EsKeSeZXuxzBEJaqz91ZjhPcRBii8m9v?usp=sharing)  
-> [Bibliografía general](https://drive.google.com/drive/folders/1QUgYIGUpHFos9RuKcltz6019UJpGZvn8?usp=drive_link)
+> [Bibliografía general](https://drive.google.com/drive/folders/1CbXB63DE7SAy48oHFEgkzkTiRY3J_HBS)
 
 
 
