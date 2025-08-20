@@ -1394,16 +1394,6 @@
       "tags": 0,
       "links": 0
     },
-    "02-mat/procesos/traducciones/caso \"El Cielo\".md": {
-      "size": 7488,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/procesos/traducciones/caso \"Consola Atómica\".md": {
-      "size": 82462,
-      "tags": 0,
-      "links": 0
-    },
     "02-mat/procesos/procedimientos artísticos/r-procedimientos artísticos.md": {
       "size": 9905,
       "tags": 0,
@@ -2014,23 +2004,33 @@
       "tags": 2,
       "links": 1
     },
-    "06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md": {
+    "06-out/topoi/energía/help markdown.md": {
       "size": 0,
       "tags": 0,
       "links": 0
     },
-    "06-out/topoi/energía/help markdown.md": {
-      "size": 0,
+    "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md": {
+      "size": 3180,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/procesos/traducciones/caso Consola Atómica.md": {
+      "size": 82462,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/procesos/traducciones/caso El Cielo.md": {
+      "size": 7488,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1534,
+      "Refactor": 1537,
       "Create": 657,
       "Link": 1125,
-      "Expand": 115
+      "Expand": 116
     }
   },
   "dailyCommits": {
@@ -2052,10 +2052,10 @@
       "14": 201,
       "15": 157,
       "16": 149,
-      "17": 54,
+      "17": 56,
       "18": 212,
       "19": 22,
-      "20": 85,
+      "20": 87,
       "21": 77,
       "22": 621,
       "23": 77
@@ -2065,7 +2065,7 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1262,
+      "Wed": 1266,
       "Thu": 854,
       "Fri": 688,
       "Sat": 0,
@@ -2075,6 +2075,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md\"> inestbalidad de Kelvin-Helmholz </a>",
         "<a class=\"internal-link\" href=\"04-tp/tp01-paradigmas operativos.md\"> tp01-paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
@@ -2123,7 +2124,6 @@
         "<a class=\"internal-link\" href=\"00-moc/instrumentos MOC.md\"> instrumentos MOC </a>",
         "<a class=\"internal-link\" href=\"04-out/obras/stranger visions.md\"> stranger visions </a>",
         "<a class=\"internal-link\" href=\"00-in/Locus Solus.md\"> Locus Solus </a>",
-        "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>"
       ],
@@ -2181,6 +2181,9 @@
         "<a class=\"internal-link\" href=\"06-out/personas/United Visual Artists (UVA).md\"> United Visual Artists (UVA) </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/caso El Cielo.md\"> caso El Cielo </a>",
+        "<a class=\"internal-link\" href=\"02-mat/procesos/traducciones/caso Consola Atómica.md\"> caso Consola Atómica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md\"> inestabilidad de Kelvin-Helmholz </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md\"> inestbalidad de Kelvin-Helmholz </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
@@ -2228,10 +2231,7 @@
         "<a class=\"internal-link\" href=\"04-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
         "<a class=\"internal-link\" href=\"04-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/python/pycolors.md\"> pycolors </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/python/python music.md\"> python music </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/python/python abjad.md\"> python abjad </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/python/py-foundations.md\"> py-foundations </a>",
-        "<a class=\"internal-link\" href=\"02-mat/código/01-tone.js.md\"> 01-tone.js </a>"
+        "<a class=\"internal-link\" href=\"02-mat/código/python/python music.md\"> python music </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"06-out/topoi/Energía.md\"> Energía </a>",

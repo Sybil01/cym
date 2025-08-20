@@ -1,7 +1,7 @@
 ---
 type: topoi
 tags: 
-- virtualidad, 
+- virtualidad
 - vr
 - realidad
 author: Juan Ignacio Gutierrez

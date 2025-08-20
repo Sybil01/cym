@@ -13,32 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/topoi/energía/energía del gesto musical.md",
+                "file": "02-mat/procesos/traducciones/caso El Cielo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "energía del gesto musical"
-            }
-          },
-          {
-            "id": "6f72223445f64d2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-tp/tp01-paradigmas operativos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "tp01-paradigmas operativos"
+              "title": "caso El Cielo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.51103591918945
+    "width": 481.51103591918945
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -112,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-tp/tp01-paradigmas operativos.md",
+                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tp01-paradigmas operativos"
+              "title": "Outline of inestabilidad de Kelvin-Helmholz"
             }
           },
           {
@@ -166,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-tp/tp01-paradigmas operativos.md",
+                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tp01-paradigmas operativos"
+              "title": "Outgoing links from inestabilidad de Kelvin-Helmholz"
             }
           }
         ],
@@ -244,15 +228,25 @@
       "local-media-embedder:Toggle media server": false
     }
   },
-  "active": "6f72223445f64d2c",
+  "active": "d44b9402589abbad",
   "lastOpenFiles": [
+    "02-mat/procesos/traducciones/caso Consola Atómica.md",
+    "03-cla/c-cym13-Proto-historia del arte numérico argentino.md",
+    "03-cla/c-cym14-un instrumento online colectivo.md",
+    "06-out/topoi/energía/energía del gesto musical.md",
+    "03-cla/c-cym15-interactividad.md",
+    "03-cla/c-cym16-teología estética de los nuevos medios.md",
+    "03-cla/c-cym02-arte generativo.md",
+    "06-out/topoi/Virtualidad y realidad.md",
+    "00-moc/topoi MOC.md",
+    "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
+    "04-tp/tp01-paradigmas operativos.md",
     "06-out/operativos/escritura icónica/escritura icónica M0C.md",
     "06-out/operativos/escritura icónica/icónica filosófica.md",
     "06-out/procedimientos/extrañamiento.md",
     "06-out/procedimientos/meta-aprendizaje.md",
     "06-out/procedimientos/tipologías de instalación.md",
     "06-out/procedimientos/combinational creativity.md",
-    "04-tp/tp01-paradigmas operativos.md",
     "03-cla/c-cym00-calendario.md",
     "03-cla/c-cym01 cym introducción.md",
     "02-mat/vida/contracción por gradientes térmicos.md",
@@ -262,16 +256,6 @@
     "02-mat/vida/ontogenia simulada en Jupiter.md",
     "02-mat/vida/tolinas.md",
     "02-mat/generatividad/Autómatas.md",
-    "02-mat/generatividad/Simulación (VR).md",
-    "02-mat/generatividad/Recursion.md",
-    "02-mat/generatividad/Patrones geométricos.md",
-    "02-mat/generatividad/Palíndromos.md",
-    "02-mat/generatividad/Index.md",
-    "02-mat/generatividad/Hibridación (AR).md",
-    "02-mat/generatividad/Fractales.md",
-    "02-mat/generatividad/Emergencia.md",
-    "02-mat/código/jasvascript/js01-fundamentals.md",
-    "02-mat/código/jasvascript/js-cheatsheet.md",
     "01-proj/25/licmusAp1 aaee2",
     "01-proj/25",
     "06-out/topoi/topoi BASE.base",
