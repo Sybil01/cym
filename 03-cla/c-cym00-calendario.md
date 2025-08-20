@@ -56,6 +56,12 @@ Realizar un blog del Paradigma operativo para el proyecto final.
 	- hydra, js, azar, sonificación, arte de datos. 
 
 
+## visita a Atucha I y II  
+
+- [ ] 2025-11-12 7 AM -> Caseros II 
+- llevar DNI! 
+- seguir indicaciones de vestuario (a definir)
+
 ## tp4 Proyecto final CYM
 
 - [ ] 2025-11-05 Pre-entrega

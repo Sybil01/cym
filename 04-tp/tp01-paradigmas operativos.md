@@ -4,7 +4,7 @@ type: tp
 project: cym2025
 date:
 ---
-- [ ] TP1  - paradigmas operativos ⏫ 📅 2025-08-00
+- [ ] TP1  - paradigmas operativos ⏫ 📅 2025-09-10
 ## Objetivo
 Introducir  la noción de paradigma operativo como estructura lógica-metodológica que articula intuición y razón en la creación artística con base científica y algorítmica.
 
