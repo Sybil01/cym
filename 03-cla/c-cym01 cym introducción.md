@@ -1,8 +1,8 @@
 ---
-title: arte y ciencia estado de la cuestión
+title: ciencia y música introducción
 tags:
-  - cym
   - class
+type: class
 ---
 
 <grid drag="60 55" drop="5 10" bg="black" align="left">

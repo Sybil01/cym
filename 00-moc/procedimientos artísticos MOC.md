@@ -85,51 +85,46 @@
 
 # del arte electrónico e interactivo 
 
-Excelente enfoque. A continuación, te presento una lista ampliada de operaciones artísticas y estéticas que han sido fundamentales en la historia del arte electrónico, tecnológico e interactivo desde el siglo XIX hasta el XXI. Cada una está situada dentro de marcos filosófico-estéticos contemporáneos, especialmente del realismo especulativo, ontología orientada a objetos, aceleracionismo y otras corrientes del siglo XXI. Incluyo referentes clave para cada operación:
-
-- 
-
-1. Transducción Ontológica
+## Transducción Ontológica
 - Transformar energía, datos o materia en experiencia sensible, sin reducirlo al sujeto.
 - Inspirado en: Gilbert Simondon, Meillassoux (no correlacionismo), Barad (intra-acción).
 - Ejemplo: David Rokeby, Very Nervous System — movimiento traducido a sonido.
 - Operación: transformar la ontología en interacción sin mediación psicológica.
 
-- 
 
-2. Opacidad Material
+
+## Opacidad Material
 - Dejar hablar a la materia o al sistema sin explicarlo, asumir su autonomía operativa.
 - Inspirado en: Graham Harman, Édouard Glissant (opacidad), Morton (objetos hiperbólicos).
 - Ejemplo: UVA, instalaciones donde el código y la luz no tienen narrativa pero generan mundo.
 - Operación: producir fenómenos que no se agotan en la interpretación.
 
-- 
 
-3. Agencia Distribuida
+## Agencia Distribuida
 - Delegar decisiones estéticas a sensores, algoritmos, objetos o sistemas híbridos.
 - Inspirado en: Bruno Latour, Barad, Bogost (Alien Phenomenology).
 - Ejemplo: Jim Campbell, instalaciones LED donde la imagen emerge del comportamiento sistémico.
 - Operación: descentrar al artista como sujeto de control.
 
-- 
 
-4. Noise Ontológico / Ruidismo Epistémico
+
+## Noise Ontológico / Ruidismo Epistémico
 - Usar el ruido no como falla sino como lo real que escapa a la forma.
 - Inspirado en: Nick Land, Fisher, Pauline Oliveros.
 - Ejemplo: Marianne Amacher, City Links — feedback arquitectónico.
 - Operación: dejar que el sistema se autointerfiera y muestre su inestabilidad.
 
-- 
 
-5. Visualización No-Humana
+
+## Visualización No-Humana
 - Mostrar cómo vería un sistema, máquina o ente no-humano.
 - Inspirado en: Object-Oriented Ontology, Morton, Vilem Flusser.
 - Ejemplo: Hito Steyerl, How Not to be Seen — crítica desde la perspectiva del píxel.
 - Operación: simular una mirada inasimilable por el sujeto.
 
-- 
 
-6. Feedback como Forma
+
+## Feedback como Forma
 - Usar el bucle retroactivo como material compositivo, más allá del control.
 - Inspirado en: Cibernética de segundo orden, Raaijmakers, Esferas de Sloterdijk.
 - Ejemplo: Dick Raaijmakers, Ideophone I — retroalimentación entre voz y máquina.
@@ -137,7 +132,7 @@ Excelente enfoque. A continuación, te presento una lista ampliada de operacione
 
 
 
-7. Ontogénesis Simulada
+## Ontogénesis Simulada
 - Sistemas que no representan sino que devienen otros, mutan, crecen, colapsan.
 - Inspirado en: Simondon, Deleuze, acceleracionismo suave.
 - Ejemplo: George Legrady, Pockets Full of Memories — base de datos que se transforma.
@@ -145,22 +140,21 @@ Excelente enfoque. A continuación, te presento una lista ampliada de operacione
 
 
 
-8. Aceleración Estética / Exceso Cognitivo
+## Aceleración Estética / Exceso Cognitivo
 - Saturación de información, simultaneidad, estímulo sensorial que rebasa la percepción.
 - Inspirado en: Mark Fisher, Land, CCRU, Luhmann.
 - Ejemplo: Ars Electronica, experiencias inmersivas en múltiples canales sensoriales.
 - Operación: empujar al sistema perceptual más allá de lo decodificable.
 
-- 
 
-9. Materialismo Inestable / Temporalidad Fluida
+## Materialismo Inestable / Temporalidad Fluida
 - Jugar con los estados transitorios de los materiales (luz, vapor, datos en tránsito).
 - Inspirado en: Karen Barad, Tim Ingold, Morton.
 - Ejemplo: instalaciones con niebla, laser, LED, agua controlada por código.
 - Operación: usar materiales que son procesos.
 
 
-1. Post-Antropocentrismo Escénico
+## Post-Antropocentrismo Escénico
 - Escenas donde lo humano es solo un nodo, no centro.
 - Inspirado en: Timothy Morton, Donna Haraway, Sloterdijk.
 - Ejemplo: Douglas Barrett, After Sound — performances que descentran lo humano.
@@ -168,7 +162,7 @@ Excelente enfoque. A continuación, te presento una lista ampliada de operacione
 
 
 
-11. Auto-Archivos Generativos
+## Auto-Archivos Generativos
 - Obras que se reescriben, reordenan o expanden según condiciones internas.
 - Inspirado en: Deleuze, informática crítica, auto-poiesis.
 - Ejemplo: Legrady, sistemas que se nutren de bases de datos para generar nuevos outputs.
@@ -176,7 +170,7 @@ Excelente enfoque. A continuación, te presento una lista ampliada de operacione
 
 
 
-12. Ambigüedad Ontológica / Hiperobjetos
+## Ambigüedad Ontológica / Hiperobjetos
 - Artefactos cuya escala o comportamiento los vuelve inabarcables (como el cambio climático).
 - Inspirado en: Morton, Harman, Object-Oriented Ontology. Meillassoux -> hyperfossil
 - Ejemplo: instalaciones interactivas cuya lógica nunca se termina de entender.

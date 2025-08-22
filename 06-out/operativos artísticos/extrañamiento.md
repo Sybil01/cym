@@ -67,3 +67,18 @@ Jacques Rancière – lo sensible como política, redistribución de lo visible/
 3.	Formas inestables: obras que cambian con cada escucha (algoritmos, IA, entornos reactivos). (generatividad, adaptabilidad)
 4.	Interrupción de la continuidad histórica: uso de tecnologías anacrónicas (gramófonos, cintas). (disnovación, )
 5.	Uso de lo no-músico: habla tartamuda, respiraciones, objetos cotidianos amplificados.
+
+
+# obras de referencia
+
+
+## Nicolás Bacal
+https://nicolasbacal.com/la-medida-de-mi-tiempo
+
+Remitencia y suspension de las herramientas que remiten al 
+mundo del trabajo, pero lo suspenden entre ritmo rallentado  y silenciosa inactividad.
+
+
+
+
+

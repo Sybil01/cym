@@ -90,7 +90,7 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 
 ## ARQ
 
-ETS entrada transformación 
+ETS entrada transformación salida 
 
 OAT  objeto acción transformación
 
