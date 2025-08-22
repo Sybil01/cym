@@ -699,11 +699,6 @@
       "tags": 0,
       "links": 0
     },
-    "00-in/combinational creativity.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "00-in/hd-hydra.md": {
       "size": 0,
       "tags": 0,
@@ -1277,36 +1272,6 @@
     "04-tp/tp01-paradigmas operativos.md": {
       "size": 5126,
       "tags": 0,
-      "links": 0
-    },
-    "04-tp/tp01-topoi.md": {
-      "size": 1426,
-      "tags": 1,
-      "links": 0
-    },
-    "04-tp/tp02-aplicación.md": {
-      "size": 747,
-      "tags": 2,
-      "links": 0
-    },
-    "04-tp/tp03-guía de lectura MONTFORT.md": {
-      "size": 124,
-      "tags": 1,
-      "links": 0
-    },
-    "04-tp/tp04-aplicación js fundamentals.md": {
-      "size": 965,
-      "tags": 2,
-      "links": 0
-    },
-    "04-tp/tp05-guía de lectura 1 GROYS.md": {
-      "size": 676,
-      "tags": 1,
-      "links": 0
-    },
-    "04-tp/tp06-guía de lectura SADIN.md": {
-      "size": 658,
-      "tags": 1,
       "links": 0
     },
     "04-tp/arc/tp01-topoi.md": {
@@ -2031,15 +1996,20 @@
     },
     "03-cla/c-cym03-energía.md": {
       "size": 1395,
+      "tags": 1,
+      "links": 0
+    },
+    "06-out/espacios/EAT Experiments in arts and technologies.md": {
+      "size": 0,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1598,
-      "Create": 664,
-      "Link": 1131,
+      "Refactor": 1606,
+      "Create": 665,
+      "Link": 1132,
       "Expand": 116
     }
   },
@@ -2059,7 +2029,7 @@
       "11": 157,
       "12": 638,
       "13": 89,
-      "14": 201,
+      "14": 203,
       "15": 157,
       "16": 149,
       "17": 56,
@@ -2067,7 +2037,7 @@
       "19": 22,
       "20": 138,
       "21": 95,
-      "22": 626,
+      "22": 634,
       "23": 77
     }
   },
@@ -2075,8 +2045,8 @@
     "/": {
       "Mon": 107,
       "Tue": 256,
-      "Wed": 1340,
-      "Thu": 854,
+      "Wed": 1348,
+      "Thu": 856,
       "Fri": 688,
       "Sat": 0,
       "Sun": 264
@@ -2138,6 +2108,7 @@
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"04-out/espacios/EAT Experiments in arts and technologies.md\"> EAT Experiments in arts and technologies </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos 1.md\"> c-cym02-paradigmas operativos 1 </a>",
         "<a class=\"internal-link\" href=\"03-cla/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"06-out/imc/Untitled.md\"> Untitled </a>",
@@ -2187,10 +2158,10 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Espacio.md\"> Espacio </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Cuarta Revolución Industrial.md\"> Cuarta Revolución Industrial </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/Arte participativo.md\"> Arte participativo </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Arte relacional.md\"> Arte relacional </a>"
+        "<a class=\"internal-link\" href=\"06-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"06-out/espacios/EAT Experiments in arts and technologies.md\"> EAT Experiments in arts and technologies </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym03-energía.md\"> c-cym03-energía </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym04-energía.md\"> c-cym04-energía </a>",
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
@@ -2240,10 +2211,10 @@
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-cohesión audiovisual.md\"> c-cym07-cohesión audiovisual </a>",
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06b-relaciones sonolumínicas.md\"> c-cym06b-relaciones sonolumínicas </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06-principios generativos.md\"> c-cym06-principios generativos </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym05.06-integración.md\"> c-cym05.06-integración </a>"
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06-principios generativos.md\"> c-cym06-principios generativos </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym03-energía.md\"> c-cym03-energía </a>",
         "<a class=\"internal-link\" href=\"02-mat/herramientas/r-meta-aprendizaje.md\"> r-meta-aprendizaje </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
@@ -2293,8 +2264,7 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Juan Sorrentino.md\"> Juan Sorrentino </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Marianne Amacher.md\"> Marianne Amacher </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Yotam Mann.md\"> Yotam Mann </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>"
+        "<a class=\"internal-link\" href=\"06-out/personas/Yotam Mann.md\"> Yotam Mann </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2309,6 +2279,13 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Forma Musical.md\"> Forma Musical </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"00-in/combinational creativity.md\"> combinational creativity </a>",
+        "<a class=\"internal-link\" href=\"04-tp/tp01-topoi.md\"> tp01-topoi </a>",
+        "<a class=\"internal-link\" href=\"04-tp/tp02-aplicación.md\"> tp02-aplicación </a>",
+        "<a class=\"internal-link\" href=\"04-tp/tp06-guía de lectura SADIN.md\"> tp06-guía de lectura SADIN </a>",
+        "<a class=\"internal-link\" href=\"04-tp/tp05-guía de lectura 1 GROYS.md\"> tp05-guía de lectura 1 GROYS </a>",
+        "<a class=\"internal-link\" href=\"04-tp/tp04-aplicación js fundamentals.md\"> tp04-aplicación js fundamentals </a>",
+        "<a class=\"internal-link\" href=\"04-tp/tp03-guía de lectura MONTFORT.md\"> tp03-guía de lectura MONTFORT </a>",
         "<a class=\"internal-link\" href=\"03-cla/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"06-out/procedimientos/extrañamiento.md\"> extrañamiento </a>",
@@ -2352,14 +2329,7 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/Espacio.md\"> Espacio </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Cuarta Revolución Industrial.md\"> Cuarta Revolución Industrial </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Arte relacional.md\"> Arte relacional </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Arte participativo.md\"> Arte participativo </a>",
-        "<a class=\"internal-link\" href=\"04-out/procedimientos/tipologías de instalación.md\"> tipologías de instalación </a>",
-        "<a class=\"internal-link\" href=\"04-out/procedimientos/meta-aprendizaje.md\"> meta-aprendizaje </a>",
-        "<a class=\"internal-link\" href=\"04-out/procedimientos/extrañamiento.md\"> extrañamiento </a>",
-        "<a class=\"internal-link\" href=\"04-out/procedimientos/combinational creativity.md\"> combinational creativity </a>",
-        "<a class=\"internal-link\" href=\"04-out/personas/Yuval Noah Harari.md\"> Yuval Noah Harari </a>"
+        "<a class=\"internal-link\" href=\"04-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"06-out/imc/imc MOC.md\"> imc MOC </a>",

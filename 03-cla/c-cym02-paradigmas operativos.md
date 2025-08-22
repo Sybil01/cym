@@ -22,6 +22,12 @@ type: class
 </grid>
 
 ---
+
+que es modelar algo?
+
+topoi -> po -> métodos -> entornos
+obras
+
 # George Spencer-Brown
 
 3. Influencias principales

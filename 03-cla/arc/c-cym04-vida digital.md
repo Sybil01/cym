@@ -88,7 +88,7 @@ arnold schoenberg
 ### alfabeto
 arnold schoenberg
 ![[Pasted image 20230829224242.png]]
-- [[memex]]
+- [[r-memex]]
 - [[hi augmentation]]
 - [[hypertext]]
 - [[Augmented Cognition]]
