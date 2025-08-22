@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 654.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -252,8 +252,9 @@
   },
   "active": "b861730ea60e4a66",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "03-cla/c-cym05.06-integración.md",
     "04-tp/tp01-paradigmas operativos.md",
+    "conflict-files-obsidian-git.md",
     "06-out/topoi/energía/help markdown.md",
     "06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md",
     "04-tp/tp05-guía de lectura 1 GROYS.md",
@@ -281,7 +282,6 @@
     "04-tp/arc/tp06-guía de lectura SADIN.md",
     "04-tp/arc/tp05-guía de lectura GROYS.md",
     "04-tp/arc/tp04-aplicación js fundamentals.md",
-    "04-tp/arc/tp03-guía de lectura MONTFORT.md",
     "04-tp/arc",
     "06-out/operativos/escritura icónica",
     "05-obs/img/eventos MOC-1755180996466.jpeg",
