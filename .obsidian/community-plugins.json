@@ -55,7 +55,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-enhancing-export",
   "obsidian-excalidraw-plugin",
-  "execute-code",
   "obsidian-footnotes",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-git",
@@ -105,5 +104,6 @@
   "obsidian-rant",
   "obsidian-reading-time",
   "obsidian-read-it-later",
-  "obsidian-review-notes-plugin"
+  "obsidian-review-notes-plugin",
+  "execute-code"
 ]

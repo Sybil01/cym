@@ -1,6 +1,8 @@
 ---
 type: topoi
-tags: ciencia, método científico, topoi
+tags: 
+- ciencia
+- métodocientífico
 unit: 10
 publish: 2020
 author: zztt
@@ -20,7 +22,7 @@ Ciencia es la que produce un tipo especial de conocimiento o saber que se supone
 
 #### concepto
 
-\--
+---
 
 1. definición corta de algo que sirve como base a una definición universal. --
 2. construcción teórica para solucionar un problema o pregunta que se le hace a la naturaleza. Dicha construcción se contextualiza en una teoría y  método. \[Zambrano] --
@@ -33,7 +35,7 @@ Ciencia es la que produce un tipo especial de conocimiento o saber que se supone
 
 #### hipótesis
 
-\--
+---
 
 1. proposición que establece relaciones entre los hechos. \[Tamayo] establece variables para relacionarlas. método de comprobación. elabora el objetivo, diseña la investigación factible, selecciona el método y los instrumentos. Puede no ser verdadera. procesos inductivos \[de lo particular a lo general] procesos deductivos \[de lo general a lo particular] analógico /abductivos \[ inferencia, mecanismo de creación a-lógica] --
 2. ordena, estructura y sistematiza el conocimiento a través de proposiciones. Puente entre el conocimiento verificado y el conocimiento nuevo.
@@ -42,7 +44,7 @@ Ciencia es la que produce un tipo especial de conocimiento o saber que se supone
 
 **Como generar una hipótesis**
 
-\--
+---
 
 1.  generar un problema de investigación a través de una pregunta o proposición educada. --
 
@@ -65,13 +67,9 @@ ej: La negación de la tonalidad ¿Hizo que el público se aleje de la MC?
 ### teoría / tesis
 
 explicación de un fenómeno observado.
-
 No completamente demostrado.
-
 Basada en una hipótesis probadas por el método científico.
-
 Sometida a un sistema especial de reglas con una conclusión clara y precisa.
-
 En las ciencias exactas posee una infraestructura matemática derivada de principios básicos capaces de producir predicciones en una categoria dada de sistemas físicos.
 
 ### ley
@@ -90,9 +88,9 @@ carácter reflejo \[imagen reflejo de lo que es constante del fenómeno]
 
 Norma invariable de cosas, expresada formalmente \[matemáticamente o lógicamente]
 
-### enunciado&#x20;
+### enunciado
 
-Afirmación seguna la observación de un fenómeno
+Afirmación según la observación de un fenómeno
 
 primer nivel: empírica \[observación directa]
 
@@ -104,7 +102,7 @@ el vocabulario es lógico y empírico. Afirmación general que establece regular
 
 tercer nivel: teórico puro \[solo términos lógicos y teóricos], teóricos mixtos
 
-### axioma &#x20;
+### axioma
 
 \[del griego αξιωμα, lo que parece justo]
 
@@ -140,7 +138,7 @@ metáfisica \[concebir al mundo por medio del pensamiento] lleva a dos actitudes
 
 #### misticismo
 
-/ es sincrético
+es sincrético
 
 #### ciencia
 
@@ -156,7 +154,7 @@ Se le otorga una función legislativa al bien (ya que define a la verdad) que lu
 
 La ética debe ser (según Russell) la consecuencia de la comprobación de la verdad , pero no dictando que debe ser la verdad.
 
-#### Misticismo lógico \[Parménides]
+#### Misticismo lógico[Parménides]
 
 La realidad es increada, indestructible, indivisible, inmutable.
 
@@ -296,6 +294,7 @@ por el contrario el progreso está ligado al dualismo ético de lo peor y lo mej
 
 En sí, bien, mal y tiempo son categorías tardías y especializadas de la jerarquía intelectual.
 
-\*\*
 
-https://codepen.io/LucianoAzzigotti/pen/abYRgBv?editors=1010
+
+<iframe src="https://codepen.io/LucianoAzzigotti/pen/abYRgBv?editors=1010" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+

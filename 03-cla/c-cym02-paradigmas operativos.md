@@ -58,3 +58,40 @@ Tertium Organum (inédito)
 Filosofía total
 Pretendía superar Aristóteles y Kant en un nuevo formalismo.
 
+
+
+```run-python
+import matplotlib.pyplot as plt
+
+# Crear diagrama con Spencer-Brown en el centro y los 4 modos de Harman alrededor
+fig, ax = plt.subplots(figsize=(7,7))
+
+# Centro (Spencer-Brown)
+ax.text(0, 0, "Distinguir\n(Spencer-Brown)", ha="center", va="center",
+        fontsize=12, fontweight="bold", bbox=dict(facecolor="white", edgecolor="black"))
+
+# Cuatro operaciones fundamentales (Harman)
+positions = {
+    "Retraer\n(Objeto real)": (0, 1),
+    "Aparecer\n(Objeto sensual)": (1, 0),
+    "Persistir\n(Calidad real)": (0, -1),
+    "Variar\n(Calidad sensual)": (-1, 0)
+}
+
+for label, (x, y) in positions.items():
+    ax.text(x, y, label, ha="center", va="center",
+            fontsize=11, bbox=dict(facecolor="lightgray", edgecolor="black"))
+    ax.arrow(0, 0, x*0.8, y*0.8, head_width=0.05, head_length=0.1, fc="black", ec="black")
+
+# Ajustes visuales
+ax.set_xlim(-1.5, 1.5)
+ax.set_ylim(-1.5, 1.5)
+ax.axis("off")
+ax.set_title("Operaciones fundamentales de la modelización artística\n(Spencer-Brown + Harman)", fontsize=13)
+
+plt.show()
+```
+
+
+
+

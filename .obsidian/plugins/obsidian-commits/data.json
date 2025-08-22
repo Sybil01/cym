@@ -474,11 +474,6 @@
       "tags": 3,
       "links": 0
     },
-    "00-in/Sun Thinking.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "01-proj/23/Petroccelli/Guitarrax.md": {
       "size": 378,
       "tags": 0,
@@ -694,11 +689,6 @@
       "tags": 1,
       "links": 0
     },
-    "00-in/Jean-Robert Sedano et Solveig de Ory.md": {
-      "size": 264,
-      "tags": 0,
-      "links": 0
-    },
     "00-in/hd-hydra.md": {
       "size": 0,
       "tags": 0,
@@ -906,11 +896,6 @@
     },
     "05-obs/tpl/tg-concept.md": {
       "size": 3346,
-      "tags": 0,
-      "links": 0
-    },
-    "00-in/Projekte generativer Ästhetik.md": {
-      "size": 0,
       "tags": 0,
       "links": 0
     },
@@ -1554,11 +1539,6 @@
       "tags": 3,
       "links": 1
     },
-    "06-out/personas/Jean-Robert Sedano et Solveig de Ory.md": {
-      "size": 262,
-      "tags": 0,
-      "links": 0
-    },
     "06-out/personas/Jim Campbell.md": {
       "size": 279,
       "tags": 4,
@@ -1709,11 +1689,6 @@
       "tags": 0,
       "links": 4
     },
-    "06-out/topoi/Método científico.md": {
-      "size": 11991,
-      "tags": 0,
-      "links": 0
-    },
     "06-out/topoi/Música y Política.md": {
       "size": 10044,
       "tags": 1,
@@ -1819,114 +1794,9 @@
       "tags": 0,
       "links": 0
     },
-    "03-cla/arc/c-cym16-teología estética de los nuevos medios.md": {
-      "size": 3451,
-      "tags": 0,
-      "links": 0
-    },
-    "03-cla/arc/c-cym02-arte generativo.md": {
-      "size": 8385,
-      "tags": 0,
-      "links": 8
-    },
-    "03-cla/arc/c-cym03-mapas.md": {
-      "size": 3706,
-      "tags": 2,
-      "links": 4
-    },
-    "03-cla/arc/c-cym04-vida digital.md": {
-      "size": 8531,
-      "tags": 6,
-      "links": 17
-    },
-    "03-cla/arc/c-cym05.06-integración.md": {
-      "size": 7030,
-      "tags": 0,
-      "links": 7
-    },
-    "03-cla/arc/c-cym06-principios generativos.md": {
-      "size": 602,
-      "tags": 3,
-      "links": 3
-    },
-    "03-cla/arc/c-cym06b-relaciones sonolumínicas.md": {
-      "size": 5963,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym06c-tonejs.md": {
-      "size": 1315,
-      "tags": 0,
-      "links": 4
-    },
-    "03-cla/arc/c-cym07-cohesión audiovisual.md": {
-      "size": 10545,
-      "tags": 1,
-      "links": 8
-    },
-    "03-cla/arc/c-cym07-creative computing.md": {
-      "size": 5500,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym08-github pages+hydra.md": {
-      "size": 4900,
-      "tags": 6,
-      "links": 2
-    },
-    "03-cla/arc/c-cym08-hydra+p5.js.md": {
-      "size": 2839,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym09-hydra+tone.js.md": {
-      "size": 827,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym09-networking.md": {
-      "size": 873,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym09-visual.md": {
-      "size": 1442,
-      "tags": 0,
-      "links": 6
-    },
-    "03-cla/arc/c-cym10y11-Aframe.md": {
-      "size": 1721,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym12-Aframe2.md": {
-      "size": 1202,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym13-Proto-historia del arte numérico argentino.md": {
-      "size": 1575,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym14-un instrumento online colectivo.md": {
-      "size": 11934,
-      "tags": 0,
-      "links": 1
-    },
-    "03-cla/arc/c-cym15-interactividad.md": {
-      "size": 1,
-      "tags": 3,
-      "links": 0
-    },
     "03-cla/c-cym02-paradigmas operativos.md": {
       "size": 0,
       "tags": 1,
-      "links": 0
-    },
-    "06-out/operativos/recursión/recursión MOC.md": {
-      "size": 0,
-      "tags": 0,
       "links": 0
     },
     "02-mat/herramientas/r-como hacer un proyectual.md": {
@@ -1969,30 +1839,15 @@
       "tags": 0,
       "links": 0
     },
-    "06-out/operativos artísticos/procedimientos artísticos MOC.md": {
-      "size": 9905,
-      "tags": 0,
-      "links": 0
-    },
     "06-out/operativos artísticos/creatividad combinatoria.md": {
       "size": 668,
       "tags": 1,
       "links": 0
     },
-    "06-out/imc/imc MOC.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
     "02-mat/generatividad/generatividad MOC.md": {
       "size": 0,
       "tags": 0,
       "links": 0
-    },
-    "03-cla/arc/c-cym09-flex-grid.md": {
-      "size": 631,
-      "tags": 6,
-      "links": 2
     },
     "03-cla/c-cym03-energía.md": {
       "size": 1395,
@@ -2003,13 +1858,293 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "00-moc/generatividad MOC.md": {
+      "size": 309,
+      "tags": 0,
+      "links": 0
+    },
+    "00-moc/imc MOC.md": {
+      "size": 55,
+      "tags": 0,
+      "links": 0
+    },
+    "00-moc/procedimientos artísticos MOC.md": {
+      "size": 9683,
+      "tags": 0,
+      "links": 0
+    },
+    "00-moc/recursión MOC.md": {
+      "size": 1515,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym02-arte generativo.md": {
+      "size": 8471,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym03-mapas.md": {
+      "size": 3655,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym04-vida digital.md": {
+      "size": 8554,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym05.06-integración.md": {
+      "size": 6539,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym06-principios generativos.md": {
+      "size": 647,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym06b-relaciones sonolumínicas.md": {
+      "size": 6146,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym06c-tonejs.md": {
+      "size": 1338,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym07-cohesión audiovisual.md": {
+      "size": 10559,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym07-creative computing.md": {
+      "size": 5540,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym08-github pages+hydra.md": {
+      "size": 4913,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym08-hydra+p5.js.md": {
+      "size": 3037,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym09-flex-grid.md": {
+      "size": 631,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym09-hydra+tone.js.md": {
+      "size": 841,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym09-networking.md": {
+      "size": 1388,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym09-visual.md": {
+      "size": 1455,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym10y11-Aframe.md": {
+      "size": 1728,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym12-Aframe2.md": {
+      "size": 1280,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym13-Proto-historia del arte numérico argentino.md": {
+      "size": 1691,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym14-un instrumento online colectivo.md": {
+      "size": 11750,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym15-interactividad.md": {
+      "size": 416,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym16-teología estética de los nuevos medios.md": {
+      "size": 3451,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/teoría crítica de la tecnología/teoría crítica MOC.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/arqueología de medios/arqueología de medios.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "06-out/personas/Jean-Robert Sedano et Solveig de Ory.md": {
+      "size": 264,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Projekte generativer Ästhetik.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/personas/Allison Parrish.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/obras/Sun Thinking.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/método científico/Método científico.md": {
+      "size": 11991,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/herramientas/r-memex.md": {
+      "size": 689,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos artísticos/catalexis.md": {
+      "size": 1159,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/personas/Hugh Le Caine.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Azar.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Autómatas.md": {
+      "size": 1,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Emergencia.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Fractales.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Hibridación (AR).md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Palíndromos.md": {
+      "size": 25,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Patrones geométricos.md": {
+      "size": 191,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/La conciencia social del arte generativo..md": {
+      "size": 26824,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Index.md": {
+      "size": 306,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Recursion.md": {
+      "size": 83,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/Simulación (VR).md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/generatividad/generatividad MOC.md": {
+      "size": 309,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/sistemas paramétricos/Agregación limitada por difusión.md": {
+      "size": 3248,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md": {
+      "size": 10008,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/sistemas paramétricos/patrones de Turing.md": {
+      "size": 2291,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/ingeniería inversa/Ingenieria inversa.md": {
+      "size": 43,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/operativos/sistemas paramétricos/help python.md": {
+      "size": 20772,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/arquitetura aural/Introducción a la Psicoacústica.md": {
+      "size": 7876,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/arquitetura aural/arquitectura Aural MOC.md": {
+      "size": 1,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/hiperrealidad/El metaverso es un territorio disputado.md": {
+      "size": 23224,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/topoi/hiperrealidad/hiperrealidad.md": {
+      "size": 12420,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1606,
-      "Create": 665,
-      "Link": 1132,
+      "Refactor": 1642,
+      "Create": 719,
+      "Link": 1133,
       "Expand": 116
     }
   },
@@ -2031,14 +2166,14 @@
       "13": 89,
       "14": 203,
       "15": 157,
-      "16": 149,
+      "16": 200,
       "17": 56,
-      "18": 212,
+      "18": 222,
       "19": 22,
-      "20": 138,
+      "20": 142,
       "21": 95,
       "22": 634,
-      "23": 77
+      "23": 103
     }
   },
   "weeklyCommits": {
@@ -2047,7 +2182,7 @@
       "Tue": 256,
       "Wed": 1348,
       "Thu": 856,
-      "Fri": 688,
+      "Fri": 779,
       "Sat": 0,
       "Sun": 264
     }
@@ -2108,59 +2243,68 @@
         "<a class=\"internal-link\" href=\"04-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>"
       ],
       "Created": [
-        "<a class=\"internal-link\" href=\"04-out/espacios/EAT Experiments in arts and technologies.md\"> EAT Experiments in arts and technologies </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos 1.md\"> c-cym02-paradigmas operativos 1 </a>",
-        "<a class=\"internal-link\" href=\"03-cla/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"06-out/imc/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/recursión/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"03-cla/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/hiperrealidad/hiperrealidad.md\"> hiperrealidad </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/hiperrealidad/El metaverso es un territorio disputado.md\"> El metaverso es un territorio disputado </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/arquitetura aural/arquitectura Aural MOC.md\"> arquitectura Aural MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/arquitetura aural/Introducción a la Psicoacústica.md\"> Introducción a la Psicoacústica </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/help python.md\"> help python </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/ingeniería inversa/Ingenieria inversa.md\"> Ingenieria inversa </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md\"> sistemas paramétricos de Gray-Scott </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/Agregación limitada por difusión.md\"> Agregación limitada por difusión </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/generatividad MOC.md\"> generatividad MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Simulación (VR).md\"> Simulación (VR) </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Recursion.md\"> Recursion </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Index.md\"> Index </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Patrones geométricos.md\"> Patrones geométricos </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Palíndromos.md\"> Palíndromos </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Hibridación (AR).md\"> Hibridación (AR) </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Fractales.md\"> Fractales </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Emergencia.md\"> Emergencia </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Autómatas.md\"> Autómatas </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Azar.md\"> Azar </a>",
+        "<a class=\"internal-link\" href=\"06-out/personas/Hugh Le Caine.md\"> Hugh Le Caine </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos artísticos/catalexis.md\"> catalexis </a>",
+        "<a class=\"internal-link\" href=\"02-mat/herramientas/r-memex.md\"> r-memex </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"00-in/Allison Parrish.md\"> Allison Parrish </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/teoría crítica de la tecnología/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/arqueología de medios/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym16-teología estética de los nuevos medios.md\"> c-cym16-teología estética de los nuevos medios </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym15-interactividad.md\"> c-cym15-interactividad </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym14-un instrumento online colectivo.md\"> c-cym14-un instrumento online colectivo </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym13-Proto-historia del arte numérico argentino.md\"> c-cym13-Proto-historia del arte numérico argentino </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym12-Aframe2.md\"> c-cym12-Aframe2 </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym10y11-Aframe.md\"> c-cym10y11-Aframe </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-visual.md\"> c-cym09-visual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-networking.md\"> c-cym09-networking </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-hydra+tone.js.md\"> c-cym09-hydra+tone.js </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/energía/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"05-obs/tpl/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/energía/energía del gesto musical.md\"> energía del gesto musical </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/escritura icónica/icónica filosófica.md\"> icónica filosófica </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/escritura icónica/escritura icónica M0C.md\"> escritura icónica M0C </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/t-topoi.md\"> t-topoi </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/sistemas-de-universos-topoi-sistemas-20de-universos.md.md\"> sistemas-de-universos-topoi-sistemas-20de-universos.md </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/modelos de universos.md\"> modelos de universos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/energía MOC.md\"> energía MOC </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/arte de datos.md\"> arte de datos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/aroma.md\"> aroma </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Virtualidad y realidad.md\"> Virtualidad y realidad </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Spectromorphology.md\"> Spectromorphology </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Vida artificial.md\"> Vida artificial </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Racionalizacion_(videojuegos).md\"> Racionalizacion_(videojuegos) </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Música y Política.md\"> Música y Política </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Método científico.md\"> Método científico </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Música Visual.md\"> Música Visual </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Livecoding.md\"> Livecoding </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/La reología del arte.md\"> La reología del arte </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/La instalación como forma del arte contemporáneo.md\"> La instalación como forma del arte contemporáneo </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Introducción a la psicoacústica.md\"> Introducción a la psicoacústica </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Intervencion del espacio público.md\"> Intervencion del espacio público </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Internetmusic.md\"> Internetmusic </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Humanos.md\"> Humanos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Interfaces.md\"> Interfaces </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Historia de la tecnología.md\"> Historia de la tecnología </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Generatividad.md\"> Generatividad </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Física.md\"> Física </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Fragile Territories.md\"> Fragile Territories </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Forma Musical.md\"> Forma Musical </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Filosofías del Siglo XXI.md\"> Filosofías del Siglo XXI </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Filosofía histórica.md\"> Filosofía histórica </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Espacio.md\"> Espacio </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Cuarta Revolución Industrial.md\"> Cuarta Revolución Industrial </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Arte participativo.md\"> Arte participativo </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>"
+        "<a class=\"internal-link\" href=\"03-cla/c-cym08-hydra+p5.js.md\"> c-cym08-hydra+p5.js </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym08-github pages+hydra.md\"> c-cym08-github pages+hydra </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym07-creative computing.md\"> c-cym07-creative computing </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym07-cohesión audiovisual.md\"> c-cym07-cohesión audiovisual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym06b-relaciones sonolumínicas.md\"> c-cym06b-relaciones sonolumínicas </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym06-principios generativos.md\"> c-cym06-principios generativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym05.06-integración.md\"> c-cym05.06-integración </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym04-vida digital.md\"> c-cym04-vida digital </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym03-mapas.md\"> c-cym03-mapas </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-arte generativo.md\"> c-cym02-arte generativo </a>",
+        "<a class=\"internal-link\" href=\"00-moc/recursión MOC.md\"> recursión MOC </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"06-out/operativos/método científico/Método científico.md\"> Método científico </a>",
+        "<a class=\"internal-link\" href=\"06-out/obras/Sun Thinking.md\"> Sun Thinking </a>",
+        "<a class=\"internal-link\" href=\"06-out/personas/Allison Parrish.md\"> Allison Parrish </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Projekte generativer Ästhetik.md\"> Projekte generativer Ästhetik </a>",
+        "<a class=\"internal-link\" href=\"06-out/personas/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
+        "<a class=\"internal-link\" href=\"06-out/personas/Jean-Robert Sedano et Solveig de Ory 1.md\"> Jean-Robert Sedano et Solveig de Ory 1 </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/arqueología de medios/arqueología de medios.md\"> arqueología de medios </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/arqueología de medios/arqueología de medios MOC.md\"> arqueología de medios MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/topoi/arqueología de medios MOC.md\"> arqueología de medios MOC </a>",
         "<a class=\"internal-link\" href=\"06-out/espacios/EAT Experiments in arts and technologies.md\"> EAT Experiments in arts and technologies </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym03-energía.md\"> c-cym03-energía </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym04-energía.md\"> c-cym04-energía </a>",
@@ -2202,18 +2346,10 @@
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym12-Aframe2.md\"> c-cym12-Aframe2 </a>",
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym10y11-Aframe.md\"> c-cym10y11-Aframe </a>",
         "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-visual.md\"> c-cym09-visual </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-networking.md\"> c-cym09-networking </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-hydra+tone.js.md\"> c-cym09-hydra+tone.js </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym08-hydra+p5.js.md\"> c-cym08-hydra+p5.js </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym08-github pages+hydra.md\"> c-cym08-github pages+hydra </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-creative computing.md\"> c-cym07-creative computing </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-cohesión audiovisual.md\"> c-cym07-cohesión audiovisual </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06b-relaciones sonolumínicas.md\"> c-cym06b-relaciones sonolumínicas </a>",
-        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06-principios generativos.md\"> c-cym06-principios generativos </a>"
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-networking.md\"> c-cym09-networking </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"06-out/topoi/arqueología de medios/arqueología de medios.md\"> arqueología de medios </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym03-energía.md\"> c-cym03-energía </a>",
         "<a class=\"internal-link\" href=\"02-mat/herramientas/r-meta-aprendizaje.md\"> r-meta-aprendizaje </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
@@ -2263,8 +2399,7 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Jim Campbell.md\"> Jim Campbell </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Juan Sorrentino.md\"> Juan Sorrentino </a>",
         "<a class=\"internal-link\" href=\"06-out/personas/Marianne Amacher.md\"> Marianne Amacher </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Yotam Mann.md\"> Yotam Mann </a>"
+        "<a class=\"internal-link\" href=\"06-out/personas/Mario Bunge.md\"> Mario Bunge </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2279,6 +2414,33 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/Forma Musical.md\"> Forma Musical </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"06-out/personas/Jean-Robert Sedano et Solveig de Ory.md\"> Jean-Robert Sedano et Solveig de Ory </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos/recursión/recursión MOC.md\"> recursión MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/operativos artísticos/procedimientos artísticos MOC.md\"> procedimientos artísticos MOC </a>",
+        "<a class=\"internal-link\" href=\"06-out/imc/imc MOC.md\"> imc MOC </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym16-teología estética de los nuevos medios.md\"> c-cym16-teología estética de los nuevos medios </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym15-interactividad.md\"> c-cym15-interactividad </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym14-un instrumento online colectivo.md\"> c-cym14-un instrumento online colectivo </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym13-Proto-historia del arte numérico argentino.md\"> c-cym13-Proto-historia del arte numérico argentino </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym12-Aframe2.md\"> c-cym12-Aframe2 </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym10y11-Aframe.md\"> c-cym10y11-Aframe </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-visual.md\"> c-cym09-visual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-networking.md\"> c-cym09-networking </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-hydra+tone.js.md\"> c-cym09-hydra+tone.js </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym09-flex-grid.md\"> c-cym09-flex-grid </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym08-hydra+p5.js.md\"> c-cym08-hydra+p5.js </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym08-github pages+hydra.md\"> c-cym08-github pages+hydra </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-creative computing.md\"> c-cym07-creative computing </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym07-cohesión audiovisual.md\"> c-cym07-cohesión audiovisual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06b-relaciones sonolumínicas.md\"> c-cym06b-relaciones sonolumínicas </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym06-principios generativos.md\"> c-cym06-principios generativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym05.06-integración.md\"> c-cym05.06-integración </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym04-vida digital.md\"> c-cym04-vida digital </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym03-mapas.md\"> c-cym03-mapas </a>",
+        "<a class=\"internal-link\" href=\"03-cla/arc/c-cym02-arte generativo.md\"> c-cym02-arte generativo </a>",
         "<a class=\"internal-link\" href=\"00-in/combinational creativity.md\"> combinational creativity </a>",
         "<a class=\"internal-link\" href=\"04-tp/tp01-topoi.md\"> tp01-topoi </a>",
         "<a class=\"internal-link\" href=\"04-tp/tp02-aplicación.md\"> tp02-aplicación </a>",
@@ -2302,34 +2464,7 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/energía MOC.md\"> energía MOC </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/arte de datos.md\"> arte de datos </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/aroma.md\"> aroma </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Virtualidad y realidad.md\"> Virtualidad y realidad </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Vida artificial.md\"> Vida artificial </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Spectromorphology.md\"> Spectromorphology </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Racionalizacion_(videojuegos).md\"> Racionalizacion_(videojuegos) </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Música y Política.md\"> Música y Política </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Música Visual.md\"> Música Visual </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Método científico.md\"> Método científico </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Livecoding.md\"> Livecoding </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/La reología del arte.md\"> La reología del arte </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/La instalación como forma del arte contemporáneo.md\"> La instalación como forma del arte contemporáneo </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Introducción a la psicoacústica.md\"> Introducción a la psicoacústica </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Intervencion del espacio público.md\"> Intervencion del espacio público </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Internetmusic.md\"> Internetmusic </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Interfaces.md\"> Interfaces </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Humanos.md\"> Humanos </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Historia de la tecnología.md\"> Historia de la tecnología </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Generatividad.md\"> Generatividad </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Física.md\"> Física </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Fragile Territories.md\"> Fragile Territories </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Forma Musical.md\"> Forma Musical </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Filosofías del Siglo XXI.md\"> Filosofías del Siglo XXI </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Filosofía histórica.md\"> Filosofía histórica </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Espacio.md\"> Espacio </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Cuarta Revolución Industrial.md\"> Cuarta Revolución Industrial </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/Augmented Cognition.md\"> Augmented Cognition </a>"
+        "<a class=\"internal-link\" href=\"04-out/topoi/Virtualidad y realidad.md\"> Virtualidad y realidad </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"06-out/imc/imc MOC.md\"> imc MOC </a>",

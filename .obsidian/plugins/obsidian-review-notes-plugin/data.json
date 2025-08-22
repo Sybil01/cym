@@ -1341,7 +1341,7 @@
       "filename": "espacios MOC"
     },
     {
-      "path": "00-in/Projekte generativer Ästhetik.md",
+      "path": "06-out/operativos/generatividad/Projekte generativer Ästhetik.md",
       "filename": "Projekte generativer Ästhetik"
     },
     {
@@ -1665,7 +1665,7 @@
       "filename": "c-cym00-presentación"
     },
     {
-      "path": "00-in/Sun Thinking.md",
+      "path": "06-out/obras/Sun Thinking.md",
       "filename": "Sun Thinking"
     },
     {
@@ -3689,7 +3689,7 @@
       "filename": "INGENIERIA INVERTIDA"
     },
     {
-      "path": "00-in/Jean-Robert Sedano et Solveig de Ory.md",
+      "path": "06-out/personas/Jean-Robert Sedano et Solveig de Ory.md",
       "filename": "Jean-Robert Sedano et Solveig de Ory"
     },
     {
@@ -3819,6 +3819,74 @@
     {
       "path": "04-out/obras/Locus Solus.md",
       "filename": "Locus Solus"
+    },
+    {
+      "path": "00-moc/generatividad MOC.md",
+      "filename": "generatividad MOC"
+    },
+    {
+      "path": "00-moc/imc MOC.md",
+      "filename": "imc MOC"
+    },
+    {
+      "path": "00-moc/procedimientos artísticos MOC.md",
+      "filename": "procedimientos artísticos MOC"
+    },
+    {
+      "path": "00-moc/recursión MOC.md",
+      "filename": "recursión MOC"
+    },
+    {
+      "path": "03-cla/c-cym16-teología estética de los nuevos medios.md",
+      "filename": "c-cym16-teología estética de los nuevos medios"
+    },
+    {
+      "path": "06-out/topoi/arqueología de medios/arqueología de medios.md",
+      "filename": "arqueología de medios"
+    },
+    {
+      "path": "06-out/topoi/teoría crítica de la tecnología/teoría crítica MOC.md",
+      "filename": "teoría crítica MOC"
+    },
+    {
+      "path": "06-out/topoi/Arte relacional.md",
+      "filename": "Arte relacional"
+    },
+    {
+      "path": "06-out/topoi/topoi BASE.base",
+      "filename": "topoi BASE"
+    },
+    {
+      "path": "06-out/operativos/método científico/Método científico.md",
+      "filename": "Método científico"
+    },
+    {
+      "path": "06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md",
+      "filename": "sistemas paramétricos de Gray-Scott"
+    },
+    {
+      "path": "06-out/topoi/modelos de universos.md",
+      "filename": "modelos de universos"
+    },
+    {
+      "path": "03-cla/c-cym02-paradigmas operativos.md",
+      "filename": "c-cym02-paradigmas operativos"
+    },
+    {
+      "path": "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
+      "filename": "turing_gray_scott"
+    },
+    {
+      "path": "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755894080911.jpeg",
+      "filename": "sistemas paramétricos de Gray-Scott-1755894080911"
+    },
+    {
+      "path": "06-out/operativos/sistemas paramétricos/help python.md",
+      "filename": "help python"
+    },
+    {
+      "path": "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
+      "filename": "sistemas paramétricos de Gray-Scott-1755897145204"
     }
   ]
 }

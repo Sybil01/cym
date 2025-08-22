@@ -357,15 +357,6 @@
       "key": "W"
     }
   ],
-  "daily-notes:goto-next": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
   "graph:open-local": [
     {
       "modifiers": [
@@ -688,6 +679,15 @@
         "Shift"
       ],
       "key": "L"
+    }
+  ],
+  "swiss-army-knife:remove-empty-lines": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
     }
   ]
 }
