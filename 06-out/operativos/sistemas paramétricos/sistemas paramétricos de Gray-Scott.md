@@ -92,45 +92,59 @@ print('@html(<img src="attachments/turing_gray_scott.gif" style="max-width:100%;
 
 
 ```dataviewjs
-// Gray–Scott Class 1 (σ=2; F=0.034, k=0.055) + WebAudio (ruido → bandpass resonante)
-// - Play/Stop cierra el AudioContext y desconecta todo (no queda colgado).
-// - Canvas transparente; colores adaptados al tema (light/dark) leyendo CSS variables.
+// Gray–Scott Class 1 (σ=2; F=0.034, k=0.055) + WebAudio ruido→bandpass
+// - Acople fuerte imagen↔sonido:
+//   • freq ↔ centroide X del patrón (ponderado por V)
+//   • Q (resonancia) ↔ anisotropía de crecimiento (|∂x V| vs |∂y V|)
+//   • nivel de ruido ↔ energía de gradiente total
+// - Colormap tipo “Turbo” (calorímetro) + barra de color
+// - Canvas transparente; UI respeta tema de Obsidian; Play/Stop hace teardown completo
 
 const el = this.container;
 el.innerHTML = `
-  <div id="wrap" style="font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:600px">
+  <div id="wrap" style="font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:640px">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
       <button id="btn"  style="padding:6px 10px;border:1px solid var(--background-modifier-border);border-radius:8px;background:var(--background-secondary);cursor:pointer">Play</button>
       <button id="rst"  style="padding:6px 10px;border:1px solid var(--background-modifier-border);border-radius:8px;background:var(--background-secondary);cursor:pointer">Reset</button>
       <span id="status" style="margin-left:auto;color:var(--text-muted)">Class 1 (F=0.034, k=0.055, σ=2)</span>
     </div>
-    <canvas id="cv" width="192" height="192" style="width:100%;image-rendering:pixelated;border:1px solid var(--background-modifier-border);border-radius:8px;background:transparent"></canvas>
+    <div style="display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start;">
+      <canvas id="cv" width="224" height="192" style="width:100%;image-rendering:pixelated;border:1px solid var(--background-modifier-border);border-radius:8px;background:transparent"></canvas>
+      <canvas id="bar" width="16" height="192" style="image-rendering:pixelated;border:1px solid var(--background-modifier-border);border-radius:4px;background:transparent"></canvas>
+    </div>
     <div style="display:flex;gap:10px;margin-top:8px;color:var(--text-muted);font-variant-numeric:tabular-nums">
       <span id="fps">fps: --</span>
       <span id="mean">mean V: --</span>
       <span id="xy">x,y: --</span>
+      <span id="aniso">aniso: --</span>
     </div>
   </div>
 `;
 
 const wrap    = el.querySelector("#wrap");
 const cv      = el.querySelector("#cv");
+const bar     = el.querySelector("#bar");
 const ctx     = cv.getContext("2d", { willReadFrequently:true, alpha:true });
+const bctx    = bar.getContext("2d", { willReadFrequently:true, alpha:true });
 const statusEl= el.querySelector("#status");
 const fpsEl   = el.querySelector("#fps");
 const meanEl  = el.querySelector("#mean");
 const xyEl    = el.querySelector("#xy");
+const anisoEl = el.querySelector("#aniso");
 
 // Colores según tema
 function themeColors(){
   const cs = getComputedStyle(wrap);
   const text = cs.getPropertyValue("--text-normal") || cs.color || "#cccccc";
-  const border = cs.getPropertyValue("--background-modifier-border") || "#444";
-  return { text: text.trim() || "#ccc", border: border.trim() || "#444" };
+  return { text: (text.trim()||"#ccc") };
 }
 let colors = themeColors();
 
-const W = cv.width, H = cv.height;
+// Dimensiones: imagen = 208x192, reservamos 16px a la derecha para colorbar dentro del mismo canvas ancho 224
+const H = cv.height;
+const W = cv.width - 16; // área de simulación
+const OFFSET_X = 0;
+
 // σ = Du/Dv = 2
 const Du = 0.20, Dv = 0.10;
 let F  = 0.0340, k = 0.0550;
@@ -142,9 +156,9 @@ let playing = false, rafId = null;
 function clamp01(x){ return x<0?0:(x>1?1:x); }
 function seed(){
   U.fill(1.0); V.fill(0.0);
-  const patches=3, r=12;
+  const patches=3, r=10;
   for (let p=0;p<patches;p++){
-    const cx=(W*0.3)+p*(W*0.2), cy=(H*0.35)+((p%2)? H*0.15 : 0);
+    const cx=(W*0.25)+p*(W*0.25), cy=(H*0.35)+((p%2)? H*0.15 : 0);
     for (let y=cy-r;y<cy+r;y++){
       for (let x=cx-r;x<cx+r;x++){
         const xi=((x|0)+W)%W, yi=((y|0)+H)%H, i=yi*W+xi;
@@ -178,58 +192,101 @@ function step(){
   U=U2; V=V2;
 }
 
-function strokeStyle(){
-  // usa color de texto como foreground
-  ctx.strokeStyle = colors.text;
-  ctx.fillStyle   = colors.text;
+// ---- Colormap Turbo (Google) ----
+function turboRGB(t){
+  // t in [0,1]
+  t = Math.max(0, Math.min(1, t));
+  // polynomial fit (https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
+  const r = 34.61 + t*(1172.33 + t*(-10793.56 + t*(33300.12 + t*(-38394.49 + t*14825.05))));
+  const g = 23.31 + t*(557.33  + t*(1225.33  + t*(-3574.96  + t*(4520.47   + t*(-1974.19)))));
+  const b = 27.2  + t*(321.01  + t*( -1525.5  + t*(4358.12  + t*(-5206.48  + t*2057.27))));
+  return [Math.round(Math.max(0,Math.min(255,r))),
+          Math.round(Math.max(0,Math.min(255,g))),
+          Math.round(Math.max(0,Math.min(255,b)))];
 }
 
-const img = ctx.createImageData(W,H), pix = img.data;
-function draw(){
-  // limpiar a transparente
-  ctx.clearRect(0,0,W,H);
-  // convertir V a monocromo con alpha 1 (sobre fondo transparente)
+// ---- Dibujo patrón + barra de color ----
+const img = ctx.createImageData(W,H);
+const pix = img.data;
+function drawPattern(){
   for (let i=0;i<V.length;i++){
-    const c=(V[i]*255)|0, j=i<<2;
-    pix[j]=pix[j+1]=pix[j+2]=c; pix[j+3]=255;
+    const [r,g,b] = turboRGB(V[i]); // map V→color
+    const j = (i<<2);
+    pix[j]=r; pix[j+1]=g; pix[j+2]=b; pix[j+3]=255;
   }
-  ctx.putImageData(img,0,0);
-
-  // borde/marco discreto
-  strokeStyle();
-  ctx.lineWidth = 1;
+  ctx.clearRect(0,0,cv.width,cv.height);
+  ctx.putImageData(img, OFFSET_X, 0); // pintar en la izquierda
+  // marco
+  ctx.strokeStyle = colors.text; ctx.lineWidth=1;
   ctx.strokeRect(0.5,0.5,W-1,H-1);
 }
 
-function patternStats(){
-  let sum=0,sum2=0,cx=0,cy=0,nh=0;
-  const thr=0.5;
-  for (let y=0;y<H;y++){
-    for (let x=0;x<W;x++){
-      const v=V[y*W+x];
-      sum+=v; sum2+=v*v;
-      if (v>thr){ cx+=x; cy+=y; nh++; }
+function drawColorbar(){
+  const barImg = bctx.createImageData(bar.width, bar.height);
+  for (let y=0;y<bar.height;y++){
+    const t = 1 - (y/(bar.height-1));
+    const [r,g,b] = turboRGB(t);
+    for (let x=0;x<bar.width;x++){
+      const k = (y*bar.width + x) << 2;
+      barImg.data[k]=r; barImg.data[k+1]=g; barImg.data[k+2]=b; barImg.data[k+3]=255;
     }
   }
-  const count=W*H;
-  const mean=sum/count, varr=Math.max(0,sum2/count-mean*mean), std=Math.sqrt(varr);
-  const px = nh>0? cx/nh : W/2, py = nh>0? cy/nh : H/2;
-  return { mean, std, x:px/W, y:py/H };
+  bctx.clearRect(0,0,bar.width,bar.height);
+  bctx.putImageData(barImg,0,0);
+  // borde
+  bctx.strokeStyle = colors.text; bctx.lineWidth=1;
+  bctx.strokeRect(0.5,0.5,bar.width-1,bar.height-1);
+}
+drawColorbar();
+
+// ---- Métricas: centroide X y gradientes (anisotropía) ----
+function statsAndGradients(){
+  // centroide ponderado por V (evita threshold)
+  let sumV=0, sumX=0, sumY=0;
+  // gradientes finitos
+  let gxSum=0, gySum=0;
+  for (let y=0;y<H;y++){
+    const ym=(y-1+H)%H, yp=(y+1)%H;
+    for (let x=0;x<W;x++){
+      const xm=(x-1+W)%W, xp=(x+1)%W;
+      const i = y*W+x;
+      const v = V[i];
+      sumV += v;
+      sumX += x*v;
+      sumY += y*v;
+
+      const vxm = V[y*W+xm], vxp = V[y*W+xp];
+      const vym = V[ym*W+x], vyp = V[yp*W+x];
+      const gx = 0.5 * (vxp - vxm);
+      const gy = 0.5 * (vyp - vym);
+      gxSum += Math.abs(gx);
+      gySum += Math.abs(gy);
+    }
+  }
+  const count = W*H;
+  const mean = sumV / count;
+  const cx = sumV>1e-9 ? (sumX/sumV)/W : 0.5; // [0,1]
+  const cy = sumV>1e-9 ? (sumY/sumV)/H : 0.5; // [0,1]
+  const gxMean = gxSum / count;
+  const gyMean = gySum / count;
+  const energy = gxMean + gyMean;
+  const aniso = (gxMean - gyMean) / (energy + 1e-9); // [-1,1] → x-dom vs y-dom
+  return { mean, cx, cy, energy, aniso };
 }
 
-// --------- WebAudio con teardown completo ----------
+// ---- WebAudio: ruido→bandpass, acople fuerte a CX y ANISO ----
 let actx=null, master=null, bp=null, noiseSrc=null, noiseGain=null;
 
 async function audioStart(){
   if (!actx) actx = new (window.AudioContext||window.webkitAudioContext)();
   if (actx.state==="suspended") await actx.resume();
-  if (!master){ master=actx.createGain(); master.gain.value=0.20; master.connect(actx.destination); }
+  if (!master){ master=actx.createGain(); master.gain.value=0.22; master.connect(actx.destination); }
   if (!bp){ bp=actx.createBiquadFilter(); bp.type="bandpass"; bp.frequency.value=800; bp.Q.value=4.0; bp.connect(master); }
   if (!noiseSrc){
     const len=actx.sampleRate*2, buf=actx.createBuffer(1,len,actx.sampleRate), ch=buf.getChannelData(0);
     for (let i=0;i<len;i++) ch[i]=Math.random()*2-1;
     noiseSrc=actx.createBufferSource(); noiseSrc.buffer=buf; noiseSrc.loop=true;
-    noiseGain=actx.createGain(); noiseGain.gain.value=0.35;
+    noiseGain=actx.createGain(); noiseGain.gain.value=0.25;
     noiseSrc.connect(noiseGain).connect(bp);
     noiseSrc.start();
   }
@@ -240,33 +297,43 @@ async function audioStop(){
   if (bp){ bp.disconnect(); }
   if (master){ master.disconnect(); }
   noiseSrc=noiseGain=bp=master=null;
-  if (actx){
-    try{ await actx.close(); }catch(e){}
-    actx=null;
-  }
+  if (actx){ try{ await actx.close(); }catch(e){} actx=null; }
 }
 
-function sonify(){
-  if (!actx||!bp) return;
-  const s=patternStats();
-  const f=200 + s.x*(4000-200);
-  const q=0.5 + s.y*(18-0.5);
-  const t=actx.currentTime;
-  bp.frequency.setTargetAtTime(f,t,0.05);
-  bp.Q.setTargetAtTime(q,t,0.08);
-  meanEl.textContent=`mean V: ${s.mean.toFixed(3)}`;
-  xyEl.textContent  =`x,y: ${s.x.toFixed(2)}, ${s.y.toFixed(2)} | f≈${Math.round(f)}Hz Q≈${q.toFixed(1)}`;
+// Mapeos: freq ← centroideX (0–1) → 200–4200 Hz
+//         Q    ← anisotropía [-1,1] → 1–25 (no lineal para énfasis)
+//         gain ← energía de gradiente → 0.05–0.40
+function sonifyFrom(stats){
+  if (!actx || !bp) return;
+  const t = actx.currentTime;
+
+  const freq = 200 + stats.cx * (4200-200);
+  // moldeamos aniso con curva cúbica para acentuar extremos
+  const a = Math.max(-1, Math.min(1, stats.aniso));
+  const aEmph = Math.sign(a) * Math.pow(Math.abs(a), 0.6); // más sensible
+  const Q = 1 + (aEmph + 1) * 12; // 1..25 aprox
+
+  const g = 0.05 + Math.min(1, stats.energy*12) * 0.35; // 0.05..0.40 aprox
+
+  bp.frequency.setTargetAtTime(freq, t, 0.04);
+  bp.Q.setTargetAtTime(Q, t, 0.05);
+  if (noiseGain) noiseGain.gain.setTargetAtTime(g, t, 0.08);
+
+  meanEl.textContent = `mean V: ${stats.mean.toFixed(3)}`;
+  xyEl.textContent   = `x,y: ${stats.cx.toFixed(2)}, ${stats.cy.toFixed(2)} | f≈${Math.round(freq)}Hz`;
+  anisoEl.textContent= `aniso: ${a.toFixed(2)} → Q≈${Q.toFixed(1)}`;
 }
 
-// --------- Loop ----------
+// ---- Loop ----
 let frames=0, fpsTimer=performance.now();
-const stepsPerFrame=2;
+const stepsPerFrame=3; // un poco más para ver crecimiento
 
 function loop(){
   if (playing){
     for (let n=0;n<stepsPerFrame;n++) step();
-    draw();
-    sonify();
+    drawPattern();
+    const s = statsAndGradients();
+    sonifyFrom(s);
   }
   const now=performance.now();
   frames++;
@@ -274,7 +341,7 @@ function loop(){
   rafId=requestAnimationFrame(loop);
 }
 
-// --------- Controles ----------
+// ---- Controles ----
 async function start(){
   await audioStart();
   if (!rafId) rafId=requestAnimationFrame(loop);
@@ -286,19 +353,22 @@ async function stop(){
   playing=false;
   statusEl.textContent="paused";
   el.querySelector("#btn").textContent="Play";
-  await audioStop(); // mata todo: fuentes, nodos y context
+  await audioStop(); // teardown completo
 }
 
 el.querySelector("#btn").onclick = async ()=>{ if (!playing) await start(); else await stop(); };
-el.querySelector("#rst").onclick = async ()=>{ await stop(); seed(); draw(); };
+el.querySelector("#rst").onclick = async ()=>{ await stop(); seed(); drawPattern(); };
 
-// actualizar colores si cambia el tema (Obsidian dispara evento)
-const mo=new MutationObserver(()=>{ colors=themeColors(); draw(); });
+// actualizar colores si cambia tema
+const mo=new MutationObserver(()=>{ colors=themeColors(); drawPattern(); drawColorbar(); });
 mo.observe(document.documentElement,{attributes:true,attributeFilter:["class","style"]});
 
 // primer frame
-draw();
+drawPattern();
+drawColorbar();
 ```
+
+
 
 
 
