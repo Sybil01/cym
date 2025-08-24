@@ -154,14 +154,6 @@
       "key": "ArrowUp"
     }
   ],
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
   "obsidian-git:push": [
     {
       "modifiers": [
@@ -672,15 +664,6 @@
       "key": "L"
     }
   ],
-  "theme:use-light": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "swiss-army-knife:remove-empty-lines": [
     {
       "modifiers": [
@@ -688,6 +671,40 @@
         "Shift"
       ],
       "key": "D"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "7"
+    }
+  ],
+  "theme:switch": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Z"
     }
   ]
 }

@@ -24,7 +24,8 @@ type: class
 ---
 
 que es modelar algo?
-
+- especulacion - teorizacion - comprobacion experimental  (annus mirabilis Einstein)
+- 
 topoi -> po -> métodos -> entornos
 obras
 
@@ -91,7 +92,6 @@ ax.set_title("Operaciones fundamentales de la modelización artística\n(Spencer
 
 plt.show()
 ```
-
 
 
 

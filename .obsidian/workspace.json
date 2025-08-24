@@ -4,25 +4,101 @@
     "type": "split",
     "children": [
       {
-        "id": "165e1273b0b20524",
+        "id": "2da19bc372fcda96",
         "type": "tabs",
         "children": [
           {
-            "id": "65c4e38ac9a5c89a",
+            "id": "db0fc51b01de4ecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/operativos/sistemas paramétricos/patrones de Turing.md",
+                "file": "06-out/operativos/sistemas paramétricos/pt1.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "patrones de Turing"
+              "title": "pt1"
+            }
+          },
+          {
+            "id": "c6b193d29ce43fac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/física/Geometría y Experiencia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Geometría y Experiencia"
+            }
+          },
+          {
+            "id": "09fce84e8c33c279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-cla/c-cym02-paradigmas operativos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "c-cym02-paradigmas operativos"
+            }
+          },
+          {
+            "id": "11634b6d84f9cf6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/física/Un punto de vista heurístico acerca de la conversión y creación de Luz.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Un punto de vista heurístico acerca de la conversión y creación de Luz"
+            }
+          },
+          {
+            "id": "e8b1468d6ca5dfa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/física/teoría de Maxwell.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "teoría de Maxwell"
+            }
+          },
+          {
+            "id": "76d5143f7a6ce25f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/física/Física.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Física"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 622.5110359191895
+    "width": 342.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -258,7 +334,6 @@
       "callout-manager:Insert Callout": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "local-media-embedder:Toggle media server": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-metatable:Metatable": false,
@@ -266,55 +341,55 @@
       "obsidian-review-notes-plugin:View Recent Notes": false
     }
   },
-  "active": "65c4e38ac9a5c89a",
+  "active": "c6b193d29ce43fac",
   "lastOpenFiles": [
-    "06-out/operativos/sistemas paramétricos/morfógenos.md",
+    "06-out/topoi/física/Un punto de vista heurístico acerca de la conversión y creación de Luz.md",
+    "06-out/topoi/física/Geometría y Experiencia.md",
+    "06-out/topoi/física/Física.md",
+    "06-out/topoi/física/teoría de Maxwell.md",
+    "06-out/topoi/física/Radiación del cuerpo negro.md",
+    "03-cla/c-cym02-paradigmas operativos.md",
+    "06-out/topoi/energía/energía y distancia.md",
+    "06-out/topoi/teoría crítica de la tecnología/teoría crítica MOC.md",
+    "06-out/operativos artísticos/extrañamiento.md",
+    "06-out/topoi/teoría crítica de la tecnología/Cuarta Revolución Industrial.md",
+    "06-out/obras/Atmosphères.md",
+    "05-obs/tpl/t-obra.md",
+    "06-out/operativos casos/el cielo/caso El Cielo.md",
+    "06-out/topoi/vida artificial/contracción por gradientes térmicos.md",
+    "06-out/operativos/sistemas paramétricos/transformaciones energéticas.md",
+    "06-out/topoi/vida artificial",
+    "02-mat/código/dataviewjs/partituras procedimentales.md",
+    "05-obs/lib/score.svg",
+    "05-obs/lib/score.ly",
+    "_lily/score.ly",
+    "_lily",
+    "05-obs/lib/lily-watch.js",
+    "02-mat/código/dataviewjs",
+    "05-obs/lib/vexflow.js",
+    "05-obs/lib/abcjs.js",
+    "05-obs/lib",
     "06-out/operativos/sistemas paramétricos/patrones de Turing.md",
-    "06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md",
+    "06-out/operativos/sistemas paramétricos/pt3.md",
+    "06-out/operativos/sistemas paramétricos/pt2.md",
+    "06-out/operativos/sistemas paramétricos/pt4.md",
+    "06-out/operativos/sistemas paramétricos/pt1.md",
+    "06-out/operativos/sistemas paramétricos/morfógenos.md",
+    "06-out/operativos/sistemas paramétricos/help python.md",
+    "07-ayuda/help markdown.md",
+    "07-ayuda/01 instalaciones.md",
+    "README.md",
+    "07-ayuda",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
-    "conflict-files-obsidian-git.md",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
     "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
-    "06-out/operativos/sistemas paramétricos/help python.md",
-    "03-cla/c-cym02-paradigmas operativos.md",
-    "06-out/operativos/método científico/Método científico.md",
-    "05-obs/img/image",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755894080911.jpeg",
-    "04-tp/tp01-paradigmas operativos.md",
-    "06-out/topoi/modelos de universos.md",
-    "06-out/operativos/sistemas paramétricos/Agregación limitada por difusión.md",
-    "00-moc/topoi MOC.md",
-    "06-out/operativos/escritura icónica/escritura icónica M0C.md",
-    "06-out/operativos/método científico",
-    "06-out/topoi/topoi BASE.base",
-    "06-out/obras/Sun Thinking.md",
-    "06-out/personas/Allison Parrish.md",
-    "00-in/Vedic Sanskrit.md",
-    "00-in/Proto-Indo-European.md",
-    "06-out/operativos/generatividad/Projekte generativer Ästhetik.md",
-    "06-out/personas/Jean-Robert Sedano et Solveig de Ory.md",
-    "06-out/personas/Jean-Robert Sedano et Solveig de Ory.md",
-    "00-in/hi augmentation.md",
-    "06-out/topoi/hiperrealidad/hiperrealidad.md",
-    "06-out/topoi/Introducción a la psicoacústica.md",
-    "06-out/topoi/arqueología de medios/arqueología de medios.md",
-    "06-out/topoi/Arte relacional.md",
-    "06-out/topoi/teoría crítica de la tecnología/teoría crítica MOC.md",
-    "06-out/topoi/teoría crítica de la tecnología",
-    "06-out/operativos/escritura icónica/icónica filosófica.md",
-    "06-out/topoi/arqueología de medios",
-    "06-out/topoi/hiperrealidad",
-    "06-out/topoi/arquitetura aural",
-    "06-out/operativos/sistemas paramétricos",
-    "06-out/operativos/ingeniería inversa",
-    "06-out/imc/imc.base",
     "cym-metamap.canvas",
     "05-obs/img/eventos MOC-1755180996466.jpeg",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
     "05-obs/img/eventos MOC-1755180996415.jpeg",
     "05-obs/img/eventos MOC-1755180996465.jpeg",
-    "05-obs/img/eventos MOC-1755180996421.jpeg",
     "Sin título 1.canvas",
     "Sin título.canvas",
     "Untitled.canvas",

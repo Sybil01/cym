@@ -5,9 +5,9 @@ Son patrones complejos que crecen a partir de un estado inicial uniforme y homog
 
 Alan Turing propuso una teoría para explicar la morfogénesis, que es el proceso mediante el cual los organismos desarrollan su forma y estructura. Según Turing, las bases químicas de la morfogénesis se encuentran en la interacción de sustancias químicas llamadas [[morfógenos]].
 
-En su teoría, Turing propuso que los morfógenos son ::: 
+En su teoría, Turing propuso que los morfógenos son :
 
-1. sustancias químicas que se difunden en un medio y que tienen la capacidad de interactuar entre sí. Estas interacciones pueden ser de dos tipos: 
+1. sustancias químicas que se difunden en un medio y que tienen la capacidad de interactuar entre sí. Estas interacciones pueden ser  de dos tipos: 
 	***activadoras*** o 
 	*inhibitorias*.
 
@@ -19,6 +19,18 @@ La interacción entre los morfógenos y los gradientes de concentración da luga
 
 En síntesis, Turing sugiere que la vida está compuesta por re-agentes en ciclos de generación (difusión morfogénica) y consumo (inhibición que conforma gradientes)
 
-![](https://cdn.moll.dev/static/projects/reaction-diff/big-chonker.JPG)
+
+activación - difusión
+inhibición -  consumo 
+gradientes de concentración 
 
 Robert Munafo compiló muchos patrones de crecimiento en su  sitio sobre [[sistemas paramétricos de Gray-Scott]] 
+
+
+[[pt1]]
+[[pt2]]
+[[pt3]]
+[[pt4]]
+
+
+

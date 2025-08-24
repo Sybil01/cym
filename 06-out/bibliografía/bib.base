@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.folder == "06-out/bibliografía"
+    - file.ext != "base"
+    - file.ext != "bib"
+views:
+  - type: cards
+    name: bib gal
+    order:
+      - file.name
+      - author
+      - publish
+    cardSize: 110
+    image: note.coverUrl
+    imageAspectRatio: 1.6

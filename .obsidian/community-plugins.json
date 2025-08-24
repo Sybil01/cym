@@ -26,7 +26,6 @@
   "obsidian-activity-history",
   "obsidian-advanced-slides",
   "arrows",
-  "at-people",
   "auto-embed",
   "obsidian-autocomplete-plugin",
   "obsidian-banners",
@@ -77,7 +76,6 @@
   "obsidian-linter",
   "liquid-templates",
   "obsidian-list-callouts",
-  "local-media-embedder",
   "longform",
   "markdown-chords",
   "obsidian-markdown-formatting-assistant-plugin",
@@ -91,7 +89,6 @@
   "multi-column-markdown",
   "note-refactor-obsidian",
   "obsidian-functionplot",
-  "obsidian-note-sharing",
   "obsidian-outliner",
   "obsidian-pandoc-reference-list",
   "obsidian-paste-png-to-jpeg",
@@ -104,6 +101,5 @@
   "obsidian-rant",
   "obsidian-reading-time",
   "obsidian-read-it-later",
-  "obsidian-review-notes-plugin",
   "execute-code"
 ]

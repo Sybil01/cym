@@ -8,10 +8,18 @@ bienvenidxs al repositorio público de información musical de la cátedra de Ci
 
 ## topoi
 
-```dataview
-Table  without ID("![|100](" + banner + ")") as foto, file.link as name, author as author, publish as "año", tags
-FROM "04-out/topoi"
-WHERE contains(dg-publish,true)
-SORT publish DESC
-```
+![[topoi BASE.base]]
 
+## bibliografía
+
+![[bib.base]]
+
+
+## instrumentos de medición científica
+
+![[imc.base]]
+
+
+## personas
+
+![[prs.base]]

@@ -1,6 +1,7 @@
 ---
 type : topoi
-tags:  revoluciónindustrial, topoi
+tags:  
+- revoluciónindustrial
 unit: 12.1
 author: Juan Martín Ancarola
 publish: 2022
