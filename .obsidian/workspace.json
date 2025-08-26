@@ -127,8 +127,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -151,8 +151,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           },
           {
@@ -174,8 +174,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -214,8 +214,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -234,26 +234,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "notion-like-tables:Create loom": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
-      "callout-manager:Insert Callout": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "b861730ea60e4a66",
   "lastOpenFiles": [
-    "04-tp/tp01-paradigmas operativos.md",
     "conflict-files-obsidian-git.md",
+    "04-tp/tp01-paradigmas operativos.md",
     "00-moc/recursión MOC.md",
     "06-out/operativos/recursión",
     "06-out/operativos casos/inestabilidad de kelvin-helmholz/vendor/tthree-module-js.min.",
