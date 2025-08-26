@@ -11,12 +11,16 @@ tags:
 - [ ] 2025-08-23
 	- [ ] Presentación personal 2'
 		- [ ] obras,fotos, relatos, algo que lxs identifique ejemplos o lo que quieran mostrar.
-		- [ ] utopia o temas que les interesa abordar sin limits.
+		- [ ] utopia o temas que les interesa abordar sin límites.
 	- [ ] HACER DUOS 1 TRIO (LICMUS+AAEE)
 ## tp1 paradigmas operativos
 
 - [ ] 2025-09-10
 [[tp01-paradigmas operativos]] 
+
+:luc_book:
+[[Geometría y Experiencia]]
+
 
 ## tp2 Monografía basada en textos.
 

@@ -101,7 +101,7 @@ Se expondrán diferentes módulos de conocimiento (topoi) desde un enfoque teór
 - La aplicación de los conceptos en las artes musicales y del tiempo, la estética y el pensamiento musical en general, intentando transferir los diferentes paradigmas a aplicaciones musicales concretas.
 # Programa Analítico
 ## Unidad 1: Ontologías de Música y Ciencia.
- [[método científico]], [[modelos de universos]], [[filosofías del Siglo XXI]], [[filosofía histórica]], [[historia de la tecnología]], emergencia del campo ciencia & arte.
+ [[Método científico]], [[modelos de universos]], [[filosofías del Siglo XXI]], [[filosofía histórica]], [[historia de la tecnología]], emergencia del campo ciencia & arte.
 ## Unidad 2: Materiales
 fabricación digital, tecnología de materiales-química y elementos, amplificación, realimentación, organología aumentada, microsonido, músical visual, luz, música electrónica, literatura proyectiva, interfaces, afinaciones y microtonalidad.
 ## Unidad 3: Generatividad

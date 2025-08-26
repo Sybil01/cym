@@ -1,8 +1,11 @@
 ---
 type: obra
-photo:
+img:
 year:
 tags:
-  - cym
 person: "[[]]"
+premiereDate:
+premierePlace:
+url:
+connect:
 ---

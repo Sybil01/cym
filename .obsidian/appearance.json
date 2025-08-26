@@ -4,8 +4,7 @@
   "enabledCssSnippets": [
     "s1",
     "obsidian",
-    "cards",
-    "s1 2"
+    "cards"
   ],
   "theme": "obsidian",
   "interfaceFontFamily": "DankMono Nerd Font,Consolas",

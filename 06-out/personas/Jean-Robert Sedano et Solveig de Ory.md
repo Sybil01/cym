@@ -1,19 +1,21 @@
 ---
 type: person
-img:tags: 
- - instalación
- - interface
- - luz
+photo:
+tags:
+  - instalación
+  - interface
+  - luz
 born in city: Oran
 year: 1956
-dead year: 
+dead year:
 city: Paris
-country: 
-connect: 
+country:
+connect: Bread&Puppets
 url:
 ---
 
-https://vimeo.com/220276432
+<iframe title="La Ronde - Solveig de ORY &amp; Jean-Robert SEDANO" height="360" width="640" src="https://player.vimeo.com/video/220276432?app_id=122963" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.77778 / 1; width: 100%; height: 100%;"></iframe>
+
 
 
  - Influenciados por Bread&Puppets

@@ -4,4 +4,7 @@
 b
 .DS_Store
 .obsidian/plugins/obsidian-activity-history/data.json
+.obsidian/plugins/translate
+.obsidian/plugins/obsidian-wordnet-plugin
+.obsidian/plugins/obsidian-advanced-slides
 

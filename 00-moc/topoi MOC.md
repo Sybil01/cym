@@ -1,9 +1,15 @@
 
+![[topoi BASE.base]]
+
+
 ```dataview
-Table  without ID("![|100](" + banner + ")") as foto, file.link as name, author as author, publish as "año", tags
-FROM "06-out/topoi"
+Table without ID("![|100](" + banner + ")") as foto, file.link as name, author as author, publish as "año", tags
+WHERE type = "topoi" AND !startswith(file.name, "t-")
 SORT publish DESC
 ```
+
+
+
 
 
 

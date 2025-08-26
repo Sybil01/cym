@@ -1,12 +1,11 @@
 filters:
-  and:
-    - file.folder == "06-out/topoi"
+  or:
+    - type == "topoi"
 views:
   - type: cards
     name: TOPOI gal
     filters:
       and:
-        - type == "topoi"
         - '!file.name.startsWith("t-")'
     order:
       - file.name
