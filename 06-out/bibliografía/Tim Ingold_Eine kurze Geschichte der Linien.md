@@ -8,7 +8,7 @@ subject:
 publish: 2020-10-05
 publisher: 
 totalPage: 175
-coverUrl: https://images.thalia.media/-/BF2000-2000/c5d3c449351344539fc746457b488b0f/eine-kurze-geschichte-der-linien-gebundene-ausgabe-tim-ingold.jpeg
+coverUrl: https://i.imgur.com/8KLo5uR.png
 description: 
 isbn: 3835391283 
 isbn13: 9783835391284 
@@ -18,4 +18,3 @@ colabs:
 --- 
 
 
-este libroo 

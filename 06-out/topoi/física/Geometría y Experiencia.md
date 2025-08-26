@@ -3,10 +3,11 @@ url: https://en.wikisource.org/wiki/Geometry_and_Experience
 person: Albert Einstein
 year: 1921
 created: 2025-08-24
-summary:
+summary: "En su conferencia de 1921 Geometría y experiencia,Einstein distingue entre la geometría axiomática (pura, formal y vacía de contenido empírico) y la geometría práctica (ligada a los cuerpos rígidos y a la experiencia física). Las matemáticas, afirma, solo son absolutamente ciertas en tanto permanecen en el plano formal; cuando se aplican a la realidad, dependen de la experiencia y dejan de ser infalibles. El enigma, entonces, es cómo un producto del pensamiento humano se ajusta tan bien al mundo. La respuesta: en la medida en que son ciertas, las matemáticas no describen la realidad, y cuando describen la realidad, dejan de ser ciertas. Einstein sostiene que la geometría surge históricamente como ciencia natural, a partir de la necesidad de medir la tierra y disponer cuerpos en el espacio. Para tener validez física, los conceptos vacíos de la geometría axiomática deben coordinarse con objetos empíricos (como varas de medir). Así, la geometría práctica se convierte en la rama más antigua de la física. Este enfoque fue crucial para su teoría de la relatividad: en sistemas no inerciales, los cuerpos no siguen las reglas de Euclides, por lo que hay que admitir geometrías no euclidianas. Finalmente, extiende el argumento al cosmos: el universo puede ser finito pero ilimitado, como la superficie de una esfera en dos dimensiones. Con ejemplos de sombras y proyecciones, muestra que la mente humana puede representarse un espacio esférico tridimensional, base conceptual de la relatividad general y de la cuestión cosmológica sobre si el universo es finito o infinito."
 tags:
   - física
 ---
+
 
 Versión ampliada de un discurso pronunciado ante la Academia Prusiana de Ciencias en Berlín el 27 de enero de 1921.
 

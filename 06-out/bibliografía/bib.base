@@ -10,6 +10,9 @@ views:
       - file.name
       - author
       - publish
-    cardSize: 110
+    sort:
+      - property: file.ctime
+        direction: DESC
+    cardSize: 160
     image: note.coverUrl
     imageAspectRatio: 1.6

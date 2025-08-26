@@ -18,6 +18,10 @@ tags:
 - [ ] 2025-09-10
 [[tp01-paradigmas operativos]] 
 
+:luc_book:
+[[Geometría y Experiencia]]
+
+
 ## tp2 Monografía basada en textos.
 
 - [ ] 2025-09-17

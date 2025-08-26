@@ -23,22 +23,7 @@
             }
           },
           {
-            "id": "c6b193d29ce43fac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/física/Geometría y Experiencia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Geometría y Experiencia"
-            }
-          },
-          {
-            "id": "09fce84e8c33c279",
+            "id": "11634b6d84f9cf6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,51 +35,6 @@
               },
               "icon": "lucide-file",
               "title": "c-cym02-paradigmas operativos"
-            }
-          },
-          {
-            "id": "11634b6d84f9cf6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/física/Un punto de vista heurístico acerca de la conversión y creación de Luz.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Un punto de vista heurístico acerca de la conversión y creación de Luz"
-            }
-          },
-          {
-            "id": "e8b1468d6ca5dfa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/física/teoría de Maxwell.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "teoría de Maxwell"
-            }
-          },
-          {
-            "id": "76d5143f7a6ce25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/física/Física.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Física"
             }
           }
         ],
@@ -337,29 +277,41 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-metatable:Metatable": false,
-      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
-      "obsidian-review-notes-plugin:View Recent Notes": false
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false
     }
   },
-  "active": "c6b193d29ce43fac",
+  "active": "11634b6d84f9cf6a",
   "lastOpenFiles": [
+    "02-mat/código/jasvascript/js01-fundamentals.md",
+    "02-mat/código/jasvascript/js-playground.md",
+    "02-mat/código/jasvascript/js-cheatsheet.md",
+    "02-mat/código/jasvascript/js-02 contextos de ejecución.md",
+    "01-proj/22/Probando botones en codepen.md",
+    "06-out/obras/Atmosphères.md",
+    "03-cla/c-cym02-paradigmas operativos.md",
+    "06-out/bibliografía/Tim Ingold_Eine kurze Geschichte der Linien.md",
+    "06-out/bibliografía/bib.base",
+    "06-out/bibliografía/Jane Bennet_Vibrant Matter.md",
+    "03-cla/c-cym00-calendario.md",
+    "03-cla/23/c-cym03-mapas.md",
+    "03-cla/23",
+    "03-cla/c-cym01 cym introducción.md",
+    "03-cla/23/c-cym02-arte generativo.md",
     "06-out/topoi/física/Un punto de vista heurístico acerca de la conversión y creación de Luz.md",
+    "06-out/topoi/física/teoría de Maxwell.md",
+    "06-out/operativos/sistemas paramétricos/pt1.md",
+    "06-out/operativos/lírica lorenz/lírica lorenz.md",
+    "06-out/operativos/lírica lorenz",
+    "06-out/topoi/Augmented Cognition.md",
     "06-out/topoi/física/Geometría y Experiencia.md",
     "06-out/topoi/física/Física.md",
-    "06-out/topoi/física/teoría de Maxwell.md",
     "06-out/topoi/física/Radiación del cuerpo negro.md",
-    "03-cla/c-cym02-paradigmas operativos.md",
     "06-out/topoi/energía/energía y distancia.md",
     "06-out/topoi/teoría crítica de la tecnología/teoría crítica MOC.md",
     "06-out/operativos artísticos/extrañamiento.md",
     "06-out/topoi/teoría crítica de la tecnología/Cuarta Revolución Industrial.md",
-    "06-out/obras/Atmosphères.md",
     "05-obs/tpl/t-obra.md",
-    "06-out/operativos casos/el cielo/caso El Cielo.md",
-    "06-out/topoi/vida artificial/contracción por gradientes térmicos.md",
-    "06-out/operativos/sistemas paramétricos/transformaciones energéticas.md",
     "06-out/topoi/vida artificial",
-    "02-mat/código/dataviewjs/partituras procedimentales.md",
     "05-obs/lib/score.svg",
     "05-obs/lib/score.ly",
     "_lily/score.ly",
@@ -367,19 +319,6 @@
     "05-obs/lib/lily-watch.js",
     "02-mat/código/dataviewjs",
     "05-obs/lib/vexflow.js",
-    "05-obs/lib/abcjs.js",
-    "05-obs/lib",
-    "06-out/operativos/sistemas paramétricos/patrones de Turing.md",
-    "06-out/operativos/sistemas paramétricos/pt3.md",
-    "06-out/operativos/sistemas paramétricos/pt2.md",
-    "06-out/operativos/sistemas paramétricos/pt4.md",
-    "06-out/operativos/sistemas paramétricos/pt1.md",
-    "06-out/operativos/sistemas paramétricos/morfógenos.md",
-    "06-out/operativos/sistemas paramétricos/help python.md",
-    "07-ayuda/help markdown.md",
-    "07-ayuda/01 instalaciones.md",
-    "README.md",
-    "07-ayuda",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",

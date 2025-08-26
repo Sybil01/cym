@@ -1,13 +1,20 @@
 {
-  "folder": "04-out/bibliografía",
+  "folder": "06-out/bibliografía",
   "fileNameFormat": "{title}}",
   "frontmatter": "",
   "content": "",
   "useDefaultFrontmatter": false,
   "defaultFrontmatterKeyType": "Camel Case",
-  "templateFile": "02-mat/obs/tpl/t-book.md",
+  "templateFile": "05-obs/tpl/t-book.md",
   "serviceProvider": "google",
   "naverClientId": "",
   "naverClientSecret": "",
-  "localePreference": "default"
+  "localePreference": "default",
+  "apiKey": "",
+  "openPageOnCompletion": true,
+  "showCoverImageInSearch": true,
+  "enableCoverImageSave": false,
+  "enableCoverImageEdgeCurl": true,
+  "coverImagePath": "",
+  "askForLocale": false
 }
