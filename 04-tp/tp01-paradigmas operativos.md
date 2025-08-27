@@ -110,3 +110,6 @@ OAT  objeto acción transformación
 
 ⊘ = Vacío  ; ● = Ser   ⇄ = Devenir   ○ = Posibilidad   ⧺ = Unión   → = Implicación
 
+
+<iframe src="https://www.overleaf.com/read/zbwtfntdbqjf#737c26" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+https://www.overleaf.com/read/zbwtfntdbqjf#737c26
