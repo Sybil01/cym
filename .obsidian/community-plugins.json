@@ -1,7 +1,16 @@
 [
+<<<<<<< HEAD
   "obsidian-git",
   "dataview",
   "templater-obsidian",
   "obsidian-markmind",
   "obsidian-outliner"
+=======
+<<<<<<< HEAD
+  "obsidian-git",
+  "dataview"
+=======
+  "obsidian-git"
+>>>>>>> origin/main
+>>>>>>> origin/main
 ]
