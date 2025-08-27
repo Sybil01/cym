@@ -13,32 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/operativos/generatividad/generatividad MOC.md",
+                "file": "03-cla/23/c-cym06-principios generativos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "generatividad MOC"
-            }
-          },
-          {
-            "id": "8dee63e6d428c2d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-proj/25/Carlos Lescano/Hola mundo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Hola mundo"
+              "title": "c-cym06-principios generativos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -95,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 255.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -243,55 +227,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8dee63e6d428c2d2",
+  "active": "b861730ea60e4a66",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "03-cla/23/c-cym06c-tonejs.md",
+    "02-mat/código/html.md",
     "01-proj/25/Carlos Lescano/Hola mundo.md",
+    "06-out/obras/Sun Thinking.md",
+    "06-out/bibliografía/Eric Sadin_La humanidad aumentada.md",
+    "00-moc/bib MOC.md",
+    "00-moc/códigos MOC.md",
+    "00-moc/coloquial MOC.md",
+    "00-moc/espacios MOC.md",
+    "00-moc/generatividad MOC.md",
+    "00-moc/instrumentos MOC.md",
+    "03-cla/23/c-cym04-vida digital.md",
+    "03-cla/23/c-cym03-mapas.md",
+    "03-cla/23/c-cym08-github pages+hydra.md",
+    "02-mat/código/que es git.md",
     "01-proj/25/Carlos Lescano",
-    "00-in/hi augmentation.md",
     "02-mat/código/Untitled.md",
     "cym",
     "06-out/bibliografía/bib MOC.md",
     "02-mat/orq",
     "01-proj/25/Peterschmitt/hola.md",
     "01-proj/25/Peterschmitt",
+    "01-proj/25/miauro",
+    "01-proj/25/Untitled.md",
+    "03-cla/23/c-cym07-creative computing.md",
+    "03-cla/23/c-cym08-hydra+p5.js.md",
+    "04-tp/tp01-paradigmas operativos.md",
     "01-proj/25",
+    "conflict-files-obsidian-git.md",
     "06-out/glosario/DOM.md",
     "02-mat/código/jasvascript/dataviewjs y html.md",
-    "README.md",
-    "Sin título.canvas",
-    "Sin título 1.canvas",
-    "01-proj/19/perez rivas/Reproduciéndonos.md",
-    "01-proj/23/bassino/Música y arte visual.md",
-    "01-proj/23/bassino/bassino POC.md",
-    "01-proj/23/bassino/Clorolaser.md",
-    "04-tp/tp01-paradigmas operativos.md",
-    "06-out/topoi/arquitetura aural/Introducción a la Psicoacústica.md",
-    "06-out/topoi/arquitetura aural/arquitectura Aural MOC.md",
-    "06-out/topoi/arqueología de medios/arqueología de medios.md",
-    "06-out/topoi/vida artificial/Vida artificial.md",
-    "06-out/topoi/topoi BASE.base",
-    "06-out/topoi/Música Visual.md",
-    "06-out/personas/Juan Sorrentino.md",
-    "06-out/eventos/La memoria de los materiales.md",
-    "06-out/espacios/Academy of Fine Arts Vienna.md",
-    "06-out/espacios/MIT Medialab.md",
-    "06-out/bibliografía/Usos de la ciencia en el arte argentino contemporáneo.md",
-    "06-out/bibliografía/Xuan Thuan Trinh_The Secret Melody.md",
-    "06-out/bibliografía/Eric Sadin_La humanidad aumentada.md",
-    "07-ayuda/Sin título.base",
-    "07-ayuda/Sin título 1.base",
-    "05-obs/img/1_The Known Universe by AMNH.mp4",
+    "03-cla/c-cym02-paradigmas operativos.md",
     "_lily/score.ly",
+    "_lily",
+    "07-ayuda",
+    "06-out/topoi/vida artificial",
     "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
     "05-obs/lib/score.svg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
@@ -303,6 +287,8 @@
     "05-obs/img/eventos MOC-1755180996465.jpeg",
     "05-obs/img/eventos MOC-1755180996464.jpeg",
     "05-obs/img/eventos MOC-1755180996425.jpeg",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
     "Untitled.canvas",
     "03-cla/cym-map.canvas"
   ]
