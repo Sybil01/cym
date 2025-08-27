@@ -1,6 +1,4 @@
 
-
-
 1. partitura - atril - músico - oyente
 2. video monocanal st
 3. video monocanal quadra, octo

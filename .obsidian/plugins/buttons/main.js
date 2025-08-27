@@ -981,14 +981,36 @@ var getButtonFromStore = async (app, args) => {
 };
 var getButtonById = async (app, id) => {
   const store = getStore(app.isMobile);
-  const storedButton = store.filter((item) => `button-${id}` === item.id)[0];
-  if (storedButton) {
-    const file = app.vault.getAbstractFileByPath(storedButton.path);
+  const readArgsByBlockId = async (blockId) => {
+    const btn = (store || []).find((item) => `button-${blockId}` === item.id);
+    if (!btn)
+      return void 0;
+    const file = app.vault.getAbstractFileByPath(btn.path);
     const content = await app.vault.cachedRead(file);
     const contentArray = content.split("\n");
-    const button = contentArray.slice(storedButton.position.start.line + 1, storedButton.position.end.line).join("\n");
+    const button = contentArray.slice(btn.position.start.line + 1, btn.position.end.line).join("\n");
     return createArgumentObject(button);
-  }
+  };
+  const resolveInheritedArgs = async (startId, visited = new Set(), depth = 0) => {
+    if (depth > 3)
+      return void 0;
+    if (visited.has(startId))
+      return void 0;
+    visited.add(startId);
+    const childArgs = await readArgsByBlockId(startId);
+    if (!childArgs)
+      return void 0;
+    const parentId = typeof childArgs.id === "string" ? childArgs.id.trim() : "";
+    if (!parentId)
+      return childArgs;
+    const parentArgs = await resolveInheritedArgs(parentId, visited, depth + 1);
+    if (!parentArgs)
+      return childArgs;
+    return { ...parentArgs, ...childArgs };
+  };
+  const merged = await resolveInheritedArgs(id);
+  if (merged)
+    return merged;
 };
 var getButtonSwapById = async (app, id) => {
   const store = getStore(app.isMobile);
@@ -1766,6 +1788,21 @@ var getInlineButtonPosition = async (app, id) => {
   });
   return position;
 };
+var getBlockButtonPositionById = async (app, id) => {
+  const store = getStore(app.isMobile);
+  if (!store || !id)
+    return void 0;
+  const activeFile = app.workspace.getActiveFile();
+  if (!activeFile)
+    return void 0;
+  const button = store.find((item) => item.id === `button-${id}` && item.path === activeFile.path);
+  if (!button)
+    return void 0;
+  return {
+    lineStart: button.position.start.line,
+    lineEnd: button.position.end.line
+  };
+};
 var findNumber = async (app, lineNumber) => {
   const content = await createContentArray(app);
   const value = [];
@@ -2193,7 +2230,7 @@ var createButton = ({
     button.style.color = args.customtextcolor;
   }
   import_obsidian16.MarkdownRenderer.render(app, args.name, button, app.workspace.getActiveFile()?.path || "", component);
-  let numberOfLines = args.name.split("\n").length;
+  const numberOfLines = args.name.split("\n").length;
   let paddingTop = "auto";
   let paddingBottom = "auto";
   let alignment = args.align?.split(" ") || ["center", "middle"];
@@ -2230,8 +2267,9 @@ var clickHandler = async (app, args, inline, id) => {
     return;
   }
   let content = await app.vault.read(activeFile);
-  const buttonStart = getButtonPosition(content, args);
-  let position = inline ? await getInlineButtonPosition(app, id) : getButtonPosition(content, args);
+  const idFirstPosition = !inline && id ? await getBlockButtonPositionById(app, id) : void 0;
+  const buttonStart = idFirstPosition ?? getButtonPosition(content, args);
+  let position = inline ? await getInlineButtonPosition(app, id) : idFirstPosition ?? getButtonPosition(content, args);
   let processedAction = args.action;
   let processedType = args.type;
   let processedFolder = args.folder;
@@ -2269,7 +2307,7 @@ var clickHandler = async (app, args, inline, id) => {
   }
   if (processedArgs.type && processedArgs.type.includes("template")) {
     content = await app.vault.read(activeFile);
-    position = inline ? await getInlineButtonPosition(app, id) : getButtonPosition(content, args);
+    position = inline ? await getInlineButtonPosition(app, id) : await getBlockButtonPositionById(app, id) ?? getButtonPosition(content, args);
     await template(app, processedArgs, position);
   }
   if (processedArgs.type === "calculate") {
@@ -2277,7 +2315,7 @@ var clickHandler = async (app, args, inline, id) => {
   }
   if (processedArgs.type && processedArgs.type.includes("text")) {
     content = await app.vault.read(activeFile);
-    position = inline ? await getInlineButtonPosition(app, id) : getButtonPosition(content, args);
+    position = inline ? await getInlineButtonPosition(app, id) : await getBlockButtonPositionById(app, id) ?? getButtonPosition(content, args);
     await text(app, processedArgs, position);
   }
   if (args.swap) {
@@ -2289,7 +2327,6 @@ var clickHandler = async (app, args, inline, id) => {
   }
   if (args.remove) {
     content = await app.vault.read(activeFile);
-    position = inline ? await getInlineButtonPosition(app, id) : getButtonPosition(content, args);
     await remove(app, processedArgs, position);
   }
   if (processedArgs.type === "chain") {
@@ -4042,6 +4079,7 @@ var ButtonModal = class extends import_obsidian18.Modal {
     __publicField(this, "activeEditor");
     __publicField(this, "activeCursor");
     __publicField(this, "buttonPreviewEl", createEl("p"));
+    __publicField(this, "previewComponent", null);
     __publicField(this, "commandSuggestEl", createEl("input", { type: "text" }));
     __publicField(this, "fileSuggestEl", createEl("input", { type: "text" }));
     __publicField(this, "removeSuggestEl", createEl("input", { type: "text" }));
@@ -4330,11 +4368,12 @@ var ButtonModal = class extends import_obsidian18.Modal {
     const previewSection = mainContainer.createEl("div", { cls: "preview-section" });
     previewSection.createEl("h3", { cls: "section-title", text: "Button Preview" });
     const previewContainer = previewSection.createEl("div", { cls: "preview-container" });
+    this.previewComponent = new import_obsidian18.Component();
     this.buttonPreviewEl = createButton({
       app: this.app,
       el: previewContainer,
       args: { name: "My Awesome Button" },
-      component: null
+      component: this.previewComponent
     });
   }
   renderChainActions(container) {
@@ -4782,6 +4821,10 @@ var ButtonModal = class extends import_obsidian18.Modal {
   }
   onClose() {
     const { contentEl } = this;
+    if (this.previewComponent) {
+      this.previewComponent.unload();
+      this.previewComponent = null;
+    }
     contentEl.empty();
   }
 };
@@ -4897,10 +4940,9 @@ var ButtonWidget = class extends import_view.WidgetType {
       const args = await getButtonById(this.app, this.id);
       if (args) {
         const name = args.name;
-        const className = args.class;
         const color = args.color;
         this.el.innerHTML = "";
-        import_obsidian19.MarkdownRenderer.render(this.app, args.name, this.el, this.app.workspace.getActiveFile()?.path || "", this.component);
+        import_obsidian19.MarkdownRenderer.render(this.app, name, this.el, this.app.workspace.getActiveFile()?.path || "", this.component);
         let numberOfLines = args.name.split("\n").length;
         let paddingTop = "auto";
         let paddingBottom = "auto";
@@ -4924,8 +4966,12 @@ var ButtonWidget = class extends import_view.WidgetType {
           args.width = "auto";
         }
         this.el.innerHTML = `<div style='width: ${args.width};padding-top: ${paddingTop};padding-bottom: ${paddingBottom};text-align: ${alignment[0] || "center"};line-height: 1.2em;'>${this.el.innerHTML.slice(14, -4)}</div>`;
-        if (className) {
-          this.el.addClass(className);
+        const classNames = args.class ? args.class.split(" ") : [];
+        if (classNames.length > 0) {
+          this.el.removeClass("button-default");
+          classNames.forEach((className) => {
+            this.el.addClass(className);
+          });
         }
         if (color) {
           this.el.addClass(color);
@@ -4939,6 +4985,7 @@ var ButtonWidget = class extends import_view.WidgetType {
         this.el.addClass("button-error");
       }
     } catch (error) {
+      console.log(error);
       this.el.innerText = "Error loading button";
       this.el.removeClass("button-default");
       this.el.addClass("button-error");
@@ -5050,13 +5097,34 @@ var ButtonsPlugin = class extends import_obsidian20.Plugin {
       name: "Insert Inline Button",
       callback: () => new InlineButtonModal(this.app).open()
     });
+    const assignedBlocks = new Set();
     this.registerMarkdownCodeBlockProcessor("button", async (source, el, ctx) => {
       const file = this.app.vault.getFiles().find((f) => f.path === ctx.sourcePath);
       addButtonToStore(this.app, file);
       let args = createArgumentObject(source);
       const storeArgs = await getButtonFromStore(this.app, args);
       args = storeArgs ? storeArgs.args : args;
-      const id = storeArgs && storeArgs.id;
+      let id = storeArgs && storeArgs.id;
+      if (!id && file) {
+        try {
+          const store = getStore(this.app.isMobile);
+          const content = await this.app.vault.cachedRead(file);
+          const contentArray = content.split("\n");
+          const candidates = (store || []).filter((item) => item.path === file.path && item.id?.startsWith("button-"));
+          for (const item of candidates) {
+            const blockInner = contentArray.slice(item.position.start.line + 1, item.position.end.line).join("\n");
+            if (blockInner.trim() === source.trim()) {
+              const key = `${item.path}:${item.position.start.line}:${item.position.end.line}`;
+              if (!assignedBlocks.has(key)) {
+                id = item.id.split("button-")[1];
+                assignedBlocks.add(key);
+                break;
+              }
+            }
+          }
+        } catch (_) {
+        }
+      }
       if (Boolean(args["hidden"]) !== true) {
         const component = new import_obsidian20.Component();
         createButton({ app: this.app, el, args, inline: false, id, component });
