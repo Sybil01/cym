@@ -11,20 +11,34 @@
             "id": "9134aea7d30b6ff5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "cym-metamap.canvas",
-                "viewState": {
-                  "x": 2050,
-                  "y": 25.5,
-                  "zoom": -2.812312641853572
-                }
+                "file": "01-proj/25/Peterschmitt/hola.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "cym-metamap"
+              "icon": "lucide-file",
+              "title": "hola"
+            }
+          },
+          {
+            "id": "b626773be7d67747",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-proj/25/Peterschmitt/hola.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "hola"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -47,7 +61,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -64,7 +78,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
@@ -81,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.51103591918945
+    "width": 306.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -90,7 +104,7 @@
       {
         "id": "aaca835876e592bb",
         "type": "tabs",
-        "dimension": 45.46296296296296,
+        "dimension": 71.05643994211289,
         "children": [
           {
             "id": "8c7ec6495dcddec6",
@@ -132,8 +146,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -142,8 +156,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           },
           {
@@ -152,12 +166,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
-                "linksCollapsed": false,
+                "file": "01-proj/25/Peterschmitt/hola.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from inestabilidad de Kelvin-Helmholz"
+              "title": "Enlaces salientes de hola"
             }
           }
         ],
@@ -166,7 +180,7 @@
       {
         "id": "b33cb9828f682814",
         "type": "tabs",
-        "dimension": 18.51851851851852,
+        "dimension": 28.94356005788712,
         "children": [
           {
             "id": "20c732dc2cc0ecaf",
@@ -180,94 +194,67 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0b21d0481a2a08a7",
-        "type": "tabs",
-        "dimension": 36.01851851851852,
-        "children": [
-          {
-            "id": "d666d2187372564f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Etiquetas"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "notion-like-tables:Create loom": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian42-brat:BRAT": false,
-      "callout-manager:Insert Callout": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "local-media-embedder:Toggle media server": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9134aea7d30b6ff5",
+  "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
-    "02-mat/generatividad/Simulación (VR).md",
-    "02-mat/generatividad/Recursion.md",
-    "02-mat/generatividad/Patrones geométricos.md",
-    "02-mat/generatividad/Palíndromos.md",
-    "02-mat/generatividad/Index.md",
-    "02-mat/generatividad/Hibridación (AR).md",
-    "02-mat/generatividad/generatividad MOC.md",
-    "02-mat/generatividad/Fractales.md",
-    "02-mat/generatividad/Emergencia.md",
-    "02-mat/generatividad/Azar.md",
-    "02-mat/generatividad/Autómatas.md",
-    "06-out/imc/imc MOC.md",
+    "04-tp/tp01-topoi.md",
+    "01-proj/25/Peterschmitt/hola.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "03-cla/c-cym00-calendario.md",
+    "04-tp/tp03-guía de lectura MONTFORT.md",
+    "home.md",
+    "04-tp/tp02-aplicación.md",
+    "01-proj/15/porrini/Un día bello.md",
+    "01-proj/15/bergaglio/Supernova luna llena.md",
+    "01-proj/23/beltrame/Una mirada profunda.md",
+    "01-proj/23/beltrame/Reseña.md",
+    "01-proj/23/beltrame/Piano.md",
+    "01-proj/22/cym exoinstrumento.md",
+    "01-proj/22/dure/Resampler.md",
+    "01-proj/22/dure/Sequencer.md",
+    "01-proj/25/Peterschmitt",
+    "01-proj/25",
+    "04-tp/tp05-guía de lectura 1 GROYS.md",
+    "00-moc/topoi MOC.md",
+    "00-moc/teatro MOC.md",
+    "00-in/proyectual.md",
+    "02-mat/código/jasvascript/js-02 contextos de ejecución.md",
+    "03-cla/c-cym01 cym introducción.md",
+    "00-moc/procedimientos MOC.md",
+    "00-moc/personas MOC.md",
+    "00-moc/obras MOC.md",
+    "00-in/memex.md",
+    "00-in/La conciencia social del arte generativo..md",
+    "cym-metamap.canvas",
     "06-out/imc/imc.base",
-    "06-out/imc/Cosmic Observatory Background Explorer.md",
-    "06-out/operativos/recursión/recursión MOC.md",
-    "06-out/operativos/escritura icónica/icónica filosófica.md",
-    "02-mat/herramientas/r-tipologías de instalación.md",
-    "02-mat/herramientas/r-meta-aprendizaje.md",
-    "06-out/operativos artísticos/creatividad combinatoria.md",
-    "02-mat/vida/tolinas.md",
-    "02-mat/vida/ontogenia.md",
-    "02-mat/vida/instrumentos musicales de jupiter.md",
-    "06-out/operativos artísticos/extrañamiento.md",
     "06-out/operativos casos/el cielo",
     "06-out/operativos casos/consola atómica",
-    "06-out/operativos artísticos/procedimientos artísticos MOC.md",
-    "03-cla/c-cym01 cym introducción.md",
-    "06-out/procedimientos/extrañamiento.md",
-    "02-mat/herramientas/r-vinculación bidireccional.md",
     "06-out/operativos/recursión",
     "03-cla/arc",
     "01-proj/25/licmusAp1 aaee2",
     "01-proj/25",
     "06-out/topoi/topoi BASE.base",
-    "05-obs/img/1_The Known Universe by AMNH 1.mp4",
-    "05-obs/img/1_The Known Universe by AMNH.mp4",
     "05-obs/img/eventos MOC-1755180996466.jpeg",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
     "05-obs/img/eventos MOC-1755180996415.jpeg",
@@ -276,7 +263,6 @@
     "05-obs/img/eventos MOC-1755180996420.jpeg",
     "05-obs/img/eventos MOC-1755180996464.jpeg",
     "05-obs/img/eventos MOC-1755180996425.jpeg",
-    "cym-metamap.canvas",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
     "Sin título 1.canvas",
