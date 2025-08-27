@@ -1,8 +1,17 @@
 [
+<<<<<<< HEAD
   "obsidian-git",
   "dataview",
   "templater-obsidian",
   "obsidian-markmind",
   "mermaid-tools",
   "mermaid-themes"
+=======
+<<<<<<< HEAD
+  "obsidian-git",
+  "dataview"
+=======
+  "obsidian-git"
+>>>>>>> origin/main
+>>>>>>> origin/main
 ]
