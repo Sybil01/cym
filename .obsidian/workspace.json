@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "06-out/obras/Atmosphères.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Atmosphères"
             }
           },
           {
@@ -142,8 +142,8 @@
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {},
-              "icon": "longform",
-              "title": "Longform"
+              "icon": "lucide-ghost",
+              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
             }
           }
         ]
@@ -235,8 +235,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           },
           {
@@ -245,8 +245,8 @@
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {},
-              "icon": "cloud",
-              "title": "QuickShare"
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
             }
           }
         ],
@@ -304,29 +304,13 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false,
-      "wikipedia-search:Open Article": false,
-      "translate:Open translation view": false,
-      "obsidian42-text-transporter:Text Transporter": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-metatable:Metatable": false,
-      "obsidian-read-it-later:ReadItLater: Create from clipboard": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "237f0a3d499a9267",
   "lastOpenFiles": [
+    "04-tp/tp01-paradigmas operativos.md",
+    "04-tp/prueba.md",
     "02-mat/código/jasvascript/dataviewjs y html.md",
     "conflict-files-obsidian-git.md",
     "06-out/glosario/DOM.md",
@@ -354,8 +338,6 @@
     "06-out/operativos/lírica lorenz/lírica lorenz.md",
     "06-out/operativos/lírica lorenz",
     "06-out/topoi/Augmented Cognition.md",
-    "06-out/topoi/física/Geometría y Experiencia.md",
-    "06-out/topoi/física/Física.md",
     "06-out/topoi/vida artificial",
     "05-obs/lib/score.svg",
     "05-obs/lib/score.ly",
