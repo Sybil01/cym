@@ -6,6 +6,7 @@
       {
         "id": "2da19bc372fcda96",
         "type": "tabs",
+        "dimension": 20.84130019120459,
         "children": [
           {
             "id": "db0fc51b01de4ecf",
@@ -13,77 +14,71 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/operativos/sistemas paramétricos/pt4.md",
+                "file": "03-cla/c-cym02-paradigmas operativos.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "pt4"
+              "title": "c-cym02-paradigmas operativos"
             }
           },
           {
-            "id": "aa82e4183ff3df57",
+            "id": "4381542375f6ae01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-mat/código/jasvascript/dataviewjs y html.md",
+                "file": "03-cla/c-cym02-paradigmas operativos.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dataviewjs y html"
-            }
-          },
-          {
-            "id": "237f0a3d499a9267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "9c03a659096e31f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/glosario/DOM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "DOM"
-            }
-          },
-          {
-            "id": "11634b6d84f9cf6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/obras/Atmosphères.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Atmosphères"
+              "title": "c-cym02-paradigmas operativos"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "ab5824a5b8c2d2c9",
+        "type": "tabs",
+        "dimension": 66.41172721478648,
+        "children": [
+          {
+            "id": "0f61afd72b8ef4a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-tp/tp01-paradigmas operativos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "tp01-paradigmas operativos"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4555a00a6090b068",
+        "type": "tabs",
+        "dimension": 12.746972594008923,
+        "children": [
+          {
+            "id": "7241622f94dadb6e",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,15 +137,16 @@
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {},
-              "icon": "longform",
-              "title": "Longform"
+              "icon": "lucide-ghost",
+              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 547.5
+    "width": 307.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -245,8 +241,18 @@
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {},
-              "icon": "cloud",
-              "title": "QuickShare"
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
+            }
+          },
+          {
+            "id": "591ff0920c79197d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -304,7 +310,10 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "callout-manager:Insert Callout": false,
       "wikipedia-search:Open Article": false,
       "translate:Open translation view": false,
       "obsidian42-text-transporter:Text Transporter": false,
@@ -313,51 +322,45 @@
       "templater-obsidian:Templater": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-metatable:Metatable": false,
-      "obsidian-read-it-later:ReadItLater: Create from clipboard": false
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "237f0a3d499a9267",
+  "active": "0f61afd72b8ef4a7",
   "lastOpenFiles": [
-    "02-mat/código/jasvascript/dataviewjs y html.md",
-    "conflict-files-obsidian-git.md",
+    "03-cla/c-cym02-paradigmas operativos.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "06-out/operativos/escritura icónica/escritura icónica M0C.md",
+    "03-cla/hiperreal.md",
+    "05-obs/img/Pasted image 20250827130347.png",
+    "05-obs/img/Pasted image 20250827124029.png",
+    "02-mat/código/dataviewjs/partituras procedimentales.md",
+    "05-obs/lib/score.svg",
+    "06-out/obras/Atmosphères.md",
+    "05-obs/img/Pasted image 20250827114255.png",
+    "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
+    "02-mat/código/jasvascript/arrow functions ⇒.md",
+    "06-out/glosario/try.md",
+    "06-out/glosario/arrow functions =>.md",
     "06-out/glosario/DOM.md",
+    "02-mat/código/jasvascript/js-02 contextos de ejecución.md",
+    "02-mat/código/jasvascript/js-00-cheatsheet.md",
+    "02-mat/código/jasvascript/js-01-quiz.md",
+    "02-mat/código/jasvascript/js-01-fundamentos.md",
+    "02-mat/código/jasvascript/js-99-playground.md",
+    "02-mat/código/jasvascript/02-setup/02-setup.md",
+    "06-out/operativos/sistemas paramétricos/pt4.md",
+    "conflict-files-obsidian-git.md",
     "05-obs/img/gal.md",
     "06-out/operativos/sistemas paramétricos/pt3.md",
     "06-out/operativos/sistemas paramétricos/pt2.md",
     "06-out/operativos/sistemas paramétricos/pt1.md",
-    "06-out/obras/Atmosphères.md",
-    "03-cla/c-cym02-paradigmas operativos.md",
-    "02-mat/código/jasvascript/js01-fundamentals.md",
-    "02-mat/código/jasvascript/js-playground.md",
-    "02-mat/código/jasvascript/js-cheatsheet.md",
-    "02-mat/código/jasvascript/js-02 contextos de ejecución.md",
     "01-proj/22/Probando botones en codepen.md",
     "06-out/bibliografía/Tim Ingold_Eine kurze Geschichte der Linien.md",
     "06-out/bibliografía/bib.base",
-    "06-out/bibliografía/Jane Bennet_Vibrant Matter.md",
-    "03-cla/c-cym00-calendario.md",
-    "03-cla/23/c-cym03-mapas.md",
     "03-cla/23",
-    "03-cla/c-cym01 cym introducción.md",
-    "03-cla/23/c-cym02-arte generativo.md",
-    "06-out/topoi/física/Un punto de vista heurístico acerca de la conversión y creación de Luz.md",
-    "06-out/topoi/física/teoría de Maxwell.md",
-    "06-out/operativos/lírica lorenz/lírica lorenz.md",
     "06-out/operativos/lírica lorenz",
-    "06-out/topoi/Augmented Cognition.md",
-    "06-out/topoi/física/Geometría y Experiencia.md",
-    "06-out/topoi/física/Física.md",
     "06-out/topoi/vida artificial",
-    "05-obs/lib/score.svg",
     "05-obs/lib/score.ly",
     "_lily/score.ly",
     "_lily",
@@ -371,9 +374,6 @@
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755894080911.jpeg",
     "cym-metamap.canvas",
     "05-obs/img/eventos MOC-1755180996466.jpeg",
-    "05-obs/img/eventos MOC-1755180996389.jpeg",
-    "05-obs/img/eventos MOC-1755180996415.jpeg",
-    "05-obs/img/eventos MOC-1755180996465.jpeg",
     "Sin título 1.canvas",
     "Sin título.canvas",
     "Untitled.canvas",

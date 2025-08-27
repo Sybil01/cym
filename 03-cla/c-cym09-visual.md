@@ -16,8 +16,8 @@ CYM24
 <iframe width="650" height="500" src="https://shimmering-gumdrop-0fc816.netlify.app/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## js
-![[js01-fundamentals#funciones]]
-![[js01-fundamentals#objetos]]
+![[js-01-fundamentos#funciones]]
+![[js-01-fundamentos#objetos]]
 
 ## flex-grid
 

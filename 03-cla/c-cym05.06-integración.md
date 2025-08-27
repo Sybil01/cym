@@ -58,7 +58,7 @@ Una instalación no puede ser una copia de otra instalación porque una instal
 >[!note] > ver [[css]]
 
 ## integración JS
->[!note] > ver [[js01-fundamentals]]
+>[!note] > ver [[js-01-fundamentos]]
 
 ### toneJS
 https://tonejs.github.io/

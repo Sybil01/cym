@@ -22,7 +22,7 @@ UNTREF | CYM24
 ## info útil
 >[!note] > ver [[html]]
  ver [[css]]
- ver [[js01-fundamentals]]
+ ver [[js-01-fundamentos]]
 
 ## basic
 

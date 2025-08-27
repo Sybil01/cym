@@ -200,7 +200,12 @@
     "systemarts": 169,
     "dss/o": 4,
     "dss/o/smi": 1,
-    "obj": 170
+    "obj": 170,
+    "músicaescrita": 171,
+    "netart": 172,
+    "métodocientífico": 173,
+    "operativos": 174,
+    "operativos/sistemasparamétricos": 1
   },
   "_version": 3
 }

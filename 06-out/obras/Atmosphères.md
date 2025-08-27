@@ -342,6 +342,7 @@ button.addEventListener("click", () => {
 
 
 
+
 ## Simulación 2 Fluctuación micro + Corriente macro
 
 ```dataviewjs
@@ -1096,3 +1097,170 @@ root.__lorenzCleanup = async ()=>{
 
 
 
+## la escritura icónica es platform-agnostic
+
+### blender
+
+```python
+# Lorenz Attractor → Blender (solo generación, Blender 3.x y 4.x)
+# - Crea N trayectorias como CURVE 3D con material de emisión.
+# - Sin UI, sin audio, sin animación.
+
+import bpy
+from mathutils import Color
+
+# ----------------------------
+# Parámetros
+# ----------------------------
+SIGMA = 10.0       # σ
+RHO   = 28.0       # ρ
+BETA  = 8.0/3.0    # β
+DT    = 0.01       # paso de integración
+NUM_PARTICLES = 20 # cantidad de “semillas”
+STEPS = 400        # puntos por trayectoria
+SEED_SPACING = 0.05# separación entre semillas
+SCALE = 0.2        # factor de escala a unidades Blender
+BEVEL_DEPTH = 0.01 # grosor de la curva
+EMISSION_STRENGTH = 3.0
+COLLECTION_NAME = "Lorenz_Attractor"
+CLEAN_PREVIOUS = True
+
+# ----------------------------
+# Utilidades
+# ----------------------------
+def ensure_collection(name: str) -> bpy.types.Collection:
+    col = bpy.data.collections.get(name)
+    if col:
+        return col
+    col = bpy.data.collections.new(name)
+    bpy.context.scene.collection.children.link(col)
+    return col
+
+def unlink_collection_from_all_scenes(col: bpy.types.Collection):
+    # Blender 4.x: no users_scene; desenlazamos manualmente de cada escena
+    for scn in bpy.data.scenes:
+        def unlink_recursive(parent):
+            # Unlink si está como hijo directo
+            if col.name in parent.children.keys():
+                parent.children.unlink(col)
+                return True
+            # Buscar en profundidad
+            for child in parent.children:
+                if unlink_recursive(child):
+                    return True
+            return False
+        unlink_recursive(scn.collection)
+
+def delete_collection(name: str):
+    col = bpy.data.collections.get(name)
+    if not col:
+        return
+    # Unlink de todas las escenas y borrar objetos
+    unlink_collection_from_all_scenes(col)
+    for obj in list(col.objects):
+        bpy.data.objects.remove(obj, do_unlink=True)
+    # Borrar sub-colecciones si hubiera
+    for sub in list(col.children):
+        col.children.unlink(sub)
+    # Borrar colección
+    bpy.data.collections.remove(col)
+
+def hsv_to_rgba(h: float, s: float, v: float, a: float = 1.0):
+    c = Color()
+    c.hsv = (h, s, v)
+    return (c.r, c.g, c.b, a)
+
+def make_emission_material(name: str, color_rgba, strength: float):
+    """Compatibilidad Blender 3.x y 4.x:
+       - Si Principled tiene 'Emission', lo usamos (3.x).
+       - Si no, usamos un nodo Emission directo al Output (4.x)."""
+    mat = bpy.data.materials.new(name)
+    mat.use_nodes = True
+    nt = mat.node_tree
+    nodes = nt.nodes
+    links = nt.links
+
+    # Limpieza mínima: dejamos Output y Principled si existe
+    out = nodes.get("Material Output")
+    bsdf = nodes.get("Principled BSDF")
+
+    if not out:
+        out = nodes.new("ShaderNodeOutputMaterial")
+
+    # Caso 1: Principled con socket Emission (3.x)
+    if bsdf and "Emission" in bsdf.inputs and "Emission Strength" in bsdf.inputs:
+        bsdf.inputs["Emission"].default_value = color_rgba
+        bsdf.inputs["Emission Strength"].default_value = strength
+        # Asegurar conexión BSDF->Output
+        if not any(l.to_node == out and l.from_node == bsdf for l in links):
+            links.new(bsdf.outputs["BSDF"], out.inputs["Surface"])
+        return mat
+
+    # Caso 2: Blender 4.x (sin Emission en Principled): Emission node directo
+    # Eliminamos conexiones previas al Surface
+    for l in list(links):
+        if l.to_node == out and l.to_socket == out.inputs.get("Surface"):
+            links.remove(l)
+
+    # Crear Emission y conectar a Surface
+    emis = nodes.new("ShaderNodeEmission")
+    emis.inputs["Color"].default_value = color_rgba
+    emis.inputs["Strength"].default_value = strength
+    links.new(emis.outputs["Emission"], out.inputs["Surface"])
+
+    # (Opcional) si hay Principled, lo dejamos sin conectar
+    return mat
+
+def lorenz_points(x, y, z, steps, sigma, rho, beta, dt, scale):
+    pts = []
+    for _ in range(steps):
+        dx = (sigma * (y - x)) * dt
+        dy = (x * (rho - z) - y) * dt
+        dz = (x * y - beta * z) * dt
+        x += dx; y += dy; z += dz
+        pts.append((x * scale, y * scale, z * scale))
+    return pts
+
+def make_curve_from_points(name, points, bevel_depth=0.01):
+    crv = bpy.data.curves.new(name=name, type='CURVE')
+    crv.dimensions = '3D'
+    crv.resolution_u = 2
+    crv.fill_mode = 'FULL'
+    crv.bevel_depth = bevel_depth
+
+    spl = crv.splines.new('POLY')
+    spl.points.add(len(points) - 1)
+    for i, (x, y, z) in enumerate(points):
+        spl.points[i].co = (x, y, z, 1.0)
+
+    obj = bpy.data.objects.new(name, crv)
+    return obj
+
+# ----------------------------
+# Generación
+# ----------------------------
+if CLEAN_PREVIOUS and COLLECTION_NAME in bpy.data.collections:
+    delete_collection(COLLECTION_NAME)
+
+col = ensure_collection(COLLECTION_NAME)
+
+for i in range(NUM_PARTICLES):
+    init = (i + 1) * SEED_SPACING
+    pts = lorenz_points(init, init, init, STEPS, SIGMA, RHO, BETA, DT, SCALE)
+
+    obj = make_curve_from_points(f"Lorenz_{i+1}", pts, BEVEL_DEPTH)
+
+    # Color por partícula (hue 0..1)
+    h = (i + 1) / max(1, NUM_PARTICLES)
+    color = hsv_to_rgba(h, 0.7, 1.0, 1.0)
+
+    mat = make_emission_material(f"LorenzMat_{i+1}", color, EMISSION_STRENGTH)
+    obj.data.materials.append(mat)
+
+    col.objects.link(obj)
+
+print(f"[OK] Generadas {NUM_PARTICLES} curvas de Lorenz en colección '{COLLECTION_NAME}'.")
+```
+
+
+![|600](https://i.imgur.com/vwaPwyw.png)

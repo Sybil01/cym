@@ -10,9 +10,9 @@ const root = this.container;
 const p = document.createElement("pre");
 p.textContent = "DataviewJS OK";
 root.appendChild(p);
-"```
-
+.```
 ```
+
 
 
 ```dataviewjs
@@ -23,28 +23,29 @@ root.appendChild(p);
 ```
 
 
+
+
 ##  ejemplo línea por línea:
 
 `const root = this.container;`
 
-	•	this.container es el nodo raíz que DataviewJS asigna al bloque actual dentro de la nota. En vez de escribir en toda la página, solo tenés permiso para modificar este “contenedor local”.
-	•	Guardamos esa referencia en la constante root para usarla luego.
+- this.container es el nodo raíz que DataviewJS asigna al bloque actual dentro de la nota. En vez de escribir en toda la página, solo tenés permiso para modificar este “contenedor local”.
+- Guardamos esa referencia en la constante root para usarla luego.
 
 const p = document.createElement("pre");
 
-	•	Creamos un elemento HTML <pre> (texto preformateado).
-	•	En un archivo HTML usarías igual document.createElement, pero ahí se referiría al documento completo. Acá sigue siendo el mismo API DOM, solo que lo vamos a insertar dentro del container.
+- Creamos un elemento HTML `<pre>` (texto preformateado).
+- En un archivo HTML usarías igual document.createElement, pero ahí se referiría al documento completo. Acá sigue siendo el mismo API DOM, solo que lo vamos a insertar dentro del container.
 
 p.textContent = "DataviewJS OK";
 
-	•	Asignamos el texto que mostrará el elemento <pre>.
-	•	textContent asegura que se muestre como texto plano (no interpreta HTML).
+- Asignamos el texto que mostrará el elemento `<pre>`.
+- textContent asegura que se muestre como texto plano (no interpreta HTML).
 
 root.appendChild(p);
 
-	•	Finalmente, insertamos el <pre> dentro del contenedor del bloque dataviewjs.
-	•	En HTML común, lo harías con document.body.appendChild(p) o el contenedor que quieras. En DataviewJS siempre conviene usar this.container para no contaminar otras partes de la nota.
-
+- Finalmente, insertamos el `<pre>` dentro del contenedor del bloque dataviewjs.
+- En HTML común, lo harías con document.body.appendChild(p) o el contenedor que quieras. En DataviewJS siempre conviene usar this.container para no contaminar otras partes de la nota.
 
 
 ## Diferencia con HTML
@@ -73,16 +74,150 @@ root.appendChild(p);
 ```
 
 
-	•	En HTML 1-page: todo el documento es tuyo; podés usar <html>, <head>, <body>, y manipular document.body.
-	•	En DataviewJS: no definís <html> ni <body>. El plugin ya te da un entorno y un container aislado. Solo podés renderizar dentro de ese bloque.
-	•	El código JS es casi el mismo, pero el “scope visual” cambia: en la web manejás toda la ventana; en DataviewJS, solo la cajita del bloque donde pegaste tu script.
+
+- En HTML 1-page: todo el documento es tuyo; podés usar` <html>`, `<head>`, `<body>`, y manipular document.body.
+- En DataviewJS: no definís `<html>` ni `<body>`. El plugin ya te da un entorno y un container aislado. Solo podés renderizar dentro de ese bloque.
+- El código JS es casi el mismo, pero el “scope visual” cambia: en la web manejás toda la ventana; en DataviewJS, solo la cajita del bloque donde pegaste tu script.
+
+
+## hola mundo de webaudioAPI y dataviewjs
+
+
+- Usa this.container como raíz (DataviewJS).
+- Cada click alterna entre crear y destruir el grafo de audio.
+- `ctx.close()` asegura que el destino se libere, así no queda colgado el AudioContext.
+
+
+```dataviewjs
+// raíz donde se monta todo
+const r=this.container;
+// botón único
+const b=document.createElement("button");b.textContent="Play";r.appendChild(b);
+
+// estado audio
+let ctx=null,osc=null,g=null,play=false;
+
+// acción del botón
+b.onclick=()=>{ 
+  if(!play){ 
+    // crear contexto y nodos
+    ctx=new (AudioContext||webkitAudioContext)();
+    osc=ctx.createOscillator(); g=ctx.createGain();
+    osc.type="sine"; osc.frequency.value=220; g.gain.value=0.2;
+    osc.connect(g).connect(ctx.destination); osc.start();
+    play=true; b.textContent="Stop"; 
+  }else{ 
+    // apagar y limpiar
+    try{osc.stop();osc.disconnect();g.disconnect();ctx.close();}catch(e){}
+    osc=g=ctx=null; play=false; b.textContent="Play"; 
+  }
+};
+```
+
+
+## hola fm 
+
+- FM en tiempo real asegurada usando setTargetAtTime sobre carrier.frequency, mod.frequency y mg.gain.
+- El segundo slider controla la frecuencia de la modulante y, para que se oiga bien sin un tercer control, también ajusta la profundidad de modulación (`mg.gain ≈ 0.6*mod`).
+- La línea de estado aparece en gris e inline: carrier: … Hz | mod: … Hz.
+- ` stop()` destruye todo: `stop()`, `disconnect()` y `ctx.close()` para que no quede colgado el *destination*.
+- como usamos [[try]] y las [[arrow functions ⇒]]
+
+```dataviewjs
+// raíz + helpers UI
+const r=this.container,m=(t,p={})=>Object.assign(document.createElement(t),p);
+const btn=m("button",{textContent:"Play"}),lc=m("label",{textContent:" Carrier "}),ic=m("input"),lm=m("label",{textContent:" Mod "}),im=m("input"),sel=m("select"),st=m("span");st.style.color="#888";
+ic.type="range";ic.min="50";ic.max="1000";ic.step="1";ic.value="220";
+im.type="range";im.min="0";im.max="1000";im.step="1";im.value="100";
+["sine","square","triangle","sawtooth"].forEach(w=>{const o=m("option");o.text=o.value=w;sel.appendChild(o);});
+[btn,lc,ic,lm,im,sel,st].forEach(e=>r.appendChild(e));
+
+// estado audio
+let ctx=null,car=null,mod=null,mg=null,on=false;
+const updHUD=()=>st.textContent=`  carrier: ${(+ic.value).toFixed(0)} Hz | mod: ${(+im.value).toFixed(0)} Hz`;
+
+// arrancar/parar con limpieza total
+const start=()=>{
+  ctx=new (AudioContext||webkitAudioContext)();
+  car=ctx.createOscillator(); mod=ctx.createOscillator(); mg=ctx.createGain();
+  car.type=sel.value; car.frequency.setValueAtTime(+ic.value,ctx.currentTime);
+  mod.frequency.setValueAtTime(+im.value,ctx.currentTime);
+  mg.gain.setValueAtTime(Math.max(0,+im.value*0.6),ctx.currentTime); // profundidad ≈ 0.6*mod (audible)
+  mod.connect(mg).connect(car.frequency); car.connect(ctx.destination);
+  car.start(); mod.start(); on=true; btn.textContent="Stop"; updHUD();
+};
+const stop=()=>{
+  try{car.stop();mod.stop();}catch(e){}
+  try{car.disconnect();mod.disconnect();mg.disconnect();}catch(e){}
+  try{ctx.close();}catch(e){}
+  ctx=car=mod=mg=null; on=false; btn.textContent="Play"; updHUD();
+};
+
+// eventos (realtime)
+btn.onclick=()=>on?stop():start();
+ic.oninput =()=>{ if(car&&ctx){ car.frequency.setTargetAtTime(+ic.value,ctx.currentTime,0.015); } updHUD(); };
+im.oninput =()=>{ if(mod&&mg&&ctx){ const f=+im.value; mod.frequency.setTargetAtTime(f,ctx.currentTime,0.015); mg.gain.setTargetAtTime(Math.max(0,f*0.6),ctx.currentTime,0.015);} updHUD(); };
+sel.onchange=()=>{ if(car) car.type=sel.value; };
+updHUD();
+```
 
 
 
 
+## hola threejs
+
+```dataviewjs
+try{
+  const r=this.container;                                        // raíz del bloque
+  const load=s=>new Promise((ok,ko)=>{                           // carga script una sola vez
+    if([...document.scripts].some(x=>x.src.includes(s)))return ok();
+    const t=document.createElement('script');t.src=s;t.onload=ok;t.onerror=ko;document.head.appendChild(t);
+  });
+  if(!window.THREE) await load('https://unpkg.com/three@0.149.0/build/three.min.js'); // three r149 no-module
+
+  const W=r.clientWidth||600,H=320;                              // tamaño canvas
+  const ren=new THREE.WebGLRenderer({antialias:true,alpha:true});ren.setSize(W,H);r.appendChild(ren.domElement); // renderer+canvas
+  const scn=new THREE.Scene();                                   // escena
+  const cam=new THREE.PerspectiveCamera(60,W/H,.1,100);cam.position.set(3,2,4); // cámara
+  scn.add(new THREE.AmbientLight(0xffffff,.6));const dl=new THREE.DirectionalLight(0xffffff,.8);dl.position.set(3,5,2);scn.add(dl); // luces
+  const mesh=new THREE.Mesh(new THREE.BoxGeometry(1,1,1),new THREE.MeshStandardMaterial({roughness:.4,metalness:.1}));scn.add(mesh); // cubo
+  scn.add(new THREE.AxesHelper(1.5));                             // ejes
+
+  // Orbit minimal: arrastra para orbitar, rueda para zoom
+  class Orbit{
+    constructor(c,d){ this.c=c; this.d=d; this.t=new THREE.Vector3();          // target (0,0,0)
+      this.s=new THREE.Spherical().setFromVector3(c.position.clone());         // (radius,phi,theta) desde la pos de cámara
+      this.min=.01; this.max=Math.PI-.01; this.rmin=1; this.rmax=50;           // límites
+      this.rot=.008; this.zoom=1.1; this.drag=false; this.p={x:0,y:0};         // sensibilidad+estado
+      d.addEventListener('pointerdown',e=>{this.drag=true;this.p.x=e.clientX;this.p.y=e.clientY;});
+      d.addEventListener('pointerup',()=>this.drag=false);
+      d.addEventListener('pointermove',e=>{ if(!this.drag)return;              // rotación
+        const dx=e.clientX-this.p.x,dy=e.clientY-this.p.y; this.p.x=e.clientX; this.p.y=e.clientY;
+        this.s.theta-=dx*this.rot; this.s.phi=Math.min(this.max,Math.max(this.min,this.s.phi-dy*this.rot)); this.upd();
+      });
+      d.addEventListener('wheel',e=>{ e.preventDefault();                      // zoom
+        this.s.radius=e.deltaY>0?Math.min(this.rmax,this.s.radius*this.zoom):Math.max(this.rmin,this.s.radius/this.zoom); this.upd();
+      },{passive:false});
+      this.upd();
+    }
+    upd(){ this.c.position.setFromSpherical(this.s).add(this.t); this.c.lookAt(this.t); } // aplica esféricas→posición
+  }
+  const orb=new Orbit(cam,ren.domElement);                       // activa orbit
+
+  (function loop(){ requestAnimationFrame(loop);                 // render loop
+    mesh.rotation.y+=.01; mesh.rotation.x+=.006;                 // animación simple
+    ren.render(scn,cam);
+  })();
+
+  window.addEventListener('resize',()=>{                         // responsivo básico (altura fija)
+    const w=r.clientWidth||W,h=H; ren.setSize(w,h); cam.aspect=w/h; cam.updateProjectionMatrix();
+  });
+}catch(e){ const pre=document.createElement('pre'); pre.textContent='ERROR:\n'+(e&&e.stack||e); this.container.appendChild(pre); }
+```
 
 
-## hola mundo en dataviewjs
+
+## hola mundo completo en dataviewjs
 
 ```dataviewjs
 try {
@@ -491,6 +626,103 @@ try {
 </body>
 </html>
 ```
+
+
+
+## interactuando con el vault de obsidian
+
+```dataviewjs
+try{
+  // -------- CONFIG --------
+  const LABEL_SIZE = 24; // px base para las letras (cambiá acá el tamaño)
+
+  // -------- DATOS --------
+  const cur=dv.current().file, base=s=>s.split('/').pop().replace(/\.[^/.]+$/,'');
+  const out=(cur.outlinks||[]).map(l=>l.path), inc=(cur.inlinks||[]).map(l=>l.path);
+  const uniq=a=>[...new Set(a)], neigh=uniq(out.concat(inc));
+  const edges=[...out.map(p=>({a:cur.path,b:p})), ...inc.map(p=>({a:p,b:cur.path}))];
+
+  // -------- THREE --------
+  const load=s=>new Promise((ok,ko)=>{if([...document.scripts].some(x=>x.src.includes(s)))return ok();const t=document.createElement('script');t.src=s;t.onload=ok;t.onerror=ko;document.head.appendChild(t);});
+  if(!window.THREE) await load('https://unpkg.com/three@0.149.0/build/three.min.js');
+
+  const r=this.container; r.innerHTML="";
+  const W=()=>r.clientWidth||640, H=()=>420;
+  const ren=new THREE.WebGLRenderer({antialias:true,alpha:true}); ren.setSize(W(),H()); r.appendChild(ren.domElement);
+  const scn=new THREE.Scene(), cam=new THREE.PerspectiveCamera(60,W()/H(),.1,100); cam.position.set(0,0,6);
+  scn.add(new THREE.AmbientLight(0xffffff,.7)); const dl=new THREE.DirectionalLight(0xffffff,.6); dl.position.set(3,5,4); scn.add(dl);
+
+  // -------- SPRITES DE TEXTO --------
+// Sprite de texto con DPI y escala proporcional (ancho = alto * w/h)
+const makeTextSprite=(txt)=>{
+  const pad=6, DPR=Math.min(2,window.devicePixelRatio||1);
+  const font=`${LABEL_SIZE}px system-ui, sans-serif`;
+
+  // medir en un canvas efímero
+  const mcv=document.createElement('canvas'), mctx=mcv.getContext('2d');
+  mctx.font=font; const w=mctx.measureText(txt).width+pad*2, h=LABEL_SIZE+pad*2;
+
+  // canvas real con DPI
+  const c=document.createElement('canvas'), ctx=c.getContext('2d');
+  c.width=Math.ceil(w*DPR); c.height=Math.ceil(h*DPR); ctx.scale(DPR,DPR);
+  ctx.font=font; ctx.textBaseline="top";
+  ctx.fillStyle="rgba(0,0,0,.45)"; ctx.fillRect(0,0,w,h);
+  ctx.fillStyle="#fff"; ctx.fillText(txt,pad,pad);
+
+  const tex=new THREE.CanvasTexture(c); tex.minFilter=THREE.LinearFilter; tex.magFilter=THREE.LinearFilter;
+  const spr=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true}));
+
+  // alto en unidades 3D, ancho por aspecto
+  const height=0.015*LABEL_SIZE, aspect=w/h;
+  spr.scale.set(height*aspect, height, 1);
+  return spr;
+};
+
+  // -------- GRAFO --------
+  const G=new THREE.Group(); scn.add(G);
+  const gC=new THREE.SphereGeometry(.25,24,16), gN=new THREE.SphereGeometry(.16,16,12);
+  const mC=new THREE.MeshStandardMaterial({color:0x3399ff}), mN=new THREE.MeshStandardMaterial({color:0xcccccc});
+  const mE=new THREE.LineBasicMaterial({color:0x999999});
+  const idx=new Map();
+
+  const center=new THREE.Mesh(gC,mC); center.position.set(0,0,0); G.add(center);
+  const lblC=makeTextSprite(base(cur.path)); lblC.position.set(0,.55,0); center.add(lblC);
+  idx.set(cur.path,{pos:center.position,mesh:center,label:lblC,clickable:lblC});
+
+  const R=2.4, N=Math.max(neigh.length,1);
+  neigh.forEach((p,i)=>{
+    const th=i/N*Math.PI*2, x=Math.cos(th)*R, y=Math.sin(th)*R;
+    const mesh=new THREE.Mesh(gN,mN); mesh.position.set(x,y,0); G.add(mesh);
+    const lbl=makeTextSprite(base(p)); lbl.position.set(0,.45,0); mesh.add(lbl);
+    idx.set(p,{pos:mesh.position,mesh,label:lbl,clickable:lbl});
+  });
+
+  edges.forEach(e=>{ const A=idx.get(e.a)?.pos,B=idx.get(e.b)?.pos; if(A&&B) G.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([A.clone(),B.clone()]),mE)); });
+
+  // -------- PICKING --------
+  const ray=new THREE.Raycaster(), mouse=new THREE.Vector2();
+  const spriteToPath=new Map(); idx.forEach((v,k)=>{spriteToPath.set(v.clickable,k);});
+  ren.domElement.addEventListener('click',ev=>{
+    const rect=ren.domElement.getBoundingClientRect();
+    mouse.x=((ev.clientX-rect.left)/rect.width)*2-1; mouse.y=-((ev.clientY-rect.top)/rect.height)*2+1;
+    ray.setFromCamera(mouse,cam);
+    const hit=ray.intersectObjects([...spriteToPath.keys()],true)[0];
+    if(hit){const path=spriteToPath.get(hit.object); app.workspace.openLinkText(base(path),cur.path);}
+  });
+
+  // -------- LOOP --------
+  (function loop(){requestAnimationFrame(loop); G.rotation.z+=0.003; ren.render(scn,cam);})();
+  window.addEventListener('resize',()=>{ren.setSize(W(),H());cam.aspect=W()/H();cam.updateProjectionMatrix();});
+}catch(e){const pre=document.createElement('pre');pre.textContent='ERROR:\n'+(e&&e.stack||e);this.container.appendChild(pre);}
+```
+
+
+
+
+
+
+
+
 
 
 

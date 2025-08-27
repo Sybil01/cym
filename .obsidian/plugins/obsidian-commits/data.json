@@ -1139,29 +1139,9 @@
       "tags": 0,
       "links": 0
     },
-    "02-mat/código/jasvascript/js-playground.md": {
-      "size": 798,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/código/jasvascript/js01-fundamentals.md": {
-      "size": 40520,
-      "tags": 0,
-      "links": 0
-    },
     "02-mat/código/jasvascript/js-02 contextos de ejecución.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
-    },
-    "02-mat/código/jasvascript/js-cheatsheet.md": {
-      "size": 128,
-      "tags": 0,
-      "links": 0
-    },
-    "02-mat/código/jasvascript/02-setup/02-setup.md": {
-      "size": 12609,
-      "tags": 1,
       "links": 0
     },
     "02-mat/código/01-tone.js.md": {
@@ -1730,7 +1710,7 @@
       "links": 2
     },
     "03-cla/c-cym02-paradigmas operativos.md": {
-      "size": 4847,
+      "size": 18212,
       "tags": 1,
       "links": 0
     },
@@ -2065,7 +2045,7 @@
       "links": 7
     },
     "06-out/obras/Atmosphères.md": {
-      "size": 41745,
+      "size": 49239,
       "tags": 1,
       "links": 2
     },
@@ -2119,11 +2099,6 @@
       "tags": 6,
       "links": 17
     },
-    "03-cla/23/c-cym05.06-integración.md": {
-      "size": 6539,
-      "tags": 0,
-      "links": 7
-    },
     "03-cla/23/c-cym06-principios generativos.md": {
       "size": 647,
       "tags": 3,
@@ -2133,11 +2108,6 @@
       "size": 6146,
       "tags": 0,
       "links": 1
-    },
-    "03-cla/23/c-cym06c-tonejs.md": {
-      "size": 1338,
-      "tags": 0,
-      "links": 4
     },
     "03-cla/23/c-cym07-cohesión audiovisual.md": {
       "size": 10559,
@@ -2174,11 +2144,6 @@
       "tags": 0,
       "links": 1
     },
-    "03-cla/23/c-cym09-visual.md": {
-      "size": 1455,
-      "tags": 0,
-      "links": 6
-    },
     "03-cla/23/c-cym10y11-Aframe.md": {
       "size": 1728,
       "tags": 0,
@@ -2214,12 +2179,62 @@
       "tags": 0,
       "links": 0
     },
-    "02-mat/código/jasvascript/dataviewjs y html.md": {
-      "size": 19075,
-      "tags": 0,
-      "links": 1
-    },
     "06-out/glosario/DOM.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/glosario/try.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/glosario/arrow functions =>.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js-03 dataviewjs y html.md": {
+      "size": 30496,
+      "tags": 0,
+      "links": 3
+    },
+    "02-mat/código/jasvascript/js-00-cheatsheet.md": {
+      "size": 128,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js-99-playground.md": {
+      "size": 798,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/jasvascript/js-01-fundamentos.md": {
+      "size": 40520,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/c-cym05.06-integración.md": {
+      "size": 6539,
+      "tags": 0,
+      "links": 7
+    },
+    "03-cla/c-cym06c-tonejs.md": {
+      "size": 1338,
+      "tags": 0,
+      "links": 4
+    },
+    "03-cla/c-cym09-visual.md": {
+      "size": 1455,
+      "tags": 0,
+      "links": 6
+    },
+    "02-mat/código/jasvascript/js-01-quiz.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "03-cla/hiperreal.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -2227,10 +2242,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1704,
-      "Create": 739,
-      "Link": 1193,
-      "Expand": 160
+      "Refactor": 1720,
+      "Create": 745,
+      "Link": 1195,
+      "Expand": 171
     }
   },
   "dailyCommits": {
@@ -2245,10 +2260,10 @@
       "7": 33,
       "8": 335,
       "9": 233,
-      "10": 84,
-      "11": 166,
-      "12": 643,
-      "13": 103,
+      "10": 88,
+      "11": 187,
+      "12": 649,
+      "13": 107,
       "14": 207,
       "15": 158,
       "16": 203,
@@ -2265,7 +2280,7 @@
     "/": {
       "Mon": 140,
       "Tue": 257,
-      "Wed": 1356,
+      "Wed": 1391,
       "Thu": 856,
       "Fri": 821,
       "Sat": 0,
@@ -2275,6 +2290,17 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"06-out/obras/Atmosphères.md\"> Atmosphères </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-03 dataviewjs y html.md\"> js-03 dataviewjs y html </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
         "<a class=\"internal-link\" href=\"06-out/obras/Atmosphères.md\"> Atmosphères </a>",
@@ -2314,20 +2340,15 @@
         "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/pt3.md\"> pt3 </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md\"> sistemas paramétricos de Gray-Scott </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/inestabilidad de kelvin-helmholz/inestbalidad de Kelvin-Helmholz.md\"> inestbalidad de Kelvin-Helmholz </a>",
-        "<a class=\"internal-link\" href=\"04-tp/tp01-paradigmas operativos.md\"> tp01-paradigmas operativos </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>"
+        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"03-cla/hiperreal.md\"> hiperreal </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/arrow functions ⇒.md\"> arrow functions ⇒ </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/arrow functions ⇒.md\"> arrow functions ⇒ </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/arrow functions.md\"> arrow functions </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/try.md\"> try </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/DOM.md\"> DOM </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/Untitled.md\"> Untitled </a>",
@@ -2372,15 +2393,21 @@
         "<a class=\"internal-link\" href=\"06-out/personas/Hugh Le Caine.md\"> Hugh Le Caine </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos artísticos/catalexis.md\"> catalexis </a>",
         "<a class=\"internal-link\" href=\"02-mat/herramientas/r-memex.md\"> r-memex </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"00-in/Allison Parrish.md\"> Allison Parrish </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/teoría crítica de la tecnología/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/arqueología de medios/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym16-teología estética de los nuevos medios.md\"> c-cym16-teología estética de los nuevos medios </a>",
-        "<a class=\"internal-link\" href=\"03-cla/c-cym15-interactividad.md\"> c-cym15-interactividad </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-01-quiz.md\"> js-01-quiz </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym09-visual.md\"> c-cym09-visual </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
+        "<a class=\"internal-link\" href=\"03-cla/c-cym05.06-integración.md\"> c-cym05.06-integración </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-01-fundamentos.md\"> js-01-fundamentos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-99-playground.md\"> js-99-playground </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-00-cheatsheet.md\"> js-00-cheatsheet </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js00-cheatsheet.md\"> js00-cheatsheet </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/js-03 dataviewjs y html.md\"> js-03 dataviewjs y html </a>",
+        "<a class=\"internal-link\" href=\"06-out/glosario/arrow functions =>.md\"> arrow functions => </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/arrow functions =>.md\"> arrow functions => </a>",
+        "<a class=\"internal-link\" href=\"06-out/glosario/try.md\"> try </a>",
         "<a class=\"internal-link\" href=\"06-out/glosario/DOM.md\"> DOM </a>",
         "<a class=\"internal-link\" href=\"06-out/bibliografía/Jane Bennet_Vibrant Matter.md\"> Jane Bennet_Vibrant Matter </a>",
         "<a class=\"internal-link\" href=\"03-cla/23/c-cym02-arte generativo.md\"> c-cym02-arte generativo </a>",
@@ -2419,19 +2446,7 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/Niveles de cognición.md\"> Niveles de cognición </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/Momento de aparición de objetos tecnológicos.md\"> Momento de aparición de objetos tecnológicos </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/lenguaje simbólico en Jupiter.md\"> lenguaje simbólico en Jupiter </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/instrumentos musicales de jupiter.md\"> instrumentos musicales de jupiter </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/filogenia.md\"> filogenia </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/contracción por gradientes térmicos.md\"> contracción por gradientes térmicos </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/tolinas.md\"> tolinas </a>",
-        "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/Vida artificial.md\"> Vida artificial </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/pt4.md\"> pt4 </a>",
-        "<a class=\"internal-link\" href=\"07-ayuda/help markdown.md\"> help markdown </a>",
-        "<a class=\"internal-link\" href=\"07-ayuda/01 instalaciones.md\"> 01 instalaciones </a>",
-        "<a class=\"internal-link\" href=\"07-ayuda/01 instalación del repositorio.md\"> 01 instalación del repositorio </a>",
-        "<a class=\"internal-link\" href=\"07-ayuda/01. instalación del repositorio.md\"> 01. instalación del repositorio </a>",
-        "<a class=\"internal-link\" href=\"07-ayuda/instalar.md\"> instalar </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/método científico/Método científico.md\"> Método científico </a>",
-        "<a class=\"internal-link\" href=\"06-out/obras/Sun Thinking.md\"> Sun Thinking </a>"
+        "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/instrumentos musicales de jupiter.md\"> instrumentos musicales de jupiter </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"06-out/topoi/física/Geometría y Experiencia.md\"> Geometría y Experiencia </a>",
@@ -2508,6 +2523,9 @@
         "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/arrow functions ⇒.md\"> arrow functions ⇒ </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/arrow functions ⇒.md\"> arrow functions ⇒ </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/02-setup/02-setup.md\"> 02-setup </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"06-out/bibliografía/title.md\"> title </a>",
         "<a class=\"internal-link\" href=\"06-out/bibliografía/b-Azar y necesidad.md\"> b-Azar y necesidad </a>",
@@ -2555,12 +2573,11 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/t-topoi.md\"> t-topoi </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/sistemas-de-universos-topoi-sistemas-20de-universos.md.md\"> sistemas-de-universos-topoi-sistemas-20de-universos.md </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/modelos de universos.md\"> modelos de universos </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/energía/energía del gesto musical.md\"> energía del gesto musical </a>",
-        "<a class=\"internal-link\" href=\"04-out/topoi/energía MOC.md\"> energía MOC </a>"
+        "<a class=\"internal-link\" href=\"04-out/topoi/sistemas-de-universos-topoi-sistemas-20de-universos.md.md\"> sistemas-de-universos-topoi-sistemas-20de-universos.md </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/lírica lorenz/lírica lorenz.md\"> lírica lorenz </a>",
@@ -2609,9 +2626,7 @@
         "<a class=\"internal-link\" href=\"06-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
         "<a class=\"internal-link\" href=\"06-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
         "<a class=\"internal-link\" href=\"06-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>",
-        "<a class=\"internal-link\" href=\"06-out/eventos/Visual Music.md\"> Visual Music </a>",
-        "<a class=\"internal-link\" href=\"06-out/imc/Cosmic Observatory Background Explorer.md\"> Cosmic Observatory Background Explorer </a>",
-        "<a class=\"internal-link\" href=\"06-out/obras/papilarnie III.md\"> papilarnie III </a>"
+        "<a class=\"internal-link\" href=\"06-out/eventos/Visual Music.md\"> Visual Music </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"05-obs/tpl/t-obra.md\"> t-obra </a>",
@@ -2667,6 +2682,7 @@
         "<a class=\"internal-link\" href=\"01-proj/22/hydra.md\"> hydra </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
@@ -2716,8 +2732,7 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/Vida artificial.md\"> Vida artificial </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/arte de datos.md\"> arte de datos </a>",
         "<a class=\"internal-link\" href=\"04-out/topoi/Introducción a la psicoacústica.md\"> Introducción a la psicoacústica </a>",
-        "<a class=\"internal-link\" href=\"04-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
-        "<a class=\"internal-link\" href=\"05-obs/a-snippets.md\"> a-snippets </a>"
+        "<a class=\"internal-link\" href=\"04-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>"
       ]
     }
   },
