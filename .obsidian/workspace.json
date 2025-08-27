@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-in/hi augmentation.md",
+                "file": "01-proj/25/Carlos Lescano/Hola mundo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "hi augmentation"
+              "title": "Hola mundo"
             }
           }
         ],
@@ -255,7 +255,10 @@
   "active": "8dee63e6d428c2d2",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "01-proj/25/Carlos Lescano/Hola mundo.md",
+    "01-proj/25/Carlos Lescano",
     "00-in/hi augmentation.md",
+    "02-mat/código/Untitled.md",
     "cym",
     "06-out/bibliografía/bib MOC.md",
     "02-mat/orq",
@@ -285,12 +288,10 @@
     "06-out/bibliografía/Usos de la ciencia en el arte argentino contemporáneo.md",
     "06-out/bibliografía/Xuan Thuan Trinh_The Secret Melody.md",
     "06-out/bibliografía/Eric Sadin_La humanidad aumentada.md",
-    "06-out/bibliografía/Boris Groys_Arte y flujo.md",
     "07-ayuda/Sin título.base",
     "07-ayuda/Sin título 1.base",
     "05-obs/img/1_The Known Universe by AMNH.mp4",
     "_lily/score.ly",
-    "_lily",
     "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
     "05-obs/lib/score.svg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
