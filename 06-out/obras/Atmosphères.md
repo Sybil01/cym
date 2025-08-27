@@ -706,3 +706,393 @@ https://www.youtube.com/watch?v=qPr4vRRQKvQ
 
 
 [[lírica lorenz]]
+
+
+
+# atractor de lorenz
+
+El sistema de Lorenz es un modelo mínimo de tres EDOs no lineales para convección térmica atmosférica; reduce un flujo continuo a tres variables acopladas y exhibe sensibilidad a condiciones iniciales (atractor de Lorenz).
+
+$$\begin{cases}
+\dot x=\sigma(y-x)\\
+\dot y=\rho x-y-xz\\
+\dot z=xy-\beta z
+\end{cases}$$
+
+- Variables de estado
+  - $x$: intensidad de la circulación convectiva
+  - $y$: gradiente horizontal de temperatura
+  - $z$: desviación vertical de temperatura respecto del equilibrio
+
+- Parámetros positivos
+  - $\sigma$: número de Prandtl (relación difusión de momento/calor)
+  - $\rho$: razón de Rayleigh reducida (fuerza de calentamiento)
+  - $\beta$: factor geométrico/disipativo del modo vertical
+
+- Ecuación 1: $\dot x=\sigma(y-x)$
+  1. $y-x$: si $y>x$ el término es positivo y $x$ aumenta; si $y<x$ es negativo y $x$ decae
+  2. $\sigma$: escala la rapidez con que $x$ persigue a $y$; mayor $\sigma$→respuesta más veloz
+  3. Interpretación: relajación lineal de $x$ hacia $y$ (acoplamiento difusivo entre velocidad y gradiente térmico)
+
+- Ecuación 2: $\dot y=\rho x-y-xz$
+  1. $\rho x$: forzamiento proporcional a $x$; transporte de calor que alimenta $y$
+  2. $-y$: disipación lineal que tiende a llevar $y$ a cero
+  3. $-xz$: acoplamiento no lineal que extrae $y$ cuando coexisten circulación $x$ y estratificación $z$ (término advectivo)
+
+- Ecuación 3: $\dot z=xy-\beta z$
+  1. $xy$: producción cuadrática; la interacción entre circulación y gradiente horizontal genera estratificación vertical
+  2. $-\beta z$: disipación lineal que relaja $z$ hacia el equilibrio
+  3. Interpretación: balance entre generación no lineal y amortiguamiento del modo vertical
+
+- Puntos fijos (estructura mínima)
+  - $O=(0,0,0)$
+  - $C_\pm=(\pm\sqrt{\beta(\rho-1)},\pm\sqrt{\beta(\rho-1)},\rho-1)$ para $\rho>1$
+
+- Régimen caótico clásico
+  - Con $\sigma=10$, $\rho=28$, $\beta=8/3$ el sistema es no periódico y converge al atractor extraño de Lorenz, donde las trayectorias orbitan dos lóbulos alternando de forma impredecible pero confinada
+
+- Lectura modelizadora
+  - Cada ecuación combina un término lineal disipativo y uno de acoplamiento que transfiere “energía” entre variables
+  - La no linealidad $xy$ y $xz$ es la fuente del comportamiento complejo; sin ellas el sistema sería lineal y no caótico
+
+
+```dataviewjs
+//
+// Lorenz + Three.js + Orbit minimal inline (sin CDN extra) + WebAudio
+//
+const root = dv.container;
+if (root.__lorenzCleanup) { try{ await root.__lorenzCleanup(); }catch{} }
+root.innerHTML = "";
+
+// ---------- UI ----------
+root.insertAdjacentHTML("beforeend", `
+<style>
+.lz3-wrap{font:13px/1.35 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text-normal)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+label{display:flex;flex-direction:column;gap:4px}
+input[type=range]{width:200px}
+.btn{padding:6px 10px;border:1px solid var(--background-modifier-border);border-radius:8px;background:transparent;cursor:pointer}
+.btn:hover{background:var(--background-modifier-hover)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+#view{width:100%;height:420px;border:1px solid var(--background-modifier-border);border-radius:8px;background:transparent;touch-action:none}
+</style>
+<div class="lz3-wrap">
+  <div class="row">
+    <label>σ (sigma)
+      <input id="sigma" type="range" min="1" max="20" step="0.1" value="10">
+      <small class="mono" id="sigmaOut">10.0</small>
+    </label>
+    <label>ρ (rho)
+      <input id="rho" type="range" min="0" max="50" step="0.5" value="28">
+      <small class="mono" id="rhoOut">28.0</small>
+    </label>
+    <label>β (beta)
+      <input id="beta" type="range" min="0.5" max="5" step="0.01" value="2.6667">
+      <small class="mono" id="betaOut">2.667</small>
+    </label>
+    <label>dt
+      <input id="dt" type="range" min="0.001" max="0.02" step="0.001" value="0.01">
+      <small class="mono" id="dtOut">0.010</small>
+    </label>
+    <label>partículas
+      <input id="num" type="range" min="1" max="40" step="1" value="20">
+      <small class="mono" id="numOut">20</small>
+    </label>
+    <label>trail puntos
+      <input id="maxPts" type="range" min="50" max="1200" step="10" value="400">
+      <small class="mono" id="maxPtsOut">400</small>
+    </label>
+    <label>gain
+      <input id="gain" type="range" min="0" max="1" step="0.001" value="0.12">
+      <small class="mono" id="gainOut">0.120</small>
+    </label>
+  </div>
+  <div class="row">
+    <button id="start" class="btn">Start</button>
+    <button id="stop" class="btn">Stop</button>
+    <button id="reseed" class="btn">Re-seed</button>
+    <span class="mono" id="status">idle</span>
+  </div>
+  <div id="view" aria-label="Lorenz Attractor 3D"></div>
+  <div class="mono" style="opacity:.75;margin-top:6px">
+    x·=σ(y−x), y·=ρx−y−xz, z·=xy−βz • Ejes XYZ (R,G,B) • Rotación X=0.1 rad/s • Orbit: drag, wheel, Shift+drag = pan
+  </div>
+</div>
+`);
+
+const $ = id => root.querySelector(id.startsWith("#")?id:("#"+id));
+const fmt=(x,n=3)=>Number(x).toFixed(n);
+const els = {
+  sigma:$("#sigma"), rho:$("#rho"), beta:$("#beta"), dt:$("#dt"), num:$("#num"), maxPts:$("#maxPts"), gain:$("#gain"),
+  sigmaOut:$("#sigmaOut"), rhoOut:$("#rhoOut"), betaOut:$("#betaOut"), dtOut:$("#dtOut"), numOut:$("#numOut"), maxPtsOut:$("#maxPtsOut"), gainOut:$("#gainOut"),
+  start:$("#start"), stop:$("#stop"), reseed:$("#reseed"), status:$("#status"), view:$("#view")
+};
+function sync(){
+  els.sigmaOut.textContent=fmt(+els.sigma.value,1);
+  els.rhoOut.textContent=fmt(+els.rho.value,1);
+  els.betaOut.textContent=fmt(+els.beta.value,3);
+  els.dtOut.textContent=fmt(+els.dt.value,3);
+  els.numOut.textContent=els.num.value;
+  els.maxPtsOut.textContent=els.maxPts.value;
+  els.gainOut.textContent=fmt(+els.gain.value,3);
+}
+["input","change"].forEach(ev=>[els.sigma,els.rho,els.beta,els.dt,els.num,els.maxPts,els.gain].forEach(e=>e.addEventListener(ev,sync)));
+sync();
+
+// ---------- three.js loader ----------
+// Reemplaza tu ensureThree por este:
+async function ensureThree(){
+  // si ya está cargado, no recargar
+  if (window.THREE && window.__THREE_SINGLETON__) return true;
+
+  // si ya hay un <script id="three-r149"> no volver a insertarlo
+  let tag = document.querySelector('#three-r149');
+  if (!tag) {
+    await new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.id = 'three-r149';
+      s.src = 'https://unpkg.com/three@0.149.0/build/three.min.js';
+      s.onload = res;
+      s.onerror = () => rej(new Error('three load error'));
+      document.head.appendChild(s);
+    });
+  }
+
+  // marca singleton para evitar warnings de múltiples instancias
+  window.__THREE_SINGLETON__ = true;
+  return !!window.THREE;
+}
+
+// ---------- Simple Orbit (inline, sin dependencia externa) ----------
+class SimpleOrbit {
+  constructor(camera, dom){
+    this.camera=camera; this.dom=dom;
+    this.target=new THREE.Vector3(0,0,0);
+    this.spherical=new THREE.Spherical(120, Math.PI/2, 0); // r,phi,theta
+    this.minDistance=10; this.maxDistance=1000;
+    this.rotateSpeed=0.006; this.zoomSpeed=1.0; this.panSpeed=0.002;
+    this.damping=0.1; this._vel=new THREE.Vector2(0,0);
+    this._state=null; this._last=new THREE.Vector2();
+    dom.addEventListener("pointerdown",e=>this._onDown(e));
+    dom.addEventListener("pointermove",e=>this._onMove(e));
+    dom.addEventListener("pointerup",()=>this._state=null);
+    dom.addEventListener("wheel",e=>this._onWheel(e), {passive:false});
+    this.update(true);
+  }
+  _onDown(e){ this._state = e.shiftKey ? "pan" : "rot"; this._last.set(e.clientX,e.clientY); this.dom.setPointerCapture(e.pointerId); }
+  _onMove(e){
+    if(!this._state) return;
+    const dx=e.clientX-this._last.x, dy=e.clientY-this._last.y;
+    this._last.set(e.clientX,e.clientY);
+    if(this._state==="rot"){ this._vel.x += -dx*this.rotateSpeed; this._vel.y += -dy*this.rotateSpeed; }
+    else{ // pan
+      const panX = -dx*this.panSpeed*this.spherical.radius;
+      const panY = dy*this.panSpeed*this.spherical.radius;
+      const pan = new THREE.Vector3();
+      const m = new THREE.Matrix4().lookAt(this.camera.position, this.target, new THREE.Vector3(0,1,0)).invert();
+      pan.set(panX, panY, 0).applyMatrix4(m);
+      this.target.add(pan);
+    }
+  }
+  _onWheel(e){
+    e.preventDefault();
+    const s = Math.exp(e.deltaY*0.001*this.zoomSpeed);
+    this.spherical.radius = THREE.MathUtils.clamp(this.spherical.radius*s, this.minDistance, this.maxDistance);
+  }
+  update(force=false){
+    // aplicar damping a rotación
+    if(!force){
+      this.spherical.theta += this._vel.x;
+      this.spherical.phi   += this._vel.y;
+      this._vel.multiplyScalar(1-this.damping);
+    }
+    // límites numéricos
+    this.spherical.phi = THREE.MathUtils.clamp(this.spherical.phi, 0.0001, Math.PI-0.0001);
+    this.spherical.radius = THREE.MathUtils.clamp(this.spherical.radius, this.minDistance, this.maxDistance);
+    const pos=new THREE.Vector3().setFromSpherical(this.spherical).add(this.target);
+    this.camera.position.copy(pos);
+    this.camera.lookAt(this.target);
+  }
+}
+
+// ---------- Audio ----------
+let AC=null, master=null;
+function makeNoiseBuffer(ctx,seconds=2){
+  const len=(ctx.sampleRate*seconds)|0;
+  const buf=ctx.createBuffer(1,len,ctx.sampleRate);
+  const ch=buf.getChannelData(0);
+  for(let i=0;i<len;i++){ ch[i]=Math.random()*2-1; }
+  return buf;
+}
+function map(v,a,b,c,d){ return c + ((v-a)/(b-a))*(d-c); }
+function clamp(x,a,b){ return Math.min(b,Math.max(a,x)); }
+function setupAudio(voices){
+  if (AC && AC.state!=="closed") return;
+  AC = new (window.AudioContext||window.webkitAudioContext)();
+  master = AC.createGain(); master.gain.value = +els.gain.value; master.connect(AC.destination);
+  const noiseBuf = makeNoiseBuffer(AC,2.5);
+  voices.forEach(v=>{
+    const src = AC.createBufferSource(); src.buffer=noiseBuf; src.loop=true;
+    const biq = AC.createBiquadFilter(); biq.type="bandpass"; biq.frequency.value=600; biq.Q.value=4;
+    const lfo = AC.createOscillator(); lfo.type="sine"; lfo.frequency.value=0.4;
+    const lfoGain = AC.createGain(); lfoGain.gain.value = 100;
+    const g = AC.createGain(); g.gain.value = (1/voices.length)*0.9;
+    lfo.connect(lfoGain).connect(biq.frequency);
+    src.connect(biq).connect(g).connect(master);
+    src.start(); lfo.start();
+    v.audio = {src,biq,lfo,lfoGain,g};
+  });
+}
+async function killAudio(){
+  if(!AC) return;
+  try{
+    attractors.forEach(a=>{
+      if(a.audio){ try{a.audio.src.stop();}catch{} try{a.audio.src.disconnect();}catch{} try{a.audio.g.disconnect();}catch{} try{a.audio.lfo.disconnect();}catch{} }
+    });
+    master && master.disconnect();
+  }catch{}
+  try{ await AC.close(); }catch{}
+  AC=null; master=null;
+}
+
+// ---------- THREE setup ----------
+let renderer=null, scene=null, camera=null, group=null, animId=0, lastTs=0, started=false, controls=null;
+async function setup3D(){
+  const ok = await ensureThree();
+  if(!ok) throw new Error("three.js no disponible");
+  const W = els.view.clientWidth||640, H = els.view.clientHeight||420;
+  renderer = new THREE.WebGLRenderer({antialias:true,alpha:true});
+  renderer.setSize(W,H,false);
+  els.view.innerHTML=""; els.view.appendChild(renderer.domElement);
+  scene = new THREE.Scene();
+  camera = new THREE.PerspectiveCamera(55, W/H, 0.1, 2000);
+  camera.position.set(0,0,120);
+  group = new THREE.Group(); scene.add(group);
+  const axes = new THREE.AxesHelper(30); group.add(axes);
+  const amb = new THREE.AmbientLight(0xffffff,0.7); scene.add(amb);
+  controls = new SimpleOrbit(camera, renderer.domElement);
+}
+
+// ---------- Attractor ----------
+class Attractor {
+  constructor(x,y,z,color,maxPoints){
+    this.x=x; this.y=y; this.z=z;
+    this.color=color; this.maxPoints=maxPoints;
+    this.geometry = new THREE.BufferGeometry();
+    const arr = new Float32Array(this.maxPoints*3);
+    this.geometry.setAttribute("position", new THREE.BufferAttribute(arr,3));
+    this.material = new THREE.LineBasicMaterial({color:this.color, transparent:true, opacity:0.9});
+    this.line = new THREE.Line(this.geometry, this.material);
+    group.add(this.line);
+  }
+  updateDynamics(dt,sigma,rho,beta){
+    const dx = (sigma*(this.y - this.x)) * dt;
+    const dy = (this.x*(rho - this.z) - this.y) * dt;
+    const dz = (this.x*this.y - beta*this.z) * dt;
+    this.x += dx; this.y += dy; this.z += dz;
+  }
+  pushPoint(){
+    const pos = this.geometry.attributes.position.array;
+    const L = this.maxPoints;
+    pos.copyWithin(0,3,L*3);
+    pos[(L-1)*3+0]=this.x; pos[(L-1)*3+1]=this.y; pos[(L-1)*3+2]=this.z;
+    this.geometry.attributes.position.needsUpdate = true;
+  }
+  audioMap(){
+    if(!this.audio || !AC) return;
+    const r = Math.sqrt(this.x*this.x + this.y*this.y + this.z*this.z);
+    const f = clamp(map(r,0,80,180,4000),80,6000);
+    this.audio.biq.frequency.setTargetAtTime(f, AC.currentTime, 0.02);
+    const q = clamp(map(Math.abs(this.z),0,40,1.2,25),0.8,35);
+    this.audio.biq.Q.setTargetAtTime(q, AC.currentTime, 0.03);
+    const lfoHz = clamp(map(q,1,25,0.15,9.0),0.05,12.0);
+    this.audio.lfo.frequency.setTargetAtTime(lfoHz, AC.currentTime, 0.05);
+  }
+  dispose(){ group.remove(this.line); this.geometry.dispose(); this.material.dispose(); }
+}
+
+// ---------- State ----------
+let attractors=[];
+function reseed(){
+  attractors.forEach(a=>a.dispose());
+  attractors=[];
+  const N=+els.num.value, maxPts=+els.maxPts.value;
+  for(let i=0;i<N;i++){
+    const init=(i+1)*0.05;
+    const hue=Math.floor(((i+1)/N)*360);
+    const col=new THREE.Color(`hsl(${hue},70%,60%)`);
+    const a=new Attractor(init,init,init,col,maxPts);
+    const arr=a.geometry.attributes.position.array;
+    for(let k=0;k<maxPts;k++){ arr[k*3]=a.x; arr[k*3+1]=a.y; arr[k*3+2]=a.z; }
+    a.geometry.attributes.position.needsUpdate=true;
+    attractors.push(a);
+  }
+}
+
+function loop(ts){
+  if(!started) return;
+  animId=requestAnimationFrame(loop);
+  const dtUI=+els.dt.value;
+  const dt=Math.min(0.03, lastTs ? (ts-lastTs)/1000 : 0.016); lastTs=ts;
+  const sub=Math.max(1, Math.floor(dt/dtUI));
+  for(let s=0;s<sub;s++){
+    attractors.forEach(a=>{
+      a.updateDynamics(dtUI, +els.sigma.value, +els.rho.value, +els.beta.value);
+      a.pushPoint();
+      a.audioMap();
+    });
+  }
+  group.rotation.x += 0.1*dt;       // rotación constante
+  controls && controls.update();    // orbit
+  renderer.render(scene,camera);
+}
+
+// ---------- Buttons ----------
+els.start.addEventListener("click", async ()=>{
+  if (started) return;
+  els.status.textContent="starting…";
+  await setup3D();
+  reseed();
+  setupAudio(attractors);
+  started=true; lastTs=0; els.status.textContent="playing";
+  loop(0);
+});
+els.stop.addEventListener("click", async ()=>{
+  if(!started && !AC) return;
+  started=false; cancelAnimationFrame(animId);
+  els.status.textContent="stopping…";
+  await killAudio();
+  els.status.textContent="stopped";
+});
+els.reseed.addEventListener("click", async ()=>{
+  const was=started;
+  if(was){ started=false; cancelAnimationFrame(animId); await killAudio(); }
+  reseed();
+  if(was){ setupAudio(attractors); started=true; lastTs=0; els.status.textContent="playing"; loop(0); }
+});
+
+// ---------- Resize ----------
+const ro = new ResizeObserver(()=>{
+  if(!renderer || !camera) return;
+  const W = els.view.clientWidth||640, H = els.view.clientHeight||420;
+  renderer.setSize(W,H,false);
+  camera.aspect=W/H; camera.updateProjectionMatrix();
+});
+ro.observe(els.view);
+
+// ---------- Cleanup ----------
+root.__lorenzCleanup = async ()=>{
+  try{ started=false; cancelAnimationFrame(animId);}catch{}
+  await killAudio();
+  try{ attractors.forEach(a=>a.dispose()); }catch{}
+  try{ renderer && renderer.dispose && renderer.dispose(); }catch{}
+  els.view.innerHTML="";
+};
+```
+
+
+
+
+
+
+
