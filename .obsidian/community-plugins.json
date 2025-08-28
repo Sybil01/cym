@@ -1,3 +1,14 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "calendar",
+  "obsidian-style-settings",
+  "obsidian-icon-folder",
+  "obsidian-outliner",
+  "obsidian-linter",
+  "obsidian-book-search-plugin",
+  "obsidian-contextual-typography"
 ]
