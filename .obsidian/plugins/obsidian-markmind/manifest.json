@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+{
+	"id": "obsidian-markmind",
+	"name": "Markmind",
+	"version": "3.2.5",
+	"minAppVersion": "0.9.12",
+	"description": "This is a mindmap , outline tool for obsidian.",
+	"author": "Mark",
+	"authorUrl": "https://github.com/MarkMindCkm/obsidian-markmind",
+	"isDesktopOnly": false
+=======
 {
 	"id": "obsidian-markmind",
 	"name": "Markmind",
@@ -7,4 +18,5 @@
 	"author": "Mark",
 	"authorUrl": "https://github.com/MarkMindCkm/obsidian-markmind",
 	"isDesktopOnly": false
+>>>>>>> origin/main
 }

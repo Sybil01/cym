@@ -2216,7 +2216,7 @@
     },
     "03-cla/c-cym06c-tonejs.md": {
       "size": 1338,
-      "tags": 0,
+      "tags": 2,
       "links": 4
     },
     "03-cla/c-cym09-visual.md": {
@@ -2242,14 +2242,49 @@
     "06-out/home.md": {
       "size": 0,
       "tags": 0,
-      "links": 4
+      "links": 8
+    },
+    "01-proj/25/Carlos Lescano/Hola mundo.md": {
+      "size": 118,
+      "tags": 0,
+      "links": 0
+    },
+    "01-proj/25/Dai Miauro/Holiwisss.md": {
+      "size": 23,
+      "tags": 0,
+      "links": 0
+    },
+    "01-proj/25/Peterschmitt/hola.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "02-mat/código/Untitled.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "04-tp/prueba.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "06-out/bibliografía/bib MOC.md": {
+      "size": 22,
+      "tags": 0,
+      "links": 0
+    },
+    "conflict-files-obsidian-git.md": {
+      "size": 880,
+      "tags": 0,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 1722,
-      "Create": 747,
-      "Link": 1196,
+      "Create": 754,
+      "Link": 1199,
       "Expand": 173
     }
   },
@@ -2270,7 +2305,7 @@
       "12": 652,
       "13": 107,
       "14": 207,
-      "15": 162,
+      "15": 172,
       "16": 203,
       "17": 58,
       "18": 224,
@@ -2287,7 +2322,7 @@
       "Tue": 257,
       "Wed": 1393,
       "Thu": 856,
-      "Fri": 826,
+      "Fri": 836,
       "Sat": 0,
       "Sun": 366
     }
@@ -2348,6 +2383,13 @@
         "<a class=\"internal-link\" href=\"06-out/operativos/sistemas paramétricos/patrones de Turing.md\"> patrones de Turing </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"06-out/bibliografía/bib MOC.md\"> bib MOC </a>",
+        "<a class=\"internal-link\" href=\"04-tp/prueba.md\"> prueba </a>",
+        "<a class=\"internal-link\" href=\"02-mat/código/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"01-proj/25/Peterschmitt/hola.md\"> hola </a>",
+        "<a class=\"internal-link\" href=\"01-proj/25/Dai Miauro/Holiwisss.md\"> Holiwisss </a>",
+        "<a class=\"internal-link\" href=\"01-proj/25/Carlos Lescano/Hola mundo.md\"> Hola mundo </a>",
         "<a class=\"internal-link\" href=\"06-out/glosario/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"03-cla/hiperreal.md\"> hiperreal </a>",
@@ -2391,14 +2433,7 @@
         "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Index.md\"> Index </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/La conciencia social del arte generativo..md\"> La conciencia social del arte generativo. </a>",
         "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Patrones geométricos.md\"> Patrones geométricos </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Palíndromos.md\"> Palíndromos </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Hibridación (AR).md\"> Hibridación (AR) </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Fractales.md\"> Fractales </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Emergencia.md\"> Emergencia </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Autómatas.md\"> Autómatas </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Azar.md\"> Azar </a>",
-        "<a class=\"internal-link\" href=\"06-out/personas/Hugh Le Caine.md\"> Hugh Le Caine </a>",
-        "<a class=\"internal-link\" href=\"06-out/operativos artísticos/catalexis.md\"> catalexis </a>"
+        "<a class=\"internal-link\" href=\"06-out/operativos/generatividad/Palíndromos.md\"> Palíndromos </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"06-out/home.md\"> home </a>",
@@ -2454,6 +2489,7 @@
         "<a class=\"internal-link\" href=\"06-out/topoi/vida artificial/lenguaje simbólico en Jupiter.md\"> lenguaje simbólico en Jupiter </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"03-cla/c-cym06c-tonejs.md\"> c-cym06c-tonejs </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/física/Geometría y Experiencia.md\"> Geometría y Experiencia </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/física/teoría de Maxwell.md\"> teoría de Maxwell </a>",
         "<a class=\"internal-link\" href=\"06-out/topoi/física/Radiación del cuerpo negro.md\"> Radiación del cuerpo negro </a>",
@@ -2503,8 +2539,7 @@
         "<a class=\"internal-link\" href=\"06-out/espacios/Academy of Fine Arts Vienna.md\"> Academy of Fine Arts Vienna </a>",
         "<a class=\"internal-link\" href=\"06-out/espacios/Bell Labs.md\"> Bell Labs </a>",
         "<a class=\"internal-link\" href=\"06-out/eventos/2972453.md\"> 2972453 </a>",
-        "<a class=\"internal-link\" href=\"06-out/eventos/Cybernetic Serendipity.md\"> Cybernetic Serendipity </a>",
-        "<a class=\"internal-link\" href=\"06-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>"
+        "<a class=\"internal-link\" href=\"06-out/eventos/Cybernetic Serendipity.md\"> Cybernetic Serendipity </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"04-out/topoi/Sistemas complejos.md\"> Sistemas complejos </a>",
@@ -2581,6 +2616,8 @@
         "<a class=\"internal-link\" href=\"04-out/topoi/t-topoi.md\"> t-topoi </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"06-out/home.md\"> home </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym02-paradigmas operativos.md\"> c-cym02-paradigmas operativos </a>",
         "<a class=\"internal-link\" href=\"02-mat/código/jasvascript/dataviewjs y html.md\"> dataviewjs y html </a>",
@@ -2629,9 +2666,7 @@
         "<a class=\"internal-link\" href=\"03-cla/c-cym00-calendario.md\"> c-cym00-calendario </a>",
         "<a class=\"internal-link\" href=\"03-cla/c-cym01 cym introducción.md\"> c-cym01 cym introducción </a>",
         "<a class=\"internal-link\" href=\"06-out/espacios/MIT Medialab.md\"> MIT Medialab </a>",
-        "<a class=\"internal-link\" href=\"06-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>",
-        "<a class=\"internal-link\" href=\"06-out/eventos/La memoria de los materiales.md\"> La memoria de los materiales </a>",
-        "<a class=\"internal-link\" href=\"06-out/eventos/Experiments in Art and Technology.md\"> Experiments in Art and Technology </a>"
+        "<a class=\"internal-link\" href=\"06-out/eventos/Electronics Arts Intermix.md\"> Electronics Arts Intermix </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"05-obs/tpl/t-obra.md\"> t-obra </a>",

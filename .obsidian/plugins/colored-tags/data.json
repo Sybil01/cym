@@ -205,7 +205,8 @@
     "netart": 172,
     "métodocientífico": 173,
     "operativos": 174,
-    "operativos/sistemasparamétricos": 1
+    "operativos/sistemasparamétricos": 1,
+    "codigo": 175
   },
   "_version": 3
 }

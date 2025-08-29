@@ -3,8 +3,7 @@ type: class
 tags:
   - cym
   - codigo
-  - tonejs
- - sound
+  - tonejs- sound
 unit: 1
 num: 6
 year: 2023
