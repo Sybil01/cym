@@ -24,3 +24,4 @@
 
 # Otros comunes (evitando duplicados)
 b  # Si "b" es un archivo específico, déjalo; si es un error, quítalo
+.obsidian/plugins/obsidian-mkdocs-publisher/
