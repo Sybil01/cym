@@ -1,5 +1,4 @@
 [
-<<<<<<< HEAD
   "dataview",
   "metadata-menu",
   "better-inline-fields",
@@ -99,23 +98,5 @@
   "obsidian-pretty-bibtex",
   "python-lab-plugin",
   "quickadd",
-  "obsidian-quickshare",
-  "obsidian-mkdocs-publisher"
-=======
-<<<<<<< HEAD
-  "obsidian-git",
-  "dataview",
-  "templater-obsidian",
-  "obsidian-markmind",
-  "mermaid-tools",
-  "mermaid-themes"
-=======
-<<<<<<< HEAD
-  "obsidian-git",
-  "dataview"
-=======
-  "obsidian-git"
->>>>>>> origin/main
->>>>>>> origin/main
->>>>>>> origin/main
+  "obsidian-quickshare"
 ]
