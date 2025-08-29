@@ -42,6 +42,7 @@ La posición de la partícula en el tiempo $t$ se actualiza así:
 
 $$\mathbf{p}_{t} = \mathbf{p}_{t-1} + \mathbf{v} \cdot \Delta t$$
 
+
 Donde:
 
 $\mathbf{p}_{t}$: Posición actual de la partícula en 2D (vector: $(x_t, y_t)$). Representa la ubicación visual y sonora (e.g., $y_t$ mapea a frecuencia).
@@ -339,6 +340,7 @@ button.addEventListener("click", () => {
   }
 });
 ```
+
 
 
 
@@ -1261,6 +1263,7 @@ for i in range(NUM_PARTICLES):
 
 print(f"[OK] Generadas {NUM_PARTICLES} curvas de Lorenz en colección '{COLLECTION_NAME}'.")
 ```
+
 
 
 ![|600](https://i.imgur.com/vwaPwyw.png)

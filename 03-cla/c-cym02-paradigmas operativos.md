@@ -14,11 +14,11 @@ type: class
 </grid>
 
 <grid drag="25 55" drop="-5 10" bg="black" align="top">
--> Spencer-Brown<br>
--> Pierce y el lenguaje icónico<br>
--> Términos del Método Científico<br>
--> Energía<br>
--> Intro a JS<br>
+→ modelización<br>
+→ Spencer-Brown<br>
+→ Pierce y el lenguaje icónico<br>
+→ Términos del Método Científico<br>
+→ Intro a JS<br>
 </grid>
 
 ---
@@ -52,6 +52,10 @@ obras
 - no necesita comprobación (en ciencia) o tal vez nunca la necesite (en arte)
 
 <ref> Gaston Bachelard, Hacking, Cartwright </ref>
+
+note: 
+### sobre steiner
+George Steiner consideraba la traducción como un acto fundamental de la comunicación humana, un proceso «hermenéutico» (interpretativo) básico y una actividad humana esencial, no solo como transferencia entre idiomas, sino también dentro de ellos y entre otras formas de comunicación. Su obra emblemática, After Babel, esboza un «modelo hermenéutico» de cuatro etapas para la traducción: confianza (creer que el texto tiene significado), agresión (penetrar y extraer ese significado), incorporación (traducir el texto al idioma de destino) y restitución (enriquecer el idioma de destino y dar prestigio al texto de origen).
 
 ---
 
@@ -167,7 +171,7 @@ $$A\lor \neg A$$
 
 note: 
 1 para todo x x es igual a x, 
-2 No es posible que algo sea y no sea al mismo tiempo (conjunción lógica)
+2 No es posible que algo sea y no sea al mismo tiempo (conjunción lógica) 
 3 toda proposición es verdadera o su negación lo es, no existe una tercera posibilidad.
 
 
@@ -206,7 +210,7 @@ note:
 
 ---
 
-![](https://i.imgur.com/uxzFxDD.png)
+<img src="https://i.imgur.com/uxzFxDD.png" style="display:flex; align-items:center; filter: invert(1);" />
 ---
 
 ## Operaciones
@@ -338,9 +342,9 @@ note: es decir el sentido es lógico matemático
 <iframe title="Myron Kreuger - Video Place - 1989" src="https://www.youtube.com/embed/dqZyZrN3Pl0?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
 
 note:
-•	Primera instalación interactiva donde los movimientos del cuerpo del espectador se proyectan en un espacio virtual.
-•	Crossing: la frontera entre cuerpo físico y cuerpo digital (entrar/salir del campo de cámara).
-•	Paradigma operativo: la interfaz como límite ontológico; la lógica de “estar o no estar” dentro del entorno.
+- Primera instalación interactiva donde los movimientos del cuerpo del espectador se proyectan en un espacio virtual.
+- Crossing: la frontera entre cuerpo físico y cuerpo digital (entrar/salir del campo de cámara).
+- Paradigma operativo: la interfaz como límite ontológico; la lógica de “estar o no estar” dentro del entorno.
 
 ---
 
@@ -349,10 +353,10 @@ note:
 <iframe title="Legible City 1989" src="https://www.youtube.com/embed/7XFtMpjhniM?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
 
 note:
-•	Instalación en la que se pedalea en una bicicleta fija para recorrer una ciudad hecha de palabras tridimensionales.
-•	Calling: repetir un mismo camino de lectura refuerza la identidad de un texto.
-•	Crossing: cambiar de calle = atravesar otra sintaxis narrativa.
-•	Paradigma operativo: el texto como espacio lógico; recorrerlo es activar condicionales narrativos.
+- Instalación en la que se pedalea en una bicicleta fija para recorrer una ciudad hecha de palabras tridimensionales.
+- Calling: repetir un mismo camino de lectura refuerza la identidad de un texto.
+- Crossing: cambiar de calle = atravesar otra sintaxis narrativa.
+- Paradigma operativo: el texto como espacio lógico; recorrerlo es activar condicionales narrativos.
 
 
 ---
@@ -362,9 +366,9 @@ note:
 <iframe title="&quot;Vectorial Elevation&quot; (2010) by Rafael Lozano-Hemmer" src="https://www.youtube.com/embed/3EmLvDw46vM?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 note:
-•	Intervención urbana donde ciudadanos en línea controlaban reflectores gigantes sobre el cielo de Ciudad de México.
-•	Crossing: cada instrucción enviada desde internet atraviesa la frontera digital–urbana.
-•	Paradigma operativo: la participación distribuida; la conjunción ($\land$) de múltiples comandos produce la obra.
+- Intervención urbana donde ciudadanos en línea controlaban reflectores gigantes sobre el cielo de Ciudad de México.
+- Crossing: cada instrucción enviada desde internet atraviesa la frontera digital–urbana.
+- Paradigma operativo: la participación distribuida; la conjunción ($\land$) de múltiples comandos produce la obra.
 
 ---
 
@@ -374,10 +378,10 @@ note:
 
 note:
 
-•	Letras caen en una proyección y el cuerpo del espectador puede “atraparlas”.
-•	Calling: cada letra recuperada por el cuerpo reactiva el poema (recordar = volver a llamar).
-•	Crossing: entre cuerpo y lenguaje, frontera dinámica.
-•	Paradigma operativo: el cuerpo como operador lógico que selecciona o niega proposiciones textuales.
+- Letras caen en una proyección y el cuerpo del espectador puede “atraparlas”.
+- Calling: cada letra recuperada por el cuerpo reactiva el poema (recordar = volver a llamar).
+- Crossing: entre cuerpo y lenguaje, frontera dinámica.
+- Paradigma operativo: el cuerpo como operador lógico que selecciona o niega proposiciones textuales.
 
 ---
 
@@ -385,12 +389,29 @@ note:
 
 <iframe title="A-Volve" src="https://www.youtube.com/embed/0WG45k93pCA?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
 
-•	Criaturas virtuales generadas por el público “nadan” en un tanque interactivo.
-•	Crossing: insertar un dibujo → cruzar al dominio algorítmico (se convierte en organismo).
-•	Calling: repetir un mismo trazo produce variaciones, no copias exactas.
-•	Paradigma operativo: la emergencia como ley lógica; un recrossing no repite, transforma.
+---
+
+- Criaturas virtuales generadas por el público “nadan” en un tanque interactivo.
+- Crossing: insertar un dibujo → cruzar al dominio algorítmico (se convierte en organismo).
+- Calling: repetir un mismo trazo produce variaciones, no copias exactas.
+- Paradigma operativo: la emergencia como ley lógica; un recrossing no repite, transforma.
+
+## vida ariticial
+$$
+A_i(t+1) = H(A_i(t), \; \{A_j(t)\}_{j \neq i})
+$$
 
 ---
+
+- Autopoiesis:
+$$S_{t+1} = F(S_t)$$
+El sistema se conserva y se produce a sí mismo en un bucle cerrado.
+- Vida artificial:
+$$A_i(t+1) = H(A_i(t), ; {A_j(t)})$$
+Un conjunto de elementos simples, al interactuar recursivamente, producen organización emergente.
+
+---
+
 
 En todos los casos, aplicar las operaciones lógicas permite ver las obras como espacios de distinción:
 
@@ -448,18 +469,18 @@ $$f(4) = 4 \cdot 3 \cdot 2 \cdot 1 \cdot 1 = 24$$
 
 
 note: 
-•	El compositor graba su voz y la reproduce en la sala una y otra vez, regrabando cada versión.
-•	Con cada iteración, las resonancias propias del espacio reemplazan progresivamente la inteligibilidad del texto.
-•	Paradigma operativo: recursión acústica → el feedback arquitectónico del espacio se convierte en el verdadero “instrumento”.
+- El compositor graba su voz y la reproduce en la sala una y otra vez, regrabando cada versión.
+- Con cada iteración, las resonancias propias del espacio reemplazan progresivamente la inteligibilidad del texto.
+- Paradigma operativo: recursión acústica → el feedback arquitectónico del espacio se convierte en el verdadero “instrumento”.
 
 ---
 
 ## Nicolas Collins – Devil’s Music (1985)
 
 note:
-•	Uso de radios portátiles en vivo con circuitos de realimentación que fragmentan y reorganizan el flujo radiofónico.
-•	El feedback no es solo técnico, sino también cultural: el medio se pliega sobre sí mismo al reemitirse.
-•	Paradigma operativo: feedback mediático → el sistema retroalimenta sus propios materiales transmitidos.
+- Uso de radios portátiles en vivo con circuitos de realimentación que fragmentan y reorganizan el flujo radiofónico.
+- El feedback no es solo técnico, sino también cultural: el medio se pliega sobre sí mismo al reemitirse.
+- Paradigma operativo: feedback mediático → el sistema retroalimenta sus propios materiales transmitidos.
 
 ---
 
@@ -468,12 +489,10 @@ note:
 <iframe title="stanze private   agostino di scipio  audio excerpt" src="https://www.youtube.com/embed/LKtsdJbN3Ro?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 note:
-•	Instalaciones y conciertos donde micrófonos, parlantes y espacio forman un ecosistema sonoro.
-•	El feedback no se controla para evitar el acople, sino que se compone como elemento central, con algoritmos adaptativos.
-•	Paradigma operativo: recursión adaptativa → el sistema escucha su propio output y ajusta sus parámetros en tiempo real.
+- Instalaciones y conciertos donde micrófonos, parlantes y espacio forman un ecosistema sonoro.
+- El feedback no se controla para evitar el acople, sino que se compone como elemento central, con algoritmos adaptativos.
+- Paradigma operativo: recursión adaptativa → el sistema escucha su propio output y ajusta sus parámetros en tiempo real.
 
 
----
 
-# biomímesis
 

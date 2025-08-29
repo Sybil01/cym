@@ -753,5 +753,13 @@
       ],
       "key": "3"
     }
+  ],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": " "
+    }
   ]
 }

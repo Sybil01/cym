@@ -1,6 +1,5 @@
 ---
-dg-publish: true
-dg-home: true
+share: true
 dg-note-icon: 02-mat/obs/img/logo-musiki-only.png
 ---
 

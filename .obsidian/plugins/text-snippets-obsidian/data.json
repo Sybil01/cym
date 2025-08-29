@@ -1,11 +1,13 @@
 {
-  "snippets_file": "",
-  "snippets": [],
+  "snippets_file": "invert : <img src=\"$end$$pst$\" style=\"display:flex; align-items:center; filter: invert(1);\" />",
+  "snippets": [
+    "invert : <img src=\"$end$$pst$\" style=\"display:flex; align-items:center; filter: invert(1);\" />"
+  ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",
   "stopSymbol": "$tb$",
   "pasteSymbol": "$pst$",
-  "useTab": true,
+  "useTab": false,
   "useSpace": false,
   "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
   "isWYSIWYG": true
