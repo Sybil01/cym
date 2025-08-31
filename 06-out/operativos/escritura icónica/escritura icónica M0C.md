@@ -1,4 +1,12 @@
-# Programa de dos clases sobre escrituras lógico-formales con Spencer-Brown
+ # introducción
+
+sobre la necesidad de una escritura icónica para las artes. 
+Puede partirse desde el concepto de tipo de dato, que implica una habilidad de memoria, la memoria implica una restricción. En computación los tipos primitivos son: enteros , coma flotante , cadenas alfanuméricas, estados llamables (funciones, métodos y clases), módulos, mapeos (diccionarios).
+Los tipos compuestos se derivan de los primitivos, comibinan a estos a partir de "estructuras de datos" (ej. un array de enteros): vectores (arrays estáticos y dinámicos), registros / tuplas, y conjuntos. 
+ 
+ 
+ 
+ ## escrituras lógico-formales con Spencer-Brown
 Introducción a la escritura de distinciones de Spencer-Brown, comparación  con otros sistemas diagramáticos y aplicación en modelado agentes, materiales y procesos de  CyM.
 La Clase 1 trabaja la distinción y la reducción operativa. La Clase 2 aborda la auto-referencia, la composición de procesos y un mini-proyecto aplicado con el modelo $I=\langle A,M,G,E,\Phi\rangle$.
 
@@ -15,13 +23,12 @@ La Clase 1 trabaja la distinción y la reducción operativa. La Clase 2 aborda l
 - Existential Graphs de Peirce como antecedente diagramático
 
 ### Secuencia didáctica 120 min
-1. 0-10 Motivación por qué escribir con distinciones además de símbolos
-2. 10-30 Marca y espacio ejercicios de lectura y borrado por calling
-3. 30-55 Crossing y normalización reducción hasta forma canónica
-4. 55-70 Puente con lógica proposicional traducir $p\Rightarrow q$ y $\lnot(p\lor q)$ a marcas y volver a símbolos
-5. 70-90 Boundary Logic básica convenciones tipográficas y ejercicios de reescritura
-6. 90-115 Peirce en 25 minutos regiones cortes negación por encerramiento comparación rápida con la marca
-7. 115-120 Cierre y dudas
+1. 10-30 Marca y espacio ejercicios de lectura y borrado por calling
+2. 30-55 Crossing y normalización reducción hasta forma canónica
+3. 55-70 Puente con lógica proposicional traducir $p\Rightarrow q$ y $\lnot(p\lor q)$ a marcas y volver a símbolos
+4. 70-90 Boundary Logic básica convenciones tipográficas y ejercicios de reescritura
+5. 90-115 Peirce en 25 minutos regiones cortes negación por encerramiento comparación rápida con la marca
+6. 115-120 Cierre y dudas
 
 - Ejercicios en clase
 - Reducir 6 formas dadas hasta su forma mínima justificando cada paso
@@ -94,35 +101,105 @@ La Clase 1 trabaja la distinción y la reducción operativa. La Clase 2 aborda l
 - Re-entrada
 - X = [X]  (ecuación de re-entrada; su “valor” no se estabiliza en 0 o en una marca única)
 
+
+---
+
 ## LaTeX mínimo
-- Convención simple: representar la marca con \boxed{•}. Para el “vacío” usamos \varnothing.
-- Pega este preámbulo o macros en tu documento (o en un bloque de configuración de Obsidian)
 
-\[
-\newcommand{\lof}[1]{\boxed{#1}}%
-\newcommand{\blank}{\varnothing}%
-\newcommand{\m}{\boxed{\ }}%
-\]
+### Convención
+For the "mark," we'll use a **square box** (`\square`), a common symbol in logic and mathematics. For the "empty mark," we'll use a **hollow circle** (`\bigcirc`) to distinguish it from the "blank" symbol (`\varnothing`).
 
-- Axiomas en LaTeX
-- Crossing:
-$$\lof{\lof{A}}=A$$
-- Calling (dos marcas vacías se contraen):
-$$\m\ \m=\m$$
-- Caso base de crossing sobre la marca vacía:
-$$\lof{\m}=\blank$$
+### Macros
+Place the following macro definitions at the top of your document to ensure they are available for all subsequent equations.
 
-- Ejemplos de reducción en LaTeX
-- Llamadas repetidas a un mismo término:
-$$\lof{A}\,\lof{A}\Rightarrow\lof{A}$$
-- Doble anidamiento:
-$$\lof{\lof{A}}\Rightarrow A$$
-- Re-entrada:
-$$X=\lof{X}$$
+$$
+\newcommand{\lof}[1]{\boxed{#1}}
+\newcommand{\m}{\bigcirc}
+\newcommand{\blank}{\varnothing}
+$$
+
+
+
+
+## Axiomas
+These are the foundational rules of the system.
+
+* **Crossing:**
+    $\lof{\lof{A}}=A$
+* **Calling (Contraction):** Two empty marks contract into one.
+    $$\m\ \m=\m$$
+* **Base Case of Crossing:** Crossing an empty mark results in a blank.
+    $\lof{\m}=\blank$
+* 
+
+---
+
+## Ejemplos de Reducción
+These examples demonstrate how the axioms are applied to simplify expressions.
+
+* **Llamadas repetidas a un mismo término:**
+    $$\lof{A}\,\lof{A}\Rightarrow\lof{A}$$
+* **Doble anidamiento:**
+    $$\lof{\lof{A}}\Rightarrow A$$
+* **Re-entrada:**
+    $$X=\lof{X}$$
+
+
 
 ## Notas prácticas
 - ASCII
 - Usa [] para anidar y escribe 0 cuando el resultado es “no marcado” para no perderlo visualmente en texto plano.
 - Evita paréntesis u otros signos para no confundirlos con la marca; quédate solo con [] y concatenación.
 - LaTeX
-- \boxed{} es suficiente para docencia y apuntes rápidos. Si prefieres un trazo más “geométrico”, puedes sustituir \lof por \fbox o por un entorno TikZ, pero \boxed mantiene el flujo matemático.
+- \boxed{} es suficiente para docencia y apuntes rápidos. Para un trazo más “geométrico”, puedes sustituir \lof por \fbox o por un entorno TikZ, pero \boxed mantiene el flujo matemático.
+
+
+
+
+## Equivalencias proposicionales (referenciales)
+
+$p\land q$ Conjunción lógica  
+$p\lor q$ Disyunción lógica  
+$\lnot p$ Negación lógica  👌
+$p\Rightarrow q$ Implicación lógica  
+$\lnot(p\lor q)$ Negación de disyunción (ley de De Morgan)  
+$p\leftrightarrow q$ Bicondicional (equivalencia)  
+$p\oplus q$ Disyunción exclusiva (xor)  
+
+
+7. Los símbolos formales tienen tipos definidos:
+	1. constantes
+	2. funciones
+	3. relaciones
+	4. variables
+	5. cuantificadores
+8. Los símbolos naturales, culturales o artísticos pueden ser:
+	1. ambigüos
+	2. polisémicos
+	3. contextuales. 
+•	Intersección (∩) → Coexistencia de propiedades (ej. Ser ∩ Tiempo = existencia temporal).
+•	Unión (∪) → Coincidencia sin contradicción (ej. Devenir ∪ Diferencia).
+•	Negación (¬) → Subversión del campo (ej. ¬Ser = Nada).
+•	Inclusión (⊂) → Jerarquía ontológica (ej. Actualidad ⊂ Posibilidad).
+•	Doble negación (¬¬) → Reafirmación paradojal (ej. ¬¬Devenir).
+•	Implicación (→) → Transición lógica u ontológica (ej. Potencia → Actualidad).
+•	Conmutación o torsión (↻) → Transformación sin pérdida (ej. Identidad ↻ Diferencia).
+
+
+
+## Tipología comparada de símbolos formales, culturales e icónicos
+
+| Tipo                    | Formalismo lógico clásico               | Iconicidad (Spencer-Brown, Peirce, etc.)                         | Semiótica natural/cultural               |
+| ----------------------- | --------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- |
+| **1. Constantes**       | Símbolos fijos e invariantes (`0`, `a`) | Representaciones fijas dentro de distinciones (marcas, círculos) | Convenciones estilizadas o emblemas      |
+| **2. Variables**        | Marcadores de lugar (`x`, `y`)          | Espacios sin marcar, contornos abiertos                          | Sujetos móviles, roles, arquetipos       |
+| **3. Funciones**        | Aplicaciones (`f(x)`)                   | Transformaciones gráficas (cruzar fronteras)                     | Prácticas codificadas (rituales, gestos) |
+| **4. Relaciones**       | Predicados (`R(x,y)`)                   | Conexiones topológicas o adyacencias (nodos/lazos)               | Relaciones simbólicas abiertas           |
+| **5. Cuantificadores**  | Universal/Existencial (`∀`, `∃`)        | Iteración de marcas, recursividad, replicación                   | Generalizaciones narrativas o míticas    |
+| **6. Ambigüedad**       | Prohibida (se busca univocidad)         | Admitida y regulada por la forma (distinción/cancelación)        | Central (polisemia, metáfora)            |
+| **7. Operatividad**     | Reglas explícitas de inferencia         | Recursividad formalizada por *cálculo de distinción*             | Instrucciones implícitas                 |
+| **8. Iconicidad**       | Nula, salvo diagramas complementarios   | Central: la forma **es** el contenido                            | Alta: el símbolo remite sensorialmente   |
+| **9. Contextualidad**   | Rechazada (busca abstracción total)     | Intermedia: depende del *acto de distinción*                     | Fundamental                              |
+| **10. Auto-referencia** | Paradojal (Russell, Gödel)              | Esencial: la marca se refiere a su propia operación              | Frecuente (metáforas sobre metáforas)    |
+
+

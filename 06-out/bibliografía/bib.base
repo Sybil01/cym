@@ -3,6 +3,7 @@ filters:
     - file.folder == "06-out/bibliografía"
     - file.ext != "base"
     - file.ext != "bib"
+    - '!file.name.contains("MOC")'
 views:
   - type: cards
     name: bib gal

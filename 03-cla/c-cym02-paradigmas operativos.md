@@ -3,6 +3,7 @@ title: arte y ciencia estado de la cuestión
 tags:
   - class
 type: class
+theme: zztt
 ---
 
 <grid drag="60 55" drop="5 10" bg="black" align="left">

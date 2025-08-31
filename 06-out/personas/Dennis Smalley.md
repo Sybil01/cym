@@ -1,11 +1,13 @@
 ---
 type: person
-tags: 
-- composer 
-- espectromorfología
-- 108B
-img: https://www.sonoloco.com/rev/grm/c1030/smalleyop.jpg
-mates: 
-year: 
+tags:
+  - composer
+  - espectromorfología
+  - 108B
+img: https://i.imgur.com/NOvprug.png
+mates:
+year:
 url:
 ---
+
+

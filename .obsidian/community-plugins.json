@@ -4,7 +4,6 @@
   "better-inline-fields",
   "music-code-blocks",
   "obsidian-activity-history",
-  "obsidian-advanced-slides",
   "arrows",
   "auto-embed",
   "auto-note-mover",
@@ -98,5 +97,7 @@
   "obsidian-pretty-bibtex",
   "python-lab-plugin",
   "quickadd",
-  "obsidian-quickshare"
+  "obsidian-quickshare",
+  "obsidian-advanced-slides",
+  "css-editor"
 ]

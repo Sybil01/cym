@@ -4,6 +4,11 @@ Según Viktor Shklovsky, el arte tiene como función impedir que la percepción 
 “El propósito del arte es impartir la sensación de cosas como son percibidas y no como son conocidas. La técnica del arte es hacer ‘las cosas raras’, hacer formas difíciles, aumentar la dificultad y duración de la percepción.”
 — Shklovsky, 1917
 
+(remitencia y suspensión de las herramientas
+que remiten al mundo del trabajo, pero lo suspenden entre
+ritmo frenético y silenciosa inactividad).
+
+
 ## Dimensiones del Extrañamiento
 
 Es posible entender el extrañamiento como un vector multidimensional que opera en distintas capas de la obra:

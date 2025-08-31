@@ -4,7 +4,8 @@
   "enabledCssSnippets": [
     "s1",
     "obsidian",
-    "cards"
+    "cards",
+    "mathjax sizes"
   ],
   "theme": "obsidian",
   "interfaceFontFamily": "DankMono Nerd Font,Consolas",
