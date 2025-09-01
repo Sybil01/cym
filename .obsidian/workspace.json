@@ -23,6 +23,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "f55f7e3f381943ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42bbfc1e39e154df",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 420.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -174,8 +190,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -229,7 +245,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       },
       {
         "id": "b33cb9828f682814",
@@ -304,32 +320,32 @@
   },
   "active": "2d8f9b28aba3a03c",
   "lastOpenFiles": [
-    "03-cla/23/c-cym07-creative computing.md",
-    "03-cla/c-cym16-teología estética de los nuevos medios.md",
-    "03-cla/c-cym15-interactividad.md",
-    "03-cla/c-cym14-un instrumento online colectivo.md",
-    "03-cla/c-cym13-Proto-historia del arte numérico argentino.md",
-    "03-cla/c-cym12-Aframe2.md",
-    "03-cla/c-cym10y11-Aframe.md",
-    "03-cla/c-cym09-networking.md",
-    "03-cla/c-cym09-hydra+tone.js.md",
-    "03-cla/c-cym09-flex-grid.md",
-    "03-cla/c-cym06-principios generativos.md",
-    "03-cla/c-cym07-creative computing.md",
-    "03-cla/c-cym08-github pages+hydra.md",
-    "03-cla/c-cym08-hydra+p5.js.md",
-    "03-cla/c-cym07-cohesión audiovisual.md",
-    "03-cla/c-cym06b-relaciones sonolumínicas.md",
-    "03-cla/c-cym02-arte generativo.md",
-    "03-cla/c-cym03-mapas.md",
-    "03-cla/c-cym04-vida digital.md",
-    "03-cla/hiperreal.md",
-    "03-cla/c-cym09-visual.md",
-    "03-cla/c-cym06c-tonejs.md",
-    "03-cla/c-cym05.06-integración.md",
+    "06-out/operativos/escritura icónica/ejemplos.md",
+    "06-out/operativos/escritura icónica/escritura icónica M0C.md",
     "03-cla/c-cym03-energía.md",
+    "03-cla/23/c-cym07-creative computing 1.md",
+    "03-cla/23/c-cym16-teología estética de los nuevos medios.md",
+    "03-cla/23/c-cym09-flex-grid.md",
+    "03-cla/23/c-cym03-mapas.md",
+    "06-out/topoi/hiperrealidad/hiperreal.md",
     "03-cla/c-cym02-paradigmas operativos.md",
-    "03-cla/c-cym01 cym introducción.md",
+    "06-out/operativos/escritura icónica/entidades y operadores.md",
+    "06-out/glosario/símbolos matemáticos.md",
+    "03-cla/23/c-cym15-interactividad.md",
+    "03-cla/23/c-cym14-un instrumento online colectivo.md",
+    "03-cla/23/c-cym13-Proto-historia del arte numérico argentino.md",
+    "03-cla/23/c-cym12-Aframe2.md",
+    "03-cla/23/c-cym10y11-Aframe.md",
+    "03-cla/23/c-cym09-networking.md",
+    "03-cla/23/c-cym09-hydra+tone.js.md",
+    "03-cla/23/c-cym09-flex-grid.md",
+    "03-cla/23/c-cym08-hydra+p5.js.md",
+    "03-cla/23/c-cym08-github pages+hydra.md",
+    "03-cla/23/c-cym07-cohesión audiovisual.md",
+    "03-cla/23/c-cym06b-relaciones sonolumínicas.md",
+    "03-cla/23/c-cym06-principios generativos.md",
+    "03-cla/23/c-cym04-vida digital.md",
+    "03-cla/23/c-cym03-mapas.md",
     "03-cla/23",
     "03-cla",
     "cym",

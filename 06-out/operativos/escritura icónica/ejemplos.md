@@ -13,10 +13,10 @@ $$
 \newcommand{\mat}{\blacksquare}
 \newcommand{\obj}{\blacklozenge}
 \newcommand{\agn}{\bullet}
-\newcommand{\int}{\leftrightarrow}
+\newcommand{\itf}{\leftrightarrow}
 \newcommand{\ent}[1]{\boxed{#1}}
 $$
-### $$\ent{\ent{\ent{(\space \mat_i^2 + \obj_h \int_A  \agn_h^\infty\space) \int_t \ent{P}_3  \rightarrow \text{work}}^\space\text{space}}^\text{hyperspace}}$$
+$$\ent{\ent{\ent{(\space \mat_i^2 + \obj_h \itf_A  \agn_h^\infty\space) \itf_t \ent{P}_3  \rightarrow \text{work}}^\space\text{space}}^\text{hyperspace}}$$
 
 ---
 
@@ -63,7 +63,7 @@ brackets `\left[ \ent{a, b} \right]`
 
 ---
 ### fbox (para texto)
-\fbox{Texto} → $\fbox{Texto}$
+\fbox{Texto} → $\boxed{a^2 + b^2}$
 
 ---
 ### overbrace

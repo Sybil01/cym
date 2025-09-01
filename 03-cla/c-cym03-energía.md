@@ -23,3 +23,12 @@ type: class
 ---
 
 
+energía
+método científico
+latex
+escritura iconica
+	escritura beta de SB
+	formulas
+	agentes
+xenakis pithoprakta
+
