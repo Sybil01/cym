@@ -64,7 +64,7 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 
 ### Aplicación en 5 etapas
 
-1. identificar en obras referenciales qué paradigma operativo subyace. 
+1. identificar en obras referenciales, fenómenos de la naturaleza qué paradigma operativo subyace. 
 2. Definir el paradigma operativo 
 	1. filosóficamente:
 		- enuncia la intuición fundante en un lenguaje especulativo sin necesariamente un soporte empírico. (*ej: la realimentación modula la agencia del performer hasta convertirlo en interfaz*)
@@ -115,3 +115,5 @@ OAT  objeto acción transformación
 <iframe src="https://www.overleaf.com/project/68aef37611ad4aaecd448f72/detacher" width="100%" height="600px"></iframe>
 
 https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+
+

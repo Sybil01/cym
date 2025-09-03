@@ -72,6 +72,14 @@ class c c3;
 
 La primera aparición pública de Javascript la encontramos en el año 1995 cuando se utiliza como herramienta del navegador Netscape Navigator, con el objetivo de agregar programas a páginas web.
 
+```dataviewjs
+let pages = dv.pages("#books and -#books/finished").where(b => b.rating >= 7);
+for (let group of pages.groupBy(b => b.genre)) {
+   dv.header(3, group.key);
+   dv.list(group.rows.file.name);
+}
+```
+
 ## palabras reservadas
 ```js
 break, case, catch, continue, default, let

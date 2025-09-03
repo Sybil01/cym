@@ -4,38 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "39870e83debaa30c",
+        "id": "fd4ffd12ce862995",
         "type": "tabs",
         "children": [
           {
-            "id": "2d8f9b28aba3a03c",
+            "id": "9c703cbcdab582e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/operativos/escritura icónica/entidades y operadores.md",
+                "file": "03-cla/c-cym03-energía.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "entidades y operadores"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f55f7e3f381943ac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "42bbfc1e39e154df",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "c-cym03-energía"
             }
           }
         ]
@@ -70,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bibte",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -105,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 266.5026054382324
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -230,12 +214,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "62b46193395f9510",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
+            }
+          },
+          {
+            "id": "f580567612683994",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           },
           {
-            "id": "62b46193395f9510",
+            "id": "5603f79d0e1bcacc",
             "type": "leaf",
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
@@ -299,9 +303,12 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "wikipedia-search:Open Article": false,
       "translate:Open translation view": false,
       "obsidian42-text-transporter:Text Transporter": false,
@@ -310,42 +317,40 @@
       "templater-obsidian:Templater": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-metatable:Metatable": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "2d8f9b28aba3a03c",
+  "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
-    "06-out/operativos/escritura icónica/ejemplos.md",
-    "06-out/operativos/escritura icónica/escritura icónica M0C.md",
+    "03-cla/c-cym02-arte generativo.md",
+    "03-cla/energia desglose.md",
     "03-cla/c-cym03-energía.md",
-    "03-cla/23/c-cym07-creative computing 1.md",
-    "03-cla/23/c-cym16-teología estética de los nuevos medios.md",
-    "03-cla/23/c-cym09-flex-grid.md",
-    "03-cla/23/c-cym03-mapas.md",
-    "06-out/topoi/hiperrealidad/hiperreal.md",
-    "03-cla/c-cym02-paradigmas operativos.md",
-    "06-out/operativos/escritura icónica/entidades y operadores.md",
-    "06-out/glosario/símbolos matemáticos.md",
-    "03-cla/23/c-cym15-interactividad.md",
-    "03-cla/23/c-cym14-un instrumento online colectivo.md",
-    "03-cla/23/c-cym13-Proto-historia del arte numérico argentino.md",
-    "03-cla/23/c-cym12-Aframe2.md",
-    "03-cla/23/c-cym10y11-Aframe.md",
-    "03-cla/23/c-cym09-networking.md",
-    "03-cla/23/c-cym09-hydra+tone.js.md",
-    "03-cla/23/c-cym09-flex-grid.md",
-    "03-cla/23/c-cym08-hydra+p5.js.md",
-    "03-cla/23/c-cym08-github pages+hydra.md",
-    "03-cla/23/c-cym07-cohesión audiovisual.md",
-    "03-cla/23/c-cym06b-relaciones sonolumínicas.md",
-    "03-cla/23/c-cym06-principios generativos.md",
-    "03-cla/23/c-cym04-vida digital.md",
-    "03-cla/23/c-cym03-mapas.md",
+    "06-out/operativos artísticos/transubstanciación.md",
+    "06-out/operativos artísticos/relacionismo.md",
+    "06-out/operativos artísticos/catalexis.md",
+    "06-out/operativos artísticos/hipotiposis.md",
+    "06-out/operativos/escritura icónica/01 entidades y operadores.md",
+    "06-out/operativos artísticos/desmaterialización.md",
+    "06-out/operativos artísticos/desplazamiento.md",
+    "06-out/operativos artísticos/ecfrasis.md",
+    "06-out/operativos artísticos/efímero.md",
+    "06-out/operativos artísticos/creatividad combinatoria.md",
+    "06-out/operativos artísticos/retombeé.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "03-cla/disnov -2.md",
+    "03-cla/memoria.md",
+    "03-cla/disnov 0.md",
+    "03-cla/disnov 1.md",
+    "03-cla/disnovación.md",
+    "06-out/operativos/escritura icónica/de mathjax a knowledge graphs.md",
+    "06-out/operativos/escritura icónica/test Primitivo esfera recursión.md",
+    "06-out/operativos/escritura icónica/ejemplos.md",
+    "06-out/operativos/escritura icónica/00 ei scratch.md",
+    "06-out/operativos/escritura icónica/escritura icónica M0C.md",
+    "06-out/operativos/escritura icónica/sarduy.md",
+    "01-proj/25/prueba mac",
     "03-cla/23",
     "03-cla",
     "cym",
@@ -360,7 +365,6 @@
     "05-obs/img/Pasted image 20250827114255.png",
     "06-out/bibliografía/bib.base",
     "06-out/operativos/lírica lorenz",
-    "06-out/topoi/vida artificial",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
