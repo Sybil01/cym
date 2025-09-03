@@ -2,7 +2,7 @@
 tags:
 type: tp
 project: cym2025
-date:
+date: 2025-09-10
 ---
 - [ ] TP1  - paradigmas operativos ⏫ 📅 2025-09-10
 ## Objetivo
@@ -111,9 +111,14 @@ OAT  objeto acción transformación
 ⊘ = Vacío  ; ● = Ser   ⇄ = Devenir   ○ = Posibilidad   ⧺ = Unión   → = Implicación
 
 
+<<<<<<< HEAD
 
 <iframe src="https://www.overleaf.com/project/68aef37611ad4aaecd448f72/detacher" width="100%" height="600px"></iframe>
 
 https://www.overleaf.com/read/zbwtfntdbqjf#737c26
 
 
+=======
+#### Plantilla en latex
+https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+>>>>>>> origin/main
