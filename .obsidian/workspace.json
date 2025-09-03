@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym03-energía.md",
+                "file": "03-cla/c-cym02-paradigmas operativos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym03-energía"
+              "title": "c-cym02-paradigmas operativos"
             }
           }
         ]
@@ -308,11 +308,11 @@
   },
   "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "03-cla/c-cym03-energía.md",
+    "conflict-files-obsidian-git.md",
     "01-proj/25/Tomas Fernandez/Sin título.md",
     "01-proj/25/Tomas Fernandez",
-    "03-cla/c-cym02-arte generativo.md",
+    "03-cla/23/c-cym02-arte generativo.md",
     "03-cla/energia desglose.md",
     "06-out/operativos artísticos/transubstanciación.md",
     "06-out/operativos artísticos/relacionismo.md",
