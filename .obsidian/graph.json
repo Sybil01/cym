@@ -1,34 +1,22 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "[\"type\":topoi]",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -1.1,
-  "nodeSizeMultiplier": 1.1658935546875,
-  "lineSizeMultiplier": 0.615201822916667,
-  "collapse-forces": false,
-  "centerStrength": 0.285725911458333,
-  "repelStrength": 15.5745442708333,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 109,
-<<<<<<< HEAD
-  "scale": 0.09501621609920143,
-=======
-  "scale": 0.2408685531786327,
->>>>>>> origin/main
+  "linkDistance": 250,
+  "scale": 0.713275462622441,
   "close": false
 }
