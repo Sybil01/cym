@@ -6,13 +6,14 @@ $$
 \newcommand{\mat}{\blacksquare}
 \newcommand{\obj}{\blacklozenge}
 \newcommand{\agn}{\bullet}
-\newcommand{\int}{\leftrightarrow}
+\newcommand{\itf}{\leftrightarrow}
 \newcommand{\ent}[1]{\boxed{#1}}
+\newcommand{\branch}{\twoheadrightarrow}
 $$
-`\mat` = material
+`\mat` = material[[01 entidades y operadores]]
 `\obj` = objeto
 `\age` = agente
-`\int` = interface
+`\itf` = interface
 `\ent` = entorno
 ## Paradigmas Operativos (EOR)
 ---
