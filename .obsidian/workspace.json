@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym00-calendario.md",
+                "file": "04-tp/tp01-paradigmas operativos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym00-calendario"
+              "title": "tp01-paradigmas operativos"
             }
           }
         ]
@@ -164,7 +164,7 @@
       {
         "id": "b33cb9828f682814",
         "type": "tabs",
-        "dimension": 28.943560057887122,
+        "dimension": 28.94356005788712,
         "children": [
           {
             "id": "20c732dc2cc0ecaf",
@@ -202,10 +202,10 @@
   },
   "active": "9134aea7d30b6ff5",
   "lastOpenFiles": [
+    "03-cla/c-cym00-calendario.md",
     "03-cla/c-cym01 cym introducción.md",
     "04-tp/tp01-paradigmas operativos.md",
     "06-out/topoi/física/Geometría y Experiencia.md",
-    "03-cla/c-cym00-calendario.md",
     "04-tp/prueba.md",
     "01-proj/25/Peterschmitt/hola.md",
     "01-proj/25/Carlos Lescano/Hola mundo.md",
