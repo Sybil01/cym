@@ -1,5 +1,9 @@
 [
   "obsidian-git",
+<<<<<<< HEAD
   "dataview",
   "templater-obsidian"
+=======
+  "execute-code"
+>>>>>>> origin/main
 ]
