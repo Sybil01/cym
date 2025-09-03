@@ -2,7 +2,7 @@
 tags:
 type: tp
 project: cym2025
-date:
+date: 2025-09-10
 ---
 - [ ] TP1  - paradigmas operativos ⏫ 📅 2025-09-10
 ## Objetivo

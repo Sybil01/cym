@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-proj/25/prueba mac/hola mundo.md",
+                "file": "04-tp/tp01-paradigmas operativos.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "hola mundo"
+              "title": "tp01-paradigmas operativos"
             }
           },
           {
@@ -349,13 +349,17 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "e059e2c68ceb2038",
   "lastOpenFiles": [
-    "07-ayuda/help markdown.md",
+    "01-proj/25/Peterschmitt/hola.md",
+    "01-proj/25/Dai Miauro/Holiwisss.md",
+    "01-proj/25/Carlos Lescano/Hola mundo.md",
     "01-proj/25/prueba mac/hola mundo.md",
+    "07-ayuda/help markdown.md",
     "01-proj/25/prueba mac",
     "conflict-files-obsidian-git.md",
     "06-out/operativos/método científico/tesis.md",
@@ -378,9 +382,6 @@
     "06-out/operativos artísticos/transubstanciación.md",
     "06-out/operativos artísticos/relacionismo.md",
     "06-out/operativos artísticos/proposopeyéutica.md",
-    "06-out/operativos artísticos/hipotiposis.md",
-    "06-out/operativos artísticos/efímero.md",
-    "06-out/operativos artísticos/ecfrasis.md",
     "05-obs/img/Pasted image 20250827130347.png",
     "05-obs/img/Pasted image 20250827124029.png",
     "05-obs/img/Pasted image 20250827114255.png",
