@@ -36,7 +36,7 @@ Filosofía clásica griega
 - Actualización como principio del movimiento
 - Ontología cualitativa del ser en acto
 
-note: Aristóteles introduce el término energeia para distinguir lo que existe en acto de lo que solo está en potencia. Energía no significa aquí “cantidad”, sino un modo de ser. Cada ente natural tiene una finalidad (telos), y su energía consiste en actualizar esa finalidad propia. El concepto se sitúa en la metafísica y en la física: desde el movimiento de un cuerpo hasta la actividad del intelecto, todo puede ser comprendido como paso de potencia a acto. La energía, así, es la condición de inteligibilidad del cambio y del tiempo, ligada a la perfección de la forma.
+note: Aristóteles introduce el término *energeia* para distinguir lo que existe en acto de lo que solo está en potencia. Energía no significa aquí “cantidad”, sino un modo de ser. Cada ente natural tiene una finalidad (telos), y su energía consiste en actualizar esa finalidad propia. El concepto se sitúa en la metafísica y en la física: desde el movimiento de un cuerpo hasta la actividad del intelecto, todo puede ser comprendido como paso de potencia a acto. La energía, así, es la condición de inteligibilidad del cambio y del tiempo, ligada a la perfección de la forma.
 
 <ref>Aristóteles, Metafísica IX (-300)</ref>
 
@@ -45,7 +45,7 @@ note: Aristóteles introduce el término energeia para distinguir lo que existe 
 ### Tomás de Aquino, s. XIII
 
 Escolástica medieval
-	- Energeia traducida como actus essendi
+	- *Energeia* traducida como actus essendi
 	- Dios como acto puro, fuente de toda energía
 	- Subordinación teleológica del ser creado
 
