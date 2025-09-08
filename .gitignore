@@ -15,13 +15,11 @@
 .obsidian/plugins/translate/
 .obsidian/plugins/obsidian-wordnet-plugin/
 .obsidian/plugins/obsidian-advanced-slides/
+.obsidian/plugins/*/data.json
+.obsidian/plugins/obsidian-mkdocs-publisher/
 
 # Ignorar todos los archivos de plugins (no rastrear el código, solo la lista si quieres)
 .obsidian/plugins/
 
-# Opcional: Ignorar data sensible de plugins
-.obsidian/plugins/*/data.json
-
 # Otros comunes (evitando duplicados)
-b  # Si "b" es un archivo específico, déjalo; si es un error, quítalo
-.obsidian/plugins/obsidian-mkdocs-publisher/
+b/

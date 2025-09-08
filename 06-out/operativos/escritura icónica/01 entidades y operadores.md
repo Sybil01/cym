@@ -10,6 +10,9 @@ $$
 \newcommand{\ent}[1]{\boxed{#1}}
 \newcommand{\branch}{\twoheadrightarrow}
 $$
+
+
+
 `\mat` = material[[01 entidades y operadores]]
 `\obj` = objeto
 `\age` = agente
