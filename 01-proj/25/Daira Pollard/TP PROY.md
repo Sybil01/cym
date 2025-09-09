@@ -1,11 +1,12 @@
-Como principal *fenómeno o concepto* elegí los dos mundos en "**Demian**" de Hermann Hesse. Este concepto representa la tensión entre el mundo luminoso, ordenado, seguro, de la infancia del protagonista (familia, religión, normas) y el mundo oscuro, caótico, instintivo en el que se va desarrollando a medida que va creciendo (deseos, pulsiones, individualidad). Y en donde el protagonista, Emil Sinclair debe pasar por ambos "mundos" para alcanzar una totalidad del ser si se quiere.
+Como principal *fenómeno o concepto* elegí los dos mundos en "**Demian**" de la novela de Hermann Hesse. Este concepto representa la tensión entre el mundo luminoso, ordenado, seguro, de la infancia del protagonista (familia, religión, normas) y el mundo oscuro, caótico, instintivo en el que se va desarrollando a medida que va creciendo (deseos, pulsiones, individualidad). Y en donde el protagonista, Emil Sinclair debe pasar por ambos "mundos" con al finalidad de alcanzar una totalidad del ser o integración de ambos mundos conviviendo.
+
+Como datos adyacentes a esta información, es necesario entender que el paso de un mundo a otro no era algo sencillo de hacer, desde el primer mundo de Emil, ese mundo lleno de luz y normas de las que no podía apartarse, era intentar salir de una imperante doctrina ya establecida desde la niñez y es por eso, que el protagonista se ve envuelto en un serie de eventos y problemas por los cuales debe transitar e intentar satisfacer a otros. 
+A lo largo de este camino, se da cuenta que ambos mundos deben coincidir, que, llevándolo a lo religioso como se hace muchas veces en la novela, ese Dios y Demonio podrían ser uno, a este concepto se le denomina **Abraxas** 
 
 ---
 
 Identificación del *paradigma objetivo*
 
-Dos mundos: luz y sombra, orden y caos.
-Meta: la integración, no la negación, porque el camino de Sinclair consiste en aceptar ambos para ser completo.
 
 
 
