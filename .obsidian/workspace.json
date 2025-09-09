@@ -4,52 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "fd4ffd12ce862995",
+        "id": "8d675a9231b24172",
         "type": "tabs",
         "children": [
           {
-            "id": "9c703cbcdab582e3",
+            "id": "7a5104a4201baaec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/operativos/escritura icónica/ejemplos.md",
+                "file": "06-out/operativos/escritura icónica/00 ei scratch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ejemplos"
+              "title": "00 ei scratch"
             }
           },
           {
-            "id": "e0ca1b40600a9926",
+            "id": "b766a902b8a9c833",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "b/prompt EI javascript.md",
+                "file": "06-out/operativos/escritura icónica/01 entidades y operadores.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "prompt EI javascript"
+              "title": "01 entidades y operadores"
             }
           },
           {
-            "id": "ee9e089e1f91c44e",
+            "id": "d7da017d5436cb37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "04-tp/tp01-paradigmas operativos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "tp01-paradigmas operativos"
             }
           }
         ],
@@ -76,7 +76,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -86,7 +86,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -105,22 +105,12 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "aa56766b557ab7a9",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 369.5026054382324
+    "width": 340.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -137,13 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "00-moc/obras MOC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of inestabilidad de Kelvin-Helmholz"
+              "title": "Outline of obras MOC"
             }
           },
           {
@@ -176,6 +163,20 @@
             }
           },
           {
+            "id": "52f74587519419f6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
             "id": "dadcd00ddeddea13",
             "type": "leaf",
             "state": {
@@ -191,96 +192,25 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from inestabilidad de Kelvin-Helmholz"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "412b1e1aab99248c",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "e121fde7da07e3ce",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "QUICKSHARE_SIDE_VIEW"
-            }
-          },
-          {
-            "id": "591ff0920c79197d",
+            "id": "f0739d8c01c0a9a3",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "b94c48f2f58b5ce9",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "QUICKSHARE_SIDE_VIEW"
-            }
-          },
-          {
-            "id": "be9bed1c545f4d40",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "62b46193395f9510",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "QUICKSHARE_SIDE_VIEW"
-            }
-          },
-          {
-            "id": "f580567612683994",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "5603f79d0e1bcacc",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "cloud",
-              "title": "QuickShare"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "b33cb9828f682814",
@@ -328,79 +258,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false,
-      "wikipedia-search:Open Article": false,
-      "translate:Open translation view": false,
-      "obsidian42-text-transporter:Text Transporter": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-metatable:Metatable": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee9e089e1f91c44e",
+  "active": "d7da017d5436cb37",
   "lastOpenFiles": [
-    "b/prompt EI javascript.md",
-    "conflict-files-obsidian-git.md",
-    "01-proj/25/Tomas Fernandez/push test.md",
-    "06-out/operativos/escritura icónica/prompt o instructions para agentes.md",
-    "b/sarduy.md",
-    "b/test EI functores 3.md",
-    "b/po canon.md",
-    "06-out/operativos/escritura icónica/dict for latex-discord.md",
-    "b",
-    "06-out/operativos/escritura icónica/ejemplos.md",
     "06-out/operativos/escritura icónica/01 entidades y operadores.md",
-    "06-out/operativos/sistemas paramétricos/h1.md",
-    "06-out/operativos/sistemas paramétricos/entidades y operadores 0.1.md",
-    "entidades y operadores 0.md",
-    "06-out/operativos/sistemas paramétricos/pt4.md",
-    "06-out/operativos/sistemas paramétricos/help python.md",
-    "06-out/operativos/sistemas paramétricos/pt1.md",
-    "06-out/operativos/método científico/valores epistémicos y estéticos.md",
-    "06-out/home.md",
-    "06-out/operativos/sistemas paramétricos/morfógenos.md",
-    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
-    "06-out/operativos/sistemas paramétricos/transformaciones energéticas.md",
-    "06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md",
-    "06-out/operativos/sistemas paramétricos/pt3.md",
-    "06-out/operativos/sistemas paramétricos/pt2.md",
-    "06-out/operativos/método científico/Método científico.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "04-tp/arc/tp01-topoi.md",
+    "04-tp/arc/tp02-aplicación.md",
+    "04-tp/prueba.md",
+    "06-out/bibliografía/El Azar y la Necesidad.md",
+    "06-out/bibliografía/Boris Groys_Arte y flujo.md",
+    "06-out/eventos/La memoria de los materiales.md",
+    "06-out/eventos/Experiments in Art and Technology.md",
+    "06-out/eventos/2972453.md",
+    "06-out/eventos/Cybernetic Serendipity.md",
+    "06-out/glosario/DOM.md",
+    "06-out/operativos/generatividad/Azar.md",
+    "06-out/operativos/generatividad/Autómatas.md",
+    "06-out/operativos/escritura icónica/00 ei scratch.md",
+    "01-proj/25/Tomas Fernandez/push test.md",
     "06-out/topoi/internet/web 3.0 glosario y knowledge graphs.md",
-    "03-cla/c-cym04-energía argentina.md",
     "06-out/topoi/internet",
     "06-out/res/energia-vis.html",
     "06-out/res",
+    "06-out/operativos/sistemas paramétricos/h1.md",
+    "06-out/operativos/método científico/valores epistémicos y estéticos.md",
+    "06-out/operativos/escritura icónica/dict for latex-discord.md",
+    "06-out/operativos artísticos/metáfora.md",
+    "03-cla/c-cym04-energía argentina.md",
+    "02-mat/código/que es git.md",
+    "conflict-files-obsidian-git.md",
+    "06-out/topoi/hiperrealidad/hiperreal.md",
+    "06-out/operativos/escritura icónica/test Primitivo esfera recursión.md",
     "01-proj/25/Tomas Fernandez",
     "01-proj/25/prueba mac",
-    "03-cla/23",
-    "03-cla",
-    "cym",
-    "02-mat/orq",
-    "cym-metamap.canvas",
     "05-obs/img/Pasted image 20250827130347.png",
     "05-obs/img/Pasted image 20250827124029.png",
-    "05-obs/lib/score.svg",
     "05-obs/img/Pasted image 20250827114255.png",
+    "02-mat/orq",
+    "01-proj/25/Peterschmitt",
+    "01-proj/25/Dai Miauro",
+    "01-proj/25/Carlos Lescano",
+    "01-proj/25",
+    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
+    "05-obs/lib/score.svg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755894080911.jpeg",
+    "cym-metamap.canvas",
     "05-obs/img/eventos MOC-1755180996466.jpeg",
     "Sin título 1.canvas",
     "Sin título.canvas",
