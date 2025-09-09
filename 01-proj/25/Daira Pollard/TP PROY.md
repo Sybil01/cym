@@ -1,8 +1,8 @@
-Como principal *paradigma operativo* elegí el concepto de los dos mundos en Demian de Hermann Hesse. Este concepto representa la tensión entre el mundo luminoso, ordenado, seguro, de la infancia (familia, religión, normas) y el mundo oscuro, caótico, instintivo (deseos, pulsiones, individualidad) Y en donde el protagonista, Emil Sinclair debe pasar por ambos "mundos" para alcanzar su autoconocimiento.
+Como principal *fenómeno o concepto* elegí los dos mundos en "**Demian**" de Hermann Hesse. Este concepto representa la tensión entre el mundo luminoso, ordenado, seguro, de la infancia del protagonista (familia, religión, normas) y el mundo oscuro, caótico, instintivo en el que se va desarrollando a medida que va creciendo (deseos, pulsiones, individualidad). Y en donde el protagonista, Emil Sinclair debe pasar por ambos "mundos" para alcanzar una totalidad del ser si se quiere.
 
 ---
 
-1. Identificación del concepto
+Identificación del *paradigma objetivo*
 
 Dos mundos: luz y sombra, orden y caos.
 Meta: la integración, no la negación, porque el camino de Sinclair consiste en aceptar ambos para ser completo.
@@ -13,11 +13,8 @@ Meta: la integración, no la negación, porque el camino de Sinclair consiste en
 
 2. Traducción proyectual (cómo convertirlo en una idea visual/espacial/creativa)
 
-Podrías representarlo a través de:
-Un espacio dual: dos ámbitos diferenciados pero comunicados, uno claro y estructurado, otro oscuro e irregular.
-Un objeto o instalación: que se transforma según el punto de vista (ejemplo: un mismo volumen con dos caras, una lisa y blanca, otra rugosa y negra).
-Un recorrido narrativo: donde la persona atraviesa primero el “mundo seguro”, luego el “oscuro” y finalmente un punto de convergencia.
 
+Un objeto o instalación: que se transforma según el punto de vista (ejemplo: un mismo volumen con dos caras, una lisa y blanca, otra rugosa y negra).
 
 
 ---
@@ -31,7 +28,6 @@ Paradigma del Umbral: cada ser humano transita de un mundo socialmente aceptado 
 Paradigma de la Dualidad Dialéctica: no se trata de opuestos irreconciliables, sino de tensiones complementarias. El proyecto debe mostrar la coexistencia y la fusión.
 
 Paradigma de la Metamorfosis: el objetivo no es elegir un mundo, sino transformarse al integrarlos. El proyecto busca producir experiencia de cambio.
-
 
 
 ---
