@@ -13,6 +13,8 @@ $$
 
 
 
+
+
 `\mat` = material[[01 entidades y operadores]]
 `\obj` = objeto
 `\age` = agente
