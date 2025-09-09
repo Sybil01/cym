@@ -14,12 +14,7 @@ Investigando un poco más sobre esto, pude identificar que Abraxas es un términ
 
 2. Implementación en un entorno algorítmico 
 
-Dicho el punto anterior, la idea de esto sería utilizar estos valores en una representación gráfica de una convergencia de ambos en los cuales SOLAMENTE se da por la suma de estos valores en la que la respuesta ideal debe ser 365
-
-
-Un objeto o instalación: que se transforma según el punto de vista (ejemplo: un mismo volumen con dos caras, una lisa y blanca, otra rugosa y negra).
-
-Paradigma de la Metamorfosis: el objetivo no es elegir un mundo, sino transformarse al integrarlos. El proyecto busca producir experiencia de cambio.
+Dicho el punto anterior, la idea de esto sería utilizar estos valores en una representación gráfica de una convergencia de ambos en los cuales SOLAMENTE se da por la suma de estos valores en la que la respuesta *ideal* debe ser 365.
 
 ---
 
