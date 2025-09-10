@@ -16,10 +16,13 @@ Investigando un poco más sobre esto, pude identificar que Abraxas es un términ
 
 Dicho el punto anterior, la idea de esto sería utilizar estos valores en una representación gráfica de una convergencia de ambos mundos en los cuales SOLAMENTE se da por la suma de estos valores en la que la respuesta *ideal* debe ser 365, representando este último a **Abraxas**.
 La manera en la que decidí llevarlo a cabo sería a través de código, en el cual cada uno de los valores de cada una de las letras de la palabra están en diferentes puntos y ejes, estos no se tocan ni interactúan entre sí, solamente lo harían, llegado al caso en el que se unan, representado así el concepto principal.
-EN cuanto al código, decidí hacerlo de manera interactiva, que funcione a través de una página html: [[ἀβραξάς.html]] 
+En cuanto al código, decidí hacerlo de manera interactiva, que funcione a través de una página html, en el cual el código embebido está expresado en js y react (con ayuda de ia).
 
 ---
 
 3. Demostración experimental
 
+En esta demostración experimental, traté de desarrollar mediante código una visualización de la idea de estos dos mundos, lo más oscuro y la luminosidad, acompañado de música reaccionando ante esto y, de lo lógico, representado en las letras como valores reales. Y quisiera aclarar que si bien es una demostración más simple de lo que me gustaría representar, es una buena demostración de esta convergencia en sí.
+
+En la carpeta con el nombre de [[ἀβραξάς.html]] se puede interactuar con el *paradigma operativo* que decidí desarrollar. En este puede verse la representación de ἀβραξάς (Abraxas) como una totalidad, como el centro al que debe prestarse atención
 
