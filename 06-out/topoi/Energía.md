@@ -6,7 +6,7 @@ tags:
 unit: 0
 publish: 2025
 author: zztt
-banner: https://i.imgur.com/J3FZ1Ba.png
+banner: "https://i.imgur.com/J3FZ1Ba.png"
 ---
 ![](https://i.imgur.com/J3FZ1Ba.png)
 *Massoud Hassani. Desminador eólico Mine Kafon. 2011. Bambú y plásticos biodegradables, 221 × 221 × 221 cm. Donación del Consejo de Arte Contemporáneo del Museo de Arte Moderno.*
