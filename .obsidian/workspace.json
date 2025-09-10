@@ -303,11 +303,13 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "e0ca1b40600a9926",
   "lastOpenFiles": [
+    "01-proj/25/Daira Pollard/ἀβραξάς.html",
     "06-out/operativos/escritura icónica/ejemplos.md",
     "01-proj/25/Daira Pollard/TP1 Paradigmas Operativos☢️.md",
     "01-proj/25/prueba mac/hola mundo.md",
@@ -336,7 +338,6 @@
     "06-out/operativos/sistemas paramétricos/transformaciones energéticas.md",
     "06-out/operativos/sistemas paramétricos/sistemas paramétricos de Gray-Scott.md",
     "06-out/operativos/sistemas paramétricos/pt3.md",
-    "06-out/operativos/sistemas paramétricos/pt2.md",
     "06-out/topoi/internet",
     "06-out/res/energia-vis.html",
     "06-out/res",

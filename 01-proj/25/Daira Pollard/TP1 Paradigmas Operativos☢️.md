@@ -14,7 +14,8 @@ Investigando un poco más sobre esto, pude identificar que Abraxas es un términ
 
 2. Implementación en un entorno algorítmico 
 
-Dicho el punto anterior, la idea de esto sería utilizar estos valores en una representación gráfica de una convergencia de ambos mundos en los cuales SOLAMENTE se da por la suma de estos valores en la que la respuesta *ideal* debe ser 365.
+Dicho el punto anterior, la idea de esto sería utilizar estos valores en una representación gráfica de una convergencia de ambos mundos en los cuales SOLAMENTE se da por la suma de estos valores en la que la respuesta *ideal* debe ser 365, representando este último a **Abraxas**.
+La manera en la que decidí llevarlo a cabo sería a través de código, en el cual 
 
 ---
 
