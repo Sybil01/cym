@@ -62,6 +62,9 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 
 ---
 
+<<<<<<< HEAD
+ 
+=======
 ### Aplicación en 5 etapas
 
 1. identificar en obras referenciales, fenómenos de la naturaleza qué paradigma operativo subyace. 
@@ -82,6 +85,7 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 		3. demostración, 
 		4. conclusiones, crítica, refutación.
 		5. referencias en bibtex.
+>>>>>>> origin/main
 
 ---
 
