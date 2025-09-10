@@ -111,5 +111,6 @@ OAT  objeto acción transformación
 ⊘ = Vacío  ; ● = Ser   ⇄ = Devenir   ○ = Posibilidad   ⧺ = Unión   → = Implicación
 
 
-#### Plantilla en latex
+#### Plantilla en LaTeX
 https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+
