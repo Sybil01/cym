@@ -1,10 +1,25 @@
-.pandoc
-.trash
-.history
-b
+# Ignorar archivos temporales y de sistema
 .DS_Store
-.obsidian/plugins/obsidian-activity-history/data.json
-.obsidian/plugins/translate
-.obsidian/plugins/obsidian-wordnet-plugin
-.obsidian/plugins/obsidian-advanced-slides
+.trash/
+.history/
+.pandoc/  # Asumiendo que "?.pandoc" era un typo para ".pandoc"
 
+# Ignorar configs personales/volátiles en .obsidian
+.obsidian/workspace.json  # Layout de ventanas, cambia mucho
+.obsidian/app.json        # Ajustes generales de la app
+.obsidian/graph.json      # Config de gráficos
+.obsidian/appearance.json # Si quieres temas compartidos, quita esta línea
+
+# Ignorar carpetas y archivos de plugins específicos
+.obsidian/plugins/obsidian-activity-history/data.json
+.obsidian/plugins/translate/
+.obsidian/plugins/obsidian-wordnet-plugin/
+.obsidian/plugins/obsidian-advanced-slides/
+.obsidian/plugins/*/data.json
+.obsidian/plugins/obsidian-mkdocs-publisher/
+
+# Ignorar todos los archivos de plugins (no rastrear el código, solo la lista si quieres)
+.obsidian/plugins/
+
+# Otros comunes (evitando duplicados)
+b/

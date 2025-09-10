@@ -1,15 +1,16 @@
 ---
 type: person
-img: 
-tags: 
+img: https://i.imgur.com/hKy6z8z.png
+tags:
 born in city: Strassbourg
 year: 1910
 dead year: 1990
 city: Paris
-country: 
-connect: 
+country:
+connect:
 url:
 ---
+
 
 
 Pensador de amplio recorrido teórico, que se compadece con su rica y variada formación. Abierto a la innovación tecnológica, sus estudios, que parten de una óptica neopositivista, indagan en el arte y estética, la cibernética y comunicación, la filosofía y semiología... En su obra aparecen rasgos e influencias de autores como Charles Peirce, Charles Morris, George Birkhoff, Christian von Ehrenfels, Donald MacKay, Norbert Wiener, Claude Shannon, etcétera. Trata de aunar las ciencias del espíritu y las ciencias exactas a través del binomio arte-tecnología. Vincula la semiótica a la cibernética, a las nuevas teorías de la comunicación. Lejos de los planteamientos filosóficos especulativos, busca una estética numérica desde una perspectiva neopositivista. En su libro _Estética_ (1954), las matemáticas y la técnica aparecen en la base de la creación artística. Bense habla de ‘estética matemática’ y ‘estética tecnológica’, esto es, de una estética ‘objetiva y material’, que no opera con medios especulativos, sino racionales. Más que una estética del gusto, Bense plantea una estética empírico-racional de la constatación.  

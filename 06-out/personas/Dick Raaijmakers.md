@@ -1,7 +1,7 @@
 ---
 type: person
-img: 
-tags:  
+img: https://i.imgur.com/SZX82V7.png
+tags:
 born in city:
 born:
 died:
@@ -16,5 +16,8 @@ influencedfrom:
 dg-publish: false
 url:
 ---
+
+
+
 
 

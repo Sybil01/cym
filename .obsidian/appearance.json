@@ -1,10 +1,11 @@
 {
   "accentColor": "#337175",
-  "cssTheme": "OLED.Black",
+  "cssTheme": "Obsidianite",
   "enabledCssSnippets": [
     "s1",
     "obsidian",
-    "cards"
+    "cards",
+    "mathjax sizes"
   ],
   "theme": "obsidian",
   "interfaceFontFamily": "DankMono Nerd Font,Consolas",

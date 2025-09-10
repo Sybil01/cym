@@ -56,7 +56,7 @@ arquitectura , arquitectura aural
 ###  [[Internetmusic]]	  
 
 ### técnicos
-[[js01-fundamentals]]
+[[js-01-fundamentos]]
 [[py-foundations]]
 [[pd-foundations]]
 [[mx-maxmsp]]

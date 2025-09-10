@@ -118,47 +118,6 @@ Para esto comparemos los tipos definidos de distintos niveles de símbolos forma
 Pero avancemos con un sistema ad-hoc de representación de operaciones filosóficas, tomando 20 conceptos nucleares que se prestan a una formalización simbólica. A la vez cada símbolo podra tener transformadores (interesecciones, tensores, gradientes, bifurcaciones):
 
 
-### conceptos nucleares
-
-1. Ser  
-2. Devenir  
-3. Uno  
-4. Múltiple  
-5. Diferencia  
-6. Identidad  
-7. Tiempo  
-8. Espacio  
-9. Sustancia  
-10. Relación  
-11. Causa  
-12. Posibilidad  
-13. Actualidad  
-14. Potencia  
-15. Vacío  
-16. Lenguaje  
-17. Mundo  
-18. Acontecimiento  
-19. Límite  
-20. Negación
-
-### operadores
-
-•	Intersección (∩) → Coexistencia de propiedades (ej. Ser ∩ Tiempo = existencia temporal).
-•	Unión (∪) → Coincidencia sin contradicción (ej. Devenir ∪ Diferencia).
-•	Negación (¬) → Subversión del campo (ej. ¬Ser = Nada).
-•	Inclusión (⊂) → Jerarquía ontológica (ej. Actualidad ⊂ Posibilidad).
-•	Doble negación (¬¬) → Reafirmación paradojal (ej. ¬¬Devenir).
-•	Implicación (→) → Transición lógica u ontológica (ej. Potencia → Actualidad).
-•	Conmutación o torsión (↻) → Transformación sin pérdida (ej. Identidad ↻ Diferencia).
-
-
-⊘ = Vacío  ;
-● = Ser  
-⇄ = Devenir  
-○ = Posibilidad  
-⧺ = Unión  
-→ = Implicación
-
 
 # aplicaciones
 

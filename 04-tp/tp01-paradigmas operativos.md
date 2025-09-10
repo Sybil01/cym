@@ -2,7 +2,7 @@
 tags:
 type: tp
 project: cym2025
-date:
+date: 2025-09-10
 ---
 - [ ] TP1  - paradigmas operativos ⏫ 📅 2025-09-10
 ## Objetivo
@@ -62,7 +62,30 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 
 ---
 
+<<<<<<< HEAD
  
+=======
+### Aplicación en 5 etapas
+
+1. identificar en obras referenciales, fenómenos de la naturaleza qué paradigma operativo subyace. 
+2. Definir el paradigma operativo 
+	1. filosóficamente:
+		- enuncia la intuición fundante en un lenguaje especulativo sin necesariamente un soporte empírico. (*ej: la realimentación modula la agencia del performer hasta convertirlo en interfaz*)
+	2. matemáticamente:
+		- traducir a una fórmula lógica, matemática o de diagrama de flujo. 
+		- puede incluir pseudocódigo, fórmulas, representaciones simbólicas (mermaid, UML, Spencer-Brown).
+		- aquí se define la operación matricial del paradigma.
+3. Demostración experimental: 
+	1. Aislar su funcionamiento en una demostración / sonificación / visualización interactiva. 
+4. Diseñar una micro-obra en 7 días partiendo de un único paradigma operativo elegido.
+5. Reflexión: registrar cómo interactuaron intuición y razón en el proceso en un texto de 600-2000 palabras en latex. 
+	1. Debe contener como germen el modelo de producción de un paper científico
+		1. introducción (incluye la literatura revisada o estado del arte)
+		2. metodología (matriz elegida)
+		3. demostración, 
+		4. conclusiones, crítica, refutación.
+		5. referencias en bibtex.
+>>>>>>> origin/main
 
 ---
 
@@ -92,7 +115,20 @@ OAT  objeto acción transformación
 ⊘ = Vacío  ; ● = Ser   ⇄ = Devenir   ○ = Posibilidad   ⧺ = Unión   → = Implicación
 
 
+<<<<<<< HEAD
+#### Plantilla en LaTeX
+https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+
+=======
+<<<<<<< HEAD
 
 <iframe src="https://www.overleaf.com/project/68aef37611ad4aaecd448f72/detacher" width="100%" height="600px"></iframe>
 
 https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+
+
+=======
+#### Plantilla en latex
+https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+>>>>>>> origin/main
+>>>>>>> origin/main

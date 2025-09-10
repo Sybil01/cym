@@ -347,8 +347,8 @@
     \\clef treble
     \\key c \\major
     \\time 4/4
-    \\tempo 4 = 96
-    c d e f | g a b c
+    \\tempo 4 = 120
+    c d eis f | g aes b c
   }
   \\layout { }
 }
@@ -401,12 +401,13 @@
 
 
 
+
 # con node wrapper de lilypond
 
 en bash
 
 ```bash
- node lily-watch.js  "/Users/zztt/Library/Mobile Documents/iCloud~md~obsidian/Documents/cym/05-obs/lib" --bin "/opt/homebrew/bin/lilypond"
+ node "/Users/zztt/Library/Mobile Documents/iCloud~md~obsidian/Documents/cym/05-obs/lib/lily-watch.js"  "/Users/zztt/Library/Mobile Documents/iCloud~md~obsidian/Documents/cym/05-obs/lib" --bin "/opt/homebrew/bin/lilypond"
 ```
 
 luego ejecutar el dataviewjs
@@ -485,3 +486,6 @@ luego ejecutar el dataviewjs
   })().catch(e=> msg.textContent = e.message);
 })();
 ```
+
+
+
