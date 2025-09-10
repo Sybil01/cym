@@ -1,6 +1,6 @@
 {
   "name": "LaTeX Environment",
-  "image": "ghcr.io/willfantom/devcontainer-latex:latest-basic",
+  "image": "ghcr.io/willfantom/devcontainer-latex:latest",
   "extensions": [
     "James-Yu.latex-workshop"
   ],
