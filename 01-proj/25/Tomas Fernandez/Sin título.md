@@ -37,7 +37,7 @@ referencias en bibtex.
   Traduce directamente datos de audio en patrones de luz binarios usando algoritmos mediante un programa corriendo en una computadora. Los "1" representan sonidos/luz, los "0" representan silencio/oscuridad. Hace por una parte una abstracción umbralizando binariamente los datos de input para representarlos como algo visual y por otra reproduce esos datos como frecuencias sonoras. Ambas partes son puestas en común en una sala oscura.
   
 - Enuncia la intuición fundante en un lenguaje especulativo sin necesariamente un soporte empírico.
-  La intuición fundante especula que el sonido y la luz comparten o tienen datos en común, un código primordial anterior a la percepción humana, donde la información existe como pura potencialidad vibracial. "Test Pattern" actúa como un oráculo tecnológico que descifra y revela este lenguaje oculto del universo, traduciendo la esencia audible del mundo en su verdad última: un flujo ininterrumpido de presencia y ausencia (1/0, luz/oscuridad). En este espacio, el espectador no escucha ni ve una representación, sino que es testigo de la desnudez del dato sonoro haciéndose luz, experimentando la conversión directa de energía en un ritual de revelación digital.
+  La intuición fundante especula que el sonido y la luz comparten o tienen datos en común. "Test Pattern" descifra y revela esta especie de lenguaje oculto, traduciendo lo audible en un espacio oscuro en el que el espectador ve una representación de esos datos visualizándolos de una manera única.
 
 ```mermaid
 flowchart TD
