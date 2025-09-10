@@ -62,6 +62,9 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 
 ---
 
+<<<<<<< HEAD
+ 
+=======
 ### Aplicación en 5 etapas
 
 1. identificar en obras referenciales, fenómenos de la naturaleza qué paradigma operativo subyace. 
@@ -82,6 +85,7 @@ Cada uno con sus referentes teóricos, procedimientos técnicos y ejemplos artí
 		3. demostración, 
 		4. conclusiones, crítica, refutación.
 		5. referencias en bibtex.
+>>>>>>> origin/main
 
 ---
 
@@ -112,6 +116,11 @@ OAT  objeto acción transformación
 
 
 <<<<<<< HEAD
+#### Plantilla en LaTeX
+https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+
+=======
+<<<<<<< HEAD
 
 <iframe src="https://www.overleaf.com/project/68aef37611ad4aaecd448f72/detacher" width="100%" height="600px"></iframe>
 
@@ -121,4 +130,5 @@ https://www.overleaf.com/read/zbwtfntdbqjf#737c26
 =======
 #### Plantilla en latex
 https://www.overleaf.com/read/zbwtfntdbqjf#737c26
+>>>>>>> origin/main
 >>>>>>> origin/main
