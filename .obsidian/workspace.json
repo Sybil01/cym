@@ -11,17 +11,12 @@
             "id": "eca77254f2bc0b35",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "audio",
               "state": {
-                "file": "Sin título.canvas",
-                "viewState": {
-                  "x": -338.0098798353107,
-                  "y": -10.82848659857077,
-                  "zoom": -0.6666666666666667
-                }
+                "file": "01-proj/25/Carlos Lescano/TP1/TP1 Salida -VacaMuertaDatos.mp3"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sin título"
+              "icon": "lucide-file-audio",
+              "title": "TP1 Salida -VacaMuertaDatos"
             }
           }
         ]
@@ -238,10 +233,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eca77254f2bc0b35",
+  "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
+    "01-proj/25/Carlos Lescano/TP1/TP1 Salida -VacaMuertaDatos.mp3",
+    "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel.zip",
+    "01-proj/25/Tomas Fernandez/Sin título.md",
+    "01-proj/25/Carlos Lescano/TP1",
+    "01-proj/25/Carlos Lescano/VacaMuertaDatos sono datos.wav",
+    "01-proj/25/Carlos Lescano/TP 1.md",
+    "01-proj/25/Carlos Lescano/Hola mundo.md",
+    "01-proj/25/prueba mac/hola mundo.md",
+    "01-proj/25/Daira Pollard/SPOILER_tp01.md",
+    "01-proj/25/Dai Miauro/Holiwisss.md",
     "Sin título.canvas",
+    "conflict-files-obsidian-git.md",
     "06-out/topoi/internet/web 3.0 glosario y knowledge graphs.md",
     "06-out/topoi/internet",
     "06-out/res/energia-vis.html",
@@ -266,22 +272,12 @@
     "02-mat/código/jasvascript/js-01-quiz.md",
     "02-mat/código/jasvascript/js-01-fundamentos.md",
     "02-mat/código/jasvascript/js-00-cheatsheet.md",
-    "01-proj/25/prueba mac/hola mundo.md",
     "01-proj/25/prueba mac",
-    "01-proj/25/Tomas Fernandez/Sin título.md",
     "01-proj/25/Tomas Fernandez",
-    "01-proj/25/Daira Pollard/SPOILER_tp01.md",
     "01-proj/25/Daira Pollard",
     "cym-metamap.canvas",
-    "07-ayuda/01 instalaciones.md",
-    "05-obs/tpl/1 Bit-Music.md",
-    "home.md",
-    "06-out/topoi/topoi BASE.base",
-    "01-proj/25/Dai Miauro",
     "05-obs/lib/score.svg",
     "05-obs/img/untref-logo-w.svg",
-    "05-obs/img/sensor de distancia 3.pdf",
-    "05-obs/img/sensor de distancia 1.pdf",
     "05-obs/img/eventos MOC-1755180996420.jpeg",
     "05-obs/img/eventos MOC-1755180996415.jpeg",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
