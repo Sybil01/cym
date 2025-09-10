@@ -15,10 +15,11 @@ Investigando un poco más sobre esto, pude identificar que Abraxas es un términ
 2. Implementación en un entorno algorítmico 
 
 Dicho el punto anterior, la idea de esto sería utilizar estos valores en una representación gráfica de una convergencia de ambos mundos en los cuales SOLAMENTE se da por la suma de estos valores en la que la respuesta *ideal* debe ser 365, representando este último a **Abraxas**.
-La manera en la que decidí llevarlo a cabo sería a través de código, en el cual 
+La manera en la que decidí llevarlo a cabo sería a través de código, en el cual cada uno de los valores de cada una de las letras de la palabra están en diferentes puntos y ejes, estos no se tocan ni interactúan entre sí, solamente lo harían, llegado al caso en el que se unan, representado así el concepto principal.
+EN cuanto al código, decidí hacerlo de manera interactiva, que funcione a través de una página html: [[ἀβραξάς.html]] 
 
 ---
 
-3. 
+3. Demostración experimental
 
 
