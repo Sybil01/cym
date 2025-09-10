@@ -1,4 +1,7 @@
 [
+<<<<<<< HEAD
+  "obsidian-git"
+=======
   "obsidian-git",
   "music-code-blocks",
   "obsidian-activity-history",
@@ -103,4 +106,5 @@
   "obsidian-contextual-typography",
   "obsidian-commits",
   "obsidian-latex-suite"
+>>>>>>> origin/main
 ]
