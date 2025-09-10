@@ -588,6 +588,8 @@ $$
 I(O, R) = \sum_{i=1}^{n} \left[ T(P_i, R_j) \cdot \alpha_j \cdot (1 - \beta_j) \right] \cdot (1 + \gamma + \delta)
 $$
 
+--- 
+
 Donde:
 - Si $\beta_j$ es alto, el régimen es flexible y la transgresión tiene menor impacto.
 - Si $\alpha_j$ es alto, transgredir ese atributo pesa más.
