@@ -52,7 +52,6 @@ $$
 <img src="https://i.imgur.com/DOotjZB.png"
 style="display:flex; align-items:center; filter: invert(1);" />
 
-
 ---
 
 ## exploración 
@@ -179,22 +178,31 @@ CNEA 1950
 
 - 1974 Inicio de obra Central Nuclear Embalse
 - 1983 Interconexión con el sistema eléctrico nacional 5.5 MWh / año
-![](https://i.imgur.com/lO3eAiT.png)
 - 1997 creación de NA-SA (Ley 24.804)
+
+![](https://i.imgur.com/lO3eAiT.png)
 ---
 
 ## Atucha II, 1979
 - como un plan sectorial integral no solo generador de electricidad.
 - Lograr la autonomía completa de todas las etapas del ciclo de combustible nuclear.
 
+<ref>
+Rodríguez, M. (2021). Estado, industria y desarrollo: Atucha II y la senda del Programa Nuclear Argentino (1979-2014). Prohistoria Ediciones.
+</ref>
+
+<ref> 
+AGAGAGAG, M. (2021). Estado, industria y desarrollo: 
+Atucha II y la senda del Programa Nuclear Argentino (1979-2014). Prohistoria Ediciones.
+</ref>
+
 ---
 
 - Licitada a Siemens Kraftwerk Union (KWU)
 	- transferencia de KH a ENACE (Empresa Nuclear Argentina de Centrales Eléctricas)
 	- 1980 comienzo de obra, 1994 paralización 2006 inauguración
-		- Siemens habia abandonado el proyecto nuclear, por lo cual se terminón con KH local.
 	- 2014 Primera criticidad  (reacción nuclear en cadena, se sostiene a lo largo del tiempo)
-	- 
+
 ---
 - Dimensión emotiva, 34 años de obra:
 
@@ -259,8 +267,8 @@ El modelo de la **Triple Hélice** describe la interacción dinámica y recursiv
 
 
 <img src="https://i.imgur.com/DJAgtVS.png" style="display:flex; align-items:center; filter: invert(1);" />
----
 
+---
 
 ### Críticas y extensiones
 - **Cuádruple Hélice**: agrega sociedad civil/medios.  
@@ -270,7 +278,6 @@ El modelo de la **Triple Hélice** describe la interacción dinámica y recursiv
 
 ---
 
-
 ### Conexión con prácticas musicales
 Al igual que en innovación tecnológica, la música contemporánea funciona en triple hélice:  
 - **Universidad** (investigación y teoría).  
@@ -279,7 +286,6 @@ Al igual que en innovación tecnológica, la música contemporánea funciona en 
 Las intersecciones producen escenas híbridas y nuevos instrumentos de legitimación.
 
 ---
-
 
 # régimen escópico
 
@@ -352,20 +358,21 @@ Un **procedimiento** es una herramienta o secuencia de operaciones que el creado
 
 ## Diferencia estructural
 
-1.	Procedimiento
-- Naturaleza: técnica o estrategia operativa.
-- Agencia: viene desde el creador (compositor, escritor, pintor, cineasta).
-- Escala: micro a meso (afecta al desarrollo interno de la obra).
-- Temporalidad: se define durante la creación.
-- Ejemplo: polifonía imitativa, montaje paralelo, stream of consciousness, variación serial, uso de leitmotivs.
+### Procedimiento
+- *Naturaleza*: técnica o estrategia operativa.
+- *Agencia*: viene desde el creador (compositor, escritor, pintor, cineasta).
+- *Escala*: micro a meso (afecta al desarrollo interno de la obra).
+- *Temporalidad*: se define durante la creación.
+- *Ejemplo*: polifonía imitativa, montaje paralelo, stream of consciousness, variación serial, uso de leitmotivs.
 
+---
 
-2.	Régimen escópico
-- Naturaleza: marco histórico-cultural de la mirada.
-- Agencia: no la determina el artista, sino un entramado de convenciones sociales, tecnológicas y políticas. El artista puede operar dentro o contra él.
-- Escala: macro (afecta la producción, la circulación y la recepción).
-- Temporalidad: preexiste a la obra y puede persistir más allá de ella.
-- Ejemplo: perspectiva renacentista (como forma de ver y representar), mirada colonial, óptica de la vigilancia, visualidad digital interactiva.
+### Régimen escópico
+- *Naturaleza*: marco histórico-cultural de la mirada.
+- *Agencia*: no la determina el artista, sino un entramado de convenciones sociales, tecnológicas y políticas. El artista puede operar dentro o contra él.
+- *Escala*: macro (afecta la producción, la circulación y la recepción).
+- *Temporalidad*: preexiste a la obra y puede persistir más allá de ella.
+- *Ejemplo*: perspectiva renacentista (como forma de ver y representar), mirada colonial, óptica de la vigilancia, visualidad digital interactiva.
 
 ---
 
@@ -379,26 +386,28 @@ Un **procedimiento** es una herramienta o secuencia de operaciones que el creado
 
 ### Caso comparativo
 
-- Régimen escópico: perspectiva central renacentista → impone un centro fijo y jerarquía de elementos visuales.
-
-- Procedimiento narrativo: en el Quattrocento, un escritor podría usar descripciones lineales desde un punto fijo, siguiendo esa lógica visual. Si quisiera romperla, podría alternar puntos de vista múltiples, pero aun así dialoga con el régimen dominante.
+- Régimen escópico: perspectiva central renacentista 
+	- impone un centro fijo y jerarquía de elementos visuales.
+- Procedimiento narrativo: 
+	- en el Quattrocento, un escritor podría usar descripciones lineales desde un punto fijo, siguiendo esa lógica visual. 
+	- Si quisiera romperla, podría alternar puntos de vista múltiples, pero aun así dialoga con el régimen dominante.
 
 
 ---
 
-1.	Régimen escópico como infraestructura cultural
+### 1. Régimen escópico como infraestructura cultural
 - Define el horizonte de lo que se puede percibir, legitimar y compartir colectivamente como “forma válida” de ver o representar.
 - No se modifica por decisión individual inmediata: está sostenido por instituciones, medios técnicos, economía simbólica y material.
 
 ---
 
-2.	Procedimiento como elección táctica
+### 2. Procedimiento como elección táctica
 - Puede alinearse con el régimen (reforzándolo) o buscar su fricción (cuestionándolo).
 - Puede ser importado, adaptado, apropiado o parodiado.
 
 ---
 
-### .	Fricción productiva o bloqueo
+### 3. Fricción productiva o bloqueo
 - Cuando el procedimiento importado no tiene soporte cultural-material en el régimen escópico local, se produce disonancia estructural.
 - Esta disonancia puede ser creativa (hibridación, resignificación) o puede anular el procedimiento (se percibe como impostado, irrelevante o incomprensible).
 
@@ -412,6 +421,9 @@ Un **procedimiento** es una herramienta o secuencia de operaciones que el creado
 
 - Régimen escópico local: atravesado por urgencias políticas, desigualdad, violencia, narrativas de supervivencia.
 - Procedimiento importado: abstracción absoluta, desligada de todo referente sociohistórico (como en cierto modernismo europeo de posguerra).
+
+---
+
 - Fricción: la abstracción pura se percibe como evasión o elitismo; carece de la resonancia que tendría en un contexto donde el “vacío” y la “desmaterialización” tienen sentido histórico propio.
 - Resultado: en muchos casos, adopción superficial de formas sin posibilidad de sostener su “razón de ser” en el régimen local, o mutación hacia un híbrido (por ejemplo, abstracción que retiene huellas narrativas o simbólicas).
 
@@ -440,9 +452,10 @@ D[Zona crítica choque]
 A --> B
 B --> C
 C <--> D
-D ⇉|si supera resistencia| A
-D ⇉|transforma| B
+D --> |si supera resistencia| A
+D --> |transforma| B
 ```
+
 
 
 ---
@@ -599,11 +612,14 @@ Donde:
 
 --- 
 
-![Uploading file...xff78]()
+
 ![[Pasted image 20250910133350.png]]
 
-<iframe src="06-out/res/energia-vis.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
+---
+
+
+[[https://cym.musiki.org.ar/energia.html]]
 
 
 

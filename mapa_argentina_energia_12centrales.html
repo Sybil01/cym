@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8f5bd4beca2e549d343ea5f04245f0bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8f5bd4beca2e549d343ea5f04245f0bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8f5bd4beca2e549d343ea5f04245f0bc = L.map(
+                "map_8f5bd4beca2e549d343ea5f04245f0bc",
+                {
+                    center: [-38.0, -64.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+
+            
+
+        
+    
+            var tile_layer_58120330615e005ef4d15fb9a2a329f9 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+            var marker_cf96917a6f7b519add2d0e318412c827 = L.marker(
+                [-34.13, -59.195],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_f93a6f10801c450dc92578a645af5e7e = L.icon({"iconAnchor": [37, 18], "iconSize": [74, 37], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAe0lEQVR4nO3YwQ6AMAgD0GL8/1/G67JJjB4Gxb6jXsAOogIiksnmCw73jEK+MNhS/+zYUUimM7phHjwcW1Pf7c0pa5+gGmQXziCDaBbH7aoEqxvTuku0fYJqkF37BumXzNNrmxKsTJ9LUIP8whl0C5cTzS8N4AcJihR3AT//EzRPPUYrAAAAAElFTkSuQmCC"});
+        marker_cf96917a6f7b519add2d0e318412c827.setIcon(custom_icon_f93a6f10801c450dc92578a645af5e7e);
+        
+    
+        var popup_22ab611cd99041fdded577188c190adf = L.popup({"maxWidth": 300});
+
+        
+            var html_95cc97f611818022b467783095103888 = $(`<div id="html_95cc97f611818022b467783095103888" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Atucha I</b><br/>Nuclear PWR (D₂O)<br/>2.7 TWh/año</div></div>`)[0];
+            popup_22ab611cd99041fdded577188c190adf.setContent(html_95cc97f611818022b467783095103888);
+        
+
+        marker_cf96917a6f7b519add2d0e318412c827.bindPopup(popup_22ab611cd99041fdded577188c190adf)
+        ;
+
+        
+    
+    
+            marker_cf96917a6f7b519add2d0e318412c827.bindTooltip(
+                `<div>
+                     Atucha I · 2.7 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af4363bcf67610217e5d7a70ec1938ea = L.marker(
+                [-34.12, -59.165],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_944c48dfb9dd7a0b4eb6d5147aecd664 = L.icon({"iconAnchor": [44, 22], "iconSize": [88, 44], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAfUlEQVR4nO3Y0QqAMAgFUI3+/5ftdbhkLGh65Z7HItDuHDURIsqk/oKJWUYhX6joVL93nSgk0x3dUFu+HPfAvBr+srPK2ifIBtGFM4ggmsVxd2WC1Y1pvSXaPkE2iK59g/CbzOqzjQlWxt8lYYP4whk03T65KHnU0T5BouIeJ+cTNACH7MwAAAAASUVORK5CYII="});
+        marker_af4363bcf67610217e5d7a70ec1938ea.setIcon(custom_icon_944c48dfb9dd7a0b4eb6d5147aecd664);
+        
+    
+        var popup_5c44196ccd50b74b16c9c3b5ce9a001a = L.popup({"maxWidth": 300});
+
+        
+            var html_8759c11e21c8623a4a020d6083f76d7b = $(`<div id="html_8759c11e21c8623a4a020d6083f76d7b" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Atucha II</b><br/>Nuclear PWR (D₂O)<br/>5.6 TWh/año</div></div>`)[0];
+            popup_5c44196ccd50b74b16c9c3b5ce9a001a.setContent(html_8759c11e21c8623a4a020d6083f76d7b);
+        
+
+        marker_af4363bcf67610217e5d7a70ec1938ea.bindPopup(popup_5c44196ccd50b74b16c9c3b5ce9a001a)
+        ;
+
+        
+    
+    
+            marker_af4363bcf67610217e5d7a70ec1938ea.bindTooltip(
+                `<div>
+                     Atucha II · 5.6 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93ce9df8b026063c76081a59a23b57c8 = L.marker(
+                [-32.232, -64.443],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_30102966604542c56106798c673c62ba = L.icon({"iconAnchor": [38, 19], "iconSize": [76, 38], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAeklEQVR4nO3YwQ6AMAgDUGr2/7+M12WTGT2MlfQd9QJ2ENVMRDJhvODmnlHIHzBM9Y+uHYVkatEN+OLhYE5+py+nrHyCapBdOIMMolnst6sSPF2f1lOi5RNUg+zKN0i/ZN5e25TgyfS5ZGqQXziDjuVyovmtUT5BkcPdO/sTNMzO/MoAAAAASUVORK5CYII="});
+        marker_93ce9df8b026063c76081a59a23b57c8.setIcon(custom_icon_30102966604542c56106798c673c62ba);
+        
+    
+        var popup_24c56d91dbc1e2cc54c25511ee2616fa = L.popup({"maxWidth": 300});
+
+        
+            var html_c31648ee4530f37a6fd895a1477be258 = $(`<div id="html_c31648ee4530f37a6fd895a1477be258" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Embalse</b><br/>Nuclear CANDU (D₂O)<br/>3.0 TWh/año</div></div>`)[0];
+            popup_24c56d91dbc1e2cc54c25511ee2616fa.setContent(html_c31648ee4530f37a6fd895a1477be258);
+        
+
+        marker_93ce9df8b026063c76081a59a23b57c8.bindPopup(popup_24c56d91dbc1e2cc54c25511ee2616fa)
+        ;
+
+        
+    
+    
+            marker_93ce9df8b026063c76081a59a23b57c8.bindTooltip(
+                `<div>
+                     Embalse · 3.0 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e0a620b56022e728ffb10067e74bfa1 = L.marker(
+                [-38.5, -68.833],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_243358225f8789dfa63d716f6ad3f23e = L.icon({"iconAnchor": [33, 16], "iconSize": [66, 33], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAeUlEQVR4nO3YMQ6AUAgDUDDe/8q4EpAYHYSSvlEXsB+iihBRJ40XTMw6CvlCRVP90fFHIZ3O6oZaeDia0+7y5pStT5ANoitnEEE1i367MsHpfFp3ia5PkA2iW98g/JJ5em1jgpPxc0nYIL5yBk3TcoL5leGtT5BouAtIBxM00le89AAAAABJRU5ErkJggg=="});
+        marker_8e0a620b56022e728ffb10067e74bfa1.setIcon(custom_icon_243358225f8789dfa63d716f6ad3f23e);
+        
+    
+        var popup_4c67cef41df50896ce5cb3dada7cfe4c = L.popup({"maxWidth": 300});
+
+        
+            var html_90ef22290da44b01289943eac088a8d1 = $(`<div id="html_90ef22290da44b01289943eac088a8d1" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Cerros Colorados</b><br/>Hidroeléctrica (complejo)<br/>1.5 TWh/año</div></div>`)[0];
+            popup_4c67cef41df50896ce5cb3dada7cfe4c.setContent(html_90ef22290da44b01289943eac088a8d1);
+        
+
+        marker_8e0a620b56022e728ffb10067e74bfa1.bindPopup(popup_4c67cef41df50896ce5cb3dada7cfe4c)
+        ;
+
+        
+    
+    
+            marker_8e0a620b56022e728ffb10067e74bfa1.bindTooltip(
+                `<div>
+                     Cerros Colorados · 1.5 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f6289189f34bbc9352af405f2c04387 = L.marker(
+                [-27.45, -56.68],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_726eaee3793dfc2754f5cb2f9c9e5257 = L.icon({"iconAnchor": [63, 31], "iconSize": [126, 63], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAdklEQVR4nO3XSw6AMAhFUTDuf8s4baqk6qB8cs/QTqDPkiACIJLOH0zMIgr5Q0Vv9c+OHYVEOr0DteXlhDF9/5O1T5AGq3PfYAXexB+nKwlmN6b1lGj7BGmwuvYNlh8yq+WABDNjXRIarM99g1+WyszaJwgkdwFyzxE11cg9MwAAAABJRU5ErkJggg=="});
+        marker_2f6289189f34bbc9352af405f2c04387.setIcon(custom_icon_726eaee3793dfc2754f5cb2f9c9e5257);
+        
+    
+        var popup_9b15ff3ede82dc1e329b91f14b912ab8 = L.popup({"maxWidth": 300});
+
+        
+            var html_a59b9709912bd33dc9395175ec6631ee = $(`<div id="html_a59b9709912bd33dc9395175ec6631ee" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Yacyretá</b><br/>Hidroeléctrica (binacional)<br/>18.0 TWh/año</div></div>`)[0];
+            popup_9b15ff3ede82dc1e329b91f14b912ab8.setContent(html_a59b9709912bd33dc9395175ec6631ee);
+        
+
+        marker_2f6289189f34bbc9352af405f2c04387.bindPopup(popup_9b15ff3ede82dc1e329b91f14b912ab8)
+        ;
+
+        
+    
+    
+            marker_2f6289189f34bbc9352af405f2c04387.bindTooltip(
+                `<div>
+                     Yacyretá · 18.0 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a86af69c85d03e113cd6b09808690d0f = L.marker(
+                [-31.27, -57.92],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_c0f7937c8f54c9d66d206c7f0979b0c3 = L.icon({"iconAnchor": [47, 23], "iconSize": [94, 47], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAfUlEQVR4nO3YSw6AIAwE0I7h/leuWwI2RCX0k3lL3bQOJYgIEXnC+EBF1aOQLyCY6h9dJwrx1KwX0OXHsWFeGTu9WWXlE2SD2ZkzmIE1i/3uygSj69N6SrR8gmwwu/INpt9kVsc2JhgZf5eEDeZnzqDi181FmGuP8gkSBXcDG9sTNJn8fjAAAAAASUVORK5CYII="});
+        marker_a86af69c85d03e113cd6b09808690d0f.setIcon(custom_icon_c0f7937c8f54c9d66d206c7f0979b0c3);
+        
+    
+        var popup_a559efd92e4730abd91cd33095639e36 = L.popup({"maxWidth": 300});
+
+        
+            var html_659f108b443e39953cd83e197c5fa55e = $(`<div id="html_659f108b443e39953cd83e197c5fa55e" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Salto Grande</b><br/>Hidroeléctrica (binacional)<br/>7.0 TWh/año</div></div>`)[0];
+            popup_a559efd92e4730abd91cd33095639e36.setContent(html_659f108b443e39953cd83e197c5fa55e);
+        
+
+        marker_a86af69c85d03e113cd6b09808690d0f.bindPopup(popup_a559efd92e4730abd91cd33095639e36)
+        ;
+
+        
+    
+    
+            marker_a86af69c85d03e113cd6b09808690d0f.bindTooltip(
+                `<div>
+                     Salto Grande · 7.0 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ce2f14a437b3f28a8d63cd9d33a2b00 = L.marker(
+                [-39.27, -68.77],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_93bb76b2e05c54e23ee3266aa5406644 = L.icon({"iconAnchor": [39, 19], "iconSize": [79, 39], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAe0lEQVR4nO3YwQ6AMAgDUGr8/1/G67JJFj0MSvqO8wJWFjczEcmEecHNPaOQP2BY6p9dJwrJdEcP4JuXgzX9U758Ze0TVIPswhlkEM3iuLsqwerGtN4SbZ+gGmTXvkH6TWb326YEK9NxydQgv3AGHdszJcXVRvsERYp7ADf3EzTJ0IuMAAAAAElFTkSuQmCC"});
+        marker_8ce2f14a437b3f28a8d63cd9d33a2b00.setIcon(custom_icon_93bb76b2e05c54e23ee3266aa5406644);
+        
+    
+        var popup_6c32f2f7e6ad25afff3f7ab3d7becffc = L.popup({"maxWidth": 300});
+
+        
+            var html_d3ada4f347a6828e9e40218654d3b092 = $(`<div id="html_d3ada4f347a6828e9e40218654d3b092" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>El Chocón</b><br/>Hidroeléctrica<br/>3.5 TWh/año</div></div>`)[0];
+            popup_6c32f2f7e6ad25afff3f7ab3d7becffc.setContent(html_d3ada4f347a6828e9e40218654d3b092);
+        
+
+        marker_8ce2f14a437b3f28a8d63cd9d33a2b00.bindPopup(popup_6c32f2f7e6ad25afff3f7ab3d7becffc)
+        ;
+
+        
+    
+    
+            marker_8ce2f14a437b3f28a8d63cd9d33a2b00.bindTooltip(
+                `<div>
+                     El Chocón · 3.5 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b759b62b5de0e3235cea89e4636e0672 = L.marker(
+                [-40.183, -70.067],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_4492c1bbb44ae0c3d036803f4ec71819 = L.icon({"iconAnchor": [49, 24], "iconSize": [98, 49], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAfUlEQVR4nO3YSw6AIAwE0I7x/leuWwI2jYbQT+YtddM6lCAiRBQJ8wMV1YhC/oBgqX92nSgk0m29gLofx4d1hezwZZW1T5ANVmfOYAXWLI67KxPMbkzrLdH2CbLB6to3WH6T8Y5tTDAz/i4JG6zPnEHFlpuL8OuP9gkSJfcAE9MTNBJcvkgAAAAASUVORK5CYII="});
+        marker_b759b62b5de0e3235cea89e4636e0672.setIcon(custom_icon_4492c1bbb44ae0c3d036803f4ec71819);
+        
+    
+        var popup_0980608857d4d652ba0570ffd13648a1 = L.popup({"maxWidth": 300});
+
+        
+            var html_88771c9b4802f2b31463a30b839c52df = $(`<div id="html_88771c9b4802f2b31463a30b839c52df" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Piedra del Águila</b><br/>Hidroeléctrica<br/>8.0 TWh/año</div></div>`)[0];
+            popup_0980608857d4d652ba0570ffd13648a1.setContent(html_88771c9b4802f2b31463a30b839c52df);
+        
+
+        marker_b759b62b5de0e3235cea89e4636e0672.bindPopup(popup_0980608857d4d652ba0570ffd13648a1)
+        ;
+
+        
+    
+    
+            marker_b759b62b5de0e3235cea89e4636e0672.bindTooltip(
+                `<div>
+                     Piedra del Águila · 8.0 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7826f005cb31585ebaca4b0eada04165 = L.marker(
+                [-40.5, -70.0],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_1589dc4d85348254b24a2af2d379e129 = L.icon({"iconAnchor": [38, 19], "iconSize": [76, 38], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAeklEQVR4nO3YwQ6AMAgDUGr2/7+M12WTGT2MlfQd9QJ2ENVMRDJhvODmnlHIHzBM9Y+uHYVkatEN+OLhYE5+py+nrHyCapBdOIMMolnst6sSPF2f1lOi5RNUg+zKN0i/ZN5e25TgyfS5ZGqQXziDjuVyovmtUT5BkcPdO/sTNMzO/MoAAAAASUVORK5CYII="});
+        marker_7826f005cb31585ebaca4b0eada04165.setIcon(custom_icon_1589dc4d85348254b24a2af2d379e129);
+        
+    
+        var popup_b239ea08ec21ccb1adaa7395d9a69922 = L.popup({"maxWidth": 300});
+
+        
+            var html_0197c0debe822c75ab5ea31741ad21db = $(`<div id="html_0197c0debe822c75ab5ea31741ad21db" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Alicurá</b><br/>Hidroeléctrica<br/>3.0 TWh/año</div></div>`)[0];
+            popup_b239ea08ec21ccb1adaa7395d9a69922.setContent(html_0197c0debe822c75ab5ea31741ad21db);
+        
+
+        marker_7826f005cb31585ebaca4b0eada04165.bindPopup(popup_b239ea08ec21ccb1adaa7395d9a69922)
+        ;
+
+        
+    
+    
+            marker_7826f005cb31585ebaca4b0eada04165.bindTooltip(
+                `<div>
+                     Alicurá · 3.0 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6e68bc255b79a3ebeb52f7a337ac996 = L.marker(
+                [-43.15, -71.53],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_1ee377e2c707d86d9a0946ec8076e9b6 = L.icon({"iconAnchor": [40, 20], "iconSize": [81, 40], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAfElEQVR4nO3YwQ6AIAwD0Nbw/788rwRcUA+wLX1HvWyWERAQkZM4PjCYnSjkD4JT/aNrRyEnNe8FbflxAM4rYIcvq6x8gmowO3cGM/Bmsd9dlWB0fVpPiZZPUA1mV77B9JvM6timBCPTdQlqMD93Bo2v7pThf2+UT1AkuBsz8xM072wbMAAAAABJRU5ErkJggg=="});
+        marker_c6e68bc255b79a3ebeb52f7a337ac996.setIcon(custom_icon_1ee377e2c707d86d9a0946ec8076e9b6);
+        
+    
+        var popup_68f26609fcbd6dcf58bacce044be42b3 = L.popup({"maxWidth": 300});
+
+        
+            var html_bc7f1e9bee7a88541d5a7175ef8fa794 = $(`<div id="html_bc7f1e9bee7a88541d5a7175ef8fa794" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Futaleufú</b><br/>Hidroeléctrica<br/>4.0 TWh/año</div></div>`)[0];
+            popup_68f26609fcbd6dcf58bacce044be42b3.setContent(html_bc7f1e9bee7a88541d5a7175ef8fa794);
+        
+
+        marker_c6e68bc255b79a3ebeb52f7a337ac996.bindPopup(popup_68f26609fcbd6dcf58bacce044be42b3)
+        ;
+
+        
+    
+    
+            marker_c6e68bc255b79a3ebeb52f7a337ac996.bindTooltip(
+                `<div>
+                     Futaleufú · 4.0 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4afedb8c25c4efd2986cdc5b7c6fbfb = L.marker(
+                [-43.3, -65.1],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_f36625d2cdc20cffa9c69243705defdd = L.icon({"iconAnchor": [26, 13], "iconSize": [52, 26], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAdUlEQVR4nO3YOxKAMAgE0MXx/lfGNhPFTwphmX1lbMANmSggIplsXnC4ZxSywmCn+mfbH4Vk2qMHb95Oli+7rH2CapBdOIMMolkczw8lWN2Y1lWi7RNUg+zaN0h/yDxd25RgZfpcghrkF84g06+LO+0TFCnuABavEjPWLYwWAAAAAElFTkSuQmCC"});
+        marker_b4afedb8c25c4efd2986cdc5b7c6fbfb.setIcon(custom_icon_f36625d2cdc20cffa9c69243705defdd);
+        
+    
+        var popup_3b6de9b394c24b4bdd9792b859f577b4 = L.popup({"maxWidth": 300});
+
+        
+            var html_3e9dceb70a214e24c49689de62b058ca = $(`<div id="html_3e9dceb70a214e24c49689de62b058ca" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Rawson</b><br/>Eólico<br/>0.3 TWh/año</div></div>`)[0];
+            popup_3b6de9b394c24b4bdd9792b859f577b4.setContent(html_3e9dceb70a214e24c49689de62b058ca);
+        
+
+        marker_b4afedb8c25c4efd2986cdc5b7c6fbfb.bindPopup(popup_3b6de9b394c24b4bdd9792b859f577b4)
+        ;
+
+        
+    
+    
+            marker_b4afedb8c25c4efd2986cdc5b7c6fbfb.bindTooltip(
+                `<div>
+                     Rawson · 0.3 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b344937eb9026722f10a07a75442315e = L.marker(
+                [-23.5, -66.5],
+                {}
+            ).addTo(map_8f5bd4beca2e549d343ea5f04245f0bc);
+        
+    
+        var custom_icon_4787174293e57d896095d8401eb390f9 = L.icon({"iconAnchor": [29, 14], "iconSize": [58, 29], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAAfElEQVR4nO3YwQ6AMAgDUGr8/1/GizHLNmLcQVbSd9QL2EFUMxHJhP6Cm3tGIStgGOrvHX8UkumMbsDvh4Mx5WxfTln5BNUgu3AGGUSz2G5XJbi7Nq1ZouUTVIPsyjdIv2TeXtuU4M70uWRqkF84g45nOdH8wpgpn6DI5i5QDxM0D8JGZAAAAABJRU5ErkJggg=="});
+        marker_b344937eb9026722f10a07a75442315e.setIcon(custom_icon_4787174293e57d896095d8401eb390f9);
+        
+    
+        var popup_46cb6fa9b25d5ff903df42cc2eeb7a72 = L.popup({"maxWidth": 300});
+
+        
+            var html_932ce7aaaef64aa0caa4d1b73493c893 = $(`<div id="html_932ce7aaaef64aa0caa4d1b73493c893" style="width: 100.0%; height: 100.0%;"><div style='color:#ddd'><b>Cauchari</b><br/>Solar FV<br/>0.7 TWh/año</div></div>`)[0];
+            popup_46cb6fa9b25d5ff903df42cc2eeb7a72.setContent(html_932ce7aaaef64aa0caa4d1b73493c893);
+        
+
+        marker_b344937eb9026722f10a07a75442315e.bindPopup(popup_46cb6fa9b25d5ff903df42cc2eeb7a72)
+        ;
+
+        
+    
+    
+            marker_b344937eb9026722f10a07a75442315e.bindTooltip(
+                `<div>
+                     Cauchari · 0.7 TWh/año
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
