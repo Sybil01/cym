@@ -6,7 +6,7 @@ type: class
 ---
 <!--slide bg="[[https://rpcdn.ratopati.com/media/albums/modi_ko_putla_dahan_8_sOyopzTUVm_N75s1x8tAp.jpg]]"-->
 
-<grid drag="60 55" drop="5 10" bg="black" align="left">
+<grid drag="60 55" drop="5 10" bg="transparent" align="left">
 # generatividad
 ## Clase 5
 </grid>
@@ -117,6 +117,29 @@ $$
 
 ---
 
-<iframe src="https://cym.musiki.org.ar/e2.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+<iframe src="https://cym.musiki.org.ar/e4.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
 ---
+
+
+
+metáfora 
+generativdad
+blog
+---
+
+![[upcycling#upcycling]]
+
+
+---
+
+https://www.argentina.gob.ar/sites/default/files/lamina_-_la_energia_en_argentina_abril_2020.pdf
+
+
+---
+
+
+<iframe src="https://sig.energia.gob.ar/visor/visorsig.php" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+
+---
+
