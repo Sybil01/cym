@@ -109,7 +109,7 @@ note:Del mismo modo, al mirar una composición hecha en la Técnica de los Doce 
 
 <iframe title="Schoenberg: Suite for Piano, Op.25 (Boffard)" src="https://www.youtube.com/embed/bQHR_Z8XVvI?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
---
+---
 
 Braxton describe el #108B como "una serie de posibles sonidos de líneas curvas o cambios dinámicos de líneas curvas" (311), lo que implica que las líneas pueden indicar el tono y/o el volumen, y compara la música primero con "un continuo de tensiones y 'susurros'
 > Graham Lock. Lo que yo llamo un sonido
@@ -126,37 +126,37 @@ Destilado aún más, la partitura es sólo un conjunto de instrucciones. Podría
 [Ligeti - Artikulation]
 
 <iframe title="Ligeti - Artikulation" src="https://www.youtube.com/embed/71hNl_skTZQ?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
---
+---
 
 Synchromy - Norm McLaren
 <iframe title="Synchromy -  Norman McLaren" src="https://www.youtube.com/embed/UmSzc8mBJCM?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
 
---
+---
 
 Dots - Norm McLaren
 <iframe title="Norman McLaren - Dots (1940)" src="https://www.youtube.com/embed/E3-vsKwQ0Cg?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
 
---
+---
 
 [Matrix III - John Whitney](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
 
---
+---
 
 
 # claridad conceptual y cohesión con música interactiva
 
---
+---
 
 [BubbleHarp](https://www.youtube.com/watch?v=ly8tgaswRo8)
 
---
+---
 [OscilloScoop - Scott Snibbe Studio](https://www.youtube.com/watch?v=ymW-_RENMKY)
 
---
+---
 
 [Thicket - Morgan Packard & Josh Ott](https://www.youtube.com/watch?v=4Xr9ELZSOnc)
 
--- 
+--- 
 ## cohesión espacial
 
 [National Mall - BlueBrain](https://vimeo.com/25374903)
@@ -166,29 +166,30 @@ Dots - Norm McLaren
 
 # código como partitura
 
---
+---
+
 ## Max Matthew , Music N
 
 <iframe src="https://m5live.zztt.org" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
-
--- 
+---
 ## CSOUND
 http://www.csounds.com/manual/html/ScoreTop.html
 
 ---
-
-
 
 # js2
 
 ejemplo. de la clase pasada
 
 <iframe src="https://codepen.io/LucianoAzzigotti/pen/abYRgBv" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+
+---
 # scheduling
 
 <iframe src="https://codepen.io/LucianoAzzigotti/pen/wvPvrrO" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
+---
 ### **Transport**
 
 [Tone.Transport](https://tonejs.github.io/docs/Transport) a diferencia del AudioContext puede ser comenzado, parado, loopeado, ajustado etc en el momento.
@@ -207,15 +208,15 @@ Tone.Transport.start()
 
 ```
 
-
+---
 
 <iframe src="https://codepen.io/LucianoAzzigotti/pen/vYWYOzV" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
-
+---
 
 <iframe src="https://codepen.io/LucianoAzzigotti/pen/abYRgBv?editors=1010" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
-
+---
 
 ## señales 
 
@@ -229,4 +230,7 @@ osc.frequency.exponentialRampToValue("C1", 2);
 
 ```
 
+
+
+---
 

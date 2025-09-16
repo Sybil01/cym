@@ -1,3 +1,3 @@
 
 representación verbal de una representación visual.
-[[hipotiposis]]
+[[06-out/operativos artísticos/hipotiposis]]

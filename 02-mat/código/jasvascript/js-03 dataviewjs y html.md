@@ -82,6 +82,40 @@ root.appendChild(p);
 
 ## hola mundo de webaudioAPI y dataviewjs
 
+```dataviewjs
+// HELLO WORLD – animación en canvas dentro de dataviewjs
+
+const container = this.container;
+container.innerHTML = `
+<canvas id="helloCanvas" width="600"height="200" style="border:0px solid #ccc;"></canvas>
+`;
+
+const canvas = container.querySelector("#helloCanvas");
+const ctx = canvas.getContext("2d");
+
+let angle = 0;
+function draw() {
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    // fondo
+    ctx.fillStyle = "transparent";
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+
+    // círculo girando
+    const x = 100 + 60 * Math.cos(angle);
+    const y = 100 + 60 * Math.sin(angle);
+
+    ctx.beginPath();
+    ctx.arc(x,y,20,0,Math.PI*2);
+    ctx.fillStyle = "magenta";
+    ctx.fill();
+
+    angle += 0.05;
+    requestAnimationFrame(draw);
+}
+
+draw();
+```
 
 - Usa this.container como raíz (DataviewJS).
 - Cada click alterna entre crear y destruir el grafo de audio.
@@ -114,6 +148,178 @@ b.onclick=()=>{
 };
 ```
 
+```dataviewjs
+// WebAudio API Hello World — un botón y una sinusoide
+
+const el = this.container;
+el.innerHTML = `
+  <div style="font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;display:flex;align-items:center;gap:10px">
+    <button id="toneBtn" style="padding:6px 10px;border:1px solid #ccc;border-radius:8px;background:#f7f7f7;cursor:pointer">Play</button>
+    <span id="status" style="color:#666">sine 440 Hz</span>
+  </div>
+`;
+
+let actx = null;
+let osc = null;
+let gain = null;
+let playing = false;
+
+async function startTone() {
+  if (!actx) {
+    actx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  if (actx.state === "suspended") {
+    await actx.resume();
+  }
+  gain = actx.createGain();
+  gain.gain.value = 0.1; // volumen bajo
+  gain.connect(actx.destination);
+
+  osc = actx.createOscillator();
+  osc.type = "sine";
+  osc.frequency.value = 440; // A4
+  osc.connect(gain);
+  osc.start();
+
+  playing = true;
+  uiUpdate();
+}
+
+function stopTone() {
+  if (osc) {
+    try { osc.stop(); } catch(e) {}
+    osc.disconnect();
+    osc = null;
+  }
+  if (gain) {
+    gain.disconnect();
+    gain = null;
+  }
+  playing = false;
+  uiUpdate();
+}
+
+function uiUpdate() {
+  el.querySelector("#toneBtn").textContent = playing ? "Stop" : "Play";
+  el.querySelector("#status").textContent = playing ? "reproduciendo 440 Hz" : "sine 440 Hz";
+}
+
+el.querySelector("#toneBtn").onclick = async () => {
+  if (!playing) await startTone();
+  else stopTone();
+};
+
+uiUpdate();
+```
+
+
+### glissando
+
+```dataviewjs
+// WebAudio + Visual glissando — punto moviéndose en XY (tipo mini osciloscopio)
+
+const el = this.container;
+el.innerHTML = `
+  <div style="font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:560px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+      <button id="btn" style="padding:6px 10px;border:1px solid #ccc;border-radius:8px;background:#f7f7f7;cursor:pointer">Play</button>
+      <span id="status" style="color:#666">glissando 220 → 880 Hz</span>
+    </div>
+    <canvas id="cv" width="400" height="300" style="width:100%;background:#0b0b0b;border:1px solid #222;border-radius:8px"></canvas>
+  </div>
+`;
+
+const cv = el.querySelector("#cv");
+const ctx = cv.getContext("2d", { willReadFrequently:true });
+
+let actx=null, osc=null, gain=null, playing=false;
+let t0=0, dur=3.0; // segundos del glissando
+let rafId=null;
+
+function drawFrame(){
+  const now = (actx ? actx.currentTime : 0);
+  const t = Math.min(1, (now - t0) / dur);
+  // mapea t a frecuencia y a posición visual
+  const f = 220 + t * (880-220);      // 220→880 Hz (lineal)
+  const x = 20 + t * (cv.width-40);   // movimiento horizontal
+  const phase = now*2*Math.PI*f*0.002; // factor lento para Y
+  const y = cv.height*0.5 + Math.sin(phase)* (cv.height*0.35);
+
+  // fondo
+  ctx.fillStyle = "#0b0b0b";
+  ctx.fillRect(0,0,cv.width,cv.height);
+
+  // ejes
+  ctx.strokeStyle = "#222";
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(20, cv.height*0.5);
+  ctx.lineTo(cv.width-20, cv.height*0.5);
+  ctx.moveTo(20, 20);
+  ctx.lineTo(20, cv.height-20);
+  ctx.stroke();
+
+  // punto
+  ctx.fillStyle = "#41a5ff";
+  ctx.beginPath();
+  ctx.arc(x, y, 6, 0, Math.PI*2);
+  ctx.fill();
+
+  // etiqueta frecuencia
+  ctx.fillStyle = "#8aa1b1";
+  ctx.font = "12px system-ui, sans-serif";
+  ctx.fillText(f.toFixed(1)+" Hz", x+10, y-10);
+
+  if (playing) rafId = requestAnimationFrame(drawFrame);
+}
+
+async function start(){
+  if (!actx) actx = new (window.AudioContext||window.webkitAudioContext)();
+  if (actx.state === "suspended") await actx.resume();
+
+  gain = actx.createGain();
+  gain.gain.value = 0.12;
+  gain.connect(actx.destination);
+
+  osc = actx.createOscillator();
+  osc.type = "sine";
+  osc.connect(gain);
+
+  // planifica glissando lineal en 3s
+  const tStart = actx.currentTime + 0.02;
+  t0 = tStart;
+  osc.frequency.setValueAtTime(220, tStart);
+  osc.frequency.linearRampToValueAtTime(880, tStart + dur);
+
+  osc.start(tStart);
+  osc.stop(tStart + dur);
+
+  playing = true;
+  el.querySelector("#btn").textContent = "Stop";
+  el.querySelector("#status").textContent = "reproduciendo…";
+  drawFrame();
+
+  // parar y limpiar al final
+  setTimeout(() => { stop(true); }, (dur+0.1)*1000);
+}
+
+function stop(silent=false){
+  if (rafId) { cancelAnimationFrame(rafId); rafId=null; }
+  if (osc){ try{osc.stop();}catch(e){} osc.disconnect(); osc=null; }
+  if (gain){ gain.disconnect(); gain=null; }
+  playing = false;
+  if (!silent){
+    el.querySelector("#btn").textContent = "Play";
+    el.querySelector("#status").textContent = "glissando 220 → 880 Hz";
+  }
+  // limpiar canvas
+  ctx.fillStyle = "#0b0b0b"; ctx.fillRect(0,0,cv.width,cv.height);
+}
+
+el.querySelector("#btn").onclick = async ()=>{
+  if (!playing) await start(); else stop();
+};
+```
 
 ## hola fm 
 

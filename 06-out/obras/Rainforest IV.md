@@ -9,7 +9,7 @@
 La estructura básica de cada objeto resonante se puede representar como:
 
 $$
-\agn_{\text{señal eléctrica}} \rightarrow \obj_{\text{objeto cotidiano}} \rightarrow \int_{\text{transductor}} \rightarrow \mat_{\text{metal, madera, plástico}} \rightarrow \ent{\text{espacio compartido}}
+\agn_{\text{señal eléctrica}} \rightarrow \obj_{\text{objeto cotidiano}}  \leftrightarrow_{\text{transductor}} \rightarrow \mat_{\text{metal, madera, plástico}} \rightarrow \ent{\text{espacio compartido}}
 $$
 
 Donde:
@@ -26,7 +26,7 @@ Donde:
 Como el sistema es colectivo y de múltiples nodos interconectados, modelamos la instalación como un grafo vibracional distribuido:
 
 $$
-\sum_{i=1}^{N} \left( \agn_i \rightarrow \obj_i \rightarrow \int_i \rightarrow \mat_i \right) \rightarrow \ent{\sum \text{(acústico)}}
+\sum_{i=1}^{N} \left( \agn_i \rightarrow \obj_i \leftrightarrow_i \mat_i \right) \rightarrow \ent{\sum \text{(acústico)}}
 $$
 
 ---
@@ -56,7 +56,7 @@ $$
 \left[
 \agn_i(t) = f\left( s_{\text{mic}_j}(t - \tau) \right)
 \rightarrow
-\obj_i \rightarrow \int_i \rightarrow \mat_i
+\obj_i  \leftrightarrow_i  \mat_i
 \right]
 \rightarrow
 \ent{\sum \text{resonancias emergentes}}

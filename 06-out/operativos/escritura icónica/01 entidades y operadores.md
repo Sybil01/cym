@@ -13,6 +13,8 @@ $$
 
 
 
+
+
 `\mat` = material[[01 entidades y operadores]]
 `\obj` = objeto
 `\age` = agente
@@ -123,7 +125,7 @@ $\mapsto$ **Realización** - Actualización, paso potencia a acto , asignación 
 ### **NIVEL 6: Operadores Temporales y Modales**
 $\circlearrowleft$ **Devenir** - Transformación temporal, cambio procesual
 $\circlearrowright$ **Recursión** - Auto-aplicación, reflexividad
-$\diamond$ **Modalización** - Variación modal, cambio de modalidad
+$\diamond$ **Modalización** - Variación modal, cambio de modalidad **! posible integración con modulación varianza**
 ### **NIVEL 7: Operadores de Complejidad**
 $\rightsquigarrow$ **Varianza / modulación**
 $\curvearrowright$ **Torsión conceptual** - Transformación sin pérdida, giro conceptual
