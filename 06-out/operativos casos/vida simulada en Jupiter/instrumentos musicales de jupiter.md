@@ -1,8 +1,12 @@
 
-Perfecto. A continuación desarrollo una especulación rigurosamente fundamentada sobre los **instrumentos musicales jupiterianos**, considerando:
+# régimen físico-químico
+
 - La **química atmosférica** y sus capas (amoníaco, hidrosulfuro de amonio, agua).
 - El **entorno físico de propagación acústica** (presión, densidad, temperatura, viscosidad de los gases).
 - La **ontogénesis cognitiva y sensorial** de organismos evolucionados a partir de tolinas.
+
+## régimen entópico 
+
 - El **lenguaje y socialidad** emergente.
 - Una redefinición de **instrumento musical** y de **musicalidad** bajo condiciones no-terrestres.
 ---

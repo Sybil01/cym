@@ -1,8 +1,7 @@
 ---
 tags:
-  - entrevistas
 place: 
-persona: 
+person: 
 connections: 
 url: 
 photo: 

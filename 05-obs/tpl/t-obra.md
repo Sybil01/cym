@@ -1,6 +1,6 @@
 ---
 type: obra
-img:
+photo:
 year:
 tags:
 person: "[[]]"

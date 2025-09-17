@@ -613,7 +613,8 @@ Donde:
 --- 
 
 
-![[Pasted image 20250910133350.png]]
+![](https://i.imgur.com/BfLheqA.png)
+
 
 
 ---

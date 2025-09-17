@@ -1,7 +1,7 @@
 ---
 type: class
 tags:
-  - cym
+  
   - música
   - visual
   - armonía

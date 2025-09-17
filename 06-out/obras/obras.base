@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.folder == "06-out/obras"
+    - file.ext != "base"
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.name
+      - person
+      - year
+      - tags
+    sort:
+      - property: year
+        direction: ASC
+    image: note.photo

@@ -1,6 +1,5 @@
 ---
 tags:
-  - entrevistas
   - s21
 url: https://festivalmusica.fr/magazine/21/simon-steen-andersen-ecouter-observer-hacker
 year: 2023

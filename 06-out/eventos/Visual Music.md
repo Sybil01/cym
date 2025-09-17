@@ -1,13 +1,14 @@
 ---
-tags: 
-place: 
-connections: 
+tags:
+place: LAMOCA
+connections:
 url: https://hirshhorn.si.edu/exhibitions/visual-music
 photo: https://i.imgur.com/PyXOUbV.png
 year: 2005
-curators: 
-- Kerry Brougher
-- Judith Zilczer
+curators:
+  - Kerry Brougher
+  - Judith Zilczer
+city: Los Angeles
 ---
 
 El Hirshhorn y el Museo de Arte Contemporáneo de Los Ángeles (LAMOCA) organizaron conjuntamente la primera exposición en Estados Unidos que examinaba las múltiples formas de música visual, un movimiento artístico interdisciplinar de amplia base que explora la relación entre la abstracción, el color y la música. Acompañada de un catálogo de 272 páginas, la presentación reunió la obra de 50 artistas y diversos medios, como pintura, fotografía, cine, proyección de luz, infografía y entornos inmersivos. La exposición fue comisariada por Kerry Brougher y Judith Zilczer, del Hirshhorn, y Jeremy Strick y Ari Wiseman, del LAMOCA. Visual Music_ fue organizada por el Hirshhorn Museum and Sculpture Garden, Smithsonian Institution, Washington, DC, y el Museum of Contemporary Art, Los Ángeles.

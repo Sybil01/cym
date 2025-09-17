@@ -1,14 +1,16 @@
 ---
 tags:
   - eventos
-place: 
-connections: 
-url: 
+place: "[[Bell Labs]]"
+connections:
+url:
 photo: https://i.imgur.com/acKPwHg.png
 year: 1966
 curators:
   - Robert Rauschenberg
   - Billy Klüver
+  - Fred Waldhauer
+city: New York
 ---
 
 

@@ -1,3 +1,4 @@
+#vidaartificial 
 
 Vamos a construir una **[[ontogenia]] especulativa** que **recapitula una [[filogenia]] imaginaria** de la vida en Júpiter, desde los primeros organismos basados en [[tolinas]] hasta entidades tecnológicas complejas. Cada etapa incluirá:
 - Condiciones físico-químicas del entorno (en capas atmosféricas de Júpiter)
@@ -73,5 +74,6 @@ Vamos a construir una **[[ontogenia]] especulativa** que **recapitula una [[filo
 ## **🔮 Bonus: Evento clave**
 Una mutación les permite generar **haces de microondas direccionales**, usándolos para mapear estructuras o incluso interferir con los campos de otros seres → primer paso hacia tecnología abstracta.
 ---
+![](https://i.imgur.com/WUIkKYP.png)
 
-![[Pasted image 20250529151452.png]]
+
