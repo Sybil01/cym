@@ -1,11 +1,12 @@
 ---
 type: person
-img:
+img: https://i.imgur.com/8poOkNo.png
 tags:
   - generatividad
+  - speechrecognition
 born in city:
-born:
-died:
+year: "1931"
+died: "2017"
 died in city:
 age:
 city:
@@ -16,3 +17,4 @@ url:
 created: 2025-09-13
 modified: 2025-09-13
 ---
+

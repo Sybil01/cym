@@ -17,4 +17,4 @@ views:
     image: note.photo
     imageFit: ""
     imageAspectRatio: 0.5
-    cardSize: 320
+    cardSize: 220

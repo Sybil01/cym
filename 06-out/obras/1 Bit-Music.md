@@ -3,7 +3,7 @@ instrument:
 abrev:
 family: electronics
 connect:
-  - Trista Perich
+  - Tristan Perich
 tags:
   - orq
 year: 2004
@@ -16,3 +16,4 @@ person: Trista Perich
 ---
 
 
+]

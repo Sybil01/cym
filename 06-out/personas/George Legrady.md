@@ -3,7 +3,6 @@ type: person
 img: https://www.impactmania.com/im/wp-content/uploads/2019/01/George-Legrady_UCSB_impactmania.jpg
 tags: 
 - pioneer
- - 
 born in city: Budapest
 year: 1956
 dead year: 

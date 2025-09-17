@@ -14,6 +14,6 @@ views:
     sort:
       - property: file.ctime
         direction: DESC
-    cardSize: 160
+    cardSize: 140
     image: note.coverUrl
-    imageAspectRatio: 1.6
+    imageAspectRatio: 1.55

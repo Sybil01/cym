@@ -35,7 +35,7 @@ Hay distintos tipos de OAES que se manifiestan naturalmente o según el estímul
 - Emisiones otoacústicas de frecuencia sostenida (SFOAEs) – Sonidos emitidos como respuesta a un tono continuo.
     
 
-## OAES como herramienta compositiva : [[Marianne Amacher]]
+## OAES como herramienta compositiva : [[Maryanne Amacher]]
 
 El interés por la psicoacústica en los y las artistas del siglo XX, contrajo nuevas formas y nuevas herramientas para la composición musical. Una artista contemporánea que se interesó por estas investigaciones y profundizó en estos conocimientos fue [Maryanne Amacher.](https://www.blankforms.org/the-maryanne-amacher-foundation)
 

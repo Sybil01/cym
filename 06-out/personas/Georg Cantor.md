@@ -1,6 +1,6 @@
 ---
 type: person
-photo: https://i.imgur.com/AsE7bPn.png
+img: https://i.imgur.com/5IBF7z4.png
 tags:
   - matemática
 born in city:
@@ -11,6 +11,8 @@ country: Rusia
 connect:
 url:
 ---
+
+
 
 
 Su aporte no es en termodinámica sino en teoría de conjuntos e infinitos. Las “fórmulas” de Cantor introducen la aritmética de los números transfinitos: $\aleph_0, \aleph_1, \dots$, mostrando que hay infinitos de distintos tamaños.
