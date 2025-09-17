@@ -462,12 +462,6 @@ Tools for artistic research – Taiteellinen tutkimus, fecha de acceso: julio 9,
 
 ---
 
-¡Entendido\! Me disculpo por la interpretación anterior. Ahora comprendo perfectamente la visión: un juego de arcade completo, visual y jugable en el navegador, que combina la exploración de un juego de aventuras 2D con la acción de un juego espacial clásico, todo ello impulsado por el motor de física nuclear que ya hemos diseñado.
-
-Esta es una idea fantástica que se alinea perfectamente con el espíritu de la materia "Ciencia y Música". La combinación de estéticas retro, mecánicas de juego clásicas y una simulación científica subyacente crea una obra verdaderamente única.
-
-He construido una primera versión completa de este concepto. El juego, "La Consola Atómica", ahora se ejecuta en una ventana de navegador, con gráficos de 8 bits, dos niveles de juego distintos y un paisaje sonoro generativo.
-
   * **Nivel 1 (Macro):** Inspirado en *Zak McKracken*, te mueves por la sala de control del reactor. Tu objetivo es interactuar con las consolas para ajustar las barras de control y vigilar los sistemas.
   * **Nivel 2 (Micro):** Al interactuar con el monitor del núcleo, te sumerges en una vista subatómica inspirada en *Spacewar\!*. Aquí, pilotas un neutrón, esquivando partículas y provocando fisiones para estabilizar el reactor desde dentro.
 

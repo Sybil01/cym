@@ -1,7 +1,7 @@
 ---
 type: class
 tags:
-  - cym
+  
   - interactividad
   - class
 unit: 1

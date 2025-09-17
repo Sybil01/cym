@@ -1,7 +1,7 @@
 ---
 title: cym25
 tags:
-  - cym
+  
   - class
 ---
 3

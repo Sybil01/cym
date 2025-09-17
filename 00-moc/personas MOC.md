@@ -43,7 +43,7 @@ Yunchul Kim
 
 
 ## 60-70
-Robert Rauschenberg (for [[Experiments in Art and Technology]])
+Robert Rauschenberg (for [[EAT Experiments in Art and Technology]])
 Howard Wise por [[Electronics Arts Intermix]]
 
 

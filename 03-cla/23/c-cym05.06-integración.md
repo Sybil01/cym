@@ -50,77 +50,15 @@ Una instalación no puede ser una copia de otra instalación porque una instal
 >[[La reología del arte]]
 >[[Instalaciones]]
 ---
-# partes web
-
-## html
->[!note] > ver [[html]]
-## css
->[!note] > ver [[css]]
-
-## integración JS
->[!note] > ver [[js-01-fundamentos]]
-
-### toneJS
-https://tonejs.github.io/
 
 ---
 
-### partes de un código
-
----
-#### variables y array 
-
-Una variable es un contenedor para un valor, que puede o no variar.
-
-
-#### tipo de variables
-
-###### String
-Secuencia de texto en cadena
-
-```js
-
-let miVariable = 'myNote';
-```
-
-###### Number
-
-Esto es un número. Los números no tienen comillas.
-
-```js
-let miVariable = 440;
-```
-
-
-##### Boolean
-
-Tienen valor true/false
-
-```js
-
-let miVariable = true;
-```
-
-## Array
-
-Permite almacenar varios valores en una sola referencia.
-
-```js
-let miVariable = [1,'myNote','C4',440];
-```
-
-Para llamar a cada valor del array: 
-```js
-miVariable[0]`, `miVariable[1]
-```
-etc.
 
 ---
 
 # tonejs - generación
 
-generadores de señales
----
+
 # tonejs - scheduling
 
 <iframe src="https://codepen.io/LucianoAzzigotti/pen/ZExgXew?editors=1111" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>

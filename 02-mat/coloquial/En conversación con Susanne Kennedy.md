@@ -4,7 +4,6 @@ topoi: "[[performance]]"
 photo: https://www.draff.net/uploads/4/1/3/2/4132256/coming-society-suzanne-kennedy-julian-r-der_orig.jpg
 tags:
   - performance
-  - entrevistas
   - teatral
   - teatroexpandido
 year: 2022

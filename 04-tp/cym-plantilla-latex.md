@@ -1,5 +1,5 @@
 
-## caratula.tex
+## carátula.tex
 
 ```latex
 \begin{titlepage}

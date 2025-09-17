@@ -1,10 +1,95 @@
-La metáfora, Borges, J.G. 1936, Historia de la eternidad. 
+# La metáfora como operador icónico
 
-El historiador Snorri Sturluson, que en su intrincada vida hizo tantas cosas, compiló a principios del siglo XIII un glosario de las figuras tradicionales de la poesía de Islandia en el que se lee, por ejemplo, que gaviota del odio, halcón de la sangre, cisne sangriento o cisne rojo, significan el cuervo; y techo de la ballena o cadena de las islas, el mar; y casa de los dientes, la boca. Entretejidas en el verso y llevadas por él, estas metáforas deparan (o depararon) un asombro agradable; luego sentimos que no hay una emoción que las justifique y las juzgamos laboriosas e inútiles. He comprobado que igual cosa ocurre con las figuras del simbolismo y del marinismo.
+La metáfora puede concebirse como un **operador icónico** que desplaza, condensa y reconfigura dominios semánticos distintos bajo una misma forma. En lugar de limitarse a un ornamento retórico, la metáfora funciona como un mecanismo de transformación del sentido: produce nuevas realidades conceptuales a partir de un cruce formal. Así, opera como un signo de segundo orden que no solo nombra, sino que *hace* mundos al entrelazar material, objeto y agente.
+
+---
+
+## Definiciones duras de metáfora
+
+- **Filosofía**  
+  Desde Aristóteles (*Poética*), la metáfora se define como "traslado de un nombre de un objeto a otro" por semejanza o proporción. En la filosofía contemporánea, Paul Ricoeur en *La métaphore vive* la entiende como creación semántica que reestructura el campo de referencia, y Jacques Derrida la analiza como diseminación infinita de sentido. Conceptos clave: **traslado**, **referencia**, **creación semántica**.
+
+- **Ciencia cognitiva**  
+  George Lakoff y Mark Johnson (*Metaphors We Live By*) la conciben como un sistema cognitivo fundamental: no es adorno, sino estructura de pensamiento. La metáfora organiza dominios abstractos (tiempo, moralidad) a partir de dominios concretos (espacio, movimiento). Conceptos clave: **mapeo**, **dominio origen**, **dominio destino**.
+
+- **Psicología**  
+  En psicología del lenguaje, la metáfora es vista como mecanismo de comprensión y aprendizaje: Donald Schön la describe como "puente de redescripción" y Vygotsky resalta su papel en la imaginación creativa. Es también una herramienta terapéutica: la metáfora puede reestructurar narrativas internas. Conceptos clave: **analogía**, **aprendizaje**, **refiguración**.
+
+---
+
+## La metáfora como operador icónico
+
+Si entendemos la metáfora como operador, su lógica se aproxima a la de un signo diagramático (Peirce, Shin, Coecke). La metáfora no solo sustituye, sino que traza un **mapa icónico** entre dos dominios. Funciona como $\rightsquigarrow$: un cruce semántico que abre un espacio de resonancia. Desde Spencer-Brown, se podría leer como un “cruce recursivo de distinciones” que genera un tercer espacio.  
+
+Autores-puentes:  
+- **Ricoeur** (metáfora como creación semántica) → **Lakoff y Johnson** (metáfora como cognición).  
+- **Vygotsky** (imaginación) → **Schön** (metáfora en la acción profesional).  
+- **Peirce** (iconicidad, terceridad) → **Spencer-Brown** (distinción, forma).  
+
+---
+
+## Borges y la metáfora
+
+Jorge Luis Borges sostuvo que la metáfora, aunque limitada en número (fuego=pasión, río=tiempo, sueño=vida), constituye el **núcleo irreductible de la poesía**. En sus ensayos (*El idioma analítico de John Wilkins*, *La metáfora*, *Otras inquisiciones*) la consideró un operador universal, capaz de condensar mundos enteros en imágenes mínimas. Para Borges, el valor de la metáfora no está en su novedad infinita, sino en su capacidad de rearticular combinaciones de un repertorio limitado. Esta visión resuena con la idea de metáfora como **operador icónico**: un mecanismo que, como en la combinatoria matemática, hace emerger infinitas configuraciones a partir de un conjunto restringido de distinciones.
+
+---
+
+## Fórmula icónica
+
+$$
+\newcommand{\mat}{\blacksquare}
+\newcommand{\obj}{\blacklozenge}
+\newcommand{\agn}{\bullet}
+\newcommand{\itf}{\leftrightarrow}
+\newcommand{\ent}[1]{\boxed{#1}}
+$$
+
+Fórmula de metáfora:  
+$$
+(\obj_s \rightsquigarrow \obj_i) \mapsto \ent{c}
+$$
+
+Donde un objeto sintético se traduce en objeto instrumental para generar un concepto ($\ent{c}$).
+
+---
+
+## Ejemplo musical
+
+En **Ligeti**, la metáfora del *manto sonoro* no es descripción literaria, sino un operador compositivo: capas instrumentales se tratan como tejido, con propiedades de densidad y textura. En **Xenakis**, la metáfora arquitectónica del “murmullo de multitudes” se convierte en partitura estocástica. Ambos casos muestran cómo la metáfora actúa como operador icónico que reorganiza materiales musicales.
+
+---
+
+
+
+1. ¿Hasta qué punto la metáfora puede operativizarse como un álgebra de distinciones, y no solo como figura retórica?  
+2. ¿Podría la música ser formalizada como un lenguaje de metáforas icónicas, más que como notación matemática?  
+3. ¿Tiene un repertorio limitado o infinito, como ya señalaba Borges?
+
+
+
+
+
+## La metáfora, Borges, J.G. 1936, Historia de la eternidad. 
+
+
+- Lugones: Lunario Sentimental,  el idioma es un conjunto de metáforas. 
+- El ultraismo ya es formulado por Lugones
+- La metafora como convenio colectivo 
+	- Los 10.000 seres como metáfora del Universo (China), los 10.000 arquetipos =  10.000! (10mil factorial)
+- Apariencia de la metáfora: 
+	- Su tumba son de Flandres las campañas y su epitafio la sangrienta luna. (Quevedo)
+	- Eclipsar la tracia Luna (Quevedo, como la bandera de los turcos eclipsada por el títere Osuna)
+- Snorri Sturluson sXIII glosario de las figuras tradicionales de la poesía de Islandia en el que se lee, por ejemplo, que gaviota del odio, halcón de la sangre, cisne sangriento o cisne rojo, significan el cuervo; y techo de la ballena o cadena de las islas, el mar; y casa de los dientes, la boca. Entretejidas en el verso y llevadas por él, estas metáforas deparan (o depararon) un asombro agradable; luego sentimos que no hay una emoción que las justifique y las juzgamos laboriosas e inútiles. He comprobado que igual cosa ocurre con las figuras del simbolismo y del marinismo.
 
 De «frialdad íntima» y de «poco ingeniosa ingeniosidad» pudo acusar Benedetto Croce a los poetas y oradores barrocos del siglo XVII; en las perífrasis recogidas por Snorri veo algo así como la reductio ad absurdum de cualquier propósito de elaborar metáforas nuevas. Lugones o Baudelaire, he sospechado, no fracasaron menos que los poetas cortesanos de Islandia.
 
-En el libro tercero de la Retórica, Aristóteles observó que toda metáfora surge de la intuición de una analogía entre cosas disímiles; Middleton Murry exige que la analogía sea real y que hasta entonces no haya sido notada (Countries of the Mind, II, 4). Aristóteles, como se ve, funda la metáfora sobre las cosas y no sobre el lenguaje; los tropos conservados por Snorri son (o parecen) resultados de un proceso mental, que no percibe analogías sino que combina palabras; alguno puede impresionar (cisne rojo, halcón de la sangre), pero nada revelan o comunican. Son, para de alguna manera decirlo, objetos verbales, puros e independientes como un cristal o como un anillo de plata. Parejamente, el gramático Licofronte llamó león de la triple noche al dios Hércules porque la noche en que fue engendrado por Zeus duró como tres; la frase es memorable, allende la interpretación de los glosadores, pero no ejerce la función que prescribe Aristóteles[14].
+-  la intuición de una analogía entre cosas disímiles (Aristóteles, Retórica, Libro III)
+	- funda la metáfora sobre las cosas y no sobre el lenguaje.
+- exige que la analogía debe ser real y que hasta entonces no haya sido notada (Middleton Murry, Countries of the Mind, II, 4). 
+
+- los tropos conservados por Snorri son (o parecen) resultados de un proceso mental, que no percibe analogías sino que combina palabras; 
+- 
+- alguno puede impresionar (cisne rojo, halcón de la sangre), pero nada revelan o comunican. Son, para de alguna manera decirlo, objetos verbales, puros e independientes como un cristal o como un anillo de plata. Parejamente, el gramático Licofronte llamó león de la triple noche al dios Hércules porque la noche en que fue engendrado por Zeus duró como tres; la frase es memorable, allende la interpretación de los glosadores, pero no ejerce la función que prescribe Aristóteles[14].
 
 En el I King, uno de los nombres del universo es los Diez Mil Seres. Hará treinta años, mi generación se maravilló de que los poetas desdeñaran las muchas combinaciones de que esa colección es capaz y maniáticamente se limitaran a unos pocos grupos famosos: las estrellas y los ojos, la mujer y la flor, el tiempo y el agua, la vejez y el atardecer, el sueño y la muerte. Enunciados o despojados así, estos grupos son meras trivialidades, pero veamos algunos ejemplos concretos.
 
@@ -14,4 +99,32 @@ Diez ejemplos del primer grupo y nueve del segundo he juntado; a veces la unidad
 
 El primer monumento de las literaturas occidentales, la Ilíada, fue compuesto hará tres mil años; es verosímil conjeturar que en ese enorme plazo todas las afinidades íntimas, necesarias (ensueño-vida, sueño-muerte, ríos y vidas que trascurren, etcétera), fueron advertidas y escritas alguna vez. Ello no significa, naturalmente, que se haya agotado el número de metáforas; los modos de indicar o insinuar estas secretas simpatías de los conceptos resultan, de hecho, ilimitados. Su virtud o flaqueza está en las palabras, el curioso verso en que Dante (Purgatorio, I, 13), para definir el cielo oriental invoca una piedra oriental, una piedra límpida en cuyo nombre está, por venturoso azar, el Oriente: Dolce color d’oriental zaffiro es, más allá de cualquier duda, admirable; no así el de Góngora (Soledad, I, 6): «En campos de zafiros pace estrellas» que es, si no me equivoco, una mera grosería, un mero énfasis[17].
 
-Algún día se escribirá la historia de la metáfora y sabremos la verdad y el error que estas conjeturas encierran.
+
+
+## Bibliografía
+
+```bibtex
+@book{aristoteles_poetica,
+  author = {Aristóteles},
+  title = {Poética},
+  year = {c. 335 a.C.}
+}
+
+@book{ricoeur1975,
+  author = {Paul Ricoeur},
+  title = {La métaphore vive},
+  year = {1975}
+}
+
+@book{lakoff1980,
+  author = {George Lakoff and Mark Johnson},
+  title = {Metaphors We Live By},
+  year = {1980}
+}
+
+@book{borges1952,
+  author = {Jorge Luis Borges},
+  title = {Otras inquisiciones},
+  year = {1952}
+}
+```

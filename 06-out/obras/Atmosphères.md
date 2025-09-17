@@ -1,6 +1,6 @@
 ---
 type: obra
-photo:
+photo: https://i.imgur.com/9DqOJ7C.png
 year: 1961
 tags: músicaescrita
 person: "[[György Ligeti]]"
@@ -9,6 +9,7 @@ url:
 connect: "[[Arte de datos]]"
 premierePlace: Donaueschingen Musiktagen
 ---
+
 Ligeti en Atmosphères construye una textura donde la microestructura (fluctuación) y la macroforma (corriente) se superponen de manera casi física, muy cercana a la idea de turbulencia o flujo continuo. Podemos pensarlo en términos análogos a la hidrodinámica y al caos determinista (Lorenz, Prigogine):
 
 ## Fluctuación

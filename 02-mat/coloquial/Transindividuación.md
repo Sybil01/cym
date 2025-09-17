@@ -1,10 +1,9 @@
 ---
 tags:
-  - entrevistas
   - neolutheria
 place: Goldsmith ,UK
-persona: Bernard Stiegler
-connections: 
+person: Bernard Stiegler
+connections:
 url: https://www.e-flux.com/journal/14/61314/transindividuation/
 photo: https://i.imgur.com/5xaKwfE.png
 topoi: Filosofia21

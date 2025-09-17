@@ -34,7 +34,7 @@ type: class
 ---
 # objetivos
 
---- 
+---
 1.  pensar y crear el futuro de la música.
 
 ---
@@ -428,7 +428,6 @@ $$O = \langle C, P, R \rangle$$
 
 ---
 
-
 # topoi 
 
 ![[topoi MOC#definition]]
@@ -436,9 +435,9 @@ $$O = \langle C, P, R \rangle$$
 ---
 # relaciones 
 
---
-## tecnologías como herramientas
+---
 
+## tecnologías como herramientas
 
 ---
 
@@ -463,10 +462,11 @@ Uno de los efectos mas elocuentes de la aparación de los meta-instrumentos es l
 
 ---
 
--  tecnologías como exo-cerebros
+##  tecnologías como exo-cerebros
 
 ---
-Internet como espacio
+
+## Internet como espacio
 
 ---
 
@@ -496,16 +496,8 @@ https://experiments.withgoogle.com/ai-duet
 - Documenta tu proceso y/o crea algún artefacto, subilo a discord, a tu carpeta del repo y comentá el trabajo de tus compañerxs.
 
 
---- 
-
-
+---
 # referencias y actividades recomendadas
 
 - javascript the good parts en español
 https://www.youtube.com/watch?v=lP9-Zx_cCUg
-
-
---- 
-
-
->[!note] > leer [[Spectromorphology]] de [[]]
