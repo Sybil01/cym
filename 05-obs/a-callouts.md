@@ -3,19 +3,19 @@
 
 ## compatibles con github
 
-> [!Note] Note
+> [!NOTE] Note
 > información útil y relevante que se debería saber incluso cuando se lee por encima.
 
-> [!tip] tip
+> [!TIP] tip
 > consejo útil de como hacer algo.
 
-> [!Important] Important
+> [!IMPORTANT] Important
 > la información importante para conseguir el objetivo.
 
-> [!Warning] Warning
+> [!WARNING] Warning
 > información urgente que necesita atención inmediata.
 
-> [!Caution] Caution
+> [!CAUTION] Caution
 > avisa acerca de riesgos o consecuencias negativas de acciones determinadas.
 
 ## propios de obsidian
