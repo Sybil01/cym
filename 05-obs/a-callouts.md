@@ -9,10 +9,10 @@
 > [!TIP] tip
 > consejo útil de como hacer algo.
 
-> [!IMPORTANT] Important
+> [!important] hello world
 > la información importante para conseguir el objetivo.
 
-> [!WARNING]Warning
+> [!warning]
 > información urgente que necesita atención inmediata.
 
 > [!CAUTION]
