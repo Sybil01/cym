@@ -3,19 +3,19 @@
 
 ## compatibles con github
 
-> [!note] hello
+> [!note]
 > información útil y relevante que se debería saber incluso cuando se lee por encima.
 
-> [!TIP] tip
+> [!tip]
 > consejo útil de como hacer algo.
 
-> [!important] hello world
+> [!important]
 > la información importante para conseguir el objetivo.
 
 > [!warning]
 > información urgente que necesita atención inmediata.
 
-> [!CAUTION]
+> [!caution]
 > avisa acerca de riesgos o consecuencias negativas de acciones determinadas.
 
 ## propios de obsidian
