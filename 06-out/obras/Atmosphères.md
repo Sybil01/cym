@@ -149,7 +149,9 @@ para cada paso de tiempo:
     # Mapeo sonoro (ejemplo)
     frecuencia = min_freq + (1 - y / height) * (max_freq - min_freq)
     actualizar_oscilador(frecuencia)
+    
 ```
+
 
 
 **Explicación**: Este loop integra todos los términos. Ejecutado por partícula, simula el enjambre orquestal. Ajusta $f$ y $s$ para explorar interacciones.
