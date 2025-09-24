@@ -1,13 +1,12 @@
 ---
-title: generatividad
+title: metáfora y re
 tags:
  class
 type: class
 ---
-<!--slide bg="[[https://rpcdn.ratopati.com/media/albums/modi_ko_putla_dahan_8_sOyopzTUVm_N75s1x8tAp.jpg]]"-->
 
 <grid drag="60 55" drop="5 10" bg="transparent" align="left">
-# generatividad
+# metáfora y re
 ## Clase 5
 </grid>
 
@@ -16,8 +15,9 @@ type: class
 </grid>
 
 <grid drag="25 55" drop="-5 10" bg="black" align="top">
-→ concepto <br>
-→ aplicación a EI de trabajos<br>
+→ RE repaso <br>
+→ metáfora
+→ un ejemplo de REyM<br>
 → blogs<br>
 → obras<br>
 </grid>
@@ -33,113 +33,409 @@ $$
 $$
 ---
 
+### fórmula general de RE
 
-| Ejemplo real                           | Tipo de obra       | Estudios preliminares (años) | Tiempo de obra (años) | Tiempo total idea→funcionamiento (años) | 3 logros humanos sobre la naturaleza alcanzados                                                                                                  |
-| -------------------------------------| -----------------| ---------------------------| --------------------| --------------------------------------| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Autopista Rosario–Córdoba (AR)         | Autopista regional | 3                            | 6                     | 9                                       |Transformación del territorio lineal<br>Expropiación y reorganización social<br>Producción y transporte de millones de toneladas de áridos |
-| Maasvlakte 2, Puerto de Rotterdam (NL) | Puerto marítimo    | 6                            | 7                     | 13                                      |Conquista de terreno al mar<br>Dragado y relleno a escala masiva<br>Control de corrientes y sedimentación                                  |
-| Central Nuclear Atucha II (AR)         | Nuclear            | 10                           | 12                    | 22                                      |Logro de criticidad controlada<br>Construcción de contención nuclear<br>Integración de sistemas de refrigeración masiva                    |
-| Represa Yacyretá (AR–PY)               | Hidroeléctrica     | 20                           | 10                    | 30                                      |Desvío controlado del río Paraná<br>Generación hidroeléctrica a gran escala<br>Relocalización de comunidades humanas                       |
+## $I(O, R) = \sum_{i=1}^{n} \left[ T(P_i, R_j) \cdot \alpha_j \cdot (1 - \beta_j) \right] \cdot (1 + \gamma + \delta)$
+
+Sea:
+- $P_i$: propiedad del objeto cultural (p.ej., Ritmo, Orquestación, etc.).
+- $R_j$: atributo del régimen escópico vigente que corresponde a $P_i$.
+- $T(P_i, R_j)$: intensidad de **fricción** (0, 0.5, 1).
+- $n$: número total de propiedades.
+
+- $\beta_j$ **elasticidad** cultural (qué tan rápido el régimen puede adaptarse, 0–1).
+ si es alto, el régimen es flexible y la transgresión tiene menor impacto. 
+- $\alpha_j$ peso de **centralidad** del atributo en el régimen (importancia estructural, 0–1). si es alto, transgredir ese atributo pesa más.
+- $\gamma$   **realimentación histórica** (efecto acumulativo de una transgresión previa sobre la siguiente).aumenta el impacto si hubo transgresiones anteriores que abrieron la brecha.
+- $\delta$ coeficiente de **transgresión de segundo orden** (transgresión de la transgresión). modela el caso donde la obra no solo transgrede el régimen, sino que transgrede una transgresión anterior (efecto de ruptura meta-estética).
+
 
 ---
+### modelo escópico
 
+```mermaid
+flowchart TD
+A[Capa 1 Régimen escópico vigente]
+B[Capa 2 Procedimientos disponibles y legitimados]
+C[Capa 3 Obra concreta]
+D[Zona crítica choque]
 
-| Ejemplo real                           | Tipo de obra                  | Estudios preliminares (años) | Tiempo de obra (años) | total | logros humanos sobre la naturaleza alcanzados                                                                                    |
-| -------------------------------------| ----------------------------| ---------------------------| --------------------| --------------------------------------| -------------------------------------------------------------------------------------------------------------------------------|
-| Teatro Colón (Buenos Aires, 1908)      | Teatro de ópera               | 8                            | 20                    | 28                                      |Adaptación acústica monumental<br>            |
-| Ópera de Sídney (1973)                 | Ópera icónica                 | 5                            | 14                    | 19                                      | cascarones de hormigón<br>Replanteo marítimo de Bennelong Point                                                                |
-| La Scala (Milán, 1778, refacción 2004) | Teatro de ópera               | 3                            | 7                     | 10                                      |Reconversión acústica<br>             |
-| Museo Guggenheim Bilbao (1997)         | Museo contemporáneo           | 4                            | 5                     | 9                                       |Construcción en ribera industrial<br>Uso pionero de titanio<br>                             |
-| Museo Quai Branly (París, 2006)        | Museo contemporáneo           | 6                            | 6                     | 12                                      |jardín vertical masivo<br>Adaptación a orillas del Sena<br>Estructura suspendida sobre pilotes              |
-
----
-
-| Ejemplo real                           | Tipo de obra                  | Estudios preliminares (años) | Tiempo de obra (años) | total | logros humanos sobre la naturaleza alcanzados                                                                                    |
-| -------------------------------------| ----------------------------| ---------------------------| --------------------| --------------------------------------| -------------------------------------------------------------------------------------------------------------------------------|
-| Museo MAXXI (Roma, 2010)               | Museo contemporáneo           | 4                            | 9                     | 13                                      |Geometrías deconstruidas en hormigón<br>Flujos internos no lineales<br>Resolución de espacios curvos     |
-| Ópera de Oslo (2008)                   | Ópera contemporánea           | 6                            | 7                     | 13                                      |Construcción sobre aguas del fiordo<br>Cubierta transitable como plaza<br>   |
-| Elbphilharmonie (Hamburgo, 2017)       | Sala de conciertos/ópera      | 7                            | 10                    | 17                                      |Integración sobre antiguo almacén portuario<br>Acústica ajustada por algoritmo<br>Estructura de vidrio curvo a gran escala |
-| Louvre Abu Dhabi (2017)                | Museo universal contemporáneo | 8                            | 10                    | 18                                      |Cúpula flotante de 180 m<br>Control climático desértico<br>Construcción sobre isla artificial                              |
-
----
-
-![](https://i.imgur.com/gpNmqtz.png)
-
----
-
-| Planta – Ciudad/País                         | Tecnología      | Producción típica (TWh/año) | Años planning+obra |   Vida útil (años) |    Costo (USD, año base) | Impacto |
-| -------------------------------------------- | --------------- | --------------------------: | -----------------: | -----------------: | -----------------------: | :-----: |
-| Three Gorges – Yichang, China                | Hidro           |                      90–100 |    ~18 (1994–2012) |             80–100 |         ~31–33 bn (2012) |    B    |
-| Itaipú – Hernandarias/Ciudad del Este, PY–BR | Hidro           |                       80–96 |    ~13 (1971–1984) |             80–100 |            ~20 bn (1984) |    B    |
-| Xiluodu – Sichuan, China                     | Hidro           |                       50–57 |    ~10 (2003–2013) |             80–100 |            ~12 bn (2013) |    B    |
-| Baihetan – Sichuan/Yunnan, China             | Hidro           |                       60–66 |    ~10 (2011–2021) |             80–100 |            ~34 bn (2021) |    B    |
-| Wudongde – Yunnan/Sichuan, China             | Hidro           |                       35–39 |    ~10 (2010–2020) |             80–100 |            ~18 bn (2020) |    B    |
-| Belo Monte – Altamira, Brasil                | Hidro           |      40–50 (media efectiva) |    ~14 (2001–2015) |             80–100 |            ~18 bn (2015) |    C    |
-| Guri (Simón Bolívar) – Bolívar, Venezuela    | Hidro           |                       40–50 |    ~16 (1963–1979) |             80–100 |          n/d (histórico) |    B    |
-| Grand Coulee – Washington, EE.UU.            | Hidro           |                       18–21 |     ~9 (1933–1942) |             80–100 |          n/d (histórico) |    B    |
-| Tarbela – Khyber Pakhtunkhwa, Pakistán       | Hidro           |                       14–16 |    ~11 (1968–1979) |             80–100 |           ~1.5 bn (1976) |    B    |
-| Tucuruí – Pará, Brasil                       | Hidro           |                       22–28 |    ~11 (1975–1984) |             80–100 |           ~5.5 bn (1984) |    B    |
-| Bruce – Ontario, Canadá                      | Nuclear (CANDU) |                       45–50 |    ~10 (1969–1979) | 60–80 (con refurb) | ~12 bn* (rehab en curso) |    A    |
-
----
-
-| Planta – Ciudad/País                         | Tecnología       | Producción típica (TWh/año) | Años planning+obra |   Vida útil (años) |    Costo (USD, año base) | Impacto |
-| -------------------------------------------- | ---------------- | ---------------------------:| ------------------:| ------------------:| ------------------------:|:-------:|
-| Palo Verde – Arizona, EE.UU.                 | Nuclear (PWR)    |                       30–33 |    ~14 (1973–1987) |              60–80 |           ~5.9 bn (1988) |    A    |
-| Kashiwazaki-Kariwa – Niigata, Japón          | Nuclear (BWR)    |        30–60 (hist.; hoy ↓) |    ~14 (1978–1997) |              60–80 |            ~12 bn (1997) |    A    |
-| Taichung – Taichung, Taiwán                  | Carbón           |                       40–50 |    ~12 (1979–1991) |              40–50 |                      n/d |    D    |
-| Tuoketuo – Hohhot, China                     | Carbón           |                       30–40 |     ~7 (1998–2005) |              40–50 |           ~2.4 bn (2005) |    D    |
-| Bełchatów – Łódź, Polonia                    | Carbón (lignito) |                       27–30 |    ~13 (1975–1988) |              40–50 |                      n/d |    D    |
-| Dangjin – Chungnam, Corea del Sur            | Carbón           |                       20–25 |    ~10 (1997–2007) |              40–50 |                      n/d |    D    |
-| Gansu Wind Base – Jiuquan, China             | Eólico (onshore) |          10–15 (desplegado) |        ~10 (2009–) |              20–25 |        >17 bn (programa) |    A    |
-| Bhadla Solar – Rajastán, India               | Solar FV         |                         5–6 |     ~5 (2015–2020) |              25–30 |              ~1.3–1.5 bn |    A    |
-| Jebel Ali – Dubái, EAU                       | Gas/CC + desal   |                       15–20 |  ~10 (1990s–2000s) |              30–40 |                      n/d |    C    |
-
----
-
-| Planta / Proyecto (Argentina)                      | Tecnología       | Producción anual estimada | Capacidad instalada (MW) | Años planificación+obra | Vida útil (años) | Comentarios                                 |
-| -------------------------------------------------- | ---------------- | ------------------------- | ------------------------ | ----------------------- | ---------------- | ------------------------------------------- |
-| Atucha I + II + Embalse (nucleares)                | Nuclear          | ~10.449 GWh (2024)        | ~1.755                   | 1970s–2014              | 50–80            | Elevado aporte limpio, refuerzos periódicos |
-| Yacyretá (AR–PY)                                   | Hidroeléctrica   | n/d                       | 2.746                    | 1970s–1994              | 80–100           | Binacional, variable según caudal           |
-| Complejo Cerros Colorados (Neuquén)                | Hidroeléctrica   | ~1.512 GWh/año            | 479                      | 1969–1980               | 80–100           | Control de crecidas y riego                 |
-| El Chocón (Neuquén–Río Negro)                      | Hidroeléctrica   | ~3.000 GWh/año (estimado) | 1.200                    | 1968–1973               | 80–100           | Una de las más grandes del país             |
-| Salto Grande (AR–UY)                               | Hidroeléctrica   | ~7.000 GWh/año            | 1.890                    | 1970s–1983              | 80–100           | Binacional, alto impacto en litoral         |
-| Piedra del Águila (Neuquén)                        | Hidroeléctrica   | ~8.000 GWh/año            | 1.400                    | 1980s–1993              | 80–100           | Factor de planta alto                       |
-| Central Térmica Güemes (Salta)                     | Térmica (gas)    | n/d                       | ~360                     | 1990s                   | 40–50            | Generación regional                         |
-| Parque Solar Iglesia–Estancia Guañizuil (San Juan) | Solar FV         | n/d                       | 80                       | 2016–2019               | 25–30            | Bajo impacto operacional                    |
-| Parque Eólico Rawson (Chubut)                      | Eólico           | ~300 GWh/año              | 108                      | 2010–2011               | 20–25            | Primer gran parque eólico                   |
-| Central Costanera (CABA)                           | Térmica (gas/CC) | n/d                       | ~2.300                   | 1950s–hoy (expansiones) | 40–50            | Una de las mayores termoeléctricas          |
-
----
-
-
-<iframe src="https://cym.musiki.org.ar/energia.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
-
----
-
-<iframe src="https://cym.musiki.org.ar/e4.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
-
----
-
-
-
-metáfora 
-generativdad
-blog
----
-
-![[upcycling#upcycling]]
+A --> B
+B --> C
+C <--> D
+D --> |si supera resistencia| A
+D --> |transforma| B
+```
 
 
 ---
 
-https://www.argentina.gob.ar/sites/default/files/lamina_-_la_energia_en_argentina_abril_2020.pdf
+## transgresión como medida
+
+Sea $T(P_i, R)$ la función que mide si una propiedad $P_i$ transgrede el régimen $R$.
+- $T(P_i, R) = 1$ → transgresión fuerte (inaceptable en el régimen vigente)
+- $T(P_i, R) = 0.5$ → desviación moderada (incomoda, pero tolerable)
+- $T(P_i, R) = 0$ → alineada con el régimen (ninguna fricción)
+
+---
+
+
+## Volatilidad de Pedersen y Régimen Escópico
+
+
+---
+
+La **volatilidad de Pedersen** mide el grado de reacomodo de la opinión pública entre dos momentos de decisión, como ser elecciones o plebiscitos.  
+Se interpreta como un índice de la **energía social de cambio**, comparable entre países y períodos.
+
+<ref>Pedersen, Mogens N. (1979). The Dynamics of European Party Systems: Changing Patterns of Electoral Volatility. European Journal of Political Research.</ref>
+
+---
+
+## Fórmula de Pedersen
+
+$$
+V_t = \frac{1}{2} \sum_i | p_{i,t+1} - p_{i,t} |
+$$
+
+Donde:
+- $p_{i,t}$ = porcentaje de votos del partido $i$ en la elección $t$  
+- $V_t$ = índice de volatilidad entre dos elecciones consecutivas
+
+---
+
+## Tabla comparativa de Pedersen
+
+| País          | Período (2005–2025) | Promedio Pedersen | Picos relevantes | Notas |
+|---------------|---------------------|------------------|------------------|-------|
+| Argentina     | 2005–2023           | 22–25            | >30 (2013, 2021) | Alta volatilidad, alianzas nuevas y colapsos de coaliciones |
+| Brasil        | 2006–2022           | 18–22            | >25 (2018)       | Fragmentación, entrada de Bolsonaro y PSL en 2018 |
+| Chile         | 2005–2021           | 15–20            | >25 (2017, 2021) | Quiebre del sistema binominal y auge de independientes |
+| Reino Unido   | 2005–2024           | 12–16            | 23.5 (2019–24)   | Brexit y Reform generaron reconfiguración abrupta |
+| Alemania      | 2005–2021           | 10–15            | 15.6 (2017–21)   | Estabilidad relativa, pero AfD y Verdes mueven el tablero |
+| Francia       | 2007–2022           | 12–18            | >20 (2017)       | Colapso PS y ascenso Macron/En Marche |
+| Suiza         | 2007–2023           | 8–12             | ~15 (2019)       | Sistema multipartidario pero con volatilidad moderada |
+| Estados Unidos| 2006–2022           | 5–8              | ~10 (midterms)   | Bipartidismo reduce la volatilidad nacional agregada |
+| Canadá        | 2006–2021           | 10–15            | ~18 (2011, 2019) | Alternancia entre liberales y conservadores con NDP emergente |
+| Australia     | 2007–2022           | 8–12             | ~15 (2010, 2019) | Estabilidad de bloques, pero variaciones en voto secundario |
+
+<ref>Pedersen (1979), ParlGov (2009–2023), LAPALE (2005–2025), IFES ElectionGuide, Bundeswahlleiter (Alemania 2017–21), House of Commons Library (UK 2015–24), Ministère de l’Intérieur (Francia 2017–22), Swiss FSO (2015–23), Elections Canada (2015–21), AEC Australia (2016–22), MIT Election Data Lab (EEUU 2006–22), Jones (2021), Power (2019), Luna & Altman (2011).</ref>
+---
+
+<img src="https://i.imgur.com/dDUPfR9.png" style="display:flex; align-items:center; filter: invert(1);" />
+
+---
+
+<img src="https://i.imgur.com/7NShSrN.png" style="display:flex; align-items:center; filter: invert(1);" />
+
+Volatiblidad de participación de mujeres en los parlamentos africanos
+
+---
+
+## Cismogénesis (Bateson)
+
+Gregory Bateson definió la **cismogénesis** como el proceso de intensificación de diferencias en interacciones sociales.  
+La volatilidad de Pedersen puede leerse como una forma cuantitativa de cismogénesis: cada cambio social refuerza diferencias, generando una dinámica de ruptura o complementariedad.
+
+<ref>Bateson, Gregory (1936). Naven: A Survey of the Problems Suggested by a Composite Picture of the Culture of a New Guinea Tribe.</ref>
+
+---
+
+## Visualización de dinámicas
+
+```mermaid
+graph LR
+A[Sociedad estable] -->|Volatilidad baja| B[Continuidad]
+A -->|Volatilidad alta| C[Cismogénesis]
+C --> D[Ruptura de bloques]
+C --> E[Nuevas ideologias]
+
+```
+
+---
+
+
+Aplicación a una obra cym 
+- Propiedades ($P_i$): Ritmo, orquestación algorítmica, interfaz, interacción ,uso de feedback.
+- Régimen escópico ($R_j$): Normas de percepción y expectativas de performance.
+- Medida: Se cuantifica la fricción de cada propiedad respecto al régimen.
+- Analogía con Pedersen: Así como la sociedad muestra volatilidad en decisiones, la obra muestra volatilidad perceptiva en su interacción con los regímenes escópicos.
+
+---
+
+### se puede medir nuestro *régimen escópico*?
+
+---
+
+# metáfora 
+(μεταφορά, traslado, desplazamiento, transportar)
+
+---
+
+-  figura retórica que afirma directamente que una cosa es otra, creando una comparación para resaltar similitudes y añadir significado.
+
+---
+
+<iframe src="https://es.wikipedia.org/wiki/Met%C3%A1fora" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+
+---
+
+### Borges
+
+- Lugones: Lunario Sentimental,  el idioma es un conjunto de metáforas. 
+- El ultraismo ya es formulado por Lugones
+- La metafora como convenio colectivo 
+	- Los 10.000 seres como metáfora del Universo (China), los 10.000 arquetipos =  10.000! (10mil factorial)
+- Apariencia de la metáfora: 
+	- Su tumba son de Flandres las campañas y su epitafio la sangrienta luna. (Quevedo)
+	- Eclipsar la tracia Luna (Quevedo, como la bandera de los turcos eclipsada por el títere Osuna)
+---
+
+gaviota del odio, halcón de la sangre, cisne sangriento o cisne rojo, significan el cuervo  (Snorri Sturluson).
+
+note:
+- Snorri Sturluson sXIII glosario de las figuras tradicionales de la poesía de Islandia en el que se lee, por ejemplo, que gaviota del odio, halcón de la sangre, cisne sangriento o cisne rojo, significan el cuervo; y techo de la ballena o cadena de las islas, el mar; y casa de los dientes, la boca. Entretejidas en el verso y llevadas por él, estas metáforas deparan (o depararon) un asombro agradable; luego sentimos que no hay una emoción que las justifique y las juzgamos laboriosas e inútiles. He comprobado que igual cosa ocurre con las figuras del simbolismo y del marinismo.
+
+---
+
+la intuición de una **analogía** entre cosas disímiles (Aristóteles, Retórica, Libro III)
+
+---
+- funda la metáfora sobre las cosas y no sobre el lenguaje.
+- exige que la analogía debe ser real y que hasta entonces no haya sido notada (Middleton Murry, Countries of the Mind, II, 4). 
+
+- los tropos conservados por Snorri son (o parecen) resultados de un proceso mental, que no percibe analogías sino que combina palabras; 
+
+- alguno puede impresionar (cisne rojo, halcón de la sangre), pero nada revelan o comunican. Son, para de alguna manera decirlo, objetos verbales, puros e independientes como un cristal o como un anillo de plata. 
+
+---
+
+- Parejamente, el gramático Licofronte llamó león de la triple noche al dios Hércules porque la noche en que fue engendrado por Zeus duró como tres; la frase es memorable, allende la interpretación de los glosadores, pero no ejerce la función que prescribe Aristóteles.
+
+
+---
+
+### filosofía
+
+- Aristóteles (*Poética*): 
+      - la metáfora se define como "traslado de un nombre de un objeto a otro" por semejanza o proporción, cuyo principio es la **analogía**.
+   - Kant:
+      - forma de acceso indirecto a lo inteligible. 
+   - Paul Ricoeur, *La métaphore vive*
+      -  creación semántica que **reestructura** el campo de referencia. 
+      - Acto de **redescripción**.
+   - Jacques Derrida la analiza como **diseminación infinita de sentido.** 
+
+---
+
+### ciencias cognitivas
+(Lakoff - Johnson)
+
+La metáfora organiza dominios abstractos (tiempo, moralidad) a partir de dominios concretos (espacio, movimiento). 
+
+### proyecciones de un 
+**dominio fuente (source domain)** a un **dominio objetivo (target domain)**.
+
+activan redes neuronales superpuestas (e.g., estudios fMRI muestran activación compartida en áreas sensoriales). En computación, se modelan como transformaciones en grafos de conocimiento (e.g., en ontologías semánticas).
+
+<ref>  George Lakoff y Mark Johnson, 1984, *Metaphors We Live By*  </ref>
+
+--
+
+### geometría
+
+- morfismo parcial entre espacios de propiedades.
+	- **morfismo** implica un mapeo que preserva ciertas estructuras (como relaciones o propiedades).
+	- **parcial** indica que no todas las propiedades se transfieren, evitando isomorfismos totales que harían los dominios idénticos.
+
+---
+
+"La metáfora es un *morfismo parcial* y estructurado entre *espacios* de *propiedades* multidimensionales, donde el *mapeo* selecciona y proyecta *subconjuntos* de *atributos* para generar insights novedosos, preservando invariantes relacionales mientras permite *emergencias* semánticas."
+
+---
+
+### tesaurio
+
+ "**morfismo**" implica un mapeo que preserva ciertas estructuras (como relaciones o propiedades),
+
+---
+
+
+**parcial** indica que no todas las propiedades se transfieren, evitando isomorfismos totales que harían los dominios idénticos. 
+ Un mapeo $ f: S_{fuente} \to S_{objetivo}$ que es inyectivo o suryectivo solo en un subconjunto. Formalmente, es una función parcial $ f \subseteq S_{fuente} \times S_{objetivo}$que preserva relaciones seleccionadas (e.g., si "calor" en fuente mapea a "intensidad" en objetivo, pero no "luz"). Esto evita transferencias incongruentes, como en la metáfora "el amor es fuego", donde se mapea "calidez" pero no "destructividad" (a menos que sea intencional, como en metáforas poéticas oscuras).
+ 
+---
+
+**espacios de propiedades** pueden interpretarse como conjuntos multidimensionales de atributos (físicos, sensoriales, emocionales) en un espacio vectorial o topológico.
+
+ Representan dominios conceptuales como espacios vectoriales en un modelo de embeddings (e.g., similar a Word2Vec o BERT en IA). Cada espacio es un conjunto $ S = \{ p_1, p_2, \dots, p_n \} $ , donde $ p_i$ son propiedades (atributos cualitativos o cuantitativos, como "calor" para fuego o "pasión" para amor). En términos topológicos, estos espacios pueden ser manifolds donde las propiedades están conectadas por similitudes métricas (e.g., distancia euclidiana o coseno).
+
+---
+
+### proyecciones
+
+
+- **Lingüística cognitiva**: Lakoff y Johnson ven las metáforas como "mappings cross-domain" sistemáticos (e.g., ARGUMENTO ES GUERRA). Ampliación: Los espacios de propiedades son "image schemas" (esquemas imagéticos) como CONTAINER o PATH, mapeados parcialmente.
+
+- **Matemáticas y computación**: En teoría de grafos, una metáfora es un homomorfismo parcial entre grafos dirigidos (nodos = propiedades, aristas = relaciones). En machine learning, se modela como transfer learning: entrenar en fuente y aplicar parcialmente a objetivo.
+
+---
+
+## dialogGPT
+
+---
+
+### ejemplos js
 
 
 ---
 
 
-<iframe src="https://sig.energia.gob.ar/visor/visorsig.php" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+![](https://i.imgur.com/nbFelUx.png)
 
 ---
+
+León Ferrari, La civilización occidental y cristiana (1965)
+
+---
+
+## Contexto RE: Argentina 1955–1965
+
+- Alternancias forzadas, proscripciones y reacomodos rápidos del electorado
+- Volatilidad de Pedersen (legislativas/panorámica histórica): alta (≈20–30)
+- Parámetros de régimen escópico (para el período):
+  - α≈1 (alta centralidad normativa: religión, nación, orden)
+  - β≈0 (baja elasticidad cultural efectiva ante rupturas icónico-religiosas)
+  - γ≈0.3 (realimentación histórica: ciclos de censura/debate intensifican fricción)
+  - δ≈0 (baseline; se activa >0 cuando hay “transgresión de la transgresión” en reexhibiciones, polémicas, reapropiaciones)
+
+---
+
+## Obra: “La civilización occidental y cristiana” (León Ferrari, 1965)
+
+- Materiales: madera, óleo, yeso; Cristo de santería sobre avión de guerra
+- Operación: injerto icónico-religioso + artefacto tecno-militar contemporáneo (Vietnam)
+- Efecto: colisión simbólica entre soteriología cristiana y violencia tecnocientífica
+- Historia de recepción: censura inicial (Di Tella), controversias periódicas, expansión de sentido en reexhibiciones posteriores
+
+---
+
+## Metáfora mínima (operador mediador)
+
+$$M=f(S,T,\mu)$$
+
+- S: iconografía cristiana (crucifixión)
+- T: máquina de guerra moderna (bombardero)
+- μ: mapeo parcial por injerto icónico (transbasamiento S→T que produce colisión semántica)
+
+Resultado: un signo icónico compuesto que reescribe ambos dominios (religión/tecnociencia) bajo una misma forma.
+
+---
+
+## Atributos para RE (régimen escópico) y pesos α
+
+- P1 iconoclasmo religioso (α=1.0)
+- P2 injerto tecno-militar contemporáneo (α=0.9)
+- P3 dispositivo expositivo/performativo (suspensión, montaje, escala) (α=0.6)
+- P4 indexicalidad histórico-política (Vietnam, OEA) (α=0.9)
+- P5 institucionalidad/recepción (censura, prensa, iglesia) (α=0.8)
+
+β≈0 ⇒ (1−β)=1; γ=0.3; δ=0 (línea base). Factor global=(1+γ+δ)=1.3
+
+---
+
+## Asignación de transgresiones T(Pi,R) en 1965
+
+- T(P1)=1.0  (blasfemia percibida; choque con normativas icónicas)
+- T(P2)=1.0  (guerra moderna como soporte del Cristo)
+- T(P3)=0.7  (modo de exhibición no convencional para la iconografía)
+- T(P4)=1.0  (señalamiento directo del conflicto geopolítico)
+- T(P5)=1.0  (censura/controversia activan la fricción institucional)
+
+Suma ponderada:
+1.0·1.0 + 1.0·0.9 + 0.7·0.6 + 1.0·0.9 + 1.0·0.8
+= 1.0 + 0.9 + 0.42 + 0.9 + 0.8
+= 4.02
+
+Índice escópico de la obra (1965):
+$$I(O,R)=4.02 \times 1.3 = 5.226$$
+
+Lectura: transgresión estructural alta en un régimen de baja elasticidad y alta centralidad normativa, amplificada por retroalimentación histórica (γ).
+
+---
+
+## Tabla de cálculo
+
+| Atributo (Pi)                          | α    | T(Pi,R) | α·T | Comentario breve |
+|----------------------------------------|------|---------|-----|------------------|
+| P1 iconoclasmo religioso               | 1.0  | 1.0     | 1.00| Cristo+avión como colisión sacra |
+| P2 injerto tecno-militar               | 0.9  | 1.0     | 0.90| máquina de guerra como cruz |
+| P3 dispositivo expositivo              | 0.6  | 0.7     | 0.42| suspensión/ensamblaje perturbador |
+| P4 indexicalidad histórico-política    | 0.9  | 1.0     | 0.90| Vietnam como anclaje directo |
+| P5 institucionalidad/recepción         | 0.8  | 1.0     | 0.80| censura y polémicas activas |
+| Suma ponderada                         |      |         |4.02|                  |
+| Factor (1+γ+δ)=1.3                     |      |         |    | γ=0.3; δ=0       |
+| I(O,R)                                 |      |         |5.226| alto impacto      |
+
+---
+
+## Tipo de metáfora y “transgresión de segundo orden”
+
+- Tipo: metáfora disyuntiva-injerto (S⊔T con μ parcial). No busca analogía suave; fuerza colisión icónica.
+- δ>0 en reexhibiciones polémicas (p.ej. 2004): la obra transgrede la transgresión previa (meta-ruptura), elevando el factor (1+γ+δ) y, por tanto, I(O,R).
+
+---
+
+## Diagrama (metáfora→RE)
+
+```mermaid
+graph LR
+S["Iconografía cristiana"] -->|injerto μ| T["Avión de guerra"]
+T --> R["Régimen escópico 1955-1965"]
+R -->|retroalimentación γ| S
+R -->|censura/institucionalidad| T
+```
+
+-  Heidegger, Ladrière y Vioulac: la técnica moderna aparece como destino metafísico de Occidente. El avión simboliza ese despliegue técnico.
+- condensa dos dominios semánticos opuestos (soteriología cristiana y tecnociencia bélica), generando un shock visual y conceptual.
+- nace como protesta contra la guerra de Vietnam, pero su alcance crítico excede lo coyuntural: cuestiona la violencia estructural de la civilización occidental y la connivencia entre religión y poder militar.
+
+---
+
+## Fórmula icónica
+
+$$
+\newcommand{\mat}{\blacksquare}
+\newcommand{\obj}{\blacklozenge}
+\newcommand{\agn}{\bullet}
+\newcommand{\itf}{\leftrightarrow}
+\newcommand{\ent}[1]{\boxed{#1}}
+$$
+
+$$
+(\obj_s \rightsquigarrow \obj_i) \mapsto \ent{c}
+$$
+
+Donde un objeto sintético se traduce en objeto instrumental para generar un concepto ($\ent{c}$).
+
+1.	Sea un espacio semántico $S$ con elementos (conceptos, imágenes, sonidos).
+2.	Una metáfora es una función $f: A \to B$ tal que $f$ no respeta la identidad ni la pertenencia directa, sino que proyecta propiedades estructurales de $A$ en $B$.
+3.	Formalmente, si $A$ y $B$ son subconjuntos de $S$, la metáfora establece una correspondencia parcial $M \subset A \times B$ donde $(a,b) \in M$ si hay una propiedad común o resonante $P$ tal que $P(a) \approx P(b)$.
+4.	Geométricamente, equivale a un puente o morfismo entre espacios vectoriales: proyecta un vector semántico de un dominio en otro dominio no isomorfo, generando un “salto de dimensión” perceptual.
+5.	Esta operación puede representarse como un morphing topológico: la metáfora deforma el espacio semántico de A hasta hacerlo coincidir, parcialmente, con el de B.
+6.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -4,16 +4,47 @@ La metáfora puede concebirse como un **operador icónico** que desplaza, conden
 
 ---
 
-## Definiciones duras de metáfora
+## Definiciones desde las ciencias duras
+
+- **Geometría**  
+	- morfismo parcial entre espacios de propiedades.
+		- morfismo" implica un mapeo que preserva ciertas estructuras (como relaciones o propiedades).
+		- "parcial" indica que no todas las propiedades se transfieren, evitando isomorfismos totales que harían los dominios idénticos.
 
 - **Filosofía**  
-  Desde Aristóteles (*Poética*), la metáfora se define como "traslado de un nombre de un objeto a otro" por semejanza o proporción. En la filosofía contemporánea, Paul Ricoeur en *La métaphore vive* la entiende como creación semántica que reestructura el campo de referencia, y Jacques Derrida la analiza como diseminación infinita de sentido. Conceptos clave: **traslado**, **referencia**, **creación semántica**.
+   - Aristóteles (*Poética*): 
+      - la metáfora se define como "traslado de un nombre de un objeto a otro" por semejanza o proporción, cuyo principio es la **analogía**.
+   - Kant:
+      - forma de acceso indirecto a lo inteligible. 
+   - Paul Ricoeur, *La métaphore vive*
+      -  creación semántica que **reestructura** el campo de referencia. 
+      - Acto de **redescripción**.
+   - Jacques Derrida la analiza como **diseminación infinita de sentido.** 
+   - 
+- Neurociencias
+- 
+	- 
 
 - **Ciencia cognitiva**  
-  George Lakoff y Mark Johnson (*Metaphors We Live By*) la conciben como un sistema cognitivo fundamental: no es adorno, sino estructura de pensamiento. La metáfora organiza dominios abstractos (tiempo, moralidad) a partir de dominios concretos (espacio, movimiento). Conceptos clave: **mapeo**, **dominio origen**, **dominio destino**.
+  George Lakoff y Mark Johnson (*Metaphors We Live By*) la conciben como un sistema cognitivo fundamental: no es adorno, sino estructura de pensamiento. La metáfora organiza dominios abstractos (tiempo, moralidad) a partir de dominios concretos (espacio, movimiento). 
+- son proyecciones de un dominio fuente (source domain) a un dominio objetivo (target domain) a partir de un **mapeo**.
+- correspondencias estructuradas entre dominios conceptuales.
+
+### definición completa 
+"La metáfora es un *morfismo parcial* y estructurado entre *espacios* de *propiedades* multidimensionales, donde el *mapeo* selecciona y proyecta *subconjuntos* de *atributos* para generar insights novedosos, preservando invariantes relacionales mientras permite *emergencias* semánticas."
+
+
+## aplicación en las ciencias de la cognición encarnada (embodied cognition)
 
 - **Psicología**  
   En psicología del lenguaje, la metáfora es vista como mecanismo de comprensión y aprendizaje: Donald Schön la describe como "puente de redescripción" y Vygotsky resalta su papel en la imaginación creativa. Es también una herramienta terapéutica: la metáfora puede reestructurar narrativas internas. Conceptos clave: **analogía**, **aprendizaje**, **refiguración**.
+
+- Música:
+	- morphing tímbrico, continuidad acústico de sonidos de dominios diferentes.
+	- Intertextualidad: dos sustratos imbricados, intercalados o superpuestos.
+- Artes visuales:
+	- collage.
+	- montaje, elementos distintos
 
 ---
 
@@ -50,6 +81,12 @@ $$
 $$
 
 Donde un objeto sintético se traduce en objeto instrumental para generar un concepto ($\ent{c}$).
+
+1.	Sea un espacio semántico $S$ con elementos (conceptos, imágenes, sonidos).
+2.	Una metáfora es una función $f: A \to B$ tal que $f$ no respeta la identidad ni la pertenencia directa, sino que proyecta propiedades estructurales de $A$ en $B$.
+3.	Formalmente, si $A$ y $B$ son subconjuntos de $S$, la metáfora establece una correspondencia parcial $M \subset A \times B$ donde $(a,b) \in M$ si hay una propiedad común o resonante $P$ tal que $P(a) \approx P(b)$.
+4.	Geométricamente, equivale a un puente o morfismo entre espacios vectoriales: proyecta un vector semántico de un dominio en otro dominio no isomorfo, generando un “salto de dimensión” perceptual.
+5.	Esta operación puede representarse como un morphing topológico: la metáfora deforma el espacio semántico de A hasta hacerlo coincidir, parcialmente, con el de B.
 
 ---
 
@@ -128,3 +165,4 @@ El primer monumento de las literaturas occidentales, la Ilíada, fue compuesto h
   year = {1952}
 }
 ```
+
