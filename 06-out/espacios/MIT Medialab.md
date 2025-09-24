@@ -1,12 +1,13 @@
 ---
 connections:
-city:
+city: Boston
 url:
 tags:
-year:
+year: 1985
 works:
+photo: https://i.imgur.com/afCc9qP.png
+person: Nicholas Negroponte
 ---
-
 
 
 ### Sinopsis  

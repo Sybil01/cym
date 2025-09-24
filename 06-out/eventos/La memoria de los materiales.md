@@ -5,11 +5,12 @@ tags:
   - argentina
   - eventos
 place: arthaus
-curators: María Teresa Constantín y Gabriela Vicente Irrazabal
-connections: 
+curators: María Teresa Constantín, Gabriela Vicente Irrazabal
+connections:
 url: https://arthaus.ar/visuales/muestras-activas/
 photo: https://arthaus.ar/wp-content/uploads/2023/10/slider_02.png
 year: 2023
+city: Buenos Aires
 ---
 [[Andrés Aizicovich]]
 Diego Dubatti

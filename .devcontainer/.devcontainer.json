@@ -1,0 +1,9 @@
+{
+  "name": "LaTeX Environment",
+  "image": "ghcr.io/willfantom/devcontainer-latex:latest",
+  "extensions": [
+    "James-Yu.latex-workshop"
+  ],
+  "postCreateCommand": "tlmgr update --self && tlmgr install latexmk",
+  "remoteUser": "vscode"
+}

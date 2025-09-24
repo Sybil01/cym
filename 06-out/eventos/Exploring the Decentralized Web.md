@@ -1,13 +1,14 @@
 ---
-tags: 
- - internetmusic
- - eventos 
-place: 
-connections: 
-url: 
+tags:
+  - internetmusic
+  - eventos
+place: "[[HEK House of Electronics Arts Basel]]"
+connections:
+url:
 photo: https://i.imgur.com/TuhFW4s.png
-year:  2023
-curators:
+year: 2023
+curators: Sabine Himmelsbach
+city: Basel
 ---
 <iframe src="https://cms.hek.ch/files/videos/HEK_world_short_corr_230911_web.mp4" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 9 / 16; "></iframe>
 

@@ -6,18 +6,21 @@ type: class
 ---
 
 <grid drag="60 55" drop="5 10" bg="black" align="left">
-# Energía
+# Energía II
 ### Clase 4
 </grid>
+
 <grid drag="-5 10" drop="5 -10" bg="black">
 ![[cym-header]]
 </grid>
 
 <grid drag="25 55" drop="-5 10" bg="black" align="top">
--> energía y filosofía<br>
--> operaciones<br>
-→ arte+energia  <br>
+→ contextualización <br>
+→ energía argentina<br>
+→ régimen escópico  <br>
+→ metáfora<br>
 </grid>
+
 ---
 
 $$
@@ -28,22 +31,7 @@ $$
 \newcommand{\ent}[1]{\boxed{#1}}
 \newcommand{\branch}{\twoheadrightarrow}
 $$
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-# 1. Contextualización científica, económica y cultural de la energía
 - Fundamentos físicos: energía como magnitud física (trabajo, calor, potencia, conservación, transformaciones).
 - Historia de las fuentes energéticas: del músculo humano y animal a la biomasa, carbón, petróleo, gas, nuclear y renovables.
 - Energía y geopolítica: guerras del petróleo, crisis energéticas, rutas de abastecimiento, imperialismo de recursos.
@@ -51,300 +39,588 @@ $$
 - Energía y sociedad: cómo el acceso (o su ausencia) modela comunidades, ciudades y relaciones de poder.
 - Atucha 1 y 2: funcionamiento técnico (reactor PHWR, uranio natural, agua pesada), historia del proyecto, implicancias económicas, debates ambientales y políticos.
 - Arte y energía: de la noción de energía vital y creativa a la energía material para producir, distribuir y experimentar obras.
+---
 
-# 2. Marco teórico-especulativo sobre la energía en el arte
-- Concepto de energía creativa: fuerza interior, instinto, impulso estético.
-- Energía como forma y como contenido: obras que tematizan energía explícitamente (instalaciones cinéticas, lumínicas, sonoras) y obras que la despliegan como experiencia sensorial.
-- Materialidad energética en la música: amplificación, realimentación, retroacción física, performatividad del gasto energético.
-- Analogías físicas-estéticas: entropía y degradación sonora, potencia y densidad musical, resonancia como transferencia de energía.
-- Ontologías energéticas: pensar la obra como sistema abierto en intercambio de energía con su entorno social, político y material.
-- Crítica a la noción de “eficiencia” en el arte: resistencia, exceso, derroche como gesto político y estético.
-- Energía y temporalidad: desde la obra efímera de alto gasto hasta el objeto de bajo consumo pero alta permanencia cultural.
-
-# 3. Prácticas y proyectos artísticos sobre energía
-- Instalaciones interactivas que transformen energía (mecánica, térmica, sonora, lumínica).
-- Instrumentos híbridos que incorporen flujos energéticos visibles o audibles (por ejemplo, autoalimentados por energía solar o cinética del performer).
-- Obras que mapeen datos energéticos en sonido, luz o movimiento.
-- Esculturas sonoras alimentadas por fuentes alternativas (eólica, hidráulica, piezoeléctrica).
-- Performances que pongan en juego el gasto energético del cuerpo como parte del discurso.
-- Proyectos site-specific que trabajen en diálogo con centrales, subestaciones, espacios industriales o entornos de generación comunitaria.
-- Documentación y archivo de los procesos energéticos en la producción de la obra: huella energética como parte de la partitura o memoria del proyecto.
-
-
-# 1. Textos fundacionales del concepto de energía
-- Aristóteles — *Metafísica* (libros IX y XII): noción de *energeia* y *dynamis* como potencia y acto.
-- Gottfried Wilhelm Leibniz — *Brevis demonstratio erroris memorabilis Cartesii* (1686): introducción del concepto de *vis viva*.
-- James Prescott Joule — “On the Mechanical Equivalent of Heat” (1845): base experimental de la conservación de la energía.
-- Hermann von Helmholtz — *Über die Erhaltung der Kraft* (1847): formulación sistemática del principio de conservación.
-- Rudolf Clausius — *Über die bewegende Kraft der Wärme* (1850): origen de la segunda ley de la termodinámica.
-- Albert Einstein — “Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?” (1905): equivalencia masa-energía $E=mc^2$.
-- Ludwig Boltzmann — escritos sobre entropía y probabilidad (1877): puente entre física estadística y noción de irreversibilidad.
-
-# 2. Textos de giro en la cosmovisión energética
-- Vaclav Smil — *Energy and Civilization: A History* (2017): panorama histórico sobre el papel de la energía en la evolución humana.
-- Richard Rhodes — *The Making of the Atomic Bomb* (1986): cambio radical en la comprensión y el uso de la energía.
-- Lewis Mumford — *Technics and Civilization* (1934): tecnología y energía en la historia cultural.
-- Timothy Mitchell — *Carbon Democracy: Political Power in the Age of Oil* (2011): relación entre recursos energéticos y poder político.
-- Thomas P. Hughes — *Networks of Power* (1983): desarrollo de los sistemas eléctricos y sus implicancias culturales.
-- Amory Lovins — *Soft Energy Paths* (1977): giro hacia energías renovables y modelos descentralizados.
-
-# 3. Textos contemporáneos, especulativos y artísticos
-- Karen Barad — *Meeting the Universe Halfway* (2007): energía, materia y agencia desde la física cuántica y el feminismo.
-- Manuel DeLanda — *War in the Age of Intelligent Machines* (1991): energía, guerra y sistemas no lineales.
-- Benjamin Bratton — *The Stack* (2016): infraestructura planetaria y flujos energéticos de la computación.
-- Peter Sloterdijk — *Esferas* (1998–2004): concepción atmosférico-energética del habitar.
-- Ursula K. Le Guin — *The Dispossessed* (1974): utopía energética y política.
-- Kim Stanley Robinson — *Ministry for the Future* (2020): gestión global de energía y crisis climática.
-- Stanisław Lem — *Solaris* (1961) y *Fiasco* (1986): energía como contacto y alteridad.
-- Carlo Rovelli — *The Order of Time* (2018): energía, tiempo y termodinámica en física teórica contemporánea.
-- Fotis Kafatos y Albert-László Barabási — textos sobre redes energéticas y sistemas complejos.
-- Alexander Tzonis & Liane Lefaivre — *The Emergence of Modern Architecture* (2004): estética de infraestructuras energéticas.
-
-
-# energía especulativa 
-
-# Escala de Kardashev — niveles originales
-1. **Tipo I** — Civilización planetaria: aprovecha toda la energía disponible en su planeta natal (~10¹⁶–10¹⁷ W). Incluye control de climas, terremotos, mareas, etc.
-2. **Tipo II** — Civilización estelar: aprovecha toda la energía de su estrella (~10²⁶ W). Ejemplo especulativo: esfera o enjambre de Dyson.
-3. **Tipo III** — Civilización galáctica: aprovecha toda la energía de su galaxia (~10³⁶ W), controlando billones de estrellas.
-
-# Extensiones y refinamientos
-- Carl Sagan propuso una escala continua con fórmula:  
-  $K = \frac{\log_{10}(P) - 6}{10}$  
-  donde $P$ es la potencia en vatios, para ubicar civilizaciones intermedias (p. ej., la Tierra actual es ~0.73).
-- Michio Kaku y otros imaginaron **Tipo IV** (control de energía a escala universal) y **Tipo V** (multiverso).
-- John D. Barrow introdujo una escala inversa de manipulación hacia lo pequeño: desde objetos humanos hasta control de la estructura del espacio-tiempo.
-
-# Futuros especulativos posibles
-- **Dominio estelar (Tipo II)**:
-  - Construcción de megaestructuras: Esfera/Dyson Swarm, anillos de Niven, satélites colectores de energía solar a escala orbital.
-  - Transformación de planetas enteros en nodos energéticos.
-  - Reconfiguración climática y ecológica de sistemas completos para optimizar producción energética.
-- **Dominio galáctico (Tipo III)**:
-  - Red de enjambres de Dyson distribuidos en múltiples sistemas estelares.
-  - Modificación de órbitas y estrellas para alinearlas con patrones de distribución de energía.
-  - Comunicación y transporte a velocidades relativistas o mediante ingeniería del espacio-tiempo.
-
-# Conexiones con Dune y Herbert
-- En *Dune*, Herbert no habla explícitamente de Kardashev, pero sí plantea civilizaciones interestelares donde el control energético está entrelazado con control cultural, biológico y psicoactivo.
-- El recurso “especia” funciona como **energía estratégica** (permitiendo el viaje interestelar y alterando la percepción) y como **vector de poder político**: análogo a cómo el petróleo o el uranio funcionan hoy, pero extendido a escalas planetarias y galácticas.
-
-# Líneas para trabajo teórico-artístico
-- Analizar cómo el paso a un nuevo tipo de la escala de Kardashev transformaría no solo la economía y la tecnología, sino también la música, el arte y la percepción humana.
-- Imaginar instrumentos musicales o instalaciones que funcionen a escalas energéticas masivas (p. ej., “órganos estelares” alimentados por fusiones controladas).
-- Proyectos especulativos donde la **infraestructura energética** se convierte en el medio o el soporte de la obra (p. ej., usar la red de un enjambre de Dyson como partitura distribuida).
-
-## energía del cuerpo humano 
-
-# 1. Propiocepción y sensorialidad interna
-- Analizar la percepción del gasto energético en distintas intensidades de gesto: desde el trémolo prolongado hasta el arco sostenido.
-- Investigar la noción de “esfuerzo percibido” y cómo difiere de la energía física real gastada (psicofísica).
-- Explorar la fatiga localizada vs. fatiga global: microtensión muscular acumulada y su efecto sobre la expresividad.
-- Experimentar con registros kinestésicos: diarios de sensación, dibujo de mapas corporales del esfuerzo y tensión.
-
-# 2. Fisiología y biomecánica
-- Estudiar la contracción muscular isométrica (tensión sin movimiento) vs. isotónica (tensión con movimiento) en la producción del sonido.
-- Analizar la coordinación neuromuscular fina en movimientos repetitivos y microvariaciones de presión y velocidad.
-- Revisar estudios de electromiografía (EMG) en instrumentistas, midiendo la actividad de músculos del antebrazo, hombro y espalda.
-- Observar la relación entre respiración y control energético en pasajes sostenidos vs. rápidos.
-
-# 3. Dimensión músico-lingüística
-- Comparar el trémolo como equivalente sonoro de la aliteración o el trino en poesía, frente al arco sostenido como equivalente de una vocal larga.
-- Analizar la estructura rítmica interna de gestos supuestamente “continuos” (microfluctuaciones y pulsos escondidos).
-- Examinar el papel del acento microtemporal y su efecto en la percepción de energía sonora.
-
-# 4. Dimensión ecológica y entorno
-- Observar cómo el entorno acústico (sala seca, reverberante, aire libre) amplifica o atenúa la energía del gesto.
-- Considerar la retroalimentación auditiva y táctil como circuito energético entre ejecutante e instrumento.
-- Explorar el gasto energético en relación al “clima” musical: cómo la densidad de otros instrumentos o sonidos condiciona el propio gesto.
-
-# 5. Dimensión filosófico-técnico-objetual
-- Pensar el gesto como transductor de energía: brazo como oscilador, arco como acoplador, cuerda como resonador.
-- Conectar con la idea de *instrumental affordances*: cómo el diseño físico del objeto guía el gasto energético.
-- Revisar teorías de Simondon y Stiegler sobre individuación técnica, aplicadas a la co-evolución gesto-objeto.
-- Relacionar el control energético con nociones estéticas de tensión, reposo, exceso, y minimalismo.
-
-# 6. Posibles referencias de partida
-- Godøy, Rolf Inge — *Sound-Action-Nexus*: relación entre acción física y estructura sonora.
-- Cadoz, Claude — *Instrumental Gesture*: clasificación de gestos y gasto energético.
-- Laban, Rudolf — *The Mastery of Movement*: análisis del esfuerzo y la cualidad del movimiento.
-- Risset, Jean-Claude — estudios sobre microvariaciones en la percepción de continuidad.
-- Merleau-Ponty — *Fenomenología de la percepción*: corporalidad como mediación del mundo.
-- Smalley, Denis — *Spectromorphology*: lectura microsonora de la energía gestual.
-
-
-# recolección energética
-
-# Recolección energética: de lo biológico a lo civilizatorio
-
-## 1. Recolección biológica inmediata
-- Caza y recolección: consumo directo de energía química contenida en plantas y animales, sin almacenamiento a largo plazo.
-- Energía cultural: instrumentos portátiles, música vinculada al movimiento, repertorios que se adaptan a contextos móviles y efímeros.
-
-## 2. Almacenamiento primigenio
-- Agricultura y ganadería: acumulación de energía en forma de granos, animales domésticos y excedentes.
-- Significación energética: por primera vez se puede **desacoplar** el momento de recolección del momento de uso.
-- Consecuencias culturales: sedentarismo, surgimiento de arquitecturas acústicas (templos, teatros) y músicas de larga duración o complejidad formal.
-
-## 3. Capacitancia y acumulación
-- Capacitancia eléctrica (física): almacenar carga para liberarla en un momento específico.
-- Analogía energética: graneros, depósitos, represas como “capacitores” de energía alimentaria o hidráulica.
-- Impacto en la música: aparición de instrumentos y obras que requieren tiempo y energía acumulada para su construcción y ejecución (órganos de tubos, orquestas permanentes).
-
-## 4. Recolección mecánica e hidráulica
-- Molinos de agua y viento: conversión continua de flujos naturales en energía mecánica.
-- Almacenamiento secundario: molienda, prensado, transporte.
-- Cultura sonora: máquinas que generan ritmos repetitivos y patrones, influyendo en la percepción temporal.
-
-## 5. Recolección industrial y fósil
-- Carbón, petróleo: captura de energía solar acumulada en biomasa fósil durante millones de años.
-- Amplificación de escala: música electrificada, producción masiva de instrumentos, circulación global de repertorios.
-
-## 6. Recolección nuclear
-- Fisión: liberar energía almacenada en la estructura del núcleo atómico.
-- Cultura y política: debates sobre riesgo, control y soberanía energética; obras que tematizan lo invisible y lo peligroso.
-
-## 7. Recolección estelar y galáctica (Kardashev)
-- Captura directa de la radiación solar (esfera de Dyson) o de múltiples estrellas.
-- Música como red distribuida: obras ejecutadas por nodos energéticos en sistemas solares distintos.
-
-# Cambios culturales-musicales asociados a la transición nómada → sedentaria
-- Paso de música portátil y adaptable a música arquitectónica y monumental.
-- Del gesto energético de corta duración (danzas, cantos breves) a obras extendidas y planificadas.
-- Aparición de gremios y especialización musical, sostenida por excedente energético y estabilidad social.
-- Consolidación de músicas de representación política y religiosa, posibles solo con sociedades de alta acumulación.
-
-# Lectura energética del cambio cultural
-- Sociedades nómadas: energía en flujo, sin acumulación prolongada; música como acompañante del desplazamiento.
-- Sociedades sedentarias: energía almacenada y redistribuida; música como arte de larga escala y soporte material complejo.
-
-
-# Eje de modularización nómada en organología
-
-## 1. Caso arquetípico: órgano de iglesia → armonio → bandoneón
-- Órgano de iglesia:
-  - Fijo, monumental, alimentado por energía comunitaria (fuelle manual, hidráulico).
-  - Arquitectura sonora integrada a un edificio; función religiosa y social centralizada.
-- Armonio:
-  - Reducción de tamaño; todavía requiere mueble, pero portátil a nivel doméstico o comunitario pequeño.
-  - Fuente de energía: fuelle manual individual; autonomía del ejecutante.
-- Bandoneón:
-  - Portabilidad total; puede acompañar a un migrante.
-  - Energía muscular directa del ejecutante; independencia de infraestructuras fijas.
-  - Transformación cultural: instrumento europeo de devoción religiosa reapropiado en contextos urbanos y marginales (tango, milonga).
-
-## 2. Extensión a otros casos: armónica, melódica, acordeón
-- Armónica:
-  - Miniaturización extrema; energía de la respiración.
-  - Portabilidad total; apropiación popular y mestiza en múltiples géneros.
-- Melódica:
-  - Híbrido de armónica y teclado; educación musical, movilidad.
-- Acordeón:
-  - Balance entre portabilidad y potencia sonora; orquesta de bolsillo.
-
-## 3. Lectura energética
-- Reducción de la masa y volumen del instrumento → disminución de energía necesaria para transporte.
-- Transferencia del costo energético de producción de sonido a un único cuerpo (músico) en vez de un sistema de fuelles colectivos o mecánicos.
-- Migración de contextos fijos (templos, teatros) a contextos móviles, improvisados, híbridos.
+## ciclo de combustible nuclear CCN
 
-## 4. Consecuencias culturales-musicales
-- Democratización: instrumentos que antes requerían infraestructura comunitaria pasan a ser individuales.
-- Flexibilidad de repertorio: adaptabilidad a múltiples entornos acústicos.
-- Emergencia de nuevos géneros: cuando la portabilidad permite música en intersticios urbanos, rutas migratorias, espacios domésticos.
-- Cambio en la temporalidad de la música: menos obras monumentales prolongadas, más piezas adaptadas a eventos sociales flexibles.
+- Uranio: extracción, tratamiento y conversión.
+- Enriqucimiento.
+- Fabricación del combustible 
+- Generación de electricidad. 
+- Reelaboración y reciclado de plutonio y uranión.
+- Evacuación definitiva.
+<img src="https://i.imgur.com/DOotjZB.png"
+style="display:flex; align-items:center; filter: invert(1);" />
 
-## 5. Eje inverso al de recolección energética
-- En vez de aumentar la escala de almacenamiento y despliegue, se concentra la producción en un microgenerador humano-mecánico.
-- Potencia el **nomadismo sonoro**: no se acumula energía en grandes estructuras, sino en la pericia y el cuerpo del músico.
+---
 
-# herramientas por topoi
+## exploración 
 
+- reconocimiento de grandes extensiones geológicas para el estudio de la favorabilidad uranífera, hasta los cateos, manifestaciones de descubrimientos y estudios de cuantificación de reservas en los yacimientos.
 
-Bancá: para EMG tenés tres ligas—investigación/clinoclínica, maker/DIY y “smart” (teléfono/reloj + periféricos). Acá va un mapa rápido con qué comprar/usar, qué mirar en specs y cómo integrarlo al trabajo musical.
+---
+## minería
 
-Sistemas de investigación/clinicables (superficie, alta fidelidad)
-	•	Delsys Trigno (inalámbrico): estándar de oro en sEMG móvil; filtros y muestreo configurables; IMU integrada para sincronizar gesto y señal. Ideal para brazo, hombro y espalda durante trémolo/arco.  ￼ ￼
-	•	Noraxon Ultium: hasta 4 kHz por canal, 24 bits, ruido <1 µV RMS, filtros seleccionables, prueba de impedancia en el sensor, memoria a bordo. Muy sólido para análisis fino de microtensión.  ￼ ￼
-	•	Shimmer3 EMG/ExG: kit modular (2 canales EMG), ganancia y tasa configurables, opción BLE y registro local; bueno para investigación aplicada y móviles.  ￼ ￼
-	•	OT Bioelettronica Quattrocento: multicanal (hasta 400), soporta sEMG y EMG intramuscular; para laboratorios que quieran mapas espaciales de activación (p. ej., antebrazo completo).  ￼ ￼
+Sierra Pintada
 
-Qué mirar en specs (regla práctica para sEMG musical)
-	•	Frecuencia de muestreo: 1–2 kHz mínimo; 4 kHz si vas a estudiar transitorios ultrarrápidos. (Noraxon/Delsys/Shimmer cumplen).  ￼ ￼
-	•	Banda útil: ~10–500/1000 Hz con HP 10–20 Hz; LP 500–1000 Hz. (Ultium ofrece filtros seleccionables).  ￼
-	•	Ruido bajo y CMRR alto; prueba de impedancia y adhesivos Ag/AgCl.
-	•	Sincronía: IMU integrada o entrada/salida analógica para alinear con audio/vídeo.
+![](https://i.imgur.com/O10HFA2.png)
 
-Colocación de electrodos (indispensable)
-	•	Seguí SENIAM para ubicación y orientación por músculo; p. ej., tríceps largo y vasto lateral.  ￼ ￼
+120 a 240 tU/año 
 
-Opción DIY/educativa (barata, hackeable)
-	•	OpenBCI Cyton: guía oficial para EMG con canales analógicos; comunidad enorme; suficiente para estudios serios si cuidás blindaje/puesta a tierra.  ￼
-	•	MyoWare Muscle Sensor v3 (Advancer Tech): módulo analógico simple con ganancia ajustable; perfecto para prototipar instrumentos gestuales.  ￼ ￼
-	•	Backyard Brains Muscle SpikerShield Pro: hasta 6 canales, salida a Arduino; muy útil para docencia y demos performáticas.  ￼ ￼
-	•	BioAmp EXG Pill: open-source, entrada de muy alta impedancia, configurable para EMG/ECG/EEG; tamaño mínimo para wearables DIY.  ￼ ￼
+---
 
-Tips DIY que marcan la diferencia
-	•	Cableado trenzado y blindado, referencia robusta, y “right-leg drive” si tu AFE lo permite (Shimmer lo documenta).  ￼
-	•	Filtrado: HP 20 Hz + LP 450–500 Hz para control gestual; rectificación + envolvente para mapping estable.
+## fabricación / purificación / conversión a UO2
 
-Smartphones y wearables
-	•	Apple Watch: trae ECG monoderivación (no EMG). Útil para correlacionar esfuerzo/estrés + IMU, pero no mide actividad muscular eléctrica. HealthKit/ResearchKit permiten apps de investigación, aunque el acceso a datos crudos ECG es limitado y EMG no está integrado; necesitás un EMG BLE externo.  ￼ ￼ ￼ ￼ ￼
-	•	Flujo práctico: sensor EMG BLE (Shimmer/Delsys/Noraxon) → iPhone/iPad para captura y sincronía con audio/vídeo; o logger del propio sistema y luego alineación por clap/sync.
+conversión de los concentrados de uranio que se extraen de la mina, comúnmente llamados “yellow cake”, en dióxido de uranio grado nuclear. Este proceso de conversión y purificación, en Argentina se realiza en el Complejo Fabril Córdoba (CFC)
 
-Recomendaciones por caso de uso musical
-	•	Trémolo de cuerdas (gesto rápido, microvariación): Noraxon Ultium o Delsys Trigno por SNR y 4 kHz; si es DIY, Cyton + BioAmp EXG con IMU aparte para fase del movimiento.  ￼ ￼
-	•	Arco largo/isométricos (tensión sostenida, fatiga): priorizá estabilidad de baseline, prueba de impedancia y control de sudor; Shimmer3 o Delsys; DIY con MyoWare + buen pre (EXG Pill) y filtro notch si hay red cercana.  ￼ ￼
-	•	Mapeo performático en escena: Trigno/Ultium inalámbricos con IMU → Max/MSP/SuperCollider vía SDK; o SpikerShield/MyoWare para control MIDI/OSC en escenarios educativos.  ￼ ￼ ￼
+![](https://i.imgur.com/94yw77X.png)
 
-Seguridad, ética y calidad de señal
-	•	Piel limpia, rasurada y seca; cables fijados para evitar artefactos de movimiento; respetar SENIAM para evitar cross-talk.  ￼
-	•	Evitá fuentes de 50/60 Hz y bucles de masa; preferí baterías.
-	•	Intramuscular solo con personal clínico acreditado (OT Bioelettronica lo soporta, pero no es para aula).  ￼
+---
 
+## enriquecimiento 
 
+- procesos de concentración de un isótopo de interés. 
+- isótopos dos átomos del mismo elemento que tienen diferente número de neutrones. Su comportamiento químico es prácticamente igual, pero a nivel físico-atómico presentan comportamientos diferentes. 
+- Por ejemplo, el U-235 fisiona con neutrones de baja energía (los llamados térmicos) mientras que para que el U-238 se necesitan neutrones de alta energía. 
+- Es mucho más sencillo trabajar con neutrones térmicos (que se consiguen moderando la reacción nuclear con agua), que con neutrones rápidos lo cual crea la necesidad de separar los isótopos del uranio.
 
-## kit de bio-sensing DIY
+---
 
-# Kit mínimo EMG DIY barato
+<img src="https://i.imgur.com/INzdeFg.png"
+style="display:flex; align-items:center; filter: invert(1);" />
 
-## 1. Sensores y módulos principales
-- 2× Módulo MyoWare Muscle Sensor v3 (o clones chinos, suelen estar a menos de USD 10 c/u)
-- 1× Arduino Nano o Arduino Uno clónico (USD 3–5)
-- 1× Módulo Bluetooth HC-05 o HC-06 (USD 3) para enviar datos a laptop o móvil
-- 1× Pack de electrodos adhesivos Ag/AgCl desechables (bolsa de 50–100, USD 6–10)
-- 1× Power bank pequeña (5V) para evitar conexión directa a la red
+---
 
-## 2. Extras para estabilidad y comodidad
-- Cables dupont macho-hembra y pinzas cocodrilo mini (USD 2–3)
-- Cinta elástica o velcro ancho para fijar cables y evitar ruido por movimiento
-- Caja plástica pequeña (puede ser impresa en 3D) para blindar y sostener el Arduino + módulos
+### Diferencias entre los isótopos
+- U-235: tiene 92 protones y 143 neutrones. Es fisionable con neutrones térmicos, lo que lo hace útil para reactores convencionales y armas nucleares.
+- U-238: tiene 92 protones y 146 neutrones. No fisiona con neutrones térmicos, aunque puede absorber un neutrón y transformarse en Pu-239, que sí es fisionable.
+- Químicamente son indistinguibles (reaccionan igual en compuestos químicos), pero físicamente difieren en masa, lo que permite métodos de separación.
 
-## 3. Software y visualización
-- Arduino IDE (gratis) con ejemplo de lectura analógica y envío por serial/Bluetooth
-- Processing o p5.js para graficar señal EMG en vivo
-- Opción rápida: app Serial Bluetooth Terminal en Android para ver datos crudos
-- Para música: puente Arduino → serial OSC/MIDI con Hairless MIDI o Firmata
+---
 
-## 4. Colocación básica (SENIAM adaptado)
-- Piel limpia y seca; electrodos alineados con la fibra muscular (p. ej., extensores del antebrazo para trémolo)
-- Dos electrodos activos en línea, separados 20 mm; uno de referencia en zona ósea cercana
-- Sujetar cables con velcro para minimizar artefactos
+# Del yellowcake al enriquecimiento
 
-## 5. Mejoras opcionales
-- Reemplazar MyoWare por **BioAmp EXG Pill** (USD 10–12) para menor ruido y mayor flexibilidad (EEG/ECG/EMG)
-- Añadir módulo MPU-6050 (USD 2–3) para IMU y correlacionar gesto/ángulo con señal EMG
-- Usar Raspberry Pi Zero 2 W (USD 15–20) para sistema autónomo con WiFi y OSC
+---
 
-# Costos estimados
-- Versión mínima (Arduino + MyoWare clónico + electrodos + cables): ~USD 20–25
-- Versión mejorada con EXG Pill + IMU + Bluetooth: ~USD 35–40
+### Yellowcake
+- Polvo amarillo de óxido de uranio (U₃O₈).
+- Se convierte químicamente en hexafluoruro de uranio (UF₆), un gas manejable para los siguientes procesos.
+---
+### Principio de enriquecimiento
+- El objetivo es aumentar la proporción de U-235 del ~0.7% natural a valores útiles (3–5% para reactores de energía; >90% para uso militar).
+- Como los isótopos tienen diferencia mínima de masa (~1%), no se pueden separar por química, sino por procesos físicos.
+---
 
+### Métodos principales
+- Centrifugación de gas: el UF₆ gaseoso gira a gran velocidad; los isótopos más pesados (U-238) se concentran en la periferia, los más ligeros (U-235) en el centro.
+- Difusión gaseosa (histórica): el gas pasa por membranas porosas; las moléculas con U-235 se difunden un poco más rápido que las de U-238.
+---
 
+### Próximo paso del ciclo
+- El uranio enriquecido (en forma de UF₆) se convierte nuevamente en polvo de óxido de uranio enriquecido (UO₂), que luego se sinteriza en pastillas cerámicas.
+- Estas pastillas se colocan en tubos metálicos para formar los elementos combustibles de un reactor nuclear.
 
+---
 
+[[EI enriquecimiento ]]
 
-<iframe src="06-out/res/energia-vis.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+### paradigma operativo 
 
+El enriquecimiento es un operador de **separación isotópica** que actúa sobre un material químicamente homogéneo ($\mat_p$), distinguiendo entre núcleos físicamente diferentes ($U$-235 y $U$-238). La materia inicial es el yellowcake ($\mat_p \subset \obj_i$), transformado en gas ($UF_6$) para habilitar procesos centrífugos. El operador busca aumentar la proporción de $\obj_s$ (átomo fisionable, U-235), desplazando $\obj_h$ (átomo fértil, U-238). El resultado es un material funcional para combustibles nucleares ($\obj_i \mapsto$ pastilla de $UO_2$).
+
+---
+
+ 
+## $\mat_p \rightarrow UF_6 \rightsquigarrow (\obj_s \cup \obj_h)$
+
+
+  
+### $[(\obj_s \cap \mat_p) \rightsquigarrow \obj_i] \cup [(\obj_h \cap \mat_p) \mapsto \ent{residuo}] \rightarrow \obj_i(UO_2)$
+
+
+
+- $\mat_p$: material físico (yellowcake, $U_3O_8$).  
+- $UF_6$: hexafluoruro de uranio (fase gaseosa).  
+- $\obj_s$: objeto sintético fisionable (U-235).  
+- $\obj_h$: hiperobjeto fértil (U-238).  
+- $\obj_i$: objeto instrumental (píldora de $UO_2$ para reactor).  
+- $\ent{residuo}$: uranio empobrecido (alto en U-238).  
+- $\rightsquigarrow$: traducción entre dominios (concentración física de isótopos).  
+- $\mapsto$: devenir funcional, transformación hacia otro uso (combustible o residuo).  
+- $\cup$, $\cap$: unión y cruce de poblaciones isotópicas.
+
+---
+1.	¿Podría pensarse el enriquecimiento como una metáfora física de la “selección” cultural, donde mínimas diferencias de masa/valor generan sistemas completamente distintos?
+2.	¿Qué paralelismos existen entre la separación isotópica y la composición musical por filtrado espectral (Grisey, Murail)?
+3.	¿No será que la obsesión tecnológica por el enriquecimiento refleja una incapacidad de trabajar con los “neutrones rápidos”, es decir, con lo que excede el control moderado?
+
+---
+
+CNEA 1950 
+- Ubica al pais como *early comer* 
+- El tema nuclear debe ser agenda pública: capital, construcción (10-15 años), control radiológico.
+- 1950-1958 Reactor de investigación RA-1.
+- 1958-1966 Reactor RA-3
+- Creación de SATI(Servicio de Asistencia Tecnológica a la Industria) → trabajadores especializados.
+- 1964-1974 Planeamiento y construcción de Atucha I (1974)
+- 1984 Hito de enriqucimiento de urano (Planta Pilcaniyeu)
+
+
+---
+
+![](https://i.imgur.com/k5lievT.png)
+
+---
+
+![](https://i.imgur.com/1LBjFkW.png)
+
+---
+
+- 1974 Inicio de obra Central Nuclear Embalse
+- 1983 Interconexión con el sistema eléctrico nacional 5.5 MWh / año
+- 1997 creación de NA-SA (Ley 24.804)
+
+![](https://i.imgur.com/lO3eAiT.png)
+---
+
+## Atucha II, 1979
+- como un plan sectorial integral no solo generador de electricidad.
+- Lograr la autonomía completa de todas las etapas del ciclo de combustible nuclear.
+
+<ref>
+Rodríguez, M. (2021). Estado, industria y desarrollo: Atucha II y la senda del Programa Nuclear Argentino (1979-2014). Prohistoria Ediciones.
+</ref>
+
+<ref> 
+AGAGAGAG, M. (2021). Estado, industria y desarrollo: 
+Atucha II y la senda del Programa Nuclear Argentino (1979-2014). Prohistoria Ediciones.
+</ref>
+
+---
+
+- Licitada a Siemens Kraftwerk Union (KWU)
+	- transferencia de KH a ENACE (Empresa Nuclear Argentina de Centrales Eléctricas)
+	- 1980 comienzo de obra, 1994 paralización 2006 inauguración
+	- 2014 Primera criticidad  (reacción nuclear en cadena, se sostiene a lo largo del tiempo)
+
+---
+- Dimensión emotiva, 34 años de obra:
+
+ >[! quote] De Cicco 2015
+“Atucha II es la tenacidad de aquellos que supieron cuidar la central en  los años de desánimo, la capacidad y el compromiso de las personas  que tuvieron el honor de ejecutar y supervisar el proyecto, fundamentalmente la energía de todos los que creyeron en este sueño y contribuyeron con su valioso aporte desde los distintos sectores que confroman  nuestra querida empresa.” (en De Dicco, 2015: 4)
+
+
+---
+
+###  mirada crítica
+ - Greenpeace : "es un proyecto equivocado, de alto riesgo, caro, tecnológicamente obsoleto, un pesado legado de la dictadura militar. Querer reflotar este proyecto a raíz de la crisis energética es un error, hay modos mucho más eficaces de encarar la crisis y de invertir el dinero  del estado.”
+ - Los verdes : "puede ser considerada la  central que más ha tardado en construirse y la más cara del mundo en relación con  el costo que implicará cada kilovatio instalado."
+	- Supresión del contexto social económico político que moldea la dinámica institucional. 
+
+
+---
+
+## actores
+
+combustibles nucleares (Conuar), conversión de dióxido de Uranio (Dioxitek), agua pesada (PIAP, ENSI), aleación de zircaloy (FAE), medicina nuclear (FCDN FUESMEN INTECNUS), propulsión (INVAP)
+
+---
+
+### Modelos combinatorios de estadio+ciencia+industria:
+
+- Triángulo de Sábato (Sábato y Botana, 1975)
+- Triángulos de Hierro (Balogh, 1991)
+- Triple Hélice (Etzkowitz  & Leydesdorff, 2000)
+
+---
+
+### Definición
+El modelo de la **Triple Hélice** describe la interacción dinámica y recursiva entre **Universidad, Industria y Gobierno** como motores de innovación en la sociedad del conocimiento.
+
+
+---
+
+
+### Principios
+- La innovación surge de la **intersección** de los tres subsistemas.  
+- Cada hélice puede asumir roles de las otras (hibridación).  
+- Se privilegia la **retroalimentación continua** y no linealidad en los procesos.  
+
+---
+
+
+→ Universidad: conocimiento, investigación  
+→ Industria: aplicación, mercado  
+→ Gobierno: regulación, políticas públicas
+
+
+---
+
+
+### Aportes teóricos
+- **Etzkowitz (2000)**: la universidad se convierte en “emprendedora” y participa en el desarrollo económico.  
+- **Leydesdorff (2000)**: sistemas de innovación se analizan con teoría de la comunicación y redes.  
+- Triple Hélice como un **marco evolutivo** frente a modelos lineales de I+D.
+
+
+---
+
+
+<img src="https://i.imgur.com/DJAgtVS.png" style="display:flex; align-items:center; filter: invert(1);" />
+
+---
+
+### Críticas y extensiones
+- **Cuádruple Hélice**: agrega sociedad civil/medios.  
+- **Quíntuple Hélice**: incluye sostenibilidad y medio ambiente.  
+- Riesgo de **mercantilización del conocimiento** y debilitamiento de la autonomía académica.
+
+
+---
+
+### Conexión con prácticas musicales
+Al igual que en innovación tecnológica, la música contemporánea funciona en triple hélice:  
+- **Universidad** (investigación y teoría).  
+- **Industria cultural** (producción, difusión).  
+- **Estado** (financiamiento, políticas culturales).  
+Las intersecciones producen escenas híbridas y nuevos instrumentos de legitimación.
+
+---
+
+# régimen escópico
+
+---
+
+1.	Define qué se puede ver (lo permitido o lo prohibido de mostrar).
+2.	Define cómo se debe ver (perspectivas, puntos de vista, jerarquías de observación).
+3.	Define quién tiene derecho a mirar y quién es objeto de la mirada.
+
+---
+
+- Narradores que observan desde un punto de vista privilegiado o limitado.
+- Escenas que describen con precisión visual, reproduciendo cánones pictóricos o fotográficos de su época.
+- Estructuras de poder inscritas en la mirada (colonial, patriarcal, de vigilancia, erótica).
+- El rol de tecnologías ópticas (cámara oscura, fotografía, cine, dispositivos digitales) como modelos de narración.
+
+---
+
+## narrativa
+
+---
+
+### Régimen escópico realista decimonónico
+- Características: visión omnisciente, descripción detallada siguiendo modelos pictóricos y científicos de la época.
+- Ejemplo: Balzac en La Comédie humaine organiza la mirada como si fuese un catálogo social, con precisión topográfica y fisiognómica.
+
+
+---
+### Régimen escópico colonial
+- Características: mirada del viajero/explorador europeo sobre lo exótico, con asimetría de poder.
+- Ejemplo: Joseph Conrad en **Heart of Darkness**, donde el paisaje africano es filtrado por la óptica del narrador europeo.
+
+---
+
+## Régimen escópico cinematográfico
+- Características: encuadres, cortes y zoom narrativo inspirados en el cine.
+- Ejemplo: Manuel Puig en Boquitas pintadas, alternando perspectivas como montaje de planos.
+
+---
+### Régimen escópico bucólico-clásico
+
+- Características: la naturaleza como cuadro idílico, mirada estática y ordenada.
+- Ejemplo: Garcilaso de la Vega describe paisajes siguiendo la perspectiva renacentista.
+---
+
+### Régimen escópico modernista
+
+- Características: mirada ornamental y sensorial, como si el poema fuera un vitral o un decorado.
+- Ejemplo: Rubén Darío en Azul…, con escenas visuales saturadas de color y detalle decorativo.
+---
+
+### Régimen escópico fragmentario-vanguardista
+
+- Características: ruptura de la perspectiva unificada, imágenes yuxtapuestas como collage.
+
+![](https://i.imgur.com/IkvQs8A.png)
+
+
+---
+
+# régimen o procedimiento ?
+
+---
+
+Un **procedimiento** es una herramienta o secuencia de operaciones que el creador aplica conscientemente sobre el material.
+
+ Un **régimen escópico** es un marco de visibilidad que preexiste o condiciona tanto al creador como al espectador, y que define qué es posible ver, cómo verlo y desde dónde verlo, incluso antes de que haya un procedimiento artístico.
+
+---
+
+## Diferencia estructural
+
+### Procedimiento
+- *Naturaleza*: técnica o estrategia operativa.
+- *Agencia*: viene desde el creador (compositor, escritor, pintor, cineasta).
+- *Escala*: micro a meso (afecta al desarrollo interno de la obra).
+- *Temporalidad*: se define durante la creación.
+- *Ejemplo*: polifonía imitativa, montaje paralelo, stream of consciousness, variación serial, uso de leitmotivs.
+
+---
+
+### Régimen escópico
+- *Naturaleza*: marco histórico-cultural de la mirada.
+- *Agencia*: no la determina el artista, sino un entramado de convenciones sociales, tecnológicas y políticas. El artista puede operar dentro o contra él.
+- *Escala*: macro (afecta la producción, la circulación y la recepción).
+- *Temporalidad*: preexiste a la obra y puede persistir más allá de ella.
+- *Ejemplo*: perspectiva renacentista (como forma de ver y representar), mirada colonial, óptica de la vigilancia, visualidad digital interactiva.
+
+---
+
+### Relación entre 
+
+- Un procedimiento se ejecuta dentro de un régimen escópico.
+- Un régimen escópico condiciona qué procedimientos son viables o legibles en un contexto dado.
+- El creador puede intentar subvertir un régimen escópico modificando o inventando procedimientos, pero el marco de visibilidad sigue siendo el terreno donde ocurre la subversión.
+
+---
+
+### Caso comparativo
+
+- Régimen escópico: perspectiva central renacentista 
+	- impone un centro fijo y jerarquía de elementos visuales.
+- Procedimiento narrativo: 
+	- en el Quattrocento, un escritor podría usar descripciones lineales desde un punto fijo, siguiendo esa lógica visual. 
+	- Si quisiera romperla, podría alternar puntos de vista múltiples, pero aun así dialoga con el régimen dominante.
+
+
+---
+
+### 1. Régimen escópico como infraestructura cultural
+- Define el horizonte de lo que se puede percibir, legitimar y compartir colectivamente como “forma válida” de ver o representar.
+- No se modifica por decisión individual inmediata: está sostenido por instituciones, medios técnicos, economía simbólica y material.
+
+---
+
+### 2. Procedimiento como elección táctica
+- Puede alinearse con el régimen (reforzándolo) o buscar su fricción (cuestionándolo).
+- Puede ser importado, adaptado, apropiado o parodiado.
+
+---
+
+### 3. Fricción productiva o bloqueo
+- Cuando el procedimiento importado no tiene soporte cultural-material en el régimen escópico local, se produce disonancia estructural.
+- Esta disonancia puede ser creativa (hibridación, resignificación) o puede anular el procedimiento (se percibe como impostado, irrelevante o incomprensible).
+
+---
+
+# ejemplos
+
+---
+
+### Vanguardias importadas en países periféricos
+
+- Régimen escópico local: atravesado por urgencias políticas, desigualdad, violencia, narrativas de supervivencia.
+- Procedimiento importado: abstracción absoluta, desligada de todo referente sociohistórico (como en cierto modernismo europeo de posguerra).
+
+---
+
+- Fricción: la abstracción pura se percibe como evasión o elitismo; carece de la resonancia que tendría en un contexto donde el “vacío” y la “desmaterialización” tienen sentido histórico propio.
+- Resultado: en muchos casos, adopción superficial de formas sin posibilidad de sostener su “razón de ser” en el régimen local, o mutación hacia un híbrido (por ejemplo, abstracción que retiene huellas narrativas o simbólicas).
+
+---
+
+### El “trash” en Berlín vs. “trash” estructural en el sur global
+
+- Berlín, fines del siglo XX:
+- Régimen escópico local: sociedad con alta infraestructura, seguridad social, excedente cultural.
+- Procedimiento: estetización del deterioro, apropiación de la ruina, ironía frente a lo pulcro institucional.
+- País periférico:
+- Régimen escópico local: deterioro, ruina y precariedad como condición real de vida, no como elección estética.
+- Procedimiento “trash” importado: puede carecer de distancia irónica; se confunde con lo real y pierde capacidad crítica.
+
+---
+
+### modelos
+
+```mermaid
+flowchart TD
+A[Capa 1 Régimen escópico vigente]
+B[Capa 2 Procedimientos disponibles y legitimados]
+C[Capa 3 Obra concreta]
+D[Zona crítica choque]
+
+A --> B
+B --> C
+C <--> D
+D --> |si supera resistencia| A
+D --> |transforma| B
+```
+
+
+
+---
+
+1.	Mapear el estado previo del régimen escópico (infraestructura, normatividad, horizonte).
+2.	Medir el grado de desviación del procedimiento respecto a ese régimen.
+3.	Evaluar la absorción o rechazo posterior.
+
+---
+
+### axioma de objeto cultural 
+
+Representamos un objeto cultural como una tupla:
+
+$O = \langle C, P, R \rangle$
+- $C$ = contexto (tipo de obra: orquesta + ballet, año, entorno cultural)
+- $P$ = conjunto de propiedades (atributos técnicos, formales, materiales)
+- $R$ = régimen escópico vigente (macro-condiciones habilitantes/restrictivas)
+
+Ejemplo:
+
+$O_{\text{Sacre}} = \langle \text{orquesta+ballet, 1913, París}, {\text{ritmo}, \text{orquestación}, \text{audiencia}, \text{auditorio}, \text{partitura}}, R_{\text{1913, París}}\rangle$
+
+---
+
+## transgresión como axioma
+
+
+Sea $T(P_i, R)$ la función que mide si una propiedad $P_i$ transgrede el régimen $R$.
+- $T(P_i, R) = 1$ → transgresión fuerte (inaceptable en el régimen vigente)
+- $T(P_i, R) = 0.5$ → desviación moderada (incomoda, pero tolerable)
+- $T(P_i, R) = 0$ → alineada con el régimen (ninguna fricción)
+
+Ejemplo simplificado para Sacre:
+- Ritmo: $T = 1$
+- Orquestación: $T = 1$
+- Audiencia: $T = 0$
+- Auditorio a la italiana: $T = 0$
+- Partitura escrita: $T = 0$
+
+---
+
+- ● = alineado con el régimen
+- ◑ = desviación moderada
+- ◎ = transgresión fuerte
+
+Entonces:
+
+Sacre = { Ritmo◎ , Orquestación◎ , Audiencia● , Auditorio● , Partitura● }
+
+---
+
+### 4. Regla general (axioma)
+
+Axioma de fricción significativa:
+Una obra $O$ alcanza estatus de “transformadora” si
+$$
+\sum_{i=1}^{n} T(P_i, R) \geq \tau
+$$
+donde $\tau$ es un umbral mínimo de transgresión acumulada.
+
+Para Sacre, si ponemos $\tau = 2$, tenemos:
+$T_{total} = 1 + 1 + 0 + 0 + 0 = 2$ → cumple el axioma.
+
+---
+
+### 5. Potencial gráfico
+
+Esto se puede llevar a un diagrama icónico tipo Peirce:
+- Eje X: propiedades del objeto (P)
+- Eje Y: grado de transgresión T(P, R)
+- Símbolos ●, ◑, ◎ distribuidos sobre una línea que representa la “superficie operativa” del objeto.
+
+---
+
+
+Sea
+$O_{\text{Sacre}} = \langle C, P, R \rangle$
+- $C$ = contexto: París, 1913, Théâtre des Champs-Élysées, estreno de ballet-orquesta.
+- $P$ = { Ritmo, Orquestación, Audiencia, Auditorio, Partitura }
+- $R$ = régimen escópico-musical occidental académico post-romántico y simbolista.
+
+---
+
+## Evaluación de transgresión
+
+Función:
+$$
+T(P_i, R) =
+\begin{cases}
+1 & \text{transgresión fuerte} \
+0.5 & \text{desviación moderada} \
+0 & \text{alineado}
+\end{cases}
+$$
+
+---
+
+### Evaluación para Sacre
+
+- Ritmo: $T = 1$
+- Orquestación: $T = 1$
+- Audiencia: $T = 0$
+- Auditorio: $T = 0$
+- Partitura: $T = 0$
+
+Suma:
+$$
+T_{total} = 1 + 1 + 0 + 0 + 0 = 2
+$$
+
+--- 
+
+Si $\tau = 2$, cumple condición de fricción significativa.
+
+
+---
+
+### 1. Variables y constantes del sistema
+
+Sea:
+- $P_i$: propiedad del objeto cultural (p.ej., Ritmo, Orquestación, etc.).
+- $R_j$: atributo del régimen escópico vigente que corresponde a $P_i$.
+- $T(P_i, R_j)$: intensidad de fricción (0, 0.5, 1).
+- $n$: número total de propiedades.
+- $\tau$: umbral de fricción significativa (constante).
+
+---
+
+Agregamos nuevas variables para especulación:
+- $\alpha$: peso de centralidad del atributo en el régimen (importancia estructural, 0–1).
+- $\beta$: elasticidad cultural (qué tan rápido el régimen puede adaptarse, 0–1).
+- $\gamma$: realimentación histórica (efecto acumulativo de una transgresión previa sobre la siguiente).
+- $\delta$: coeficiente de transgresión de segundo orden (transgresión de la transgresión).
+
+---
+
+### 2. Fórmula básica extendida
+
+El impacto cultural de una obra se puede modelar como:
+
+$$
+I(O, R) = \sum_{i=1}^{n} \left[ T(P_i, R_j) \cdot \alpha_j \cdot (1 - \beta_j) \right] \cdot (1 + \gamma + \delta)
+$$
+
+--- 
+
+Donde:
+- Si $\beta_j$ es alto, el régimen es flexible y la transgresión tiene menor impacto.
+- Si $\alpha_j$ es alto, transgredir ese atributo pesa más.
+- $\gamma$ aumenta el impacto si hubo transgresiones anteriores que abrieron la brecha.
+- $\delta$ modela el caso donde la obra no solo transgrede el régimen, sino que transgrede una transgresión anterior (efecto de ruptura meta-estética).
+
+
+--- 
+
+
+![](https://i.imgur.com/BfLheqA.png)
+
+
+
+---
+
+
+[[https://cym.musiki.org.ar/energia.html]]
 
 
 

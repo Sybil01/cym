@@ -1,6 +1,5 @@
 ---
 tags:
-  - entrevistas
   - s21
 place: 
 person: Sara Glojnarić

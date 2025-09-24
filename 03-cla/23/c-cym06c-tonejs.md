@@ -1,7 +1,7 @@
 ---
 type: class
 tags:
-  - cym
+  
   - codigo
   - tonejs- sound
 unit: 1

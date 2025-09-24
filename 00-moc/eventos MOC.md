@@ -22,7 +22,7 @@ Lista cronológica de las primeras exposiciones sobre arte digital por ordenador
 - Studio f, Ulm: 1967 "Infografía" (organizado por M. Krampen).
 - "Arte y tecnología" proyecto de 5 años 1967-1971 de Maurice Tuchman en el Mu-seum del condado de Los Ángeles.
 ## 1968
-- [[Cybernetic Serendipity]] Londres 2 ago - 20 oct 1968 (Jasia Reichardt), Institute of Contemporary Arts. Estudio internacional Más tarde también en Nueva York (Otras estaciones: San Francisco, Washington DC).
+- [[Cybernetic Serendipity]] Londres 2 ago - 20 oct 1968 [[Jasia Reichardt]], Institute of Contemporary Arts. Estudio internacional Más tarde también en Nueva York (Otras estaciones: San Francisco, Washington DC).
 - "Exposición Internacional Computerart" en la Casa del Arte de Brno, feb. 1968, organizada por Jiri Valoch (exposición itinerante), en el mismo año también en la Galería Jihlava y en la Galería Cottwaldov
 - Infografía con motivo del Coloquio Internacional Ordenadores e Investigación Visual en Zagreb, 3-4 de agosto de 1968
 - La máquina vista al final de la era mecánica. Por K. G. Pontus Hultén. Nueva York, Museo de Arte Moderno, 25 de noviembre de 1968-9 de febrero de 1969.

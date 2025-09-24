@@ -1,7 +1,7 @@
 
 ```dataview
 TABLE    without ID ("![|100](" + img + ")") as foto, file.link as name, year as year, backlinks as backlinks
-FROM "04-out/personas"  AND -#pioneer AND -#argentina
+FROM "06-out/personas"  AND -#pioneer AND -#argentina
 SORT year ASC
 ```
 
@@ -11,7 +11,7 @@ SORT year ASC
 ## pioneers
 
 ```dataview
-TABLE    without ID ("![|100](" + img + ")") as foto, file.link as name, year as year, backlinks as backlinks
+TABLE    without ID ("![|100](" + img + ")") as foto, file.link as name, year as year, born-in-city as city
 FROM #pioneer 
 SORT year ASC
 ```
@@ -43,16 +43,16 @@ Yunchul Kim
 
 
 ## 60-70
-Robert Rauschenberg (for [[Experiments in Art and Technology]])
+Robert Rauschenberg (for [[EAT Experiments in Art and Technology]])
 Howard Wise por [[Electronics Arts Intermix]]
 
 
-## CAyC y Grupo de los Trece
+## [[CAyC]] y Grupo de los Trece
 Jacques Bedel
 Luis Benedit
 Gregorio Dujovny
 Carlos Ginzburg
-Victor Grippo
+[[Victor Grippo]]
 Vicente Marotta
 Luis Pazos
 Alberto Pellegrino

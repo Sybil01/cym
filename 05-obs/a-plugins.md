@@ -1,5 +1,16 @@
 
-## esenciales
+Estos son los plugins indispensables para correr el vault de cym:
+
+dataview
+advanced slides
+git
+execute code
+highlightr
+lilypond
+swiss army knife
+templater
+
+## base
 
 - outliner
 	- permite trabajar con fold  como en otros outliners (Roam-Resaerch), optimizando el funcionamiento de Tab, cursor, cA
@@ -7,8 +18,6 @@
 	- organización de archivos por propiedades y yaml
 - hotkeys for bookmarks
 	- llamar a los bookmarks por medio de teclas.
-- auto note mover
-	- configura prefijos o tags para mover archivos a carpetas
 - readtime
 	- agrega el tiempo estimado de lectura al status bar
 - drag-n-drop

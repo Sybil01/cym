@@ -11,4 +11,5 @@ views:
       - tags
     image: note.img
     imageFit: ""
-    imageAspectRatio: 0.6
+    imageAspectRatio: 0.85
+    cardSize: 140
