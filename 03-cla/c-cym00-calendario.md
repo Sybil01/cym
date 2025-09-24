@@ -4,7 +4,6 @@ tags:
   
   - class
 ---
-3
 # calendario cym 25
 
 
