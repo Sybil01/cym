@@ -8,51 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a5104a4201baaec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/código/que es git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "que es git"
-            }
-          },
-          {
-            "id": "b861730ea60e4a66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07-ayuda/01 instalaciones.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "01 instalaciones"
-            }
-          },
-          {
-            "id": "e059e2c68ceb2038",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-cla/23/c-cym07-creative computing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "c-cym07-creative computing"
-            }
-          },
-          {
             "id": "c85fac3ec0ff6e8f",
             "type": "leaf",
             "state": {
@@ -73,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-mat/código/css.md",
+                "file": "03-cla/c-cym00-calendario.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "css"
+              "title": "c-cym00-calendario"
             }
           },
           {
@@ -113,17 +68,17 @@
             }
           },
           {
-            "id": "87aefaccc16173ea",
+            "id": "c353453af5c2954b",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -334,40 +289,44 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "gridexplorer:Open grid view": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "e6cafa1c68a7fb54",
   "lastOpenFiles": [
+    "03-cla/c-cym04-introducción al código.md",
+    "03-cla/c-cym04-toneJS.md",
+    "02-mat/código/que es git.md",
+    "05-obs/img/Pasted image 20250924090749.png",
+    "05-obs/img/Pasted image 20250924090727.png",
+    "05-obs/img/Pasted image 20250924090534.png",
+    "03-cla/c-cym00-calendario.md",
+    "01-proj/25/Dai Miauro/Holiwisss.md",
+    "03-cla/23/c-cym08-github pages+hydra.md",
+    "02-mat/código/jasvascript/js-01-fundamentos.md",
+    "02-mat/código/css.md",
     "02-mat/código/html.md",
-    "conflict-files-obsidian-git.md",
-    "06-out/topoi/internet/web 3.0 glosario y knowledge graphs.md",
-    "06-out/topoi/internet",
-    "06-out/topoi/hiperrealidad/hiperreal.md",
-    "06-out/res/energia-vis.html",
-    "06-out/res",
-    "06-out/operativos/sistemas paramétricos/h1.md",
-    "06-out/operativos/método científico/valores epistémicos y estéticos.md",
-    "06-out/operativos/escritura icónica/test agente.md",
-    "06-out/operativos/escritura icónica/prompt o instructions para agentes.md",
-    "06-out/operativos/escritura icónica/dict for latex-discord.md",
-    "06-out/operativos/escritura icónica/01 entidades y operadores.md",
-    "06-out/operativos/escritura icónica/00 ei scratch.md",
-    "06-out/operativos artísticos/retombeé.md",
-    "06-out/operativos artísticos/metáfora.md",
-    "06-out/obras/Rainforest IV.md",
-    "04-tp/cym-plantilla-latex.md",
+    "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
+    "02-mat/código/jasvascript/js-02 contextos de ejecución.md",
+    "02-mat/código/jasvascript/arrow functions ⇒.md",
+    "03-cla/23/c-cym07-creative computing.md",
+    "07-ayuda/01 instalaciones.md",
     "03-cla/c-cym04-energía argentina.md",
-    "03-cla/23/c-cym16-teología estética de los nuevos medios.md",
-    "03-cla/23/c-cym15-interactividad.md",
-    "03-cla/23/c-cym14-un instrumento online colectivo.md",
-    "03-cla/23/c-cym13-Proto-historia del arte numérico argentino.md",
     "03-cla/23/c-cym12-Aframe2.md",
     "03-cla/23/c-cym10y11-Aframe.md",
     "03-cla/23/c-cym09-visual.md",
     "03-cla/23/c-cym09-networking.md",
     "03-cla/23/c-cym09-hydra+tone.js.md",
     "03-cla/23/c-cym09-flex-grid.md",
+    "03-cla/23/c-cym08-hydra+p5.js.md",
+    "03-cla/23/c-cym07-cohesión audiovisual.md",
+    "03-cla/23/c-cym06-principios generativos.md",
+    "03-cla/23/c-cym06c-tonejs.md",
+    "03-cla/23/c-cym06b-relaciones sonolumínicas.md",
+    "06-out/topoi/internet",
+    "06-out/res/energia-vis.html",
+    "06-out/res",
     "01-proj/25/Daira Pollard",
     "01-proj/25/Tomas Fernandez",
     "01-proj/25/prueba mac",
@@ -382,10 +341,7 @@
     "05-obs/lib/score.svg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755894080911.jpeg",
     "cym-metamap.canvas",
-    "05-obs/img/eventos MOC-1755180996466.jpeg",
     "Sin título 1.canvas",
     "Sin título.canvas",
     "Untitled.canvas",
