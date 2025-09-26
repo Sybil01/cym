@@ -58,17 +58,159 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-obs/tpl/conflict-files-obsidian-git.md",
+                "file": "06-out/topoi/vida artificial/Vida artificial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Vida artificial"
+            }
+          },
+          {
+            "id": "873f6d71b60c001a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/vida artificial/espíritu invisible.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "espíritu invisible"
+            }
+          },
+          {
+            "id": "93c364c42773d366",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/vida artificial/reducción fenomenológica.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "reducción fenomenológica"
+            }
+          },
+          {
+            "id": "daba74374dede66e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/vida artificial/Vida artificial.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Vida artificial"
+            }
+          },
+          {
+            "id": "e9c172b92e4817ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/vida artificial/autopoiesis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "autopoiesis"
+            }
+          },
+          {
+            "id": "04b2edefde7b3f17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/obras/A-Volve.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "A-Volve"
+            }
+          },
+          {
+            "id": "0cdf7954b11ab013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/obras/Oscillon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Oscillon"
+            }
+          },
+          {
+            "id": "e09887c056edbb68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "home"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
+      },
+      {
+        "id": "285b91a76e0936c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdb7c9e7d28714d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-cla/23/c-cym05.06-integración.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "c-cym05.06-integración"
+            }
+          },
+          {
+            "id": "2fa741a69bcc407f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/Generatividad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Generatividad"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 436.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -144,6 +286,7 @@
       {
         "id": "aaca835876e592bb",
         "type": "tabs",
+        "dimension": 65.98639455782312,
         "children": [
           {
             "id": "8c7ec6495dcddec6",
@@ -151,13 +294,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-obs/img/23112422.excalidraw.md",
+                "file": "06-out/home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 23112422.excalidraw"
+              "title": "Outline of home"
             }
           },
           {
@@ -233,12 +376,12 @@
               "title": "QuickShare"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "b33cb9828f682814",
         "type": "tabs",
+        "dimension": 17.006802721088434,
         "children": [
           {
             "id": "20c732dc2cc0ecaf",
@@ -260,6 +403,7 @@
       {
         "id": "0b21d0481a2a08a7",
         "type": "tabs",
+        "dimension": 17.006802721088434,
         "children": [
           {
             "id": "d666d2187372564f",
@@ -267,16 +411,15 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 389.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,41 +449,41 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "5a9fd3509447bc08",
+  "active": "e09887c056edbb68",
   "lastOpenFiles": [
-    "06-out/topoi/Matemáticas Especulativas.md",
-    "05-obs/tpl/conflict-files-obsidian-git.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
-    "06-out/operativos/generatividad/modelos de lenguaje/Mikolov RNNLM.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/n-gram.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/NNLM NPLM de Bengio.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/BERT.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/GPT-2.md",
-    "05-obs/tpl/t-obra.md",
-    "00-moc/llm MOC.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/dialogGPT.md",
-    "06-out/topoi/Arte relacional.md",
-    "02-mat/coloquial/En conversación con Susanne Kennedy.md",
-    "05-obs/tpl/t-llm.md",
-    "05-obs/img/Pasted image 20250926112238.png",
-    "06-out/obras/CO2GLE.md",
-    "02-mat/coloquial/coloquial.base",
-    "02-mat/coloquial/Música Generativa.md",
-    "02-mat/coloquial/una entrevista con Trevor Wishart.md",
-    "00-moc/coloquial MOC.md",
+    "06-out/bibliografía/Boris Groys_Arte y flujo.md",
+    "06-out/topoi/Generatividad.md",
+    "06-out/obras/Fragile Territories.md",
+    "06-out/topoi/Historia de la tecnología.md",
+    "06-out/topoi/Humanos.md",
+    "06-out/topoi/Instalaciones.md",
+    "03-cla/23/c-cym05.06-integración.md",
+    "06-out/bibliografía/Eric Sadin_La humanidad aumentada.md",
+    "b/c-cym06-generatividad y complejidad.md",
+    "03-cla/23/c-cym04-vida digital.md",
+    "03-cla/23/c-cym03-mapas.md",
+    "03-cla/23/c-cym02-arte generativo.md",
+    "06-out/operativos/generatividad/Azar.md",
+    "03-cla/23/c-cym-mindMap.md",
+    "00-moc/obras MOC.md",
+    "03-cla/c-cym01 cym introducción.md",
+    "06-out/operativos/generatividad/recursión MOC.md",
+    "00-moc/proyectos MOC.md",
+    "00-moc/procedimientos MOC.md",
+    "00-moc/procedimientos artísticos MOC.md",
+    "00-moc/personas MOC.md",
     "06-out/home.md",
+    "06-out/personas/Juan Sorrentino.md",
+    "06-out/personas/Ben Laposky.md",
+    "06-out/personas/Cecila Arditto.md",
+    "06-out/personas/Karl Sims.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
+    "05-obs/img/Pasted image 20250926112238.png",
+    "02-mat/coloquial/coloquial.base",
     "06-out/espacios/espacios.base",
-    "06-out/espacios/Akademie der bildenden Künste Wien.md",
     "06-out/eventos/eventos.base",
     "06-out/obras/obras.base",
-    "06-out/obras/Locus Solus.md",
     "06-out/personas/prs.base",
-    "00-moc/espacios MOC.md",
-    "00-moc/eventos MOC.md",
-    "00-moc/obras MOC.md",
-    "06-out/obras/Atmosphères.md",
-    "03-cla/c-cym05-metáfora y re.md",
-    "02-mat/coloquial/Hace falta salir del software exclusivo de la música europea.md",
     "06-out/operativos/generatividad/modelos de lenguaje",
     "05-obs/img/Pasted image 20250926104149.png",
     "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",

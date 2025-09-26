@@ -1,12 +1,16 @@
 ---
+type: obra
+img: https://roberthenke.com/files_images/installations/fragile-territories/FragileTerritoriesRennesPreOpening.jpg
+year: 2012
+tags: [musicavisual]
+person: "[[Robert Henke]]"
+premiereDate:
+premierePlace:
+url:
+connect:
 author: Fabián Bassino
-tags: musica visual, topoi
-publish: 2023
-banner: "https://roberthenke.com/files_images/installations/fragile-territories/FragileTerritoriesRennesPreOpening.jpg"
-  https://roberthenke.com/files_images/installations/fragile-territories/FragileTerritoriesRennesPreOpening.jpg
 ---
 
-# Fragile Territories
 
 Fragile Territories es una obra compuesta por Robert Henke expuesta en los años 2012-2014, 2016 y 2019.
 

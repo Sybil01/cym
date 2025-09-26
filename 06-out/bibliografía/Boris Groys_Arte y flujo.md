@@ -17,3 +17,23 @@ isbn10: 987162249X
 isbn13: 9789871622498
 ---
 
+# Éric Sadin
+## 
+    
+# Boris Groys
+## Conceptos
+- espacio museo <> museo contemporáneo
+- evento/performance/muestras temporarias
+- objeto de arte <> información sobre acontecimientos de arte
+- concepto aura (museos <> archivo digital)
+- moderno <> postmoderno
+- original vs copia (desterritorialización-dislocación)
+- técnica de la instalación
+- reología
+
+La “pérdida del aura” fue descrita por Benjamin como *la pérdida del contexto fijo, constante y reconfirmable de una obra de arte*. Según este autor, la obra de arte *deja* su contexto original y comienza a circular **anónimamente** en las redes de reproducción y distribución de las comunicaciones de masas. 
+El original posee un aura que le falta a la copia, entendida como un **contexto fijo**, un lugar bien definido en el espacio; y de esta forma inscrito también en la historia como un objeto **singular y original.**
+
+Pero también se puede producir un original a partir de una copia a través de una técnica de **relocalización topológica** de esa copia, o sea, por medio de la técnica de la **instalación**: una forma de arte que incluye todas las demás formas de arte.
+
+Una instalación no puede ser una copia de otra instalación porque una instalación es por definición presente, **contemporánea**. Es una presentación del presente, una decisión que tiene lugar aquí y ahora. *Al mismo tiempo, sin embargo, una instalación no puede ser verdaderamente nueva sencillamente porque no puede ser inmediatamente comparada a otra, anterior o más vieja*.

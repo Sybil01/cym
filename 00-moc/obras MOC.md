@@ -47,3 +47,12 @@ Olia Lialina_my boyfriend went on the war
 
 ## IA
 Mario Klingemann_Memoris of Passersby I 
+
+
+# fuentes
+https://proyectoidis.org/
+https://archive.aec.at/
+https://zkm.de/en/collection-archives/archives
+https://www.fondation-langlois.org/html/e/
+https://brahms.ircam.fr/en/
+

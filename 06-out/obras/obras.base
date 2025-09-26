@@ -4,7 +4,7 @@ filters:
     - file.ext != "base"
 views:
   - type: cards
-    name: Table
+    name: cards
     order:
       - file.name
       - person
@@ -14,3 +14,15 @@ views:
       - property: year
         direction: ASC
     image: note.img
+  - type: table
+    name: lista
+    order:
+      - file.name
+      - year
+      - person
+    sort:
+      - property: year
+        direction: ASC
+    image: note.img
+    cardSize: 110
+    imageAspectRatio: 0.85

@@ -21,9 +21,6 @@
 # Ignorar todos los archivos de plugins (no rastrear el código, solo la lista si quieres)
 .obsidian
 .obsidian/plugins/
+b/
 
-# Otros comunes (evitando duplicados)
-b/
-.obsidian/
-b/
-b/
+

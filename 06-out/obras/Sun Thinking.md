@@ -1,6 +1,7 @@
 ---
 tags:
   - netart
+  - energía
 place:
 person:
   - "[[Allison Parrish]]"

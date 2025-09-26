@@ -3,8 +3,6 @@ filters:
     - file.folder == "06-out/operativos/generatividad/modelos de lenguaje"
     - file.ext != "base"
 views:
-  - type: table
-    name: Table
   - type: cards
     name: cards
     order:
