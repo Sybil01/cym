@@ -4,7 +4,7 @@ tags:
 place: "[[Bell Labs]]"
 connections:
 url:
-photo: https://i.imgur.com/acKPwHg.png
+img: https://i.imgur.com/acKPwHg.png
 year: 1966
 curators:
   - Robert Rauschenberg

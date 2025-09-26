@@ -4,81 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "8d675a9231b24172",
+        "id": "9f4b8ae9caebf4ee",
         "type": "tabs",
         "children": [
           {
-            "id": "c85fac3ec0ff6e8f",
+            "id": "9add8cb74ac16e9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-mat/código/html.md",
+                "file": "06-out/operativos/generatividad/modelos de lenguaje/NNLM NPLM de Bengio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "NNLM NPLM de Bengio"
             }
           },
           {
-            "id": "e6cafa1c68a7fb54",
+            "id": "db8a5e998994a258",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym04-toneJS.md",
+                "file": "06-out/operativos/generatividad/modelos de lenguaje/Mikolov RNNLM.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Mikolov RNNLM"
+            }
+          },
+          {
+            "id": "4a0d6e6773a5e883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/Matemáticas Especulativas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym04-toneJS"
-            }
-          },
-          {
-            "id": "80f60b713435f34a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-cla/23/c-cym05.06-integración.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "c-cym05.06-integración"
-            }
-          },
-          {
-            "id": "a8a27e1176cc6d92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-cla/23/c-cym08-github pages+hydra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "c-cym08-github pages+hydra"
-            }
-          },
-          {
-            "id": "c353453af5c2954b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Matemáticas Especulativas"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +85,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "three",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -130,12 +105,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "ce5a133c33390c30",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 362.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -144,7 +129,6 @@
       {
         "id": "aaca835876e592bb",
         "type": "tabs",
-        "dimension": 45.46296296296296,
         "children": [
           {
             "id": "8c7ec6495dcddec6",
@@ -152,10 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-moc/obras MOC.md"
+                "file": "05-obs/img/23112422.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obras MOC"
+              "title": "Outline of 23112422.excalidraw"
             }
           },
           {
@@ -164,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-moc/obras MOC.md",
+                "file": "05-obs/img/23112422.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,41 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for obras MOC"
-            }
-          },
-          {
-            "id": "e36f2709c75460b4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
-            "id": "52f74587519419f6",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
-            }
-          },
-          {
-            "id": "dadcd00ddeddea13",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "title": "Backlinks for 23112422.excalidraw"
             }
           },
           {
@@ -217,21 +170,52 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "05-obs/img/Pasted image 20250529151452.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Pasted image 20250529151452"
             }
           },
           {
-            "id": "f0739d8c01c0a9a3",
+            "id": "412b1e1aab99248c",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "93f055f68d96e0c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          },
+          {
+            "id": "cb5613f9692767ad",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "fd6fb8369f9936c5",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "cloud",
+              "title": "QuickShare"
             }
           }
         ],
@@ -240,7 +224,6 @@
       {
         "id": "b33cb9828f682814",
         "type": "tabs",
-        "dimension": 18.51851851851852,
         "children": [
           {
             "id": "20c732dc2cc0ecaf",
@@ -262,7 +245,6 @@
       {
         "id": "0b21d0481a2a08a7",
         "type": "tabs",
-        "dimension": 36.01851851851852,
         "children": [
           {
             "id": "d666d2187372564f",
@@ -290,61 +272,76 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "gridexplorer:Open grid view": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false,
+      "wikipedia-search:Open Article": false,
+      "translate:Open translation view": false,
+      "obsidian42-text-transporter:Text Transporter": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e6cafa1c68a7fb54",
+  "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "03-cla/c-cym00-calendario.md",
-    "06-out/topoi/vida artificial/intro a genética.md",
-    "06-out/topoi/vida artificial/ARN.md",
-    "06-out/topoi/vida artificial/ADN.md",
-    "06-out/topoi/arte de sistemas.md",
-    "06-out/personas/Maryanne Amacher.md",
-    "06-out/personas/Leonard Baum.md",
-    "06-out/personas/Karl Sims.md",
-    "06-out/personas/Georg Cantor.md",
-    "06-out/personas/Geoffrey Hinton.md",
-    "06-out/personas/Frank Rosenblatt.md",
-    "06-out/personas/Bernard Stiegler.md",
-    "06-out/operativos artísticos/transgresión.md",
-    "06-out/operativos artísticos/trans-.md",
-    "06-out/operativos artísticos/subversión.md",
-    "06-out/operativos artísticos/sinéctica.md",
-    "06-out/operativos artísticos/proposopeyeutica.md",
-    "06-out/operativos artísticos/intervencionismo.md",
-    "06-out/operativos artísticos/fruición.md",
-    "06-out/operativos artísticos/descontextua.md",
-    "06-out/operativos artísticos/causticidad.md",
-    "06-out/operativos artísticos/astringencia.md",
-    "06-out/operativos artísticos/adaptación de la observación.md",
-    "06-out/obras/obras.base",
-    "06-out/obras/evolved criatures.md",
-    "06-out/obras/1 Bit-Music.md",
-    "06-out/eventos/eventos.base",
+    "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
+    "06-out/operativos/generatividad/modelos de lenguaje/Mikolov RNNLM.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/n-gram.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/NNLM NPLM de Bengio.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/BERT.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/GPT-2.md",
+    "05-obs/tpl/t-obra.md",
+    "00-moc/llm MOC.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/dialogGPT.md",
+    "06-out/topoi/Arte relacional.md",
+    "02-mat/coloquial/En conversación con Susanne Kennedy.md",
+    "05-obs/tpl/t-llm.md",
+    "05-obs/img/Pasted image 20250926112238.png",
+    "06-out/obras/CO2GLE.md",
+    "02-mat/coloquial/coloquial.base",
+    "02-mat/coloquial/Música Generativa.md",
+    "02-mat/coloquial/una entrevista con Trevor Wishart.md",
+    "00-moc/coloquial MOC.md",
+    "06-out/home.md",
     "06-out/espacios/espacios.base",
-    "06-out/conceptos",
-    "06-out/casos/inestabilidad de kelvin-helmholz/ref/Olcina Cantos_2014_Enseñanzas climáticas en la obra de Kant.pdf",
-    "06-out/casos/inestabilidad de kelvin-helmholz/ref/Goethe_1825_El juego de las nubes.epub",
-    "06-out/casos/inestabilidad de kelvin-helmholz/ref/Lacan_1963_Kant con Sade.pdf",
-    "06-out/casos/inestabilidad de kelvin-helmholz/ref/Budiana et al._2020_The meshless numerical simulation of Kelvin–Helmholtz instability during the wave growth of liquid–l.pdf",
-    "06-out/casos/inestabilidad de kelvin-helmholz/ref",
-    "06-out/casos/inestabilidad de kelvin-helmholz/index4.html",
+    "06-out/espacios/Akademie der bildenden Künste Wien.md",
+    "06-out/eventos/eventos.base",
+    "06-out/obras/obras.base",
+    "06-out/obras/Locus Solus.md",
+    "06-out/personas/prs.base",
+    "00-moc/espacios MOC.md",
+    "00-moc/eventos MOC.md",
+    "00-moc/obras MOC.md",
+    "06-out/obras/Atmosphères.md",
+    "03-cla/c-cym05-metáfora y re.md",
+    "02-mat/coloquial/Hace falta salir del software exclusivo de la música europea.md",
+    "02-mat/coloquial/Las cabezas van a rodar, horror forma y la música de Kelley Shee Heads Will Roll han.md",
+    "06-out/operativos/generatividad/modelos de lenguaje",
+    "05-obs/img/Pasted image 20250926104149.png",
+    "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
     "05-obs/img/Pasted image 20250924090749.png",
     "05-obs/img/Pasted image 20250924090727.png",
     "05-obs/img/Pasted image 20250924090534.png",
-    "05-obs/img/Pasted image 20250827130347.png",
-    "05-obs/img/Pasted image 20250827124029.png",
-    "05-obs/img/Pasted image 20250827114255.png",
     "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
-    "05-obs/lib/score.svg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
+    "01-proj/25/Daira Pollard/ἀβραξάς.html",
+    "05-obs/textgenerator/tpl",
+    "05-obs/img/eventos MOC-1755180996389.jpeg",
+    "05-obs/img/Pasted image 20250618122453.png",
+    "05-obs/img/Pasted image 20250529151452.png",
+    "05-obs/img/untref-logo-w.svg",
+    "Untitled.canvas",
     "cym-metamap.canvas",
     "Sin título 1.canvas",
     "Sin título.canvas",
-    "Untitled.canvas",
     "03-cla/cym-map.canvas"
   ]
 }

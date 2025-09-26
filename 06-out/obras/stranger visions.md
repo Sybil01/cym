@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://i.imgur.com/AC5Fygo.png
+img: https://i.imgur.com/AC5Fygo.png
 year: 2013
 tags:
   - bioart

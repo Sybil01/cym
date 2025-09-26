@@ -5,7 +5,7 @@ place:
 person: Peter Chilvers
 connections:
 url: https://usoproject.blogspot.com/2009/09/generative-music-interview-with-peter_19.html
-photo: https://i.imgur.com/JXLBJJv.png
+img: https://i.imgur.com/JXLBJJv.png
 topoi:
 year: 2009
 ---

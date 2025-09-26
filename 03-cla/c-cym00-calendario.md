@@ -8,6 +8,9 @@ tags:
 # calendario cym 25
 
 
+
+---
+
 - [ ] 2025-08-23
 	- [ ] Presentación personal 2'
 		- [ ] obras,fotos, relatos, algo que lxs identifique ejemplos o lo que quieran mostrar.

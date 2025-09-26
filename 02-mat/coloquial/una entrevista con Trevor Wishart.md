@@ -5,7 +5,7 @@ place:
 person: Trevor Wishart
 connections:
 url: https://www.researchgate.net/publication/220386646_An_Interview_with_Trevor_Wishart
-photo: https://i.imgur.com/g5qYUZA.png
+img: https://i.imgur.com/g5qYUZA.png
 topoi: música electrónica
 year: 2008
 ---

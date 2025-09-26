@@ -6,7 +6,7 @@ url: https://zero1.org/
 tags:
 year: 2000
 works: ZERO1 Biennial, obras comisionadas para espacios públicos, residencias, programas educativos, intervenciones urbanas.
-photo: https://i.imgur.com/z5QbI6C.png
+img: https://i.imgur.com/z5QbI6C.png
 person:
   - Andrea Cunningham
   - Beau Takahara

@@ -8,7 +8,7 @@ place: arthaus
 curators: María Teresa Constantín, Gabriela Vicente Irrazabal
 connections:
 url: https://arthaus.ar/visuales/muestras-activas/
-photo: https://arthaus.ar/wp-content/uploads/2023/10/slider_02.png
+img: https://arthaus.ar/wp-content/uploads/2023/10/slider_02.png
 year: 2023
 city: Buenos Aires
 ---

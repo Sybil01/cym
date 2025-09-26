@@ -3,7 +3,7 @@ tags:
 place: LAMOCA
 connections:
 url: https://hirshhorn.si.edu/exhibitions/visual-music
-photo: https://i.imgur.com/PyXOUbV.png
+img: https://i.imgur.com/PyXOUbV.png
 year: 2005
 curators:
   - Kerry Brougher

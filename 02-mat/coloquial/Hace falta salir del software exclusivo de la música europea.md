@@ -5,7 +5,7 @@ place:
 person: Stéphane Roth
 connections:
 url: https://cult.news/actualites/stephane-roth-il-faut-sortir-du-logiciel-exclusif-de-la-musique-europeenne/
-photo: https://cult.news/app/uploads/2024/06/Stephane-Roth-e1717834667162.jpg
+img: https://cult.news/app/uploads/2024/06/Stephane-Roth-e1717834667162.jpg
 topoi:
 year: 2023
 ---

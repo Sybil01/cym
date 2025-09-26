@@ -6,7 +6,7 @@ url: https://zkm.de/en/
 tags: 
 year: 1989  [oai_citation:0‡Wikipedia](https://en.wikipedia.org/wiki/ZKM_Center_for_Art_and_Media_Karlsruhe?utm_source=chatgpt.com)  
 works: exposiciones interactivas, instalaciones inmersivas, proyectos de investigación artística, festivales, laboratorios de sonido y medios visuales.  [oai_citation:1‡Wikipedia](https://en.wikipedia.org/wiki/ZKM_Center_for_Art_and_Media_Karlsruhe?utm_source=chatgpt.com)  
-photo: https://i.imgur.com/CuHfBq9.png
+img: https://i.imgur.com/CuHfBq9.png
 person: 
 - Heinrich Klotz
 ---

@@ -13,4 +13,4 @@ views:
     sort:
       - property: year
         direction: ASC
-    image: note.photo
+    image: note.img

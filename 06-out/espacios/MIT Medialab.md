@@ -5,7 +5,7 @@ url:
 tags:
 year: 1985
 works:
-photo: https://i.imgur.com/afCc9qP.png
+img: https://i.imgur.com/afCc9qP.png
 person: Nicholas Negroponte
 ---
 

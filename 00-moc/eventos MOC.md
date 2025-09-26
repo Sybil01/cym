@@ -1,5 +1,5 @@
 ```dataview
-TABLE without ID  ("![|100](" + photo + ")") as foto, file.link as evento , tags, year, curators
+TABLE without ID  ("![|100](" + img + ")") as foto, file.link as evento , tags, year, curators
 FROM "06-out/eventos"
 SORT year asc
 

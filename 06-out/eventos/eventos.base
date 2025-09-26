@@ -14,7 +14,7 @@ views:
     sort:
       - property: year
         direction: ASC
-    image: note.photo
+    image: note.img
     imageFit: ""
     imageAspectRatio: 0.5
     cardSize: 220

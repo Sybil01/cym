@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://i.imgur.com/oBUjFDy.png
+img: https://i.imgur.com/oBUjFDy.png
 year: 1973
 tags:
   - instalación

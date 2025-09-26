@@ -6,7 +6,7 @@ url:
 tags:
 year: 1968
 works:
-photo: https://i.imgur.com/X8Z1YKl.png
+img: https://i.imgur.com/X8Z1YKl.png
 person:
   - "[[Victor Grippo]]"
   - "[[Jacques Bedel]]"

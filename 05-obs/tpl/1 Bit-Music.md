@@ -11,7 +11,7 @@ url:
 timeline:
   - dssCaseInstruments
 aat-render-enabled: true
-photo: https://i.imgur.com/2jHaWWn.png
+img: https://i.imgur.com/2jHaWWn.png
 person: Trista Perich
 ---
 

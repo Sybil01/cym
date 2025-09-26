@@ -15,6 +15,7 @@ Hopfield Networks
 - data points
 - pattern completion
 Boltzmann Machines
+
 ## ejemplos
 
 Sol LeWitt
@@ -126,6 +127,7 @@ from #generative OR #generatividad OR #generativad
 ---
 This list prioritizes models with broad societal reach (e.g., Transformer, GANs, Stable Diffusion), cultural significance (e.g., DALL-E, StyleGAN), and scientific foundations (e.g., Backpropagation, LSTM), while keeping the format simple and link-free. Let me know if you’d like further adjustments!
 hive
+
 ### Notes on Refinement
 1. **Corrections**: Adjusted dates (e.g., Boltzmann Machines to 1983, Diffusion Models to 2020) and authorship (e.g., Kingma & Welling for VAE) for accuracy.
 2. **Filtering**: Removed less generative-focused models (e.g., SVM, Q-Learning) and duplicates (e.g., multiple GPT entries), keeping only seminal versions.
@@ -133,6 +135,7 @@ hive
 4. **Artwork**: Added examples like "This Person Does Not Exist" (GANs), AI surreal art (DALL-E), and community art (Stable Diffusion) where applicable.
 5. **Focus**: Emphasized models with clear generative output (images, text, audio, video) over purely theoretical ones unless foundational (e.g., Perceptron).
 This list balances historical significance, technical innovation, and cultural impact, tailored to your focus on art, culture, and science. Let me know if you’d like further adjustments or a ranked version!
+
 ## Core
 1. **Latent Space Representation**: Generative models often operate by mapping input data into a lower-dimensional <mark class='>hltr-blue'>latent space</mark>, where meaningful patterns can be extracted. This is central to VAEs, which optimize a probabilistic encoder-decoder framework (@Kingma2013). Mathematically, this involves minimizing the Kullback-Leibler divergence: $$ D_{KL}(q(z|x) \parallel p(z)) $$.
 2. **Adversarial Training**: Introduced by <mark class='>hltr-yellow'>Goodfellow et al. (2014)</mark>, GANs employ a game-theoretic approach where a generator competes with a discriminator. This has led to breakthroughs in image synthesis but also raised concerns about <mark class='>hltr-red'>mode collapse</mark> and ethical misuse.

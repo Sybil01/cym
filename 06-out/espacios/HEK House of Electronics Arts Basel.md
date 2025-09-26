@@ -6,7 +6,7 @@ url: https://www.hek.ch/
 tags:  
 year: 2011 
 works: exposiciones temporales de arte digital y electrónico, colaboraciones con festivales, eventos públicos, premiaciones como el Pax Art Awards.  
-photo: https://i.imgur.com/Tai8BZu.png
+img: https://i.imgur.com/Tai8BZu.png
 person: Sabine Himmelsbach
 ---
 

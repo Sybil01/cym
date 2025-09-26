@@ -9,7 +9,7 @@ works:
 person: 
 - Walter Gifford
 - Frank Jewets
-photo: https://i.imgur.com/G8NrVUz.png
+img: https://i.imgur.com/G8NrVUz.png
 ---
 
 

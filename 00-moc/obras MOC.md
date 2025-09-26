@@ -1,5 +1,5 @@
 ```dataview
-TABLE  without ID tags, ("![|100](" + photo + ")") as foto, file.link as name, person AS "Autor", year, publisher
+TABLE  without ID tags, ("![|100](" + img + ")") as foto, file.link as name, person AS "Autor", year, publisher
 WHERE  contains(type,"obra") AND !contains(file.name,"t-obra")
 SORT year DESC
 ```

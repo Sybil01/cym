@@ -3,7 +3,7 @@ tags:
   - s21
 url: https://festivalmusica.fr/magazine/21/simon-steen-andersen-ecouter-observer-hacker
 year: 2023
-photo: https://festivalmusica.fr/storage/thumbnails/data/720-/Simon-Steen-AndersenClarsSvankjaer-1.jpg?1654596080
+img: https://festivalmusica.fr/storage/thumbnails/data/720-/Simon-Steen-AndersenClarsSvankjaer-1.jpg?1654596080
 connections: "[[Simon Steen Andersen]]"
 person: Simon Steen Andersen
 ---

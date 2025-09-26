@@ -5,7 +5,7 @@ tags:
 place: "[[HEK House of Electronics Arts Basel]]"
 connections:
 url:
-photo: https://i.imgur.com/TuhFW4s.png
+img: https://i.imgur.com/TuhFW4s.png
 year: 2023
 curators: Sabine Himmelsbach
 city: Basel
@@ -53,7 +53,7 @@ A lo largo de la exposición, hay un cierto escepticismo hacia los elevados idea
 
 ![Chloé Michel, Proof of Faith, 2022](https://cdn.sanity.io/images/syotmk9q/production/1d95c198f3b862c438e17679a207a2d362e8fcf6-2000x2000.jpg?w=3840&q=70&fit=clip&auto=format)
 
-Chloé Michel, _Proof of Faith_, 2022. Installation view, HEK, Basel, 2023. Courtesy: the artist and HEK Basel. Photo: Franz Wamhof
+Chloé Michel, _Proof of Faith_, 2022. Installation view, HEK, Basel, 2023. Courtesy: the artist and HEK Basel. img: Franz Wamhof
 
 “[Exploring the Decentralized Web – Art on the Blockchain](https://hek.ch/en/program/exhibitions/exploring-the-decentralized-web-art-on-the-blockchain/)”  
 House of Electronic Arts, Basel  

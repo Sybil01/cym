@@ -5,7 +5,7 @@ url:
 tags:
 year: 1692
 works:
-photo: https://i.imgur.com/eifaZm7.png
+img: https://i.imgur.com/eifaZm7.png
 person: Peter Strudel
 ---
 

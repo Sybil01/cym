@@ -6,6 +6,6 @@ url:
 tags:
 year:
 works:
-photo:
+img:
 person:
 ---

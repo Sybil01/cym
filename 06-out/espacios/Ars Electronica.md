@@ -6,7 +6,7 @@ url: https://ars.electronica.art/
 tags:
 year: 1979
 works: exposiciones interactivas, instalaciones multimedia, demostraciones tecnológicas, proyectos de colaboración entre artistas, científicos y tecnólogos.
-photo: https://i.imgur.com/gn4HQ3C.png
+img: https://i.imgur.com/gn4HQ3C.png
 person: Hannes Leopoldseder, Hubert Bognermayr, Herbert W. Franke, Ulrich Rützel
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://i.imgur.com/qgZbWUJ.png
+img: https://i.imgur.com/qgZbWUJ.png
 year: 1994
 tags: [generatividad, vidaartificial]
 person: "[[Karl Sims]]"

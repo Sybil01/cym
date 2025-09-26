@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://i.imgur.com/Cjm2bqz.png
+img: https://i.imgur.com/Cjm2bqz.png
 year: 2015
 tags: visual
 person: "[[Janusz Jurek]]"

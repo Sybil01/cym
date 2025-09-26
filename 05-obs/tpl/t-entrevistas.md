@@ -4,7 +4,7 @@ place:
 person: 
 connections: 
 url: 
-photo: 
+img: 
 topoi:
 year: 2023
 ---

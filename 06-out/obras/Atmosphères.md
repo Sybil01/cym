@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://i.imgur.com/9DqOJ7C.png
+img: https://i.imgur.com/9DqOJ7C.png
 year: 1961
 tags: músicaescrita
 person: "[[György Ligeti]]"

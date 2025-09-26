@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://i.imgur.com/SPChx14.png)
+img: https://i.imgur.com/SPChx14.png)
 year: 2010
 tags:
   

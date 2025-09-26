@@ -5,7 +5,7 @@ place: Goldsmith ,UK
 person: Bernard Stiegler
 connections:
 url: https://www.e-flux.com/journal/14/61314/transindividuation/
-photo: https://i.imgur.com/5xaKwfE.png
+img: https://i.imgur.com/5xaKwfE.png
 topoi: Filosofia21
 year: 2010
 ---

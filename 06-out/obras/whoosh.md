@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://images.squarespace-cdn.com/content/v1/5a69e4138a02c7764a647892/1649512285690-UV0Y06TCQU54AL6DZZWB/W567_1186183-Kay-Churcher---Whoosh.jpg?format=1000w
+img: https://images.squarespace-cdn.com/content/v1/5a69e4138a02c7764a647892/1649512285690-UV0Y06TCQU54AL6DZZWB/W567_1186183-Kay-Churcher---Whoosh.jpg?format=1000w
 tags:
   - instalación
 person: "[[Kay Churcher]]"
