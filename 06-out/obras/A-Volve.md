@@ -12,7 +12,18 @@ url:
 connect:
 ---
 
-Esta obra presenta un tanque para mantener formas de vida virtuales que se transforman a partir del dibujo realizado en una pantalla táctil de ordenador. Los organismos artificiales se adaptan tanto al entorno real como al virtual, e influyen entre sí. Estas criaturas pueden vivir mucho tiempo si su forma se adapta al entorno, o pueden producir descendencia de otros organismos, mientras que los fuertes pueden comerse a los débiles. Se puede meter la mano en el tanque para proteger a una criatura de los ataques o guiarla para que se mueva en otra dirección.
+# v1
+<iframe title="A Volve" src="https://www.youtube.com/embed/klRAT48STGk?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
+
+
+---
+
+
+# v2
+<iframe title="Christa Sommerer, Laurent Mignonneau | The Interactive Plant Growing" src="https://www.youtube.com/embed/Obwp07_phmA?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
+---
+
+Esta obra presenta un tanque para mantener formas de vida virtuales que se transforman a partir del dibujo realizado en una pantalla táctil de ordenador. Los organismos artificiales se adaptan tanto al entorno real como al virtual, e influyen entre sí. Estas criaturas pueden vivir mucho tiempo si su forma se adapta al entorno, o pueden producir descendencia de otros organismos, mientras que los fuerthttps://www.youtube.com/watch?v=klRAT48STGkes pueden comerse a los débiles. Se puede meter la mano en el tanque para proteger a una criatura de los ataques o guiarla para que se mueva en otra dirección.
 
 No solo se puede observar el entorno natural, sino también cambiarlo bajo la influencia del espectador. Esta obra simula dicha interacción en un entorno virtual. Un organismo tendrá agilidad y músculos fuertes si se diseña con una buena forma. Además, su adaptabilidad se pone a prueba mediante la presión del agua y su relación con el movimiento de otros organismos. El algoritmo genético que decide la forma única se intercambia entre dos o más organismos y se hereda a su descendencia. Los artistas sitúan su enfoque de la expresión visual mediante la vida artificial en la prolongación de la tendencia artística «orientada al proceso» del siglo XX, representada por Kurt SCHWITTERS, Robert RAUSCHENBERG y Fluxus, entre otros. «A-Volve» se produjo en 1994 con la colaboración de Thomas RAY, investigador invitado en los Laboratorios de Investigación de Procesamiento de Información Humana de ATR, y en cooperación con el ICC.
 

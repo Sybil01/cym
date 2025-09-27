@@ -49,6 +49,30 @@ Olia Lialina_my boyfriend went on the war
 Mario Klingemann_Memoris of Passersby I 
 
 
+## pioneros
+Aquí tenés una lista de 20 pioneros que, como Ben Laposky, marcaron el inicio del cruce entre ciencia, tecnología y arte sonoro/visual:
+1.	Thomas Wilfred – Inventor del Clavilux, pionero del arte lumínico (años 1920).
+2.	Oskar Fischinger – Animador abstracto alemán, precursor del cine visual-music.
+3.	Mary Ellen Bute – Directora experimental que unió cine y música visual.
+4.	Len Lye – Cineasta neozelandés, pionero del cine directo pintado sobre celuloide.
+5.	John Whitney Sr. – Fundador del cine computacional (Motion Graphics).
+6.	James Whitney – Cineasta experimental, hermano de John, exploró mandalas visuales.
+7.	Lillian Schwartz – Artista pionera en el uso de computadoras (Bell Labs).
+8.	Vera Molnár – Una de las primeras en usar computadoras para arte algorítmico.
+9.	Frieder Nake – Pionero del arte generativo y el plotter.
+10.	Georg Nees – Primeras exhibiciones de arte computacional (1965).
+11.	Manfred Mohr – Algoritmos geométricos, arte generativo con programación.
+12.	Harold Cohen – Creador de AARON, uno de los primeros sistemas de IA artística.
+13.	Nam June Paik – Pionero del videoarte y la síntesis electrónica.
+14.	Karl Gerstner – Diseño programado y arte generativo (años 1960).
+15.	Nicolas Schöffer – Arte cibernético y esculturas con retroalimentación.
+16.	Gordon Pask – Teórico cibernético, desarrolló máquinas interactivas.
+17.	Edward Ihnatowicz – Esculturas robóticas sensibles (Senster, 1970).
+18.	Steina y Woody Vasulka – Fundadores del videoarte experimental.
+19.	Laurie Spiegel – Compositora pionera en música por computadora (Music Mouse).
+20.	Herbert Franke – Científico y artista generativo, exploraciones algorítmicas.
+
+
 # fuentes
 https://proyectoidis.org/
 https://archive.aec.at/

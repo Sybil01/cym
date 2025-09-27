@@ -73,5 +73,6 @@
   "liquid-templates",
   "obsidian-linter",
   "lilypond",
-  "inline-code-highlight"
+  "inline-code-highlight",
+  "css-editor"
 ]
