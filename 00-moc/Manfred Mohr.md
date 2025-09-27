@@ -16,10 +16,6 @@ died in city: Chesapeake Bay
 
 https://www.youtube.com/watch?v=lfdMnFvXBwc
 
-
-
-
-
 Con Manfred Mohr (1938, Pforzheim) ha aceptado la invitación un artista que a finales de los años sesenta abandonó la pintura tradicional para investigar la esencia del proceso creativo mediante el ordenador y llegar así a nuevas y complejas formas.
 
 Manfred Mohr es uno de los pioneros más conocidos del arte digital, que hizo historia con la exposición individual «Computer Graphics. Une ésthétique programmée» en el Musée d'Art Moderne de la Ville de Paris en la primavera de 1971.
@@ -415,8 +411,6 @@ $$\alpha, \quad \beta, \quad M.$$
 
 
 ---
-
-
 
 
 ```dataviewjs

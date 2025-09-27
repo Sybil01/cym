@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-moc/obras MOC.md",
+                "file": "00-moc/Manfred Mohr.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "obras MOC"
+              "title": "Manfred Mohr"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-tp/tp02-blog.md",
+                "file": "00-moc/Manfred Mohr.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tp02-blog"
+              "title": "Outline of Manfred Mohr"
             }
           },
           {
@@ -298,21 +298,21 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "28b6b37a3f7943ef",
+  "active": "171188c52d3716be",
   "lastOpenFiles": [
-    "04-tp/tp01-paradigmas operativos.md",
-    "04-tp/tp02-blog.md",
-    "b/esfera recursión.md",
+    "06-out/home.md",
+    "00-moc/Manfred Mohr.md",
     "00-moc/obras MOC.md",
+    "04-tp/tp02-blog.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "b/esfera recursión.md",
     "06-out/topoi/arquitectura.md",
     "06-out/obras/A-Volve.md",
     "00-moc/personas MOC.md",
     "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
     "06-out/topoi/ddd.md",
     "06-out/topoi/arquitetura aural/arquitectura Aural MOC.md",
-    "00-moc/Manfred Mohr.md",
     "02-mat/coloquial/Écouter, observer, hacker-ed.md",
-    "06-out/home.md",
     "06-out/operativos/generatividad/modelos de lenguaje/NNLM NPLM de Bengio.md",
     "03-cla/23/c-cym05.06-integración.md",
     "06-out/topoi/Generatividad.md",

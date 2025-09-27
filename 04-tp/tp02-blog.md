@@ -23,7 +23,7 @@ La estructura siguiente es una guia sugerida, que abarca a su vez el formato del
 - Una presentación concisa de la obra/proceso, pensada como “contratapa”.
 	3.	Memoria descriptiva
 - Motivación personal y estética.
-- Definición del régimen escópico: desde dónde se mira, qué visibiliza y qué oculta.
+- Definición del régimen escópico: cual es la operación estético-técnica que se busca dentro o fuera de él.
 - Planteo de la operación estético-técnica: feedback, traducción, emergencia, etc.
 	4.	Paradigma operativo (divulgativo)
 - Breve texto que explique el paradigma elegido en lenguaje accesible.
@@ -69,13 +69,19 @@ La estructura siguiente es una guia sugerida, que abarca a su vez el formato del
 		- Visualizaciones interactivas
 		  - Three.js, D3.js , cytoscape.
 
-
 ### Plataformas de publicación
 - Obsidian Publish o Notion para digital garden.
 - Substack/Medium si se quiere difusión más amplia.
+- Github wiki
 
 
-- Estética del blog:
+## Algunas referencias e ideas
 - Alternar entradas “ensayo” con “sketches” crudos.
 - Jugar con hipertexto y navegación no lineal.
 - Posibilidad de abrir el blog como obra en sí misma (net-art).
+
+- Greg Egan, documenta la ciencia inventada en sus obras de SF https://www.gregegan.net/
+- Johannes Kreidler lleva un blog desde hace 20 años http://www.kulturtechno.de/
+- Jodi portfolio http://wwwwwwwww.jodi.org/
+- Leo Solaas , si bien sus escritos trascienden el concepto de bitácora. https://solaas.medium.com/
+
