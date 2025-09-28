@@ -9,6 +9,9 @@ views:
       - file.name
       - year
       - tags
+    sort:
+      - property: year
+        direction: ASC
     image: note.img
     imageFit: ""
     imageAspectRatio: 0.85
@@ -29,3 +32,19 @@ views:
       and:
         - file.tags.contains("argentina")
     image: note.img
+  - type: cards
+    name: artistcoders
+    filters:
+      and:
+        - file.tags.contains("artistcoders")
+    order:
+      - file.name
+      - year
+      - tags
+    sort:
+      - property: year
+        direction: ASC
+    image: note.img
+    imageFit: ""
+    imageAspectRatio: 0.85
+    cardSize: 140
