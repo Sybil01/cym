@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "171188c52d3716be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "585ba4d5a9ec9eb7",
             "type": "leaf",
             "state": {
@@ -43,13 +28,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym04-introducción al código.md",
+                "file": "03-cla/23/c-cym04-vida digital.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym04-introducción al código"
+              "title": "c-cym04-vida digital"
+            }
+          },
+          {
+            "id": "6ef662977a69357b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "b317e9ef5f8f64e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "b/estado de argentina 2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "estado de argentina 2025"
             }
           }
         ],
@@ -85,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "three",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -293,34 +308,35 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "6ef662977a69357b",
   "lastOpenFiles": [
-    "03-cla/23/c-cym04-vida digital.md",
     "06-out/home.md",
+    "06-out/index.md",
+    "02-mat/blog/quartz v4.md",
+    "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
+    "06-out/topoi/Internetmusic.md",
+    "06-out/topoi/Música Visual.md",
+    "b/estado de argentina 2025.md",
+    "b/c-cym06-generatividad y complejidad.md",
+    "00-moc/Manfred Mohr.md",
+    "02-mat/herramientas/r-código vibrante esqueletos.md",
+    "02-mat/código/jasvascript/js-01-fundamentos.md",
+    "README.md",
+    "02-mat/blog",
+    "03-cla/23/c-cym04-vida digital.md",
+    "03-cla/c-cym04-introducción al código.md",
+    "03-cla/c-cym-09-biomúsica.md",
     "06-out/topoi/hiperrealidad/hiperrealidad.md",
     "06-out/personas/Yotam Mann.md",
     "06-out/personas/Lauren McCarthy.md",
     "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
     "b/esfera recursión.md",
     "b/ácidos.md",
-    "README.md",
     "06-out/topoi/arquitectura.md",
     "06-out/obras/A-Volve.md",
-    "00-moc/Manfred Mohr.md",
     "00-moc/obras MOC.md",
     "04-tp/tp02-blog.md",
     "04-tp/tp01-paradigmas operativos.md",
-    "00-moc/personas MOC.md",
-    "06-out/topoi/ddd.md",
-    "06-out/topoi/arquitetura aural/arquitectura Aural MOC.md",
-    "02-mat/coloquial/Écouter, observer, hacker-ed.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/NNLM NPLM de Bengio.md",
-    "03-cla/23/c-cym05.06-integración.md",
-    "06-out/topoi/Generatividad.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/Mikolov RNNLM.md",
-    "06-out/topoi/Matemáticas Especulativas.md",
-    "06-out/topoi/vida artificial/Vida artificial.md",
-    "06-out/topoi/vida artificial/espíritu invisible.md",
     "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
     "05-obs/img/Pasted image 20250926112238.png",
     "02-mat/coloquial/coloquial.base",
@@ -336,7 +352,6 @@
     "05-obs/img/Pasted image 20250924090534.png",
     "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
     "01-proj/25/Daira Pollard/ἀβραξάς.html",
-    "05-obs/textgenerator/tpl",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
