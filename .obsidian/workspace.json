@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/23/c-cym04-vida digital.md",
+                "file": "03-cla/c-cym04-introducción al código.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym04-vida digital"
+              "title": "c-cym04-introducción al código"
             }
           }
         ],
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 338.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -293,8 +293,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "5f6424b6ad2bd4f0",
+  "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
+    "03-cla/23/c-cym04-vida digital.md",
     "06-out/home.md",
     "06-out/topoi/hiperrealidad/hiperrealidad.md",
     "06-out/personas/Yotam Mann.md",
@@ -320,7 +321,6 @@
     "06-out/topoi/Matemáticas Especulativas.md",
     "06-out/topoi/vida artificial/Vida artificial.md",
     "06-out/topoi/vida artificial/espíritu invisible.md",
-    "06-out/topoi/vida artificial/reducción fenomenológica.md",
     "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
     "05-obs/img/Pasted image 20250926112238.png",
     "02-mat/coloquial/coloquial.base",
