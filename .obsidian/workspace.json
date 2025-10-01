@@ -13,77 +13,83 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
+                "file": "06-out/operativos/generatividad/generatividad MOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "js-03 dataviewjs y html"
-            }
-          },
-          {
-            "id": "5f6424b6ad2bd4f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-cla/23/c-cym04-vida digital.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "c-cym04-vida digital"
-            }
-          },
-          {
-            "id": "6ef662977a69357b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "herramientas de complejidad incremental para publicaciones"
-            }
-          },
-          {
-            "id": "52b1830631d99c87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/personas/Manfred Mohr.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Manfred Mohr"
-            }
-          },
-          {
-            "id": "b317e9ef5f8f64e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "b/estado de argentina 2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "estado de argentina 2025"
+              "title": "generatividad MOC"
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "dfb205c819a1492b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e31271f8aae0a74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-cla/c-cym06-generatividad y complejidad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "c-cym06-generatividad y complejidad"
+            }
+          },
+          {
+            "id": "ab1aed02d08f1a4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/casos/distribución probabilística.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "distribución probabilística"
+            }
+          },
+          {
+            "id": "2b18322e12bfb0d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/operativos/máquinas de Boltzmann.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "máquinas de Boltzmann"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cb821807013ea20c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9affbbf652b54f1",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 386.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -323,11 +329,27 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "52b1830631d99c87",
+  "active": "5e31271f8aae0a74",
   "lastOpenFiles": [
-    "00-moc/personas MOC.md",
-    "06-out/obras/Atmosphères.md",
+    "06-out/casos/distribución probabilística.md",
+    "06-out/operativos/máquinas de Boltzmann.md",
+    "03-cla/c-cym06-generatividad y complejidad.md",
+    "06-out/operativos/generatividad/generatividad MOC.md",
+    "06-out/personas/Manfred Mohr.md",
+    "06-out/espacios/CAYC.md",
+    "06-out/eventos/2972453.md",
     "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
+    "03-cla/23/c-cym04-vida digital.md",
+    "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
+    "06-out/obras/Atmosphères.md",
+    "b/251001.md",
+    "00-moc/eventos MOC.md",
+    "b/estado de argentina 2025.md",
+    "06-out/personas/György Ligeti.md",
+    "conflict-files-obsidian-git.md",
+    "06-out/blog",
+    "06-out/config.ts",
+    "00-moc/personas MOC.md",
     "06-out/casos/agreggación difusión de Gray-Scott/cebra Gray-Scott.md",
     "06-out/casos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
     "06-out/casos/consola atómica/caso Consola Atómica.md",
@@ -337,21 +359,7 @@
     "06-out/bibliografía/Los condenados de la pantalla.md",
     "06-out/personas/Leonard Baum.md",
     "06-out/personas/Bernard Stiegler.md",
-    "06-out/personas/Allison Parrish.md",
     "06-out/topoi/topoi BASE.base",
-    "01-proj/23/bassino/Clorolaser.md",
-    "01-proj/23/bassino/Multi-efecto.md",
-    "01-proj/23/beltrame/Exercise.md",
-    "01-proj/23/beltrame/Piano.md",
-    "01-proj/23/shifres/do-tonera.md",
-    "01-proj/23/zaracho/Botonera rítmica.md",
-    "01-proj/23/petroccelli/Guitarrax.md",
-    "05-obs/tpl/t-topoi.md",
-    "06-out/operativos/método científico/Método científico.md",
-    "06-out/topoi/Aroma.md",
-    "06-out/topoi/Arte participativo.md",
-    "06-out/topoi/Arte de datos.md",
-    "06-out/topoi/Augmented Cognition.md",
     "02-mat/blog",
     "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
     "05-obs/img/Pasted image 20250926112238.png",
@@ -360,9 +368,7 @@
     "06-out/eventos/eventos.base",
     "06-out/obras/obras.base",
     "06-out/personas/prs.base",
-    "06-out/operativos/generatividad/modelos de lenguaje",
     "05-obs/img/Pasted image 20250926104149.png",
-    "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
     "05-obs/img/Pasted image 20250924090749.png",
     "05-obs/img/Pasted image 20250924090727.png",
     "05-obs/img/Pasted image 20250924090534.png",

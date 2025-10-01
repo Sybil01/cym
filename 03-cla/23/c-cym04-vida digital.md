@@ -8,7 +8,7 @@ theme: consult
 center : true
 margin: 0.1
 ---
-<!-- slide bg="#010100"--> 
+<!-- slide bg="#010100"⇉ 
 ![[untref-logo-w.svg|100]]
 UNTREF | CYM24
 # vida digital
