@@ -3,7 +3,7 @@ author: Gustavo Zaracho
 tags: topoi 
 type: topoi
 publish: 2023
-banner: "https://schott-production.s3.eu-central-1.amazonaws.com/media/Allgemein/Blog/Blog_Bilder_847_420_px_1000_500_px__3.png"
+img: "https://schott-production.s3.eu-central-1.amazonaws.com/media/Allgemein/Blog/Blog_Bilder_847_420_px_1000_500_px__3.png"
 ---
 
 
@@ -63,10 +63,31 @@ Su impacto en la escena socio-política no se ha podido medir pero su nombre y l
 
 Esta obra ha sido catalogada dentro de la música conceptual, lo que no es para nada inocente a la hora de pensar en estrategias que puedan lograr una comunicación entre fenómenos sociales y una composición musical. Este género ha sido provisto de muchos medios expresivos a la vez que se ha desprovisto de muchos otros que han sido, en parte, responsables de esta imposibilidad de la música de expresar de manera textual las ideas y lecturas que tienen los compositores del contexto en el que viven.
 
+## Exponentes del arte político
+
+### Música de concierto (contemporánea y experimental)
+- Luigi Nono: quizás el referente mayor en música política de concierto, desde Intolleranza 1960 hasta La fabbrica illuminata.
+- Frederic Rzewski: con obras como The People United Will Never Be Defeated! que cruzan virtuosismo instrumental con memoria política.
+- Cornelius Cardew: especialmente con The Great Learning y su militancia maoísta aplicada a la música comunitaria.
+- Helmut Lachenmann: su “música concreta instrumental” como crítica al virtuosismo vacío y al consumo acrítico de sonido.
+- Pauline Oliveros: aunque menos explícita en lo político, su Deep Listening se conecta con prácticas ecofeministas y horizontales.
+- Cathy Berberian y Mauricio Kagel: ambos con trabajos críticos sobre la teatralidad y la maquinaria cultural.
+
+### Net art y prácticas digitales
+- Critical Art Ensemble: pioneros en arte político digital, biotecnología y crítica de las corporaciones.
+- Heath Bunting y el colectivo irational.org: net art político en los 90.
+- Natalie Bookchin: instalaciones y obras en red que exploran desigualdades sociales.
+- Rafael Lozano-Hemmer: aunque más institucional, trabaja la visualización crítica de datos.
+- Constant (colectivo en Bruselas): prácticas feministas y de software libre en el arte digital.
+- Ursula Biemann: video-ensayos sobre ecología, extractivismo y fronteras.
+
+### Referentes que cruzan datos, ecología y estética
+- Forensic Architecture (Eyal Weizman): aunque más cercano al activismo visual, su metodología es inspiradora para una obra web interactiva.
+- Ryoji Ikeda: uso de data visualizada y sonificada, aunque más formalista; puede servir de contrapunto.
+
 ## Otros autores
 
 **Hanns Eisler**
-
 **Luigi Nono**
 
 ## Referencias
@@ -82,3 +103,6 @@ Lehman, Harry. _“Música conceptual. Catalizadora del giro hacia la estética 
 Robayo Pedraza, Miryam Ibeth. _“La canción social como expresión de inconformismo social y político del siglo XX”_, 2015. Universidad Distrital Francisco José Caldas. Bogotá, Colombia.
 
 Solomonoff, Natalia, compiladora. _“Lecturas: escuchas periféricas”_, 2018. Suono Mobile editora. Córdoba, Argentina.
+
+
+

@@ -19,7 +19,8 @@
 .obsidian/plugins/obsidian-mkdocs-publisher/
 
 # Ignorar todos los archivos de plugins (no rastrear el código, solo la lista si quieres)
+.obsidian
 .obsidian/plugins/
-
-# Otros comunes (evitando duplicados)
 b/
+
+

@@ -1,13 +1,12 @@
 ---
 tags:
-  - entrevistas
   - s21
-place: 
-persona: Kelley Sheehan
-connections: 
+place:
+person: Kelley Sheehan
+connections:
 url: https://12ft.io/proxy?q=https%3A%2F%2Fvan-magazine.com%2Fmag%2Fauthor%2Fty-bouque%2F
-photo: https://van-magazine.com/wp-content/uploads/2024/09/kelley-sheehan-1200x675.jpg
-topoi: 
+img: https://van-magazine.com/wp-content/uploads/2024/09/kelley-sheehan-1200x675.jpg
+topoi:
 year: 2024
 ---
 ![|Kelley Sheehan • Photo © Graham Carlson](https://van-magazine.com/wp-content/uploads/2024/09/kelley-sheehan-1200x675.jpg)

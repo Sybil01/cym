@@ -2,15 +2,13 @@
 type: topoi
 tags: 
 - instalación
-- artes artesvisuales
-- topoi
-unit: 22.1
+- artesvisuales
 publish: 2020
 author: 
 - zztt
 - agustin fernandez burzaco
 - cdp
-banner: https://i.imgur.com/9Un32mo.png
+img: https://i.imgur.com/9Un32mo.png
 ---
 ![](https://i.imgur.com/9Un32mo.png)
 

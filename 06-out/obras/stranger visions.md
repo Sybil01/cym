@@ -1,12 +1,15 @@
 ---
 type: obra
-photo: 
+img: https://i.imgur.com/AC5Fygo.png
 year: 2013
 tags:
   - bioart
 person: "[[Heather Dewey-Hagborg]]"
 url: deweyhagborg.com
 ---
+
+
+
 [http://deweyhagborg.com/projects/stranger-visions](http://deweyhagborg.com/projects/stranger-visions)
 
 ![](http://deweyhagborg.com/media/pages/projects/stranger-visions/7da3b75358-1643025562/img_2398-2.jpg)

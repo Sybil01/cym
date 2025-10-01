@@ -4,11 +4,15 @@ status: dev, topoi
 author: Lionel Borsalino
 unit: 51
 year: 2017
-banner: "https://freight.cargo.site/t/original/i/930742521ab1b384e718a4bdf3ac0915c48f27cc6c3cd088499339ebab0d0463/a3.jpg"
-  https://freight.cargo.site/t/original/i/930742521ab1b384e718a4bdf3ac0915c48f27cc6c3cd088499339ebab0d0463/a3.jpg
+img: "https://freight.cargo.site/t/original/i/930742521ab1b384e718a4bdf3ac0915c48f27cc6c3cd088499339ebab0d0463/a3.jpg"
 ---
 
-# Arte Relacional
+
+```dataview
+list from #arterelacional  
+```
+
+
 
 ## el retorno del aura
 

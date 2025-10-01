@@ -1,12 +1,11 @@
 ---
 tags:
-  - entrevistas
   - s21
 place: 
 person: Sara Glojnarić
 connections: 
 url: https://12ft.io/proxy?q=https://van-magazine.com/mag/sara-glojnaric
-photo: https://van-magazine.com/wp-content/uploads/2021/05/wall_landscape_large-1200x805-1.jpeg
+img: https://van-magazine.com/wp-content/uploads/2021/05/wall_landscape_large-1200x805-1.jpeg
 topoi: 
 year: 2021
 ---

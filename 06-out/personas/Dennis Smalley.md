@@ -6,8 +6,12 @@ tags:
   - 108B
 img: https://i.imgur.com/NOvprug.png
 mates:
-year:
+year: 1946
 url:
+born in city: Nelson
+country: New Zealand
+teachers: "[[Oliver Messiaen]]"
 ---
+
 
 

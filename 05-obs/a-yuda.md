@@ -2,6 +2,14 @@
 
 # instalar obsidian
 
+> [!fire] Para evitar problemas de desconfiguración, vamos a destrackear las carpetas locales de .obsidian, no se preocupen, es muy facil, sigan estos cuatro comandos desde el prompt del command / terminal:
+
+```
+git pull git rm -r --cached .obsidian  # si en su repo todavía estaba trackeada 
+git commit -m "stop tracking .obsidian (local)" 
+git push  # opcional; no sube nada de .obsidian ya
+```
+
 ## .gitignore
 
 son los archivos recomendados para no sincronizar con github. Hasta ahora son estos:

@@ -10,7 +10,7 @@
     \clef treble
     \key c \major
     \cadenzaOn
-    c'4 d''2. | b'8
+    c'4 d''2. g''16 c'''2
     \cadenzaOff
   }
   \layout { }

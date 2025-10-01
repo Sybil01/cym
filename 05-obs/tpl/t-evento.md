@@ -3,6 +3,6 @@ tags:
 place: 
 connections: 
 url: 
-photo: 
+img: 
 year:
 ---

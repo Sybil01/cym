@@ -59,14 +59,3 @@ ALTO nIVEL
 
 c++ 
 
-BAJO niVEL
-	assembler > 00 F0 1E 4A C0 < load RAM 01
-
-
-Fabian
-	Robert Henke
-		UX - Ableton , diseño de interface. 
-		Vector Synthesis - 
-			Shaders - Arte de las señales 
-			
-		

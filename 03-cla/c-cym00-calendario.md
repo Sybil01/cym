@@ -1,12 +1,14 @@
 ---
 title: cym25
 tags:
-  - cym
+  
   - class
 ---
-3
 # calendario cym 25
 
+
+
+---
 
 - [ ] 2025-08-23
 	- [ ] Presentación personal 2'
@@ -22,9 +24,19 @@ tags:
 [[Geometría y Experiencia]]
 
 
-## tp2 Monografía basada en textos.
+## tp2 Blog 
 
-- [ ] 2025-09-17
+- [ ] 2025-10-15
+Realizar un blog del Paradigma operativo para el proyecto final.
+- publicación de la página del grupo y deployment. (github, jekyll, astro, scratch (js html css))
+- fundamentación científico-especulativa.
+- Demo de obra resonante, audio, pieza audiovisual, prototipos. 
+	- hydra, js, azar, sonificación, arte de datos. 
+
+
+## tp3 Monografía basada en textos.
+
+- [ ] 2025-10-30
 
 - Crear o mejorar un tópico. 
 - Basado en textos propuestos o a proponer.
@@ -52,17 +64,6 @@ Almagro, J. C., Perazzo, R. P. J., & Sidelnik, J. I. (2017). Crónica de una rep
 Niermann, I. (2024). The monadic age: Notes on the coming social order. Sternberg press.
 Stupples, P. (2018). Art and Future: Energy, Climate, Cultures. Cambridge Scholars Publisher.
 Veder, R. (2015). The living line: Modern art and the economy of energy. Dartmouth College Press.
-
-
-
-## tp3 Blog 
-
-- [ ] 2025-10-15
-Realizar un blog del Paradigma operativo para el proyecto final.
-- publicación de la página del grupo y deployment. (github, jekyll, astro, scratch (js html css))
-- fundamentación científico-especulativa.
-- Demo de obra resonante, audio, pieza audiovisual, prototipos. 
-	- hydra, js, azar, sonificación, arte de datos. 
 
 
 ## visita a Atucha I y II  

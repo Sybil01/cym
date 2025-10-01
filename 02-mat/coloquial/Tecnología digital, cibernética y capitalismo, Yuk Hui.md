@@ -1,11 +1,12 @@
 ---
 tags:
-  - entrevistas
-place: 
-connections: 
+  
+place:
+connections:
 url: https://filosofiahoy1.blogspot.com/2023/09/tecnologia-digital-cibernetica-y_25.html
-photo: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMqNCLdqEQ1srs1fkXJvyhh-tfP-iN1kN4-w0Fx_4KGRfom56tYC60xl12C7zVnTt-AVs2GGMoZyYalAbc_aUvmJ8FL2BKzKxpKE-B7RZyFr-sPWUsRqomzbj9yapP2cJB8ZGHbBAO8Caw9R7XqNwD47yhizfVinetO_Lu2vmHgMrOox24RkQCY236Y7Y/s1600/Capture-d%C3%A9cran-2020-08-31-%C3%A0-17.58.56-1.png
+img: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMqNCLdqEQ1srs1fkXJvyhh-tfP-iN1kN4-w0Fx_4KGRfom56tYC60xl12C7zVnTt-AVs2GGMoZyYalAbc_aUvmJ8FL2BKzKxpKE-B7RZyFr-sPWUsRqomzbj9yapP2cJB8ZGHbBAO8Caw9R7XqNwD47yhizfVinetO_Lu2vmHgMrOox24RkQCY236Y7Y/s1600/Capture-d%C3%A9cran-2020-08-31-%C3%A0-17.58.56-1.png
 year: 2023
+person: Yuk Hui
 ---
 
  Javier Occhiuzzi
