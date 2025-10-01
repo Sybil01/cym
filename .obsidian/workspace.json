@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-tp/tp02-blog.md",
+                "file": "02-mat/blog/quartz v4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tp02-blog"
+              "title": "quartz v4"
             }
           }
         ]
@@ -238,34 +238,28 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
-      "obsidian-importer:Open Importer": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "media-extended:Open external media": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "webpage-html-export:Export as HTML": false,
-      "obsidian-map-view:Open map view": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "06-out/index.md",
-    "03-cla/c-cym04-introducción al código.md",
-    "03-cla/c-cym-09-biomúsica.md",
-    "02-mat/herramientas/r-código vibrante esqueletos.md",
+    "02-mat/blog/astro.md",
     "02-mat/blog/quartz v4.md",
     "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
+    "README.md",
+    "03-cla/c-cym00-calendario.md",
+    "03-cla/c-cym-09-biomúsica.md",
+    "03-cla/c-cym05-metáfora y re.md",
+    "conflict-files-obsidian-git.md",
+    "06-out/index.md",
+    "03-cla/c-cym04-introducción al código.md",
+    "02-mat/herramientas/r-código vibrante esqueletos.md",
     "02-mat/blog",
     "04-tp/tp02-blog.md",
-    "conflict-files-obsidian-git.md",
     "03-cla/23/c-cym04-introducción al código.md",
     "03-cla/c-cym02-paradigmas operativos.md",
     "03-cla/c-cym03-energía.md",
-    "03-cla/c-cym05-metáfora y re.md",
     "03-cla/c-cym04-energía argentina.md",
     "03-cla/c-cym01 cym introducción.md",
     "06-out/home.md",
@@ -277,9 +271,6 @@
     "06-out/topoi/ddd.md",
     "06-out/topoi/arquitectura.md",
     "06-out/topoi/Matemáticas Especulativas.md",
-    "06-out/personas/Lauren McCarthy.md",
-    "06-out/personas/Ben Laposky.md",
-    "06-out/personas/Assemble Studio.md",
     "06-out/operativos/operativos artísticos",
     "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
     "06-out/operativos/generatividad/modelos de lenguaje",
