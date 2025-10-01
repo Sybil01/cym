@@ -4,7 +4,7 @@ tags: generatividad
 unit: 31
 publish: 2020
 author: zztt
-banner: "https://i.imgur.com/RJ1rh0h.gif"
+img: "https://i.imgur.com/RJ1rh0h.gif"
 banner_y: 0.5
 ---
 

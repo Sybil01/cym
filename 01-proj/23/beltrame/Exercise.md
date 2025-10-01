@@ -6,7 +6,7 @@ tags:
   - js
   - tonejs
 publish: 2023
-banner: "https://codepen.io/Sabrina-Beltrame/pen/wvNvEMr"
+img: "https://codepen.io/Sabrina-Beltrame/pen/wvNvEMr"
 tp: 04
 ---
 

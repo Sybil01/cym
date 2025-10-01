@@ -3,7 +3,7 @@ author: Gustavo Zaracho
 tags: topoi 
 type: topoi
 publish: 2023
-banner: "https://schott-production.s3.eu-central-1.amazonaws.com/media/Allgemein/Blog/Blog_Bilder_847_420_px_1000_500_px__3.png"
+img: "https://schott-production.s3.eu-central-1.amazonaws.com/media/Allgemein/Blog/Blog_Bilder_847_420_px_1000_500_px__3.png"
 ---
 
 

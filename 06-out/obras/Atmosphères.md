@@ -707,8 +707,8 @@ root.__ligetiCleanup = async ()=>{
 
 ## versiones
 
-### Berliner Philharmoniker. cond. JOnathan Nott
-https://www.youtube.com/watch?v=qPr4vRRQKvQ
+### Berliner Philharmoniker. cond. Jonathan Nott
+<iframe title="Atmosphères - György Ligeti" src="https://www.youtube.com/embed/qPr4vRRQKvQ?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 
 [[lírica lorenz]]
@@ -1095,6 +1095,9 @@ root.__lorenzCleanup = async ()=>{
   els.view.innerHTML="";
 };
 ```
+
+
+
 
 
 
