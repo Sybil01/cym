@@ -687,3 +687,7 @@ flowchart TB
    - Entre las posibles aplicaciones se incluyen las herramientas de diseño impulsadas por la IA para la arquitectura (@Oxman2016) o la medicina personalizada mediante la generación de datos biológicos sintéticos (@Topol2019).  
    - ¿Podrían los modelos generativos permitir formas completamente nuevas de expresión artística o producción cultural?
 
+---
+
+[[generatividad MOC]]
+
