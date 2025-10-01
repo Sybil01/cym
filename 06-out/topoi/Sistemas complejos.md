@@ -4,7 +4,7 @@ tags:
 - complejidad
 unit: 33
 author: zztt
-banner: https://annex.exploratorium.edu/complexity/CompLexicon/sfi.gif
+img: https://annex.exploratorium.edu/complexity/CompLexicon/sfi.gif
 ---
 
 # Sistemas Complejos

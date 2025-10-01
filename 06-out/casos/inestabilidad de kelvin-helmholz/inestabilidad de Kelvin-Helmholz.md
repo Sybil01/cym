@@ -8,24 +8,24 @@ El cielo rasga su piel cuando dos vientos en disputa recitan melodías distintas
 
 
 
-((
-   <{~[ρ₁ U₁]}>
-   ||
-   <{~[ρ₂ U₂]}>
-)) ⇒ ~((≡))
-        |
-     ((∿∿∿)) ↝ ↑
+**((<br>**
+   **<{~[ρ₁ U₁]}><br>**
+   **||<br>**
+   **<{~[ρ₂ U₂]}><br>**
+**)) ⇒ ~((≡))<br>**
+        **|<br>**
+     **((∿∿∿)) ↝ ↑<br>**
 
 
 
 ## léxico
 
-	•	(()): Reentrada, formación del límite entre dos dominios.
-	•	<{~[ρ₁ U₁]}>: flujo 1, envuelto en temporalización (< >), espacialización ({ }), negado (~) y modalizado ([ ]) como sistema distinto.
-	•	||: discontinuidad o frontera crítica entre los dos sistemas.
-	•	⇒ ~((≡)): el sistema ya no conserva equivalencia interna; la identidad reentrante se niega: aparece inestabilidad.
-	•	((∿∿∿)): patrón oscilatorio de crecimiento de la onda, encapsulado en una nueva reentrada.
-	•	↝ ↑: deriva vertical, ascensión del pliegue, transformación de frontera en fenómeno visible.
+- **(()):** Reentrada, formación del límite entre dos dominios.
+- **<{~[ρ₁ U₁]}>**: flujo 1, envuelto en temporalización (< >), espacialización ({ }), negado (~) y modalizado ([ ]) como sistema distinto.
+- **||**: discontinuidad o frontera crítica entre los dos sistemas.
+- **⇒ ~((≡))**: el sistema ya no conserva equivalencia interna; la identidad reentrante se niega: aparece inestabilidad.
+- **((∿∿∿))**: patrón oscilatorio de crecimiento de la onda, encapsulado en una nueva reentrada.
+- **↝ ↑**: deriva vertical, ascensión del pliegue, transformación de frontera en fenómeno visible.
 
 
 ## principio de funcionamiento
@@ -41,9 +41,9 @@ U(y) = U_0 \cdot \tanh\left(\frac{y}{\delta}\right)
 $$
 
 donde:
-	•	$U_0$ = velocidad máxima de las capas
-	•	$\delta$ = grosor de la zona de transición (cizalla)
-	•	$y$ = posición vertical
+- $U_0$ = velocidad máxima de las capas
+- $\delta$ = grosor de la zona de transición (cizalla)
+- $y$ = posición vertical
 
 2. Derivada del perfil de velocidad (gradiente de cizalla):
 
@@ -65,18 +65,18 @@ $$
 $$
 
 donde:
-	•	$k$ = número de onda
-	•	$\omega$ = frecuencia angular (aproximada aquí como constante)
-	•	$A$ = amplitud modulada por la distancia a la interfaz
+	- $k$ = número de onda
+	- $\omega$ = frecuencia angular (aproximada aquí como constante)
+	- $A$ = amplitud modulada por la distancia a la interfaz
 
 4. Sonificación:
-	•	Frecuencia: mapeada linealmente de $y$ a rango $[20, 5000]$ Hz
-	•	Ganancia: función del gradiente de velocidad $|dU/dy|$ y de la magnitud de la velocidad vertical $|v_y|$
+	- Frecuencia: mapeada linealmente de $y$ a rango $[20, 5000]$ Hz
+	- Ganancia: función del gradiente de velocidad $|dU/dy|$ y de la magnitud de la velocidad vertical $|v_y|$
 
 5. Movimiento de partículas (discreto):
-	•	Se aplica una “fuerza” basada en el perfil de cizalla para relajar cada partícula hacia el perfil ideal
-	•	También se induce una oscilación transversal según la fase local
-	•	El movimiento es estabilizado con disipación artificial:
+	- Se aplica una “fuerza” basada en el perfil de cizalla para relajar cada partícula hacia el perfil ideal
+	- También se induce una oscilación transversal según la fase local
+	- El movimiento es estabilizado con disipación artificial:
 
 $$
 v_x \leftarrow v_x \cdot \lambda,\quad v_y \leftarrow v_y \cdot \lambda,\quad \lambda < 1

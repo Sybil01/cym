@@ -8,7 +8,7 @@ tags:
 unit: 21
 publish: 2018
 author: zztt
-banner: "https://www.researchgate.net/publication/26874064/figure/fig2/AS:601663815553035@1520459240110/Diagrammatic-summary-of-General-Tau-Theory-The-markers-on-the-hands-of-the-female.png"
+img: "https://www.researchgate.net/publication/26874064/figure/fig2/AS:601663815553035@1520459240110/Diagrammatic-summary-of-General-Tau-Theory-The-markers-on-the-hands-of-the-female.png"
 ---
 
 ```dataview

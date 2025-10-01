@@ -8,7 +8,7 @@ author:
 - zztt
 - agustin fernandez burzaco
 - cdp
-banner: https://i.imgur.com/9Un32mo.png
+img: https://i.imgur.com/9Un32mo.png
 ---
 ![](https://i.imgur.com/9Un32mo.png)
 

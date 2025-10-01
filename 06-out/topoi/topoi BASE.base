@@ -10,4 +10,4 @@ views:
     order:
       - file.name
       - author
-    image: note.banner
+    image: note.img

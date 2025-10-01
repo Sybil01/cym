@@ -43,13 +43,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/index.md",
+                "file": "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "herramientas de complejidad incremental para publicaciones"
+            }
+          },
+          {
+            "id": "52b1830631d99c87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/personas/Manfred Mohr.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Manfred Mohr"
             }
           },
           {
@@ -68,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 248.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -308,35 +323,36 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6ef662977a69357b",
+  "active": "52b1830631d99c87",
   "lastOpenFiles": [
-    "06-out/home.md",
-    "06-out/index.md",
-    "02-mat/blog/quartz v4.md",
-    "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
-    "06-out/topoi/Internetmusic.md",
-    "06-out/topoi/Música Visual.md",
-    "b/estado de argentina 2025.md",
-    "b/c-cym06-generatividad y complejidad.md",
-    "00-moc/Manfred Mohr.md",
-    "02-mat/herramientas/r-código vibrante esqueletos.md",
-    "02-mat/código/jasvascript/js-01-fundamentos.md",
-    "README.md",
-    "02-mat/blog",
-    "03-cla/23/c-cym04-vida digital.md",
-    "03-cla/c-cym04-introducción al código.md",
-    "03-cla/c-cym-09-biomúsica.md",
-    "06-out/topoi/hiperrealidad/hiperrealidad.md",
-    "06-out/personas/Yotam Mann.md",
-    "06-out/personas/Lauren McCarthy.md",
+    "00-moc/personas MOC.md",
+    "06-out/obras/Atmosphères.md",
     "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
-    "b/esfera recursión.md",
-    "b/ácidos.md",
-    "06-out/topoi/arquitectura.md",
-    "06-out/obras/A-Volve.md",
-    "00-moc/obras MOC.md",
-    "04-tp/tp02-blog.md",
-    "04-tp/tp01-paradigmas operativos.md",
+    "06-out/casos/agreggación difusión de Gray-Scott/cebra Gray-Scott.md",
+    "06-out/casos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
+    "06-out/casos/consola atómica/caso Consola Atómica.md",
+    "06-out/casos/el cielo/caso El Cielo.md",
+    "06-out/bibliografía/Jane Bennet_Vibrant Matter.md",
+    "06-out/bibliografía/John D Barrow_El libro de la nada.md",
+    "06-out/bibliografía/Los condenados de la pantalla.md",
+    "06-out/personas/Leonard Baum.md",
+    "06-out/personas/Bernard Stiegler.md",
+    "06-out/personas/Allison Parrish.md",
+    "06-out/topoi/topoi BASE.base",
+    "01-proj/23/bassino/Clorolaser.md",
+    "01-proj/23/bassino/Multi-efecto.md",
+    "01-proj/23/beltrame/Exercise.md",
+    "01-proj/23/beltrame/Piano.md",
+    "01-proj/23/shifres/do-tonera.md",
+    "01-proj/23/zaracho/Botonera rítmica.md",
+    "01-proj/23/petroccelli/Guitarrax.md",
+    "05-obs/tpl/t-topoi.md",
+    "06-out/operativos/método científico/Método científico.md",
+    "06-out/topoi/Aroma.md",
+    "06-out/topoi/Arte participativo.md",
+    "06-out/topoi/Arte de datos.md",
+    "06-out/topoi/Augmented Cognition.md",
+    "02-mat/blog",
     "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
     "05-obs/img/Pasted image 20250926112238.png",
     "02-mat/coloquial/coloquial.base",
@@ -351,7 +367,6 @@
     "05-obs/img/Pasted image 20250924090727.png",
     "05-obs/img/Pasted image 20250924090534.png",
     "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
-    "01-proj/25/Daira Pollard/ἀβραξάς.html",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",

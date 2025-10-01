@@ -6,7 +6,7 @@ tags:
 unit: 0
 publish: 2025
 author: zztt
-banner: "https://i.imgur.com/J3FZ1Ba.png"
+img: "https://i.imgur.com/J3FZ1Ba.png"
 ---
 ```dataview
 list from #energía 
