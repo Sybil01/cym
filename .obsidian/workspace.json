@@ -4,116 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "8d675a9231b24172",
+        "id": "2da19bc372fcda96",
         "type": "tabs",
         "children": [
           {
-            "id": "7a5104a4201baaec",
+            "id": "db0fc51b01de4ecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/operativos/escritura icónica/00 ei scratch.md",
+                "file": "06-out/operativos/sistemas paramétricos/pt4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "00 ei scratch"
+              "title": "pt4"
             }
           },
           {
-            "id": "b766a902b8a9c833",
+            "id": "aa82e4183ff3df57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "01-proj/25/Dai Miauro/tp1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "TP01 Paradigmas operativos"
+              "icon": "lucide-file-text",
+              "title": "tp1"
             }
           },
           {
-            "id": "d7da017d5436cb37",
+            "id": "9c03a659096e31f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-tp/tp01-paradigmas operativos.md",
+                "file": "06-out/glosario/DOM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "tp01-paradigmas operativos"
+              "title": "DOM"
             }
           },
           {
-            "id": "784e95b4d24c2731",
+            "id": "11634b6d84f9cf6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
+                "file": "06-out/obras/Atmosphères.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TP01 Paradigmas operativos"
-            }
-          },
-          {
-            "id": "055fe80d9e419858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "TP01 Paradigmas operativos"
-            }
-          },
-          {
-            "id": "8baff9c41c7b5090",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "TP01 Paradigmas operativos"
-            }
-          },
-          {
-            "id": "87099e3e27d4132d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "TP01 Paradigmas operativos"
+              "title": "Atmosphères"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +88,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -165,12 +117,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "aa56766b557ab7a9",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 305.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -187,10 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-moc/obras MOC.md"
+                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obras MOC"
+              "title": "Outline of inestabilidad de Kelvin-Helmholz"
             }
           },
           {
@@ -199,17 +164,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-moc/obras MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for obras MOC"
+              "title": "Backlinks"
             }
           },
           {
@@ -220,20 +184,6 @@
               "state": {},
               "icon": "lucide-ghost",
               "title": "git-view"
-            }
-          },
-          {
-            "id": "52f74587519419f6",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
             }
           },
           {
@@ -252,15 +202,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from inestabilidad de Kelvin-Helmholz"
             }
           },
           {
-            "id": "f0739d8c01c0a9a3",
+            "id": "412b1e1aab99248c",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -268,9 +219,19 @@
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
             }
+          },
+          {
+            "id": "e121fde7da07e3ce",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "b33cb9828f682814",
@@ -313,67 +274,67 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 236.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "055fe80d9e419858",
+  "active": "aa82e4183ff3df57",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
-    "01-proj/25/Tomas Fernandez/pruebas.md",
-    "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
-    "01-proj/25/Carlos Lescano/TP1/TP1 Salida -VacaMuertaDatos.mp3",
-    "Sin título.canvas",
-    "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel.zip",
-    "01-proj/25/Carlos Lescano/TP1",
-    "05-obs/img/Pasted image 20250910023437.png",
-    "05-obs/img/Pasted image 20250910023119.png",
     "04-tp/tp01-paradigmas operativos.md",
+    "01-proj/25/Dai Miauro/tp1.pdf",
+    "01-proj/25/Dai Miauro/test.pdf",
+    "update-tlmgr-latest.sh",
+    "Sin título.canvas",
+    "06-out/topoi/internet/web 3.0 glosario y knowledge graphs.md",
+    "06-out/topoi/internet",
+    "06-out/topoi/hiperrealidad/hiperreal.md",
+    "06-out/res/energia-vis.html",
+    "06-out/res",
+    "06-out/operativos/escritura icónica/dict for latex-discord.md",
+    "06-out/operativos/escritura icónica/de mathjax a knowledge graphs.md",
+    "06-out/operativos/escritura icónica/01 entidades y operadores.md",
     "06-out/operativos/escritura icónica/00 ei scratch.md",
+    "06-out/operativos artísticos/transubstanciación.md",
+    "06-out/operativos artísticos/retombeé.md",
+    "06-out/operativos artísticos/relacionismo.md",
+    "06-out/operativos artísticos/proposopeyéutica.md",
+    "06-out/operativos artísticos/metáfora.md",
+    "06-out/operativos artísticos/hipotiposis.md",
+    "06-out/operativos artísticos/efímero.md",
+    "06-out/operativos artísticos/ecfrasis.md",
+    "06-out/operativos artísticos/desplazamiento.md",
+    "06-out/operativos artísticos/desmaterialización.md",
+    "06-out/operativos artísticos/austeridad.md",
+    "06-out/operativos artísticos/aporía.md",
+    "06-out/operativos artísticos/alegoría.md",
+    "06-out/operativos artísticos/accionismo.md",
+    "06-out/obras/Untitled.md",
+    "06-out/obras/Rainforest IV.md",
+    "06-out/home.md",
+    "06-out/glosario/try.md",
     "05-obs/img/TP01 Paradigmas operativos Tomás Fernandez_1.mp4",
     "05-obs/img/TP01 Paradigmas operativos Tomás Fernandez.mp4",
-    "01-proj/25/Daira Pollard/SPOILER_tp01.md",
-    "06-out/eventos/2972453.md",
-    "06-out/obras/Boid Simulation.md",
-    "06-out/obras/Sun Thinking.md",
-    "01-proj/25/Dai Miauro/Holiwisss.md",
-    "01-proj/25/Carlos Lescano/Hola mundo.md",
-    "01-proj/25/Peterschmitt/hola.md",
-    "01-proj/25/prueba mac/hola mundo.md",
-    "06-out/operativos/escritura icónica/01 entidades y operadores.md",
-    "01-proj/25/Tomas Fernandez/Sin nombre",
-    "01-proj/25/Daira Pollard/TP PROY.md",
-    "01-proj/25/Tomas Fernandez/TP1 PARADIGMA OPERATIVO.md",
-    "06-out/operativos/escritura icónica/test agente.md",
-    "04-tp/cym-plantilla-latex.md",
-    "01-proj/25/Daira Pollard",
-    "04-tp/arc/tp01-topoi.md",
-    "04-tp/arc/tp02-aplicación.md",
-    "04-tp/prueba.md",
-    "06-out/bibliografía/El Azar y la Necesidad.md",
-    "06-out/bibliografía/Boris Groys_Arte y flujo.md",
-    "06-out/eventos/La memoria de los materiales.md",
-    "06-out/topoi/internet",
-    "06-out/res/energia-vis.html",
+    "05-obs/img/Pasted image 20250910023437.png",
+    "05-obs/img/Pasted image 20250910023119.png",
     "05-obs/img/Pasted image 20250827130347.png",
     "05-obs/img/Pasted image 20250827124029.png",
     "05-obs/img/Pasted image 20250827114255.png",
-    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
+    "04-tp/cym-plantilla-latex.md",
+    "01-proj/25/prueba mac",
+    "01-proj/25/Tomas Fernandez",
     "05-obs/lib/score.svg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
     "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
+    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
     "cym-metamap.canvas",
     "Sin título 1.canvas",
     "Untitled.canvas",
