@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-mat/blog/quartz v4.md",
-                "mode": "preview",
+                "file": "03-cla/c-cym-09-biomúsica.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "quartz v4"
+              "title": "c-cym-09-biomúsica"
             }
           }
         ]
@@ -242,9 +242,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "02-mat/blog/astro.md",
     "02-mat/blog/quartz v4.md",
+    "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
     "conflict-files-obsidian-git.md",
     "06-out/personas/Manfred Mohr.md",
     "06-out/personas/György Ligeti.md",
@@ -256,8 +258,6 @@
     "06-out/index.md",
     "06-out/home.md",
     "README.md",
-    "02-mat/blog/astro.md",
-    "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
     "03-cla/c-cym00-calendario.md",
     "03-cla/c-cym-09-biomúsica.md",
     "03-cla/c-cym05-metáfora y re.md",
