@@ -1,7 +1,6 @@
 ---
-title: metáfora y re
-tags:
- class
+title: generatividad y complejidad
+tags: class
 type: class
 ---
 
@@ -676,7 +675,7 @@ flowchart TB
 
 ---
 
-## ## Preguntas de investigación
+## Preguntas de investigación
 1. **¿Cuáles son los retos teóricos emergentes en los modelos generativos?**  
    - Los retos actuales incluyen mejorar la interpretabilidad de los modelos, abordar la amplificación del sesgo y escalar a espacios de datos de alta dimensión (@Arjovsky2017).  
    - ¿Cómo podemos conciliar la complejidad de los modelos y la eficiencia computacional?
