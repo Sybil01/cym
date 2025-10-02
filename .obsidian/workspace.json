@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym06-generatividad y complejidad.md",
+                "file": "02-mat/blog/01-digital garden.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym06-generatividad y complejidad"
+              "title": "01-digital garden"
             }
           }
         ]
@@ -264,17 +264,23 @@
   },
   "active": "585ba4d5a9ec9eb7",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "03-cla/c-cym06-generatividad y complejidad.md",
-    "06-out/personas/Manfred Mohr.md",
+    "02-mat/blog/blog MOC.md",
+    "02-mat/blog/02-quartz v4.md",
+    "02-mat/blog/03-astro.md",
+    "02-mat/blog/01-digital garden.md",
     "06-out/operativos/generatividad/generatividad MOC.md",
+    "03-cla/c-cym06-generatividad y complejidad.md",
+    "06-out/operativos/generatividad/La conciencia social del arte generativo..md",
     "06-out/casos/distribución probabilística.md",
+    "03-cla/Probabilistic Graphical Models.md",
+    "03-cla/Probabilistic Models.md",
+    "conflict-files-obsidian-git.md",
+    "06-out/personas/Manfred Mohr.md",
     "06-out/operativos/máquinas de Boltzmann.md",
     "06-out/espacios/CAYC.md",
     "06-out/eventos/2972453.md",
     "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
     "03-cla/23/c-cym04-vida digital.md",
-    "02-mat/blog/herramientas de complejidad incremental para publicaciones.md",
     "06-out/obras/Atmosphères.md",
     "b/251001.md",
     "00-moc/eventos MOC.md",
@@ -286,12 +292,6 @@
     "06-out/casos/agreggación difusión de Gray-Scott/cebra Gray-Scott.md",
     "06-out/casos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
     "06-out/casos/consola atómica/caso Consola Atómica.md",
-    "06-out/casos/el cielo/caso El Cielo.md",
-    "06-out/bibliografía/Jane Bennet_Vibrant Matter.md",
-    "06-out/bibliografía/John D Barrow_El libro de la nada.md",
-    "06-out/bibliografía/Los condenados de la pantalla.md",
-    "06-out/personas/Leonard Baum.md",
-    "06-out/personas/Bernard Stiegler.md",
     "06-out/topoi/topoi BASE.base",
     "02-mat/blog",
     "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
