@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/herramientas/tutorial-01-digital garden.md",
+                "file": "06-out/clases públicas/c-cym06-generatividad y complejidad 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "tutorial-01-digital garden"
+              "title": "c-cym06-generatividad y complejidad 1"
             }
           }
         ]
@@ -262,8 +262,22 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "585ba4d5a9ec9eb7",
+  "active": "58a6bf3eeea06c75",
   "lastOpenFiles": [
+    "03-cla/c-cym06-generatividad y complejidad.md",
+    "06-out/clases públicas/c-cym06-generatividad y complejidad 1.md",
+    "06-out/sistemas paramétricos/Probabilistic Graphical Models.md",
+    "03-cla/Probabilistic Models.md",
+    "06-out/sistemas paramétricos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
+    "06-out/sistemas paramétricos/inestabilidad de kelvin-helmholz",
+    "06-out/sistemas paramétricos/agregación difusión de Gray-Scott.md",
+    "06-out/casos/agregación difusión de Gray-Scott/agregación difusión de Gray-Scott.md",
+    "06-out/sistemas paramétricos/patrones de Turing.md",
+    "06-out/sistemas paramétricos/morfógenos.md",
+    "06-out/sistemas paramétricos/Agregación limitada por difusión.md",
+    "06-out/herramientas/tutorial-01-digital garden.md",
+    "06-out/operativos/sistemas paramétricos/distribuciones probabilísticas",
+    "06-out/clases públicas",
     "02-mat/herramientas/r-código vibrante esqueletos.md",
     "06-out/herramientas",
     "02-mat/herramientas/r-como hacer un proyectual.md",
@@ -273,7 +287,6 @@
     "02-mat/herramientas/r-tipologías de instalación.md",
     "02-mat/herramientas/r-vinculación bidireccional.md",
     "06-out/home.md",
-    "06-out/herramientas/tutorial-01-digital garden.md",
     "06-out/index.md",
     "01-proj/25/Ada Gomiz/tp1_Ada_Gomiz.pdf",
     "01-proj/25/Ada Gomiz",
@@ -285,27 +298,14 @@
     "02-mat/blog/blog MOC.md",
     "02-mat/blog/02-quartz v4.md",
     "02-mat/blog/03-astro.md",
-    "06-out/operativos/generatividad/generatividad MOC.md",
-    "03-cla/c-cym06-generatividad y complejidad.md",
-    "06-out/operativos/generatividad/La conciencia social del arte generativo..md",
-    "06-out/casos/distribución probabilística.md",
-    "03-cla/Probabilistic Graphical Models.md",
-    "03-cla/Probabilistic Models.md",
-    "06-out/personas/Manfred Mohr.md",
-    "06-out/operativos/máquinas de Boltzmann.md",
-    "06-out/espacios/CAYC.md",
-    "06-out/eventos/2972453.md",
     "06-out/blog",
     "06-out/config.ts",
-    "06-out/topoi/topoi BASE.base",
-    "02-mat/blog",
-    "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
     "05-obs/img/Pasted image 20250926112238.png",
     "05-obs/img/Pasted image 20250926104149.png",
     "05-obs/img/Pasted image 20250924090749.png",
     "05-obs/img/Pasted image 20250924090727.png",
     "05-obs/img/Pasted image 20250924090534.png",
-    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
+    "06-out/sistemas paramétricos/turing_gray_scott.gif",
     "05-obs/img/eventos MOC-1755180996389.jpeg",
     "05-obs/img/Pasted image 20250618122453.png",
     "05-obs/img/Pasted image 20250529151452.png",
