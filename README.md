@@ -123,14 +123,14 @@ FROM #class
 | Semana    | Unidad | Contenidos                                                               | Carga Horaria | Dictado              |
 | Semana 1  | 1      | introducción los paradigmas de ciencia & arte, intuición razón, códigos. | 4             | teórica expositiva   |
 | Semana 2  | 1      | paradigmas operativos                                                    | 4             | expositiva, práctica |
-| Semana 3  | 3,4, 6 | energía I                                                                | 4             | expositiva, práctica |
+| Semana 3  | 3,4, 6 | energía I y régimen entópico                                             | 4             | expositiva, práctica |
 | Semana 4  | 3,4    | energía II / código                                                      | 4             | expositiva, práctica |
 | Semana 5  | 3,5    | metáfora                                                                 | 4             | expositiva, práctica |
 | Semana 6  | 2,5,6  | generatividad / código                                                   | 4             | expositiva, práctica |
 | Semana 7  | 1,5    | vida artificial                                                          | 4             | expositiva, práctica |
 | Semana 8  | 2,6    | avance de proyectos I, Diseño de patrones.                               | 4             | práctica             |
-| Semana 9  | 3      | biomúsica / Tania Rubio (11-12.30)                                       | 4             | expositiva, práctica |
-| Semana 10 | 5,6    | visita a Instituto Leloir.                                               | 4             | vivencial            |
+| Semana 9  | 3      | agentes biomúsica / Tania Rubio (11-12.30)                               | 4             | expositiva, práctica |
+| Semana 10 | 5,6    | organología especulativa                                                 | 4             | expositiva, práctica |
 | Semana 11 | 1      | cognición distribuida y performance en red                               | 4             | expositiva, práctica |
 | Semana 12 | 1      | visita a Central Nuclear Atucha.                                         | 4             | vivencial            |
 | Semana 13 | 1,6    | avance de proyectos II, funciones y clases.                              | 4             | expositiva, práctica |

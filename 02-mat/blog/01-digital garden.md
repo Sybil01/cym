@@ -1,7 +1,7 @@
 
-utilizamos el plugin desarrollado por Ole Steensen, github, vercel, y un repo template para simplificar el proceso.
+utilizamos el plugin desarrollado por Ole Steensen, github, vercel, y un repo template para simplificar el proceso. Aqui la [documentación original](https://dg-docs.ole.dev/)
 
-
+0. abrir terminal / instalar wsl.exe --install / 0
 1. Instalar el plugin Digital Garden desde el Community Plugins de Obsidian
 ![](https://i.imgur.com/QXrJSdd.png)
 ---
