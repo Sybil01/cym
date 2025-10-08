@@ -1,4 +1,3 @@
-
 # titulo
 - restringe la polisemia.
 - es un puente entre la abstracción y el mundo real. 
@@ -17,17 +16,23 @@
 - entre 3 y 5. 
 -  marcar un interés principal y otros secundarios. 
 # justificación / memoria conceptual
-       imaginario especulativo. 
-- contexto
-- estado del arte [bibliografía comentada]
+## contexto
+## estado del arte 
+### literatura comentada
+- imaginario especulativo
 - paradigma  
 - motivación 
+# descripción
+## desglose o explicación de la cosa.
+## principio funcionamiento 
+## entorno
+tipología de circulación del objeto (concierto, instalación, virtualidad, etc.)
+- comportamiento del público (libre, por batches, 1 a 1)
+- pre-condiciones de inicialización
+- horas de apertura
 # desarrollo
-- desglose o explicación de la cosa.
-- funcionamiento [horas de apertura, comportamiento del público]
-# desarrollo del trabajo.
-# cronograma
-- etapas  
+## cronograma
+- etapas y por meses de trabajo  
 
 
 ```mermaid
@@ -72,11 +77,13 @@ section section4
 md1  :md1, 2023-03-01, 2023-03-31
 ```
 
-# materiales
-- rider
-- planos
-- lista de materiales
-- presupuesto
-	- 
+
+## lista de materiales
+## rider
+## planos
+## presupuesto
 # referencias
-- bibliografia
+## bibliografia
+## teaser
+## blog / bitácora
+## statement

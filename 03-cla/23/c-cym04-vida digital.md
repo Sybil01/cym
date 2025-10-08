@@ -278,6 +278,6 @@ new papers
 
 ---
 
-[[herramientas de complejidad incremental para publicaciones ]]
+[[blog MOC]]
 
 
