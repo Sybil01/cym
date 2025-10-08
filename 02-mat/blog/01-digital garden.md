@@ -59,28 +59,39 @@ Ahora que ya está todo listo y en funcionamiento, puede echar un vistazo a los 
 ## Para clonar template de CYM:
 
 0. Realizar paso 0 anterior (Windows/mac), en caso de no haberlo realizado.
+---
 1. Abrir el **[repo template](https://github.com/musiki/cym-astro-obsidian-template)** de CYM y clickear en el boton "Deploy"
 ![](https://i.imgur.com/hGcAytG.png)
 Esto también debería abrir Vercel y crear una copia de este repositorio en tu cuenta de GitHub. Asignale un nombre a tu repo.
-2. En github, buscar ese repositorio y copiar el link.
-3. En la terminal, en la carpeta elegida, vamos a clonar nuestro propio repo
+
+-----
+2. En github, buscar ese repositorio y copiar el link. En la terminal, en la carpeta elegida, vamos a clonar nuestro propio repo
 ```bash
 git clone https://github.com/USUARIO/REPOSITORIO
 ```
-4. Con 'cd' accedo a diferentes archivos (dentro de la terminal) e instalo las dependencias
+---
+3. Con 'cd' accedo a diferentes archivos (dentro de la terminal) e instalo las dependencias
 ```bash
 cd MICARPETACLONADA
 npm install
 ```
-5. Corre el servidor de desarrollo
+---
+4. Corre el servidor de desarrollo
 ```bash
 npm run dev
 ```
-6. Abrir obsidian y abrir un nuevo vault, seleccionando la carpeta del MIREPOCLONADO/src/content/vault
-7. Instalar el plugin de Digital Garden y completar datos de **github repo name** , **github username**  y **github token**.
+---
+5. Abrir obsidian y abrir un nuevo vault, seleccionando la carpeta del MIREPOCLONADO/src/content/vault
+---
+6. Instalar el plugin de Digital Garden y completar datos de **github repo name** , **github username**  y **github token**.
 
 ![](https://i.imgur.com/zUpS1aJ.png)
-8. Aún dentro de Obsidian, instalar el plugin de Git y habilitar.
-9. Realizar, dentro de obsidian, ejecutar 'git: commit all changes' y luego 'git: push'. 
-10. También dentro de obsidian, ejecutar 'digital garden: publish multiple notes'.
-11. **Ya está publicada la web en Vercel y updateado el repo en Github. Cada vez que se realice un cambio se debe repetir el paso 9 y 10.**
+
+---
+7. Aún dentro de Obsidian, instalar el plugin de Git y habilitar.
+---
+8. Realizar, dentro de obsidian, ejecutar 'git: commit all changes' y luego 'git: push'. 
+---
+9. También dentro de obsidian, ejecutar 'digital garden: publish multiple notes'.
+---
+10. **Ya está publicada la web en Vercel y updateado el repo en Github. Cada vez que se realice un cambio se debe repetir el paso 8 y 9.**
