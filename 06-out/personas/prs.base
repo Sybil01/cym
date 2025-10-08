@@ -5,6 +5,9 @@ filters:
 views:
   - type: cards
     name: all
+    groupBy:
+      property: "tags:"
+      direction: ASC
     order:
       - file.name
       - year

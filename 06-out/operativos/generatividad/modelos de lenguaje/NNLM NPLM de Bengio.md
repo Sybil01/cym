@@ -24,6 +24,7 @@ tech_innovation:
   - Primer modelo neuronal de lenguaje exitoso
   - Introducción de embeddings aprendidos automáticamente
   - Mostró cómo las redes podían superar n-gramas con smoothing
+  - distributed representations
 props_:
   - word2vec
   - GloVe

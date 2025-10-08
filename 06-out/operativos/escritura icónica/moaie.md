@@ -95,10 +95,13 @@ $\square\!\!\!\!\square\!\!\!\!\square\!\supset$ **Descontextualización** - Ext
 $\blacksquare_i + \blacklozenge_j + \bullet_k + \leftrightarrow^l + \square\!\!\!\!\square\!\!\!\!\square_m \rightarrow \text{Obra}$
 ```
 
+
 ### **Ejemplos de Fórmulas MOAIE:**
 
 #### **1. Performance Tradicional**
 $\blacksquare_p + \blacklozenge_i + \bullet_h + \leftrightarrow^t + \square\!\!\!\!\square\!\!\!\!\square_f \rightarrow \text{Danza}$
+
+
 *(Material físico + Objeto instrumental + Agente humano + Interface táctil + Entorno físico)*
 
 #### **2. Arte Generativo con IA**

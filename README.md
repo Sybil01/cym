@@ -127,8 +127,8 @@ FROM #class
 | Semana 4  | 3,4    | energía II / código                                                      | 4             | expositiva, práctica |
 | Semana 5  | 3,5    | metáfora                                                                 | 4             | expositiva, práctica |
 | Semana 6  | 2,5,6  | generatividad / código                                                   | 4             | expositiva, práctica |
-| Semana 7  | 1,5    | vida artificial                                                          | 4             | expositiva, práctica |
-| Semana 8  | 2,6    | avance de proyectos I, Diseño de patrones.                               | 4             | práctica             |
+| Semana 7  | 1,5    | complejidad                                                              | 4             | expositiva, práctica |
+| Semana 8  | 2,6    | vida artificial.                                                         | 4             | práctica             |
 | Semana 9  | 3      | agentes biomúsica / Tania Rubio (11-12.30)                               | 4             | expositiva, práctica |
 | Semana 10 | 5,6    | organología especulativa                                                 | 4             | expositiva, práctica |
 | Semana 11 | 1      | cognición distribuida y performance en red                               | 4             | expositiva, práctica |

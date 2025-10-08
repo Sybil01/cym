@@ -1,7 +1,12 @@
 
-<<<<<<< HEAD
+# nuevo template de astro-cym para obsidian!
 
-1.Crear proyecto Astro básico
+https://github.com/musiki/cym-astro-obsidian-template
+
+
+
+
+# 1.Crear proyecto Astro básico
 
 ```bash
 npm create astro@latest          # crea un proyecto Astro desde el starter recomendado

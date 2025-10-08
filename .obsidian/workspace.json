@@ -6,6 +6,7 @@
       {
         "id": "14dd20cceae5a46a",
         "type": "tabs",
+        "dimension": 36.24314442413163,
         "children": [
           {
             "id": "585ba4d5a9ec9eb7",
@@ -13,16 +14,132 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-out/clases públicas/c-cym06-generatividad y complejidad 1.md",
+                "file": "b/gen1 método.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c-cym06-generatividad y complejidad 1"
+              "title": "gen1 método"
+            }
+          },
+          {
+            "id": "50b9571f2d7d0002",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
+                "viewName": "cards"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "llm"
+            }
+          },
+          {
+            "id": "b9e0035b58cb3dc7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-cla/c-cym07-complejidad.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "c-cym07-complejidad"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "d9dddd84298ad327",
+        "type": "tabs",
+        "dimension": 37.61425959780622,
+        "children": [
+          {
+            "id": "50ea0d96f09c9dad",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ]
+      },
+      {
+        "id": "2d31cb67e14a5216",
+        "type": "split",
+        "dimension": 26.142595978062154,
+        "children": [
+          {
+            "id": "83df33b6ccffc256",
+            "type": "tabs",
+            "dimension": 79.89690721649485,
+            "children": [
+              {
+                "id": "d6d11520b7fed025",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "b/gen1 método.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "gen1 método"
+                }
+              },
+              {
+                "id": "9447307f115f76b2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "b/gen1 método.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "gen1 método"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "aa3032a2dbc2e7f0",
+            "type": "tabs",
+            "dimension": 20.103092783505154,
+            "children": [
+              {
+                "id": "21ebc96b0729b3cf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "03-cla/c-cym06-generatividad.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "c-cym06-generatividad"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -54,7 +171,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lilypo",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 334.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -262,44 +379,44 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "b9e0035b58cb3dc7",
   "lastOpenFiles": [
-    "03-cla/c-cym06-generatividad y complejidad.md",
-    "06-out/clases públicas/c-cym06-generatividad y complejidad 1.md",
-    "06-out/sistemas paramétricos/Probabilistic Graphical Models.md",
-    "03-cla/Probabilistic Models.md",
-    "06-out/sistemas paramétricos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
+    "06-out/operativos/escritura icónica/Teoría de Sistemas Complejos en Música.md",
+    "06-out/operativos/escritura icónica/moaie.md",
+    "b/gen1 método.md",
+    "b/vis1.md",
+    "b/251001.md",
+    "b/ácidos.md",
+    "b/c1 axiomas de generativdad.md",
+    "b/daira.md",
+    "b/ei dinámica.md",
+    "b/gasti.md",
+    "03-cla/c-cym07-complejidad.md",
+    "b/c1.md",
+    "03-cla/c-cym06-generatividad.md",
+    "03-cla/23/c-cym06c-tonejs.md",
+    "06-out/operativos/escritura icónica/01 entidades y operadores.md",
+    "02-mat/blog/01-digital garden.md",
+    "06-out/espacios/Akademie der bildenden Künste Wien.md",
+    "02-mat/blog/03-astro.md",
+    "05-obs/a-yuda.md",
+    "06-out/operativos/ingeniería inversa/Ingenieria inversa.md",
+    "06-out/operativos/generatividad/Index.md",
+    "06-out/home.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/GOFAI systems.md",
+    "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
+    "06-out/operativos/generatividad/modelos de lenguaje/BERT.md",
+    "00-moc/llm MOC.md",
+    "02-mat/blog/blog MOC.md",
     "06-out/sistemas paramétricos/inestabilidad de kelvin-helmholz",
-    "06-out/sistemas paramétricos/agregación difusión de Gray-Scott.md",
-    "06-out/casos/agregación difusión de Gray-Scott/agregación difusión de Gray-Scott.md",
-    "06-out/sistemas paramétricos/patrones de Turing.md",
-    "06-out/sistemas paramétricos/morfógenos.md",
-    "06-out/sistemas paramétricos/Agregación limitada por difusión.md",
-    "06-out/herramientas/tutorial-01-digital garden.md",
     "06-out/operativos/sistemas paramétricos/distribuciones probabilísticas",
     "06-out/clases públicas",
-    "02-mat/herramientas/r-código vibrante esqueletos.md",
     "06-out/herramientas",
-    "02-mat/herramientas/r-como hacer un proyectual.md",
-    "02-mat/herramientas/r-memex.md",
-    "02-mat/herramientas/r-meta-aprendizaje.md",
-    "02-mat/herramientas/r-plantilla-latex.md",
-    "02-mat/herramientas/r-tipologías de instalación.md",
-    "02-mat/herramientas/r-vinculación bidireccional.md",
-    "06-out/home.md",
-    "06-out/index.md",
     "01-proj/25/Ada Gomiz/tp1_Ada_Gomiz.pdf",
     "01-proj/25/Ada Gomiz",
     "01-proj/25/Ada/tp1_Ada_Gomiz.pdf",
     "01-proj/25/Ada",
-    "README.md",
-    "03-cla/c-cym00-calendario.md",
-    "conflict-files-obsidian-git.md",
-    "02-mat/blog/blog MOC.md",
-    "02-mat/blog/02-quartz v4.md",
-    "02-mat/blog/03-astro.md",
     "06-out/blog",
-    "06-out/config.ts",
     "05-obs/img/Pasted image 20250926112238.png",
     "05-obs/img/Pasted image 20250926104149.png",
     "05-obs/img/Pasted image 20250924090749.png",

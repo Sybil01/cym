@@ -559,8 +559,9 @@ El concepto de distribución de probabilidad puede ser útil en la música. Se p
 
 impacto en la cultura popular:
 
-> [!quote] «Generative Music» en A Year With Swollen Appendices, de Brian Eno.
+> [!info] «Generative Music» en A Year With Swollen Appendices, de Brian Eno.
 > «A partir de ahora hay tres alternativas: música en directo, música grabada y música generativa. La música generativa disfruta de algunas de las ventajas de sus antecesoras. Al igual que la música en directo, siempre es diferente. Al igual que la música grabada, no tiene limitaciones de tiempo ni de lugar: puedes escucharla cuando quieras y donde quieras».
+
 
 
 ---
@@ -568,6 +569,7 @@ impacto en la cultura popular:
 Bloom 
 
 <iframe title="Brian Eno &amp; Peter Chilvers - Bloom: Recorded 4th June 2024" src="https://www.youtube.com/embed/uwfudk4jftI?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
+
 ---
 
 ## Tero Parviainen
@@ -687,5 +689,5 @@ flowchart TB
 
 ---
 
-[[generatividad MOC]]
+Para saber mas...[[generatividad MOC]]
 
