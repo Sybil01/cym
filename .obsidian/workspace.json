@@ -6,7 +6,6 @@
       {
         "id": "14dd20cceae5a46a",
         "type": "tabs",
-        "dimension": 36.24314442413163,
         "children": [
           {
             "id": "585ba4d5a9ec9eb7",
@@ -14,132 +13,108 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "b/gen1 método.md",
+                "file": "06-out/topoi/generatividad/artistas procedurales.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen1 método"
+              "title": "artistas procedurales"
             }
           },
           {
-            "id": "50b9571f2d7d0002",
+            "id": "ef5234424baa7489",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "webviewer",
               "state": {
-                "file": "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
-                "viewName": "cards"
+                "url": "https://github.com/BRUTALISM/BRU-9/releases",
+                "title": "Releases · BRUTALISM/BRU-9",
+                "mode": "webview"
               },
-              "icon": "lucide-layout-grid",
-              "title": "llm"
+              "icon": "globe-2",
+              "title": "Releases · BRUTALISM/BRU-9"
             }
           },
           {
-            "id": "b9e0035b58cb3dc7",
+            "id": "370b5ba9294796a4",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym07-complejidad.md",
+                "file": "03-cla/c-cym08-vida.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "c-cym07-complejidad"
+              "title": "c-cym08-vida"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "d9dddd84298ad327",
-        "type": "tabs",
-        "dimension": 37.61425959780622,
-        "children": [
-          {
-            "id": "50ea0d96f09c9dad",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
-            }
-          }
-        ]
-      },
-      {
-        "id": "2d31cb67e14a5216",
-        "type": "split",
-        "dimension": 26.142595978062154,
-        "children": [
-          {
-            "id": "83df33b6ccffc256",
-            "type": "tabs",
-            "dimension": 79.89690721649485,
-            "children": [
-              {
-                "id": "d6d11520b7fed025",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "b/gen1 método.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "gen1 método"
-                }
-              },
-              {
-                "id": "9447307f115f76b2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "b/gen1 método.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "gen1 método"
-                }
-              }
-            ],
-            "currentTab": 1
           },
           {
-            "id": "aa3032a2dbc2e7f0",
-            "type": "tabs",
-            "dimension": 20.103092783505154,
-            "children": [
-              {
-                "id": "21ebc96b0729b3cf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03-cla/c-cym06-generatividad.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "c-cym06-generatividad"
-                }
-              }
-            ]
+            "id": "ac14bdf750dd81eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/vida artificial/n-agente vida.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "n-agente vida"
+            }
+          },
+          {
+            "id": "ee317b5a2ae79e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/energía/estructuras disipativas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "estructuras disipativas"
+            }
+          },
+          {
+            "id": "0164432e76f3bccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-out/topoi/energía/John Whitney.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "John Whitney"
+            }
+          },
+          {
+            "id": "e0105e07bb0cc6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "b/disipativos explicación.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "disipativos explicación"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -171,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lilypo",
+                "query": "prigogine",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 475.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -379,44 +354,44 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "b9e0035b58cb3dc7",
+  "active": "ee317b5a2ae79e66",
   "lastOpenFiles": [
-    "06-out/operativos/escritura icónica/Teoría de Sistemas Complejos en Música.md",
-    "06-out/operativos/escritura icónica/moaie.md",
-    "b/gen1 método.md",
-    "b/vis1.md",
-    "b/251001.md",
-    "b/ácidos.md",
-    "b/c1 axiomas de generativdad.md",
-    "b/daira.md",
-    "b/ei dinámica.md",
-    "b/gasti.md",
-    "03-cla/c-cym07-complejidad.md",
-    "b/c1.md",
-    "03-cla/c-cym06-generatividad.md",
-    "03-cla/23/c-cym06c-tonejs.md",
-    "06-out/operativos/escritura icónica/01 entidades y operadores.md",
-    "02-mat/blog/01-digital garden.md",
-    "06-out/espacios/Akademie der bildenden Künste Wien.md",
+    "b/disipativos explicación.md",
+    "06-out/topoi/energía/John Whitney.md",
+    "06-out/topoi/energía/estructuras disipativas.md",
+    "06-out/topoi/vida artificial/n-agente vida.md",
+    "06-out/topoi/vida artificial/Untitled.md",
+    "06-out/sistemas paramétricos/Movimiento browniano.md",
+    "06-out/topoi/vida artificial/ADN.md",
+    "06-out/bibliografía/Nick Montfort_Exploratory Programming for the Arts and Humanities.md",
+    "06-out/topoi/Energía.md",
+    "06-out/topoi/Azar.md",
+    "02-mat/código/que es git.md",
+    "concret-lab.md",
     "02-mat/blog/03-astro.md",
-    "05-obs/a-yuda.md",
-    "06-out/operativos/ingeniería inversa/Ingenieria inversa.md",
-    "06-out/operativos/generatividad/Index.md",
-    "06-out/home.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/GOFAI systems.md",
-    "06-out/operativos/generatividad/modelos de lenguaje/llm.base",
-    "06-out/operativos/generatividad/modelos de lenguaje/BERT.md",
-    "00-moc/llm MOC.md",
-    "02-mat/blog/blog MOC.md",
-    "06-out/sistemas paramétricos/inestabilidad de kelvin-helmholz",
-    "06-out/operativos/sistemas paramétricos/distribuciones probabilísticas",
-    "06-out/clases públicas",
-    "06-out/herramientas",
-    "01-proj/25/Ada Gomiz/tp1_Ada_Gomiz.pdf",
-    "01-proj/25/Ada Gomiz",
-    "01-proj/25/Ada/tp1_Ada_Gomiz.pdf",
-    "01-proj/25/Ada",
-    "06-out/blog",
+    "06-out/coloquial/Susanne Kennedy en Volksbuhne.md",
+    "06-out/casos/consola atómica/caso Consola Atómica.md",
+    "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
+    "00-moc/personas MOC.md",
+    "00-moc/obras MOC.md",
+    "06-out/topoi/vida artificial/Vida artificial.md",
+    "06-out/topoi/vida artificial/0 cosmos química inicial.md",
+    "03-cla/c-cym08-vida.md",
+    "06-out/topoi/vida artificial/ácidos.md",
+    "02-mat/blog/01-digital garden.md",
+    "06-out/obras/stranger visions.md",
+    "06-out/obras/Sun Thinking.md",
+    "06-out/obras/CO2GLE.md",
+    "06-out/topoi/vida artificial/const/03-scratch.html",
+    "06-out/topoi/vida artificial/const/02-shader.html",
+    "06-out/topoi/vida artificial/const/01-grid.html",
+    "06-out/topoi/vida artificial/const",
+    "06-out/topoi/vida artificial/01-grid.html",
+    "06-out/topoi/vida artificial/const:01-grid.html",
+    "06-out/topoi/vida artificial/procedural.html",
+    "06-out/topoi/vida artificial/birds.js",
+    "06-out/topoi/vida artificial/l-system.html",
+    "06-out/topoi/vida artificial/l-system.js",
     "05-obs/img/Pasted image 20250926112238.png",
     "05-obs/img/Pasted image 20250926104149.png",
     "05-obs/img/Pasted image 20250924090749.png",

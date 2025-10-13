@@ -41,7 +41,9 @@ console.log ("random limitado :", numRandom, "\n", "random limitado entero :", M
 
 ```
 
-> [!TODO] > hacer un generador melódico de solo 3 notas sucesivas de la escala.
+> [!TIP] 
+> hacer un generador melódico de solo 3 notas sucesivas de la escala.
+
 
 
 ## Solución

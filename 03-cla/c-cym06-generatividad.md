@@ -687,5 +687,5 @@ flowchart TB
 
 ---
 
-[[generatividad MOC]]
+[[00-moc/generatividad MOC]]
 

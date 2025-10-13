@@ -50,7 +50,7 @@ Mario Klingemann_Memoris of Passersby I
 
 
 ## pioneros
-Aquí tenés una lista de 20 pioneros que, como Ben Laposky, marcaron el inicio del cruce entre ciencia, tecnología y arte sonoro/visual:
+
 1.	Thomas Wilfred – Inventor del Clavilux, pionero del arte lumínico (años 1920).
 2.	Oskar Fischinger – Animador abstracto alemán, precursor del cine visual-music.
 3.	Mary Ellen Bute – Directora experimental que unió cine y música visual.

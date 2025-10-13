@@ -4,8 +4,8 @@ tags: class
 type: class
 ---
 <grid drag="60 55" drop="5 10" bg="transparent" align="left">
+## Clase 
 # complejidad
-## Clase 7
 </grid>
 
 <grid drag="25 55" drop="-5 10" bg="black" align="top">
@@ -323,6 +323,8 @@ un antecedente conceptual de los campos formativos y las arquitecturas que model
 
 *Cybernetics: or Control and Communication in the Animal and the Machine* (1948)
 
+---
+
 - retroalimentación 
 - autorregulación 
 - autopoiesis
@@ -382,7 +384,7 @@ Nicolás Schöffer
 
 
 note: 
-CYSP 1 es la primera escultura cibernética de la historia del arte. Su «cerebro electrónico», desarrollado por Nicolas Schöffer, está conectado a sensores. Esto permite que la escultura reaccione a las variaciones de sonido, intensidad luminosa y color. Se mueve de forma autónoma y dieciséis placas policromadas pivotan y giran a diferentes velocidades en respuesta a estímulos externos. Hipnotizante...
+CYSP 1 es la primera escultura cibernética de la historia del arte. Su «cerebro electrónico», desarrollado por Nicolas Schöffer, está conectado a sensores. Esto permite que la escultura reaccione a las variaciones de sonido, intensidad luminosa y color. Se mueve de forma autónoma y dieciséis placas policromadas pivotan y giran a diferentes velocidades en respuesta a estímulos externos. 
 
 ---
 
@@ -566,27 +568,15 @@ Consort for Convolved Violins
 
 
 note: 
-El pensamiento teórico-musical de Vaggione presenta tres particularidades que, a priori,
-dificultan su presentación sistemática. En primer lugar, se desarrolla como un trabajo en curso,
-que requiere una revisión constante, durante la cual se observa el nacimiento y la desaparición progresiva
-de ideas y conceptos. En algún momento, tal vez convendría complementar este artículo
-con un análisis de tipo genético. En segundo lugar, el pensamiento de Vaggione se caracteriza
+El pensamiento teórico-musical de Vaggione presenta tres particularidades: un análisis de tipo genético. En segundo lugar, el pensamiento de Vaggione se caracteriza
 por su capacidad para integrar múltiples referencias en un tejido complejo, proponiendo un
 «locus de intersección» (cf. Vaggione, 1996b: 269) para numerosas disciplinas, que van desde
-la teorización sobre la música instrumental hasta la investigación sobre la música por ordenador, y desde la ciencia hasta
-la filosofía. En cierto modo, sus ideas constituyen un conjunto de «conceptos en capas» que se asemejan a su
-música, que él describe fácilmente como un grupo de «formas en capas» (Vaggione, 1995: 99).
-En tercer lugar, su pensamiento es, por naturaleza, radicalmente no lineal. Caracterizado por el denso
-entretejido interactivo de los temas que trata, cualquier intento de reducirlo a cuestiones simples resulta
-imposible. Por lo tanto, el lector debe saber que la siguiente exposición solo es lineal
+la teorización sobre la música instrumental hasta la investigación sobre la música por ordenador, y desde la ciencia hasta la filosofía. En cierto modo, sus ideas constituyen un conjunto de «conceptos en capas» que se asemejan a su música, que él describe fácilmente como un grupo de «formas en capas» (Vaggione, 1995: 99).
+En tercer lugar, su pensamiento es, por naturaleza, **radicalmente no lineal**. Caracterizado por el denso entretejido interactivo de los temas que trata, cualquier intento de reducirlo a cuestiones simples resulta imposible. Por lo tanto, el lector debe saber que la siguiente exposición solo es lineal
 en apariencia: los cinco temas principales en los que he decidido centrarme se entrecruzan
 entre sí según una lógica no deductiva. Y si comienzo con el concepto de
 interacción, es precisamente porque aclara la complejidad que crea todo pensamiento no lineal
-. En este sentido, el último tema, que aborda el concepto de redes, nos lleva
-inmediatamente de vuelta a este concepto de interacción. El orden de los otros tres temas indica
-cuándo esta presentación se convierte en interpretación: al pasar de una reflexión sobre el tiempo al
-concepto de singularidad (a través del concepto de morfología), llegamos al corazón mismo del
-pensamiento de Vaggione.
+. En este sentido, el último tema, que aborda el concepto de redes, nos lleva inmediatamente de vuelta a este concepto de interacción. El orden de los otros tres temas indica cuándo esta presentación se convierte en interpretación: al pasar de una reflexión sobre el tiempo al concepto de singularidad (a través del concepto de morfología), llegamos al corazón mismo del pensamiento de Vaggione.
 
 ---
 
@@ -783,3 +773,12 @@ sistemas sonoros que se auto-regulan mediante feedback acústico real.
 <iframe title="Agostino Di Scipio - Texture Multiple" src="https://www.youtube.com/embed/vqApnR6dNPU?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 ---
+
+
+# agentes no prompt 
+
+
+## nothing forever (2022-2023)
+
+
+<iframe src="https://www.youtube.com/watch?v=ImDaIaE3yBs" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>

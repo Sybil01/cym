@@ -146,7 +146,7 @@ import { execSync } from 'node:child_process'
 import fs from 'node:fs'
 import path from 'node:path'
 
-const SRC = 'vault/06-out'                       // origen local opcional (si quieres clonar el repo aparte)
+const SRC = 'vault/06-out'                       // origen local opcional (si querés clonar el repo aparte)
 const DEST = 'src/pages/content'                 // destino que Astro usará para renderizar
 
 if (fs.existsSync(SRC)) {

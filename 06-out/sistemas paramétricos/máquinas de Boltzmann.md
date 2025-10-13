@@ -154,6 +154,7 @@
 ```
 
 
+
 Las máquinas de Boltzmann provienen de la física estadística y se aplican a redes neuronales y procesos estocásticos para modelar sistemas con muchas variables interdependientes.
 
 La idea fundamental es que **la probabilidad de un estado depende de su energía relativa y de una temperatura global** que regula el grado de aleatoriedad. 

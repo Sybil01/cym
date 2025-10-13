@@ -20,7 +20,7 @@ const pages = dv.pages()
 if (pages.length > 0) {
     const extractImage = async (page) => {
         if (page.img && typeof page.img === "string" && page.img.trim()) {
-            return page.img.startsWith("http") ? page.img : dv.io.normalizePath(page.img);
+            return page.img.startsWith() ? page.img : dv.io.normalizePath(page.img);
         }
         const fileContent = await app.vault.read(app.vault.getAbstractFileByPath(page.file.path));
         const match = fileContent.match(/!\[.*?\]\((.*?)\)/);
