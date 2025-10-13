@@ -84,6 +84,21 @@
             }
           },
           {
+            "id": "4c956ae3b97a86e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "0164432e76f3bccd",
             "type": "leaf",
             "state": {
@@ -114,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -354,11 +369,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "ee317b5a2ae79e66",
+  "active": "4c956ae3b97a86e1",
   "lastOpenFiles": [
+    "06-out/topoi/energía/estructuras disipativas.md",
+    "conflict-files-obsidian-git.md",
     "b/disipativos explicación.md",
     "06-out/topoi/energía/John Whitney.md",
-    "06-out/topoi/energía/estructuras disipativas.md",
     "06-out/topoi/vida artificial/n-agente vida.md",
     "06-out/topoi/vida artificial/Untitled.md",
     "06-out/sistemas paramétricos/Movimiento browniano.md",
@@ -381,7 +397,6 @@
     "02-mat/blog/01-digital garden.md",
     "06-out/obras/stranger visions.md",
     "06-out/obras/Sun Thinking.md",
-    "06-out/obras/CO2GLE.md",
     "06-out/topoi/vida artificial/const/03-scratch.html",
     "06-out/topoi/vida artificial/const/02-shader.html",
     "06-out/topoi/vida artificial/const/01-grid.html",
