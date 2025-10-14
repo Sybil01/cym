@@ -1,4 +1,4 @@
-## perlin noise
+#operativos/sistemasparamétricos 
 
 ```dataviewjs
 // PERLIN NOISE 1D — visual + sonificación (≈90 líneas) con Start/Stop
@@ -490,4 +490,84 @@ p	Tabla de permutación base de 256 enteros (0–255 en orden mezclado)
 P	Duplicación de p para indexar sin módulo
 Uso	Selección de gradientes pseudoaleatorios deterministas
 Resultado	Ruido continuo, suave y repetible
+
+
+---
+
+```dataviewjs
+// PERLIN 1D con SEED — tabla de permutación determinista
+// - Seedable PRNG (mulberry32)
+// - Fisher–Yates para barajar 0..255 -> p, y duplicamos p -> P
+// - Demo: 1 partícula en canvas; ON/OFF y reseed en vivo
+
+const root=this.container; root.innerHTML="";
+const ui=document.createElement("div"); ui.style="display:grid;gap:.5rem;font:13px system-ui"; root.appendChild(ui);
+
+// UI mínima: seed + botón + toggle
+const seedRow=document.createElement("div"); seedRow.style="display:flex;gap:.5rem;align-items:center";
+const seedInput=document.createElement("input"); seedInput.type="text"; seedInput.value="12345"; seedInput.style="width:10rem";
+const btnReseed=document.createElement("button"); btnReseed.textContent="Reseed";
+const btnToggle=document.createElement("button"); btnToggle.textContent="ON";
+seedRow.append("Seed:", seedInput, btnReseed, btnToggle); ui.appendChild(seedRow);
+
+// Canvas
+const c=document.createElement("canvas"); c.width=800; c.height=260;
+c.style="width:100%;height:auto;background:#000;border-radius:8px"; ui.appendChild(c);
+const g=c.getContext("2d");
+
+// ---------- PRNG y permutación seedable ----------
+function mulberry32(a){ // PRNG simple y rápido
+  return function(){ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; };
+}
+function makePermDoubled(seed){
+  const rand = mulberry32((seed>>>0) || 0);
+  const p = Array.from({length:256}, (_,i)=>i);
+  for(let i=255;i>0;i--){ const j = Math.floor(rand()*(i+1)); const tmp=p[i]; p[i]=p[j]; p[j]=tmp; }
+  return p.concat(p); // duplicada para index rápido
+}
+
+// ---------- Perlin 1D basado en P ----------
+function makePerlin1D(seed){
+  const P = makePermDoubled(seed);
+  const fade=t=>t*t*t*(t*(t*6-15)+10);
+  const lerp=(a,b,t)=>a+(b-a)*t;
+  const grad=(h,x)=>((h&1)?x:-x);
+  return function noise1(x){
+    const X = Math.floor(x)&255;
+    const xf = x - Math.floor(x);
+    const u = fade(xf);
+    const a = P[X], b = P[(X+1)&255];
+    return lerp(grad(a,xf), grad(b,xf-1), u); // [-1,1]
+  };
+}
+
+// ---------- Animación mínima con seed ----------
+let run=false, t=0, hue=180, noise = makePerlin1D(+seedInput.value||0);
+
+function drawFrame(){
+  if(!run) return;
+  t += 0.01; hue=(hue+0.4)%360;
+
+  const x = c.width *(0.5 + 0.45*noise(t));
+  const y = c.height*(0.5 + 0.45*noise(t+100)); // desfase p/ Y
+
+  // trail suave
+  g.fillStyle="rgba(0,0,0,0.08)"; g.fillRect(0,0,c.width,c.height);
+  g.fillStyle=`hsl(${hue},90%,65%)`; g.beginPath(); g.arc(x,y,3,0,Math.PI*2); g.fill();
+
+  requestAnimationFrame(drawFrame);
+}
+
+// Controles
+btnToggle.onclick=()=>{ run=!run; btnToggle.textContent=run?"OFF":"ON"; if(run) requestAnimationFrame(drawFrame); };
+btnReseed.onclick=()=>{ noise = makePerlin1D((+seedInput.value)||0); }; // cambia la tabla p con la nueva seed
+
+// seguridad
+window.addEventListener("beforeunload",()=>{ run=false; });
+```
+
+- mulberry32(seed) → PRNG determinista a partir de un entero.
+- makePermDoubled(seed) → baraja 0..255 con Fisher–Yates usando el PRNG y duplica el arreglo, obteniendo P.
+- makePerlin1D(seed) → crea una función noise1(x) con Perlin 1D que depende solo de esa P.
+- UI: cambiás Seed y tocás Reseed para regenerar la tabla; ON/OFF arranca/frena la animación.
 

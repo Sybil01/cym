@@ -24,6 +24,9 @@ bienvenidxs al repositorio público de información musical de la cátedra de Ci
 ![[llm.base]]
 
 
+# sistemas dinámicos complejos
+!![[paramétricos.base]]
+
 
 
 

@@ -8,5 +8,6 @@
   "better-inline-fields",
   "obsidian-book-search-plugin",
   "obsidian-plugin-groups",
-  "obsidian-git"
+  "obsidian-git",
+  "neighbouring-files"
 ]

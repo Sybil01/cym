@@ -1,4 +1,4 @@
-
+#operativos/sistemasparamétricos 
 ```dataviewjs
 // RANDOM WALK con toggle Start/Stop (seguro para WebAudio)
 // ---------------------------------------------------------
