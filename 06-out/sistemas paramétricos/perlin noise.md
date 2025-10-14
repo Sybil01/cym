@@ -154,7 +154,7 @@ son dos modelos de aleatoriedad continua, pero con estructuras estadísticas y t
 
 --- 
 
-1. Random walk (paseo aleatorio)
+1. [[random walk]] (paseo aleatorio)
 - Definición:
 Es una suma acumulativa de pasos aleatorios independientes.
 Cada nuevo valor depende del anterior + un número aleatorio:
@@ -172,7 +172,8 @@ Una línea que serpentea libremente sin patrón aparente.
 
 --- 
 
-2. Perlin noise
+## 2. Perlin noise
+
 - Definición:
 Es una función determinista de coordenadas, inventada por Ken Perlin (1983) para generar texturas naturales.
 No acumula pasos, sino que interpola gradientes pseudoaleatorios entre puntos de una grilla.
@@ -192,7 +193,7 @@ Nubes, montañas, humo, texturas naturales (usadas en shaders, CGI, etc.).
 
 --- 
 
-3. Comparación directa
+## 3. Comparación directa
 
 Propiedad	Random Walk	Perlin Noise
 Tipo de proceso	Estocástico acumulativo	Función determinista pseudoaleatoria
@@ -206,13 +207,13 @@ Aplicaciones	Caminatas, difusión, simulación de partículas	Texturas, paisajes
 
 --- 
 
-Resumen mental rápido
+## Resumen mental rápido
 - Random walk → “ruido acumulado”: deriva, como una caminata borracha.
 - Perlin noise → “ruido coherente”: parece natural y ondulante, como un paisaje o viento.
 
 --- 
 
-Aplicación musical
+## Aplicación musical
 - El random walk genera melodías impredecibles (improvisación o glissandos aleatorios).
 - El Perlin noise genera modulaciones orgánicas (LFOs suaves, osciladores de textura viva).
 
@@ -440,4 +441,53 @@ window.addEventListener("beforeunload", async()=>{ if(running) await stopAll(); 
 
 
 
+## tabla de permutación 
+```js
+const p=[151,160,137,91,90,15,131,13,201,95,...,255];
+```
+
+
+p es una tabla de permutación (o *permutation table*), un arreglo de enteros del 0 al 255 puestos en un orden fijo y pseudoaleatorio.
+
+Ken Perlin, cuando diseñó su función de ruido en 1983, descubrió que podía usar una tabla premezclada para evitar tener que generar valores aleatorios cada vez y, sobre todo, para mantener el ruido determinista y repetible.
+
+## Cómo se usa
+
+1.	Se toma la parte entera de la coordenada (por ejemplo Math.floor(x)) y se usa ese valor para indexar dentro de la tabla p:
+
+```js
+const X = Math.floor(x) & 255;
+const gradIndex = p[X];
+```
+
+
+
+Así, en lugar de un número aleatorio nuevo, se obtiene un valor “pseudoaleatorio” constante para ese punto.
+
+2.	La tabla p se duplica (concatenando p.concat(p)) para simplificar el wrap-around y evitar usar el operador % al calcular vecinos.
+
+```js
+const P = p.concat(p);
+```
+
+
+3.	Los valores de p se usan como semillas para elegir gradientes (direcciones locales) o simplemente para invertir signos (como en el ejemplo de 1D):
+
+```js
+grad(p[X], x)
+```
+
+## Por qué funciona
+
+El Perlin noise no es ruido aleatorio, sino una interpolación suave entre gradientes pseudoaleatorios.
+La tabla p garantiza que cada punto del espacio tenga un “carácter local” único pero reproducible, lo que genera patrones suaves, naturales y sin discontinuidades.
+
+
+##  síntesis
+
+Elemento	Rol
+p	Tabla de permutación base de 256 enteros (0–255 en orden mezclado)
+P	Duplicación de p para indexar sin módulo
+Uso	Selección de gradientes pseudoaleatorios deterministas
+Resultado	Ruido continuo, suave y repetible
 
