@@ -470,8 +470,9 @@ dos notas para afinar la metáfora del meteorito/1492
 	•	no es identidad, es homología de “cambio de régimen”: una perturbación externa que reordena la aptitud de rasgos. en música, reordena la aptitud de ritmos, escalas, timbres, medios.
 	•	permite modelar en clase con paisajes de fitness y shocks: un click “impacto” que cambia pesos y reglas de selección de patrones rítmicos/armónicos.
 
-cómo llevarlo al aula en 3 gestos
-	1.	paisaje de fitness musical con impacto: tu patch del gradiente se amplía con un botón meteorito que re-pesa reglas rítmicas y de timbre; antes/ después medimos entropía espectral y complejidad rítmica.
-	2.	morfogénesis→contrapunto: reacción-difusión controla paneo/altura; estudiantes buscan “fugas de Turing” donde un tema se replica y difunde hasta estabilizarse.
-	3.	simbiosis→orquestación: dos sintetizadores con clocks distintos que, por acople débil, logran polirritmia estable; pedimos describir qué “módulos simbiontes” emergen.
+
+DIDÁCTICA
+1.	paisaje de fitness musical con impacto: tu patch del gradiente se amplía con un botón meteorito que re-pesa reglas rítmicas y de timbre; antes/ después medimos entropía espectral y complejidad rítmica.
+2.	morfogénesis→contrapunto: reacción-difusión controla paneo/altura; estudiantes buscan “fugas de Turing” donde un tema se replica y difunde hasta estabilizarse.
+3.	simbiosis→orquestación: dos sintetizadores con clocks distintos que, por acople débil, logran polirritmia estable; pedimos describir qué “módulos simbiontes” emergen.
 
