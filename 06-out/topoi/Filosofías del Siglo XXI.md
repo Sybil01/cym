@@ -6,7 +6,7 @@ tags:
 unit: 12
 publish: 2015
 author: zztt 
-banner: https://i.imgur.com/BMjgaea.png
+banner: "https://i.imgur.com/BMjgaea.png"
 ---
 
 ![](https://i.imgur.com/BMjgaea.png)

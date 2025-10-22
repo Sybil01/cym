@@ -1,40 +1,20 @@
 {
   "main": {
-    "id": "06155fffeb6c2afa",
+    "id": "602313a3fe5dac22",
     "type": "split",
     "children": [
       {
-        "id": "d1f03f12e202a6a6",
+        "id": "ff42e92facad2f7c",
         "type": "tabs",
         "children": [
           {
-            "id": "9134aea7d30b6ff5",
+            "id": "c3433a2bdd73854e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-proj/25/Peterschmitt/La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana..md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana."
-            }
-          },
-          {
-            "id": "71dc1f3772df64ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/Instalaciones.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Instalaciones"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -43,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b602c04a731b296c",
+    "id": "23f55bfdbaaf1c5c",
     "type": "split",
     "children": [
       {
-        "id": "af95db91370f3ee0",
+        "id": "e1fb80a1de528619",
         "type": "tabs",
         "children": [
           {
-            "id": "58a6bf3eeea06c75",
+            "id": "1eba2e95c20747cb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +44,7 @@
             }
           },
           {
-            "id": "9c932be67380cd5c",
+            "id": "644f345fdca577f6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,52 +61,36 @@
             }
           },
           {
-            "id": "74b08449f93c0350",
+            "id": "f303fc69a639321a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 300
   },
   "right": {
-    "id": "f8c878636ee6998f",
+    "id": "b5cf164a0166b1e6",
     "type": "split",
     "children": [
       {
-        "id": "aaca835876e592bb",
+        "id": "6bb7493d06741676",
         "type": "tabs",
-        "dimension": 71.05643994211289,
         "children": [
           {
-            "id": "8c7ec6495dcddec6",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "06-out/operativos/inestabilidad de kelvin-helmholz/inestabilidad de Kelvin-Helmholz.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of inestabilidad de Kelvin-Helmholz"
-            }
-          },
-          {
-            "id": "144c44b7b3935a93",
+            "id": "9830db9e7da9509a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-moc/obras MOC.md",
+                "file": "00-moc/procedimientos artísticos MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,137 +100,107 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for obras MOC"
+              "title": "Enlaces entrantes de procedimientos artísticos MOC"
             }
           },
           {
-            "id": "e36f2709c75460b4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
-          },
-          {
-            "id": "dadcd00ddeddea13",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
-            }
-          },
-          {
-            "id": "e8d2d76e9a26b86c",
+            "id": "475533a1e9bcdef8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-proj/25/Peterschmitt/hola.md",
-                "linksCollapsed": true,
+                "file": "00-moc/procedimientos artísticos MOC.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de hola"
+              "title": "Enlaces salientes de procedimientos artísticos MOC"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "b33cb9828f682814",
-        "type": "tabs",
-        "dimension": 28.94356005788712,
-        "children": [
+          },
           {
-            "id": "20c732dc2cc0ecaf",
+            "id": "51d7705a8aff2abf",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Etiquetas"
             }
+          },
+          {
+            "id": "73c061554105fc92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-moc/procedimientos artísticos MOC.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de procedimientos artísticos MOC"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "9134aea7d30b6ff5",
+  "active": "c3433a2bdd73854e",
   "lastOpenFiles": [
-    "06-out/topoi/Instalaciones.md",
-    "00-moc/cym MOC.md",
-    "06-out/topoi/Energía.md",
-    "00-in/Vedic Sanskrit.md",
-    "00-in/Proto-Indo-European.md",
-    "00-in/hi augmentation.md",
-    "cym-metamap.canvas",
-    "04-tp/arc/tp06-guía de lectura SADIN.md",
-    "04-tp/arc/tp05-guía de lectura GROYS.md",
-    "04-tp/arc/tp04-aplicación js fundamentals.md",
-    "04-tp/arc/tp03-guía de lectura MONTFORT.md",
-    "04-tp/arc/tp02-aplicación.md",
-    "04-tp/arc/tp01-topoi.md",
-    "04-tp/tp01-paradigmas operativos.md",
-    "04-tp/prueba.md",
-    "01-proj/25/Peterschmitt/La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana..md",
-    "01-proj/25/Dai Miauro/Holiwisss.md",
-    "01-proj/25/Carlos Lescano/Hola mundo.md",
-    "03-cla/c-cym00-calendario.md",
-    "03-cla/c-cym01 cym introducción.md",
-    "06-out/topoi/física/Geometría y Experiencia.md",
     "conflict-files-obsidian-git.md",
-    "02-mat/código/Untitled.md",
-    "01-proj/25/Dai Miauro",
-    "01-proj/25/Carlos Lescano",
-    "_lily/score.ly",
-    "_lily",
-    "07-ayuda/help markdown.md",
+    "01-proj/25/Peterschmitt/TP 01/(aun no se como subir el codigo aca perdOOOOOOOOON, pero dejo el link).md",
+    "Cym en 02-mat/blog/01-digital garden.md",
     "07-ayuda/01 instalaciones.md",
-    "07-ayuda",
-    "06-out/topoi/vida artificial/Vida artificial.md",
-    "06-out/topoi/vida artificial/tolinas.md",
-    "06-out/topoi/vida artificial",
-    "06-out/topoi/teoría crítica de la tecnología",
-    "06-out/topoi/hiperrealidad",
-    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
-    "06-out/operativos/sistemas paramétricos",
-    "06-out/operativos/método científico",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755934845050.jpeg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897565103.jpeg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755897145204.jpeg",
-    "05-obs/img/image/sistemas paramétricos de Gray-Scott-1755894080911.jpeg",
-    "05-obs/lib/score.svg",
-    "05-obs/img/eventos MOC-1755180996466.jpeg",
-    "05-obs/img/eventos MOC-1755180996389.jpeg",
-    "05-obs/img/eventos MOC-1755180996415.jpeg",
-    "05-obs/img/eventos MOC-1755180996465.jpeg",
-    "Sin título 1.canvas",
-    "Sin título.canvas",
-    "Untitled.canvas",
-    "03-cla/cym-map.canvas"
+    "Cym en 02-mat/blog",
+    "Cym en 02-mat",
+    "04-tp/arc/tp02-aplicación.md",
+    "00-moc/generatividad MOC.md",
+    "00-moc/recursión MOC.md",
+    "00-moc/procedimientos MOC.md",
+    "00-moc/procedimientos artísticos MOC.md",
+    "00-moc/personas MOC.md",
+    "00-moc/obras MOC.md",
+    "00-moc/instrumentos MOC.md",
+    "00-moc/imc MOC.md",
+    "01-proj/25/Peterschmitt/Proyecto Final/La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana..md",
+    "02-mat/código/que es git.md",
+    "02-mat/código/rant.md",
+    "02-mat/código/html.md",
+    "02-mat/herramientas/r-tipologías de instalación.md",
+    "02-mat/herramientas/r-como hacer un proyectual.md",
+    "03-cla/c-cym01 cym introducción.md",
+    "03-cla/c-cym00-calendario.md",
+    "00-in/hi augmentation.md",
+    "00-in/Proto-Indo-European.md",
+    "03-cla/c-cym03-energía.md",
+    "03-cla/c-cym02-paradigmas operativos.md",
+    "cym-metamap.canvas",
+    "07-ayuda/help markdown.md",
+    "05-obs/img/TP_1.pdf",
+    "01-proj/25/Peterschmitt/TP 1/Sin título.base",
+    "01-proj/25/Peterschmitt/TP 1/Sin título.canvas",
+    "01-proj/25/Peterschmitt/Proyecto Final",
+    "01-proj/25/Peterschmitt/TP 01"
   ]
 }
