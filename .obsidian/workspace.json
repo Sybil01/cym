@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b873b2f9f98529d8",
+        "id": "3e9ee4bb2da663a5",
         "type": "tabs",
         "children": [
           {
-            "id": "dbc2c9a251adc292",
+            "id": "9927619c9bc34d6f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "1eba2e95c20747cb",
+  "active": "9927619c9bc34d6f",
   "lastOpenFiles": [
+    "concret-lab.md",
+    "a-mermaid.md",
+    "a-advancedslides.md",
     "conflict-files-obsidian-git.md",
     "06-out/topoi/vida artificial/const/03-scratch.html",
     "06-out/topoi/vida artificial/const/02-shader.html",
@@ -201,9 +204,6 @@
     "06-out/escritura icónica/escritura icónica M0C.md",
     "06-out/escritura icónica/ejemplos.md",
     "06-out/escritura icónica/dict for latex-discord.md",
-    "06-out/escritura icónica/de mathjax a knowledge graphs.md",
-    "06-out/escritura icónica/01 entidades y operadores.md",
-    "06-out/escritura icónica/00 ei scratch.md",
     "06-out/sistemas paramétricos/turing_gray_scott.gif",
     "05-obs/img/frankenstein.gif",
     "05-obs/img/Pasted image 20251015081906.png",
