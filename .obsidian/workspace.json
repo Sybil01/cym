@@ -23,10 +23,15 @@
             "id": "275a532f4ffbdd1c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "03-cla/23/c-cym08-github pages+hydra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "c-cym08-github pages+hydra"
             }
           }
         ],
@@ -246,6 +251,11 @@
   },
   "active": "275a532f4ffbdd1c",
   "lastOpenFiles": [
+    "03-cla/23/c-cym08-hydra+p5.js.md",
+    "03-cla/23/c-cym08-github pages+hydra.md",
+    "03-cla/23/c-cym09-networking.md",
+    "03-cla/23/c-cym09-visual.md",
+    "03-cla/23/c-cym09-flex-grid.md",
     "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
     "01-proj/25/Carlos Lescano/TP1/TP1 Salida -VacaMuertaDatos.mp3",
     "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel.zip",
@@ -279,13 +289,8 @@
     "03-cla/c-cym04-energía argentina.md",
     "03-cla/23/c-cym07-creative computing 1.md",
     "02-mat/código/jasvascript/js-99-playground.md",
-    "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
-    "02-mat/código/jasvascript/js-01-quiz.md",
-    "02-mat/código/jasvascript/js-01-fundamentos.md",
-    "02-mat/código/jasvascript/js-00-cheatsheet.md",
     "01-proj/25/prueba mac",
     "01-proj/25/Tomas Fernandez",
-    "01-proj/25/Daira Pollard",
     "cym-metamap.canvas",
     "05-obs/lib/score.svg",
     "05-obs/img/untref-logo-w.svg",
