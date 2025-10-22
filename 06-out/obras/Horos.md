@@ -14,7 +14,7 @@ connect:
 ---
 
 
-Aquí va un “mínimo viable” para tu idea de autómata celular 1D a la Xenakis: grilla x–t con valores {0,1,2,4}, coloración tipo “Newton” mapeada a semitonos, y sonificación orquestal sencilla en WebAudio (síntesis mixta). Incluye botón start/stop que crea y destruye el AudioContext. Luego tienes el marco matemático y un comentario crítico con 20 preceptos.
+ Xenakis: grilla x–t con valores {0,1,2,4}, coloración tipo “Newton” mapeada a semitonos, y sonificación orquestal sencilla en WebAudio (síntesis mixta). Incluye botón start/stop que crea y destruye el AudioContext. Luego tienes el marco matemático y un comentario crítico con 20 preceptos.
 
 1. DataviewJS: visualización + sonificación orquestal mínima
 

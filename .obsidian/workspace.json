@@ -6,48 +6,65 @@
       {
         "id": "d543c3392895b8c5",
         "type": "split",
-        "dimension": 62.31023102310231,
+        "dimension": 84.744469870328,
         "children": [
           {
-            "id": "d38ab00511848843",
-            "type": "tabs",
+            "id": "3725d11978a61d83",
+            "type": "split",
+            "dimension": 79.69543147208121,
             "children": [
               {
-                "id": "ecd970ce3487881c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03-cla/c-cym08-vida.md",
-                    "mode": "source",
-                    "source": true,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "c-cym08-vida"
-                }
+                "id": "0cd1336cfafabfd3",
+                "type": "tabs",
+                "dimension": 59.56454121306376,
+                "children": [
+                  {
+                    "id": "a43015f3dc13bc11",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "06-out/obras/Horos.md",
+                        "mode": "source",
+                        "source": true,
+                        "backlinks": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Horos"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "aef1d9e0003d1743",
+                "type": "tabs",
+                "dimension": 40.43545878693623,
+                "children": [
+                  {
+                    "id": "8ccaa8dbf2851fb5",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "b/01-dataview js MOC.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "01-dataview js MOC"
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "vertical"
           },
           {
             "id": "eaefc7f7ca47b333",
             "type": "tabs",
+            "dimension": 20.304568527918782,
             "children": [
-              {
-                "id": "197493521c1e8319",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "06-out/topoi/vida artificial/0 cosmos química inicial.md",
-                    "mode": "source",
-                    "source": true,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "0 cosmos química inicial"
-                }
-              },
               {
                 "id": "3114a30900997363",
                 "type": "leaf",
@@ -78,8 +95,7 @@
                   "title": "01-vida-cod-moc"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal"
@@ -87,7 +103,7 @@
       {
         "id": "853095fe4fd8616f",
         "type": "tabs",
-        "dimension": 37.68976897689769,
+        "dimension": 15.255530129672007,
         "children": [
           {
             "id": "9d243ddcb4ed55e2",
@@ -166,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -351,37 +368,100 @@
       "obsidian42-text-transporter:Text Transporter": false
     }
   },
-  "active": "ecd970ce3487881c",
+  "floating": {
+    "id": "4062530e4e636379",
+    "type": "floating",
+    "children": [
+      {
+        "id": "094c0e8bceac80a6",
+        "type": "window",
+        "children": [
+          {
+            "id": "f035ff95af3b79cc",
+            "type": "tabs",
+            "dimension": 56.98847262247838,
+            "children": [
+              {
+                "id": "197493521c1e8319",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "06-out/obras/Horos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Horos"
+                }
+              }
+            ]
+          },
+          {
+            "id": "d636c586b763acbe",
+            "type": "tabs",
+            "dimension": 43.01152737752162,
+            "children": [
+              {
+                "id": "a5f359b2d909fa51",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "06-out/topoi/vida artificial/0 cosmos química inicial.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "0 cosmos química inicial"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 580,
+        "y": 1343,
+        "width": 1666,
+        "height": 1001,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "a43015f3dc13bc11",
   "lastOpenFiles": [
+    "03-cla/c-cym08-vida.md",
+    "b/Vida artificial.md",
+    "06-out/obras/Horos.md",
+    "06-out/topoi/vida artificial/0 cosmos química inicial.md",
+    "b/ácido sim 1.md",
+    "b/01-dataview js MOC.md",
     "b/01-vida-cod-moc.md",
     "b/02-vida -dev.md",
-    "03-cla/c-cym08-vida.md",
-    "06-out/topoi/vida artificial/0 cosmos química inicial.md",
+    "06-out/topoi/vida artificial/ácido sim 2.md",
+    "03-cla/página 1.md",
+    "b/mis esqueletos de código.md",
+    "06-out/casos/vida simulada en Jupiter/ontogenia simulada en Jupiter.md",
+    "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
+    "06-out/topoi/vida artificial/agentes cantores con ollama.md",
+    "06-out/casos/vida simulada en Jupiter/lenguaje simbólico en Jupiter.md",
+    "06-out/casos/vida simulada en Jupiter/instrumentos musicales de jupiter.md",
+    "05-obs/a-plugins.md",
     "03-cla/[0 cosmos química inicial.md",
     "b/c-cym-09-biomúsica.md",
-    "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
     "b/dataviewjs y tiempo.md",
-    "b/01-dataview js MOC.md",
-    "b/Vida artificial.md",
     "b/youtube play.md",
     "06-out/topoi/música visual/Música Visual.md",
     "06-out/topoi/música visual",
     "06-out/home.md",
     "06-out/coloquial/Écouter, observer, hacker-ed.md",
-    "06-out/obras/Horos.md",
     "06-out/topoi/generatividad/Autómatas.md",
     "06-out/obras/from dataviewjs a lilypond.md",
     "06-out/obras/obras.base",
-    "00-moc/obras MOC.md",
-    "05-obs/a-yuda.md",
-    "README.md",
-    "03-cla/23/c-cym02-arte generativo.md",
-    "03-cla/c-cym06-generatividad.md",
-    "a-mermaid.md",
-    "a-advancedslides.md",
-    "06-out/sistemas paramétricos/paramétricos MOC.md",
     "06-out/sistemas paramétricos/paramétricos.base",
-    "b/hiperrealidad 1.md",
     "05-obs/img/frankenstein.gif",
     "05-obs/img/Pasted image 20251015081906.png",
     "06-out/topoi/vida artificial/const/03-scratch.html",
