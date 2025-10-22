@@ -114,3 +114,11 @@ https://www.youtube.com/watch?v=yztoaNakKok
 [\[i\]](<Música Visual.md#\_ednref1>) [https://riunet.upv.es/handle/10251/122514](https://riunet.upv.es/handle/10251/122514) Universitat Politècnica de València. Unidad de Documentación Científica de la Biblioteca. Consultado el 25 de agosto de 2023.
 
 [\[ii\]](<Música Visual.md#\_ednref2>) [https://www.academia.edu/525310/Visual\_Music](https://www.academia.edu/525310/Visual\_Music) Consultado el 25 de agosto de 2023
+
+
+
+## obras
+
+1920 Thomas Wilfred - Lumia
+	https://www.youtube.com/watch?v=gbs3NQ2mf4c
+	https://www.youtube.com/watch?v=BvOH5GKx9Rk

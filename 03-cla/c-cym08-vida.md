@@ -5,15 +5,14 @@ type: class
 ---
 <grid drag="60 55" drop="5 10" bg="transparent" align="left">
 # vida
-## Clase 8
+## Clase 9
 </grid>
 
 <grid drag="25 55" drop="-5 10" bg="black" align="top">
--  gen, AR, CAYC, Benedit <br>
-- definición: Galanter Soolas <br>
-- Bense<br>
-- Mohr<br>
-- Códigos<br>
+-  matrices <br>
+- metáfora regulada morfogenética <br>
+- paramétricos<br>
+- obras<br>
 </grid>
 
 <grid drag="-5 10" drop="5 -10" bg="black">
@@ -35,444 +34,490 @@ $$
 
 
 ---
-
-
-# Bloque 1 — Química y emergencia de la vida
-1. Qué es un ácido (pH, equilibrio, transferencia de protones) → visualización de iones en movimiento, sonificación de energía potencial.
-2. Enlaces moleculares (iónico, covalente, hidrógeno) → partículas que se atraen/repelen según reglas.
-3. ADN y ARN (código genético, complementariedad, replicación) → estructura helicoidal animada y secuencia sonora basada en bases A–T–G–C.
-4. Proteínas y plegamiento → modelo 3D que busca estados de mínima energía, con sonido dependiente de la curvatura.
-
-# Bloque 2 — Computación y abstracción de la vida
-5. Lógica booleana y compuertas → red básica que traduce audio en decisiones visuales.
-6. Perceptrón → aprendizaje lineal visualizado con planos de decisión 3D.
-7. Red neuronal multicapa → animación de flujo de pesos, sonificación por activación.
-8. Autómata celular → grilla interactiva donde reglas determinan el “nacimiento/muerte” de celdas.
-9. Game of Life (Conway) → versión expandida 3D con osciladores asignados a colonias vivas.
-10. Máquinas de Turing y auto-replicación → cinta dinámica que genera patrones sonoros recursivos.
-
-# Bloque 3 — Complejidad y autoorganización
-11. Autómatas continuos (Gray-Scott, Belousov–Zhabotinsky) → reacciones químicas simuladas con shaders.
-12. Sistemas de partículas y agentes → reglas simples de cohesión/separación (Boids).
-13. Morfogénesis (Alan Turing, Meinhardt) → difusión-reacción visual con parámetros sonoros.
-14. Simulación de ecosistema → depredador/presa (Lotka–Volterra) con osciladores interactivos.
-15. Auto-organización de redes → crecimiento de grafos según conectividad sonora.
-
-# Bloque 4 — Evolución, cognición y meta-vida
-16. Algoritmo genético → evolución de parámetros sonoros o visuales hacia un objetivo.
-17. Algoritmos evolutivos + IA → coevolución de agentes que “aprenden a escuchar”.
-18. Autopoiesis (Varela y Maturana) → sistema cerrado que mantiene su estructura.
-19. Vida artificial en ecosistemas digitales (Tierra, Avida, Lenia) → simulación 3D con feedback sonoro.
-20. Conciencia artificial y estética → reflexión final, fusión entre percepción y algoritmos (IA como materia estética).
-
-Flujos no-equilibrio y disipación → autoorganización mínima. Música: usar ruido rosa alimentando un filtro que se estabiliza con realimentación leve; mapear $ΔpH$→$Q$ del filtro. Recurso: WebAudio API + Tone.js.
-	2.	Química prebiótica y catalizadores minerales → caminos energéticos plausibles. Música: convolución con IR “granular” que cambia según energía libre estimada; morphing rítmico según $ΔG$. Recurso: Meyda (features) + Impulse Responses.
-	3.	Compartimentalización (vesículas) → mantener gradientes. Música: “celdas” de delays en red con distinta impedancia; cada célula conserva/filtra energía sonora. Recurso: Tone.js FeedbackDelay + Graph.
-	4.	Gradientes protónicos ($Δμ_{H^+}$) → quimiosmosis. Música: sintetizador FM donde $I$ sigue un gradiente simulado; “ATP”=eventos rítmicos liberados cuando $ΔpH$ supera umbral. Recurso: BioNumbers para rangos de $Δψ$; WebAudio FM.  ￼
-	5.	Réplicas con error (química informacional) → hiperciclo de Eigen. Música: 4–6 motivos que se catalizan mutuamente (matriz de transiciones), deriva tímbrica controlada por tasa de error. Recurso: matriz en JS; paper hiperciclos.  ￼
-	6.	Metabolismo-primero vs genes-primero (co-emergencia) → redes autocatalíticas. Música: motor de síntesis por reglas que mantiene potencia RMS estable con entradas caóticas. Recurso: Automas en JS (p5.js).
-	7.	Protoceldas húmedas (wet Alife) → división/crecimiento. Música: granular que “se divide” duplicando buffers cuando energía>umbral; glissandi osmóticos. Recurso: datasets microscópicos; síntesis granular casera.  ￼
-	8.	Regulación y homeostasis → circuitos de realimentación. Música: compresor/expansor adaptativo por subbandas que mantiene espectro objetivo. Recurso: Meyda + multibanda.
-	9.	Traducción rudimentaria (códigos) → mapeos estables. Música: codón→tríada; tasa de traducción→tempo local. Recurso: GenBank/Ensembl para secuencias; parser JS.  ￼
-	10.	Evolución darwiniana → variación-selección. Música: “breeder” de presets (Sims-style) con fitness por escucha/feature. Recurso: algoritmo genético en JS; referencia A-Life art.  ￼
-	11.	Señalización y redes → información distribuida. Música: red de agentes sonoros que negocian fase/afinación (consenso de Kuramoto) hasta poliacordes. Recurso: implementación Kuramoto JS.
-	12.	Motilidad y motores → trabajo mecánico. Música: modelado físico simple (mass-spring) que arrastra pitch/noise según potencia disponible. Recurso: verlet/Ammo.js.
-	13.	Simbiosis y endosimbiosis → integración de módulos. Música: dos sintetizadores con clocks distintos que logran polirritmia estable (acople débil). Recurso: scheduler WebAudio.
-	14.	Multicelularidad y morfogénesis → patrones Turing. Música: síntesis espacial por campos de reacción-difusión mapeados a pan/altura. Recurso: RD en GPU (WebGL/Three.js).
-	15.	Desarrollo y robustez → canalizaciones. Música: macros que garantizan formas (ABA/variación) pese a ruido en parámetros. Recurso: grammar musical en JS.
-	16.	Sistemas nerviosos → predicción/errores (free-energy). Música: predictor espectral que “alucina” y corrige (espectro objetivo vs real). Recurso: TensorFlow.js autoencoder.
-	17.	Cognición social → cooperación/juegos evolutivos. Música: instrumentos-agentes que deciden callar/entrar por payoff armónico. Recurso: simulador dilema del prisionero JS.  ￼
-	18.	Lenguaje/simbolización → umwelt y semiosis. Música: mapeos contextuales dependientes de “especie” de agente; mismo estímulo, distinto timbre/función. Recurso: Uexküll/umwelt como guía.  ￼
-	19.	Cultura tecnológica → exaptaciones/artefactos. Música: “material electronic” (piezo, feedback) con IA embebida que reconfigura rutas. Recurso: tu línea de hiperfonos + TF.js en Edge.
-	20.	Socio-técnico-racional (metacognición) → razón revisable. Música: sistema que re-escribe sus propias reglas (metaparámetros) y explica sus cambios en texto/sonido. Recurso: LLM local que emite prompts para tu motor.
-
-
-Por qué el ácido importó tanto: en protoceldas y fuentes hidrotermales, gradientes de H⁺ sobre membranas minerales pudieron impulsar síntesis pre-ATP (p.ej., acetilfosfato) y más tarde ATP sintasas; en números, voltajes de membrana y $ΔpH$ dan $Δμ_{H^+}$ suficiente para rotación y síntesis ($\sim$3–4 H⁺/ATP en mitocondria). Musicalmente, mapea $ΔpH$ a “presión sonora” y $Δψ$ a altura de formantes; la “síntesis de ATP” dispara eventos estructurales.  ￼
-Teleología y Big Bang (en dos frases): la biología moderna evita fines intrínsecos; trabaja con “función” y “selección”. En historia de la herencia, el foco pasa de formas visibles a genes y moléculas (las “muñecas rusas” de Jacob); no hay sentido último científico, pero sí marcos histórico-epistémicos cambiantes.  ￼
-A-Life en arte/literatura/ciencia: bioarte va de lo material vivo a simulaciones y vida-A; la práctica discute exhibibilidad, ética y definición (¿vivo vs documentado?, ¿Vida-A incluida?). Metacreation describe artistas que trabajan con emergencia, evolución y autopoiesis; Artificial Nature ejemplifica ecosistemas audiovisuales multi-agente con “química” simbólica; estudios sobre bioarte en castellano ayudan a ordenar el campo. Cruce directo con tu cátedra.  ￼  ￼  ￼  ￼
-Negarestani (síntesis breve y crítica): su tesis sitúa AGI como continuación del proyecto ilustrado de razón pública y perfectibilidad revisable, no como telos biológico; “construir AGI”=esclarecer condiciones de posibilidad de la mente y distribuirlas en colectividades técnicas. Útil para tu módulo de “Agentes”: pensar instrumentos inteligentes como partes de una razón material-social antes que “réplicas humanas”.  ￼
-Datasets y recursos (mantenidos y útiles ahora mismo para prototipar): BioNumbers (magnitudes biológicas, conecta con mapeos), UniProt/Ensembl/GenBank (secuencias), PDB/AlphaFold DB (estructuras→sonificación), BRENDA/KEGG (rutas→armaduras), Tree of Life/Timetree (macroformas→progresiones), Metabolomics Workbench (espectros→wavetable), FreeSound/Foundation/MAESTRO/NSynth (audio), OpenNeuro (señales), Kaggle-bio. Para web-audio/IA: WebAudio API, Tone.js, Meyda, Magenta.js, TensorFlow.js, ml5.js, Three.js/WebGL para campos RD y agentes; si querés livecoding, Hydra/p5.
-Notas para clase (cómo convertir cada paso en TP corto): 1) “Gradientes sonoros”: construir un patch WebAudio con 2–3 buffers y feedback; medir RMS como “energía libre”. 5) “Hiperciclos melódicos”: matriz de transición editable; evaluar “fitness” por distancia melódica. 10) “Breeder tímbrico”: GUI que muta parámetros y selecciona por escucha/feature. 14) “Turing-pan”: shader sencillo de RD que controla paneo/altura. 18) “Umwelten”: tres agentes con mappings distintos a la misma feature. 20) “Metarreglas”: un script que reescribe su JSON de escena cada N compases y registra justificación textual.
-
-próximo pas: partitura-prototipo en un único index.html con WebAudio+Three+TF.js y 20 “escenas” toggleables, cada una mapeando el concepto biológico a un gesto musical.  incluir mini datasets (secuencias FASTA, matrices de payoff, mapas RD) ya embebidos para funcionar offline.
-
-Citas clave que fundamentan el marco: historia de la herencia y muñecas rusas en Jacob; números celulares para mapear energía y gradientes; marcos de evolución desde física→protoceldas→sociedades; umwelt como base de semiosis/mapping; bioarte y vida-A en Kac/Matewecki/Whitelaw/Wakefield; morfogénesis de formas simbólicas (música incluida) en Wildgen.  
+![](https://i.imgur.com/bbHbS2L.png)
 
 ---
 
-#Emergence of Life from Protons: pH Gradient and Ion Flow Simulation with Audio Control
+![](https://i.imgur.com/rQ6dxFK.png)
 
-## Acids as the foundation of bioenergetics proton gradients 
-
-($\Delta pH, \Delta \psi$) 
-power life, encoding energy-information cycling in proto-cellular compartments. Emergence: from chaos, ordered ion fluxes self-organize rhythms, mirroring life's "proto-heartbeat".
+---
 
 
+![](https://i.imgur.com/LmiOaWP.png)
 
-```dataviewjs
-(() => {
-  const KEY="__LIFE_ACIDS1";
-  if (window[KEY]?.alive) return;
-  window[KEY] = { alive:true };
 
-  // --------- Helpers ---------
-  const loadScript = (src)=>new Promise((res,rej)=>{ const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=()=>rej(new Error("load fail: "+src)); document.head.appendChild(s); });
-  const ensureThree = async () => {
-    if (!window.THREE) await loadScript("https://unpkg.com/three@0.147.0/build/three.min.js");
-  };
-  const ensurePost = async () => {
-    if (!THREE.CopyShader) await loadScript("https://unpkg.com/three@0.147.0/examples/js/shaders/CopyShader.js");
-    if (!THREE.LuminosityHighPassShader) await loadScript("https://unpkg.com/three@0.147.0/examples/js/shaders/LuminosityHighPassShader.js");
-    if (!THREE.ShaderPass) await loadScript("https://unpkg.com/three@0.147.0/examples/js/postprocessing/ShaderPass.js");
-    if (!THREE.EffectComposer) await loadScript("https://unpkg.com/three@0.147.0/examples/js/postprocessing/EffectComposer.js");
-    if (!THREE.RenderPass)     await loadScript("https://unpkg.com/three@0.147.0/examples/js/postprocessing/RenderPass.js");
-    if (!THREE.UnrealBloomPass)await loadScript("https://unpkg.com/three@0.147.0/examples/js/postprocessing/UnrealBloomPass.js");
-  };
-  const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
-  const lerp=(a,b,t)=>a+(b-a)*t;
-  const map=(v,a,b,c,d)=>c+(d-c)*(v-a)/(b-a);
 
-  // --------- UI ---------
-  const root = this.container;
-  root.innerHTML = ""; // clear previous content
-  root.style.height="660px";
-  root.style.display="grid";
-  root.style.gridTemplateRows="1fr auto";
-  root.style.gap="8px";
 
-  const view=document.createElement("div");
-  Object.assign(view.style,{position:"relative",minHeight:"500px",borderRadius:"12px",overflow:"hidden"});
-  root.appendChild(view);
+James Whale, Boris Karloff, Bernhard Kaun, 1931
 
-  const ui=document.createElement("div");
-  Object.assign(ui.style,{display:"grid",gridTemplateColumns:"minmax(160px,1fr) 180px 180px 180px auto auto auto",gap:"10px",alignItems:"center"});
-  root.appendChild(ui);
+---
 
-  const labelWrap=(txt,input,extra=null)=>{ const w=document.createElement("div");
-    Object.assign(w.style,{display:"grid",gridTemplateRows:"auto auto auto",gap:"6px"});
-    const lab=document.createElement("span"); lab.textContent=txt; lab.style.fontSize="12px"; lab.style.opacity="0.8";
-    w.appendChild(lab); w.appendChild(input); if(extra) w.appendChild(extra); return w; };
 
-  const knob=document.createElement("input"); Object.assign(knob,{type:"range",min:"0",max:"1",step:"0.001",value:"0.5"}); knob.style.width="100%"; // pH
-  const fluxKnob=document.createElement("input"); Object.assign(fluxKnob,{type:"range",min:"0",max:"1",step:"0.01",value:"0.5"}); fluxKnob.style.width="100%"; // flux
-  const gainKnob=document.createElement("input"); Object.assign(gainKnob,{type:"range",min:"0",max:"1",step:"0.01",value:"0.25"}); gainKnob.style.width="100%"; // gain
-  const numKnob=document.createElement("input"); Object.assign(numKnob,{type:"range",min:"10",max:"100",step:"5",value:"20"}); numKnob.style.width="100%"; // num ions
-  const sizeKnob=document.createElement("input"); Object.assign(sizeKnob,{type:"range",min:"0.01",max:"0.2",step:"0.01",value:"0.05"}); sizeKnob.style.width="100%"; // size
 
-  const toggleBtn=document.createElement("button"); toggleBtn.textContent="Start";
-  const reseedBtn=document.createElement("button"); reseedBtn.textContent="Reseed";
+<iframe title="Frankenstein 1931 - opening scene" src="https://www.youtube.com/embed/WJU7jd7EVdI?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
-  ui.appendChild(labelWrap("pH", knob));
-  ui.appendChild(labelWrap("Flux",fluxKnob));
-  ui.appendChild(labelWrap("Gain",gainKnob));
-  ui.appendChild(labelWrap("Num Ions",numKnob));
-  ui.appendChild(labelWrap("Size",sizeKnob));
-  ui.appendChild(toggleBtn); ui.appendChild(reseedBtn);
 
-  const status=document.createElement("div");
-  status.textContent="loading…";
-  Object.assign(status.style,{position:"absolute",right:"8px",top:"8px",padding:"4px 8px",background:"rgba(0,0,0,0.45)",color:"#fff",fontSize:"12px",borderRadius:"8px"});
-  view.appendChild(status);
+---
 
-  // Audio spatial per-ion
-  let ctx=null, compressor=null, reverb=null;
-  let ionAudios = []; // { source, gain, filter, panner }
-  let osc=null, gain=null; // temp
 
-  async function setupAudio(){
-    if (!ctx || ctx.state !== 'running') return;
-    compressor = ctx.createDynamicsCompressor();
-    compressor.ratio.value = 20;
-    compressor.attack.value = 0.005;
-    compressor.release.value = 0.01;
-    compressor.threshold.value = -24;
-    compressor.knee.value = 30;
+```mermaid
+gantt
+  title emergencias de vida artificial
+  dateFormat  YYYY-MM-DD
+  axisFormat  %Y
+  todayMarker off
 
-    reverb = ctx.createConvolver();
-    const IR = makeImpulse(1.0, 3.0);
-    reverb.buffer = IR;
+  section Mitología
+  Prometeo                        :milestone, 0600-01-01, 1d
 
-    compressor.connect(ctx.destination);
-    reverb.connect(compressor);
-  }
+  section Literatura
+  Golem Scholem                   :milestone, 1600-01-01, 1d
+  Frankenstein                    :crit, milestone, 1818-01-01, 1d
 
-  function makeImpulse(secs, decay) {
-    const len = Math.floor(ctx.sampleRate * secs);
-    const buf = ctx.createBuffer(2, len, ctx.sampleRate);
-    for (let ch = 0; ch < 2; ch++) {
-      const data = buf.getChannelData(ch);
-      for (let i = 0; i < len; i++) data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, decay);
-    }
-    return buf;
-  }
+  section Science
+  Umwelt                          :milestone, 1920-01-01, 1d
+  Doble Helice                    :milestone, 1953-01-01, 1d
+  Jacob                           :milestone, 1970-01-01, 1d
 
-  // Three + simulation simple
-  let renderer=null, scene=null, camera=null, raf=0, ro=null;
-  let composer=null, renderPass=null, bloomPass=null;
-  let ionMeshes = [];
+  section Social Science
+  Langton Artificial Life         :crit, milestone, 1987-01-01, 1d
+  Bioarte y protocelulas genomica :milestone, 2000-01-01, 1d
+```
 
-  async function setupThree(){
-    await ensureThree(); await ensurePost();
-    if (renderer) return;
-
-    renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});
-    Object.assign(renderer.domElement.style,{width:"100%",height:"100%"});
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-    view.appendChild(renderer.domElement);
-
-    scene=new THREE.Scene();
-    camera=new THREE.PerspectiveCamera(45,1,0.1,1000);
-    camera.position.set(0,0,5);
-
-    const ambient=new THREE.AmbientLight(0x404040, 0.5); scene.add(ambient);
-    const dirLight=new THREE.DirectionalLight(0xffffff, 0.9); dirLight.position.set(2.5,3.5,4.0); scene.add(dirLight);
-
-    composer=renderer; // disable post for stability
-
-    const trySize=()=>{ if(!renderer||!camera) return; const w=Math.max(1,view.clientWidth), h=Math.max(1,view.clientHeight);
-      renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix(); composer?.setSize(w,h); 
-      if((view.clientWidth|0)===0||(view.clientHeight|0)===0) requestAnimationFrame(trySize); }; trySize();
-    ro=new ResizeObserver(trySize); ro.observe(view);
-
-    // Ions
-    const numI = parseInt(numKnob.value);
-    for(let i=0; i<numI; i++){
-      const type = Math.random() > 0.5 ? 'proton' : 'hydroxide';
-      const sz = parseFloat(sizeKnob.value);
-      const geo=new THREE.SphereGeometry(sz, 8, 8);
-      const mat=new THREE.MeshStandardMaterial({color: type === 'proton' ? 0xff0000 : 0x0000ff, emissive: 0x111111});
-      const mesh=new THREE.Mesh(geo,mat);
-      mesh.position.set((Math.random()-0.5)*6, (Math.random()-0.5)*2, (Math.random()-0.5)*2);
-      mesh.castShadow=true; mesh.receiveShadow=true;
-      scene.add(mesh);
-      ionMeshes.push({mesh, vel:new THREE.Vector3((Math.random()-0.5)*0.01, (Math.random()-0.5)*0.01, (Math.random()-0.5)*0.01), type, phase:Math.random()*Math.PI*2});
-    }
-
-    scene.fog = new THREE.Fog(0x000000, 1, 20);
-
-    status.textContent="ready";
-  }
-
-  function updateSimulation(pH, flux){
-    ionMeshes.forEach(ion => {
-      const attraction = ion.type === 'proton' ? pH * 0.2 - 1 : (1 - pH) * 0.2 - 1; // attract protons to lower pH (acid)
-      ion.vel.x += (attraction - ion.mesh.position.x * 0.005) * flux * 0.001;
-      ion.vel.y += Math.sin(ion.phase + Date.now() * 0.003) * flux * 0.005;
-      ion.mesh.position.add(ion.vel);
-
-      // Bounds
-      ['x','y','z'].forEach(axis => {
-        if (Math.abs(ion.mesh.position[axis]) > 3) ion.vel[axis] *= -1;
-      });
-
-      // Speed color
-      const speed = ion.vel.length();
-      ion.mesh.material.color.setHSL(speed * 2, 1, 0.5);
-      ion.mesh.material.emissive.copy(ion.mesh.material.color).multiplyScalar(0.1);
-    });
-
-    // Audio
-    if(osc && gain){
-      const freq = map(pH, 0, 1, 50, 500);
-      const gVal = flux * parseFloat(gainKnob.value);
-      osc.frequency.setValueAtTime(freq, ctx.currentTime);
-      gain.gain.setValueAtTime(gVal, ctx.currentTime);
-    }
-  }
-
-  (async()=>{ 
-    await setupThree(); 
-    const loop=()=>{ 
-      raf=requestAnimationFrame(loop); 
-      if(renderer && scene && camera) renderer.render(scene, camera); 
-      updateSimulation(parseFloat(knob.value), parseFloat(fluxKnob.value)); 
-    };
-    loop();
-  })();
-
-  // Wire-up for audio
-  let audioRunning = false;
-  const toggleAudio = async () => {
-    if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext);
-    if (audioRunning) {
-      if(osc){osc.stop(); osc=null; gain=null;}
-      audioRunning = false;
-      toggleBtn.textContent = "Start";
-      status.textContent = "stopped";
-    } else {
-      osc = ctx.createOscillator(); osc.type="sawtooth"; osc.frequency.value=220;
-      gain = ctx.createGain(); gain.gain.value=parseFloat(gainKnob.value);
-      osc.connect(gain); gain.connect(ctx.destination); osc.start();
-      if (ctx.state === "suspended") ctx.resume();
-      audioRunning = true;
-      toggleBtn.textContent = "Stop";
-      status.textContent = "running";
-    }
-  };
-
-  toggleBtn.addEventListener("click", toggleAudio);
-  reseedBtn.addEventListener("click", ()=> { 
-    while(scene.children.length > 0){ 
-        scene.remove(scene.children[0]); 
-    }
-    ionMeshes = [];
-    setupThree();
-  });
-
-  const obs=new MutationObserver(()=>{ if(!document.body.contains(view)){ if(audioRunning) toggleAudio(); obs.disconnect(); window[KEY].alive=false; } });
-  obs.observe(document.body,{childList:true,subtree:true});
-})();
+```
+timeline
+    -700:  Prometeo, efesto
+    1600: "Golem en lectura moderna (Scholem)"
+    1818: "Frankenstein (Shelley)"
+    1900: "Umwelt (von Uexküll)"
+    1953: "Doble hélice; hacia biología molecular"
+    1970: "Jacob: programa/operón; regulación"
+    1987: "Langton nombra Artificial Life"
+    2000s: "Bioarte y protocélulas; genómica pública"
 ```
 
 
+note: 
+Jacob, F. programa/regulación; 
+Uexküll, Umwelt; Yudell & DeSalle, genómica; 
+Whitelaw, historia ALife en arte.  ￼  ￼  ￼  ￼
 
-
-
-enlentencer el metabolismo sirve para sobrevevivir
-
-tiempo y aislamiento sirve para crear las formas mas maravillosas
-america del sur y madagascar , islas endogenas. 
-
-
-
-## metáfora regulada morfogenética entre ciencia y música 
-
-metáfora basada en reglas
-	- con invariantes estructurales entre dominios. 
-	- morfología histórica comparada: leo procesos como transformaciones de forma en el tiempo. 
-	- transducción cultural siguiendo a Simondon, trasladadr una operación de un dominio a otro manteiniendo su lógica de individuación. 
-	- pauta metodológica de analigía constructiva que busca homologar forma , gradiente y umbral entre vida , vida artificial y música.
-
----
-# 0 cosmos química primordial
-![[0 cosmos química inicial#_]]
-
+- Mary Shelley instala una matriz narrativa: creación técnica de lo vivo, responsabilidad del creador, estatuto del monstruo y del testigo
+- En ciencia contemporánea, esa matriz reaparece como problema de reproducción, copia/error y regulación de lo vivo, e introduce a la vez un léxico técnico y ético para experimentar con vida artificial
+- En historia de la biología puede leerse como pasaje del régimen de la “generación” al de la “reproducción” y su economía de copias y variaciones, clave para pensar herencia, mutación y síntesis de vida artificial Jacob, F. The Logic of Life. Sobre el giro semántico de generación→reproducción y la emergencia del gen y la regulación.
+	
 ---
 
 
-# 1.	compartimentos y gradientes
+- *Grecia*: **Prometeo** (fuego/técnica), **Hefesto** y autómatas/seres forjados, **Pigmalión** (forma animada)
+- Tradiciones hebreas: el **golem** como vida técnica y obediente, comentada moderno-críticamente por Scholem
+- Estas genealogías articulan tres escenas: **transferencia** de potencia, fabricación de agentes y **animación** de materia; todas reaparecen en IA/ALife como problemas de **agencia**, **regulación-control** y valor.
+- del mito al **prototipo**, del relato a la infraestructura (laboratorio, taller, código), donde la estética funciona como banco de pruebas epistémico.
 
-•	vida: vesículas, $ΔpH$ y $Δψ$ útiles.
-•	a-life/ai: autómatas celulares con frontera y difusión.
-•	música: bordones y drones, isorritmia primitiva; salmodia como “flujo en gradiente”.
+---
 
-# 2.	replicación con error e hiperciclos
+### siglo XVIII
 
-•	vida: ARN/ADN, catálisis recíproca.
-•	a-life/ai: GA simples, selección de patrones.
-•	música: repetición con variación; secuencias y tropo como mutación controlada.
+- de generación (origen/formación) a reproducción (copias y linajes).
+- preparando la **cuantificación** de herencia, **estadística** y el **gen** como *paradigma operativo*
 
-# 3.	traducción y códigos
+---
 
-•	vida: del código a proteínas y módulos.
-•	a-life/ai: mapeos discretos, codificación y gramáticas.
-•	música: neumas→notación; del canto litúrgico al gregoriano.
+-  se hacen pensables **error**, **regulación**, **mensaje** y **memoria molecular**: categorías que hoy fundan nociones de síntesis, prototipos vivos y ALife.
+- Frankenstein operativiza el pasaje: *ensamblar/animar* +   “*regular*” 
+- El prólogo de Cobb al volumen 2022 destaca el giro terminológico y su efecto en la historia de la herencia.  ￼
 
-# 4.	redes y comunicación
+> [!tip] de generación a reproducción
+> pasaje decisivo entre la biología premoderna y la molecular.
+> señala el momento en que la biología comienza a pensarse como ciencia de la *información* antes de que existiera la palabra “información”.Donde antes había un flujo vital, ahora se detecta un sistema de transmisión de caracteres, una codificación susceptible de cuantificación y análisis estadístico.
 
-•	vida: señalización y sincronía.
-•	a-life/ai: acople tipo Kuramoto; agentes que negocian fase.
-•	música: organum, nota pedal, primeras polifonías de Pérotin; sincronías y deslizamientos.
+note: 
+Durante siglos, la noción de generación —heredera de Aristóteles y la filosofía natural clásica— remitía al acto de producir lo nuevo, a la emergencia de una forma viva a partir de una potencia vital. “Generar” era un verbo que contenía una cierta dimensión ontológica: implicaba creación, novedad, variación, incluso contingencia. En cambio, reproducir se consolida en el siglo XVIII como una categoría de la regularidad, del modelo replicable y del circuito cerrado de la herencia.
 
-# 5.	simbiosis y módulos
+El pasaje de generación a reproducción señala el momento en que la biología comienza a pensarse como ciencia de la información antes de que existiera la palabra “información”.
+Donde antes había un flujo vital, ahora se detecta un sistema de transmisión de caracteres, una codificación susceptible de cuantificación y análisis estadístico.
 
-•	vida: endosimbiosis, cooperación estable.
-•	a-life/ai: sistemas híbridos, módulos que se acoplan.
-•	música: motete y quodlibet; superposición de lógicas textuales/sonoras.
+Este cambio no solo reorganizó el campo de la biología; modificó el imaginario de lo vivo. El cuerpo dejó de ser un foco de fuerzas misteriosas o formativas para convertirse en un soporte de instrucciones, una máquina replicante capaz de ser analizada, reparada o copiada. En términos de historia de las ideas, la sustitución refleja el paso del pensamiento organicista (propio de la filosofía natural) a un pensamiento cibernético y molecular, que entiende la vida como un proceso de regulación, retroalimentación y control.
 
-# 6.	morfogénesis
+Cobb observa que esta sustitución terminológica tiene resonancias culturales y éticas: al hablar de reproducción en lugar de generación, la biología introduce un modelo donde la vida puede fallar, corregirse o mejorarse, y donde la variación se convierte en un problema técnico antes que en una fuente de misterio.
 
-•	vida: patrones Turing, forma y función.
-•	a-life/ai: reacción-difusión, boids, partículas con reglas.
-•	música: contrapunto modal→imitativo; canon como ley local de crecimiento.
+De allí la relevancia estética y filosófica del mito de Frankenstein, que emerge en el mismo período histórico. La criatura de Shelley encarna la paradoja del nuevo régimen semántico: un ser “generado” técnicamente, pero “reproducido” en el sentido moderno —es decir, ensamblado bajo un modelo de replicación imperfecta. Frankenstein es, en ese sentido, la primera alegoría de la biología informacional: un cuerpo como programa mal transcrito.
 
-# 7.	control y desarrollo
+---
+## Jakob Johann von Uexküll
 
-•	vida: robustez, plasticidad, homeostasis.
-•	a-life/ai: máquinas de estados, control adaptativo.
-•	música: fuga, arquitecturas de tensión/relajación, proporciones de forma.
+# Umwelt
 
-# 8.	ecología y nicho
+*el mundo circundante, perceptible en donde un organismo actúa como agente*
 
-•	vida: ecosistemas, estabilidad/dinámica.
-•	a-life/ai: entornos simulados multiagente.
-•	música: verticalidad (faux-bourdon), madrigal, texturas como hábitats.
+- von Uexküll redefine al organismo por su Umwelt: mundos-sentido específicos que recortan señales/acciones
+- En clave de Frankenstein/ALife: cada criatura sitúa su mundo; el “monstruo” es desajuste de umbrales y acoples, no mero exceso de materia
+- Para el arte-ciencia, Umwelt guía diseño de interfaces, sensores/actuadores y criterios de agencia no-humana Uexküll, Ideas para una concepción biológica del mundo; prólogo de Ortega y crítica al darwinismo mecanicista vulgar.  ￼
 
-# 9.	complejidad creciente
+note: 
+se niega a hablar de las formas inferiores de vida. La vida es perfecta por doquier, es la misma en los círculos estrechos y en los más amplios. A tenor de su estructura, cada organismo posee anatómicamente un determinado sistema «receptor» y «efector». Ningún organismo podría sobrevivir sin la compleja cooperación de ambos sistemas, eslabones de una cadena descrita por Uexküll como «círculo funcional».​ La idea del Umwelt viene acompañada de los estudios musicales realizados por Uexküll. En ellos propone una naturaleza con estructura musical donde todas las funciones del cuerpo dependen de una armonía interna que ayuda a que se desempeñen correctamente en aras de su propósito.
 
-•	vida: cadenas tróficas, resiliencia.
-•	a-life/ai: modelos de redes complejas.
-•	música: ópera temprana, escena como sistema de sistemas.
+---
 
-# 10.	la gran perturbación
+## biosemiótica de von Uexküll
 
-•	vida: impacto meteorítico, colapso de saurios, ventaja mamífera.
-•	a-life/ai: choques de régimen, extinciones de reglas, cambio de fitness landscape.
-•	música: 1492 como “meteorito cultural”; mestizajes que, 500 años después, alumbran barroco americano, habanera, blues, ragtime, jazz; luego rock, samba, tango, candombe. cambio irreversible del paisaje rítmico-tímbrico.
+<img src="https://i.imgur.com/2PELKEx.png
+" style="display:flex; align-items:center; filter: invert(1);" />
 
-# 11.	expansión y conquista del timbre
+---
 
-•	vida: exaptaciones, nuevas capacidades.
-•	a-life/ai: reuso de módulos para funciones novedosas.
-•	música: Berlioz y la orquestación, color como vector cognitivo; Debussy y pan-música.
+<img src="https://i.imgur.com/FDfWuxv.png" style="display:flex; align-items:center; filter: invert(1);" /> 
 
-# 12.	ritmos y rupturas
+<ref> Uexküll,J.J. 1920, "Theoretische Biologie"</ref>
 
-•	vida: estrategias K/r, pulsos ecológicos.
-•	a-life/ai: shocks controlados, annealing.
-•	música: Stravinsky y la explosión rítmica; polirritmias como ecologías en conflicto.
+note: 
+Diagrama de Jakob von Uexküll sobre el ciclo funcional regido por normas que crea el mundo perceptivo interno de un animal, , 117; trad. al inglés (1926), 155. 
+- Esto ilustra, para Uexküll, las dos partes interdependientes de un mundo interior: **la que recibe impresiones** («mundo tal y como se percibe»/*Merkwelt*) y **la que distribuye efectos** («mundo de la acción»/*Wirkungswelt*), entre las que se encuentra el «ciclo funcional completo». El «órgano de percepción» (**Merkorgan**) y el «órgano de acción» (**Handlungsorgan**) siguen cada uno una regla: uno organiza las impresiones en el órgano de percepción, creando así indicaciones; el otro organiza los efectos producidos por el órgano de acción, creando así acciones.
 
-# 13.	materialidad y registro técnico
+La recurrente invocación de metáforas musicales no solo refleja la inclusión de modelos artísticos dentro de la teoría del Umwelt, sino que también destaca la característica del universo viviente, donde el diseñador, el actor y el observador reflexivo se integran en uno. 
 
-•	vida: fósiles, memoria material.
-•	a-life/ai: persistencia/registro de estados.
-•	música: música concreta, sampler; memoria mecano-electrónica del sonido.
+---
 
-# 14.	inteligencia distribuida
+- el concepto de Umwelt implica una **síntesis** del objeto y el observador: «postula que las leyes de las ciencias naturales no son leyes de la naturaleza, sino reglas que derivamos para nuestros propios objetivos a partir de nuestra confrontación con los fenómenos naturales» *(T. von Uexküll 1987: 151).*
 
-•	vida: superorganismos, microbioma, nicho cognitivo.
-•	a-life/ai: swarms, RL multiagente, aprendizaje distribuido.
-•	música: práctica de ensamble como cognición extendida; groove colectivo.
+---
 
-# 15.	autopoiesis técnica
+ Uexküll establece un universo tripartito. En un diálogo con su discípulo Peeter Torop, Lotman postula que los seres humanos habitan un mundo definido por la unidad dialéctica de los modelos científicos y artísticos (Torop 2009).
+ 
+---
 
-•	vida: auto-mantenimiento, cierre organizativo.
-•	a-life/ai: sistemas que mantienen metas internas.
-•	música: instrumentos con feedback auto-regulado; luthería híbrida material-digital.
-
-16.	lenguaje y metarreglas
-
-•	vida: simbolización, teoría de la mente.
-•	a-life/ai: modelos que escriben reglas de segundo orden.
-•	música: armonía funcional, grandes formas, modulaciones a tonos lejanos; luego forma abierta.
-
-17.	hiper-hibridación global
-
-•	vida: invasiones biogeográficas, coevoluciones.
-•	a-life/ai: datasets planetarios, transferencia.
-•	música: de la ópera al cine, a videojuegos, a internet music; cruce total de estilos y medios.
-
-18.	conciencia y meta-escucha
-
-•	vida: sistemas con automodelo.
-•	a-life/ai: agentes que explican sus decisiones.
-•	música: análisis performativo en tiempo real; obras que se describen mientras suenan.
-
-19.	multi-agencialidad actual
-
-•	vida: humano-no humano-máquina en simbiosis.
-•	a-life/ai: ecologías de objetos inteligentes.
-•	música: agentes, objetos, instrumentos, circuitos y entornos conversando; lo compositivo como orquestación de agencias.
-
-dos notas para afinar la metáfora del meteorito/1492
-	•	no es identidad, es homología de “cambio de régimen”: una perturbación externa que reordena la aptitud de rasgos. en música, reordena la aptitud de ritmos, escalas, timbres, medios.
-	•	permite modelar en clase con paisajes de fitness y shocks: un click “impacto” que cambia pesos y reglas de selección de patrones rítmicos/armónicos.
+# → Umwelt 
+## → Semiosphere (Eco, Lotman 1990)
+### → Logosphere (Bakhtin)
+#### → Biosphere (Vernadsky)
+##### → **Noosphere** (Vernadsky + Teilhard de Chardin)
 
 
-DIDÁCTICA
-1.	paisaje de fitness musical con impacto: tu patch del gradiente se amplía con un botón meteorito que re-pesa reglas rítmicas y de timbre; antes/ después medimos entropía espectral y complejidad rítmica.
-2.	morfogénesis→contrapunto: reacción-difusión controla paneo/altura; estudiantes buscan “fugas de Turing” donde un tema se replica y difunde hasta estabilizarse.
-3.	simbiosis→orquestación: dos sintetizadores con clocks distintos que, por acople débil, logran polirritmia estable; pedimos describir qué “módulos simbiontes” emergen.
+note: 
+- Umwelt: cada organismo vive en un microcosmos perceptivo propio, un mundo-sentido que delimita su modo de conocer y actuar.
+- Semiosphere: el conjunto interconectado de todos los procesos de significación donde los umwelten individuales se superponen y comunican.
+- Logosphere: la esfera histórica del lenguaje y del discurso donde la semiosis humana se articula y ordena simbólicamente.
+- Biosphere (Vernadsky): la totalidad de la vida como fuerza geológica activa que transforma la materia terrestre.
+- Noosphere (de Chardin–Vernadsky): la capa cognitiva planetaria donde la conciencia y el pensamiento colectivo se vuelven fuerza evolutiva.
+
+---
+
+# →noósfera 
+## → noocenosis 
+### → noocenología
+#### → noóscoopo
+
+<br>
+<br>
+<br>
+![|400](https://i.imgur.com/V3z8tVQ.png)
+
+
+note: 
+
+1. La **noosfera** (también escrita noösfera) es un concepto filosófico desarrollado y popularizado por el biogeoquímico Vladimir Vernadsky y el filósofo y sacerdote jesuita Pierre Teilhard de Chardin. Vernadsky definió la noosfera como el **nuevo estado de la biosfera,** y la describió como la «esfera de la razón» planetaria. La noosfera representa la etapa más alta del desarrollo biosférico, la de las actividades racionales de la humanidad.
+
+La palabra deriva del griego νόος («nous, mente, razón») y σφαῖρα («esfera»), en analogía léxica con «atmósfera» y «biosfera».El concepto no puede atribuirse a un solo autor. Los autores fundadores *Vernadsky* y *de Chardin* desarrollaron dos conceptos relacionados pero muy diferentes, el primero basado en las ciencias geológicas y el segundo en la teología. Ambas concepciones de la noosfera comparten la tesis común de que la razón humana y el pensamiento científico han creado, y seguirán creando, la siguiente capa geológica evolutiva. Esta capa geológica forma parte de la cadena evolutiva. Los autores de segunda generación, predominantemente de origen ruso, han desarrollado aún más el concepto de Vernadsky, creando los conceptos relacionados: noocenosis y noocenología.
+
+2. **Noocenosis**: comunidad “bio–técnica” artificial, diseñada por intervención humana sobre ecosistemas degradados; deriva de biocenosis+nous. Autores: V. V. Petrashov (quien introduce el término en los 90), S. S. Shwarts (noobiogeocenosis).  ￼
+3. **Noocenología**: “ciencia” o marco de estudio para restauración de ecosistemas y creación/gestión de noocenosis; formulada por Petrashov (Introducción a la Noocenología, 1993; Principios de Noocenología, 1998).  ￼
+
+---
+
+## nooscope  
+
+(Matteo Pasquinelli, 2020)
+https://kim.hfg-karlsruhe.de/nooscope.ai/
+
+
+1. instrumento epistemológico
+2. difracción de la razón
+3. extractivismo cognitivo
+4. sociedad de clasificación y predicción
+5. error como forma de conocimiento. 
+
+![|400](https://i.imgur.com/cBOgNCT.png)
+
+note: 
+1. Instrumento epistemológico
+La Nooscope redefine la IA como un instrumento de observación cognitiva, no como una mente autónoma: amplifica la percepción humana sobre grandes espacios de datos, del mismo modo que el telescopio amplía la visión óptica. Su objetivo es secularizar la IA, despojándola del mito de la “máquina pensante”.
+
+2. Difracción de la razón
+Pasquinelli describe la IA como una racionalidad difractada: sus algoritmos no producen conocimiento puro sino correlaciones deformadas por sesgos técnicos y sociales, reemplazando la episteme causal por una de correlación automática y estadística.
+	3.	Extractivismo cognitivo
+El aprendizaje automático se sostiene en la explotación global de datos y trabajo humano. La Nooscope denuncia el colonialismo epistémico de las corporaciones tecnológicas que capturan inteligencia social para convertirla en valor económico.
+	4.	Sociedad de clasificación y predicción
+La IA organiza la vida social mediante procesos masivos de reconocimiento y anticipación, instaurando un régimen de normalización algorítmica que sustituye las instituciones disciplinarias por un control estadístico y predictivo.
+
+5.	Errores como forma de conocimiento
+Pasquinelli propone leer los fallos, sesgos y vulnerabilidades de los modelos estadísticos como síntomas epistemológicos: la Nooscope es también un mapa de distorsiones, una crítica del ojo maquínico y sus límites para detectar lo nuevo.
+
+---
+
+<img src="https://i.imgur.com/ZFKe9oQ.png" style="display:flex; align-items:center; filter: invert(1);" />
+
+---
+
+<img src=" https://i.imgur.com/YkKgIW9.png)" style="display:flex; align-items:center; filter: invert(1);" />
+
+---
+
+
+## conceptos de vida 
+
+- un *sistema* químico autosostenible capaz de experimentar la evolución darwiniana (Gerald Joyce)
+- un *sistema* autoorganizado de no-equilibrio de tal modo que sus procesos se gobiernan simbólicamente y puede reproducirse a si mismo , e incluso re-programarse (Lee Smolin)
+
+---
+
+ - patrones preservados *dinámicamente*. 
+
+---
+
+en términos computacionales 
+- modelos de sistemas de vida enfocados en comprender
+- y predecir comportamientos para la regulación (metabolismo) y la reproduccieon (regeneración)
+
+
+---
+
+[[agentes cantores con ollama]]
+
+---
+
+
+
+---
+
+1. Contexto cósmico
+- La Tierra se forma hace 4.600 millones de años.
+- Se enfría y aparece agua líquida hacia los 4.400 Ma.
+- Meteoritos y cometas aportan aminoácidos y bases nitrogenadas.
+- Condiciones favorables para la síntesis prebiótica.
+
+---
+
+2. Síntesis prebiótica
+- Experimento de Miller–Urey (1953): descargas eléctricas → aminoácidos.
+- Formación plausible de azúcares, lípidos y nucleótidos.
+- La química se vuelve progresivamente orgánica y autoorganizada.
+
+---
+
+3. Autoensamblaje molecular
+- Lípidos en agua → vesículas espontáneas (protocélulas).
+- Se forman membranas: primera frontera entre interior y exterior.
+- Surge el principio de autopoiesis: mantener una organización interna.
+
+---
+
+4. Hipótesis del Mundo del ARN
+- El ARN cumple doble función:
+- Almacén de información (como ADN).
+- Catalizador (ribozimas).
+- Pequeños ARN replicantes fueron los primeros agentes de herencia.
+
+<img src="https://i.imgur.com/BqYcc0L.png
+" style="display:flex; align-items:center; filter: invert(1);" />
+
+note:
+El ácido ribonucleico (ARN) es una molécula biológica fundamental que actúa como intermediario crucial en la expresión de la información genética codificada en el ADN. Su estructura primaria es una cadena lineal de nucleótidos, cada uno compuesto por un azúcar ribosa, un grupo fosfato y una base nitrogenada (adenina, guanina, citosina o uracilo). Esta secuencia determina su <mark class="hltr-green">función</mark> e identidad. Estructuralmente, el ARN a menudo se pliega en formas tridimensionales complejas mediante apareamientos de bases intramoleculares, formando hélices y bucles que son esenciales para su actividad. Sus funciones son diversas: el ARN mensajero (ARNm) transporta las instrucciones genéticas para la síntesis de proteínas; el ARN de transferencia (ARNt) entrega los aminoácidos específicos al ribosoma durante la traducción; y el ARN ribosomal (ARNr) forma el andamiaje estructural y catalítico del propio ribosoma. Otras formas, como los ARN pequeños de interferencia (siRNA) y microARN (miRNA), están implicadas en la regulación de la expresión génica.
+
+El ADN es un biopolímero que codifica la información genética para el desarrollo, funcionamiento, crecimiento y reproducción de todos los organismos conocidos y muchos virus. Su estructura primaria es una secuencia de nucleótidos—adenina (A), timina (T), citosina (C) y guanina (G)—unidos por un esqueleto de azúcares desoxirribosa y grupos fosfato. Su estructura secundaria es la doble hélice, estabilizada por puentes de hidrógeno entre pares de bases complementarios (A-T y C-G). Esta disposición permite los mecanismos de replicación semiconservativa y transcripción, fundamentales para la herencia biológica. Más allá de su función biológica primordial, el ADN se conceptualiza como un sistema de almacenamiento de información digital-analógico, un <mark class='hltr-blue'>código</mark> natural con una sintaxis y semántica propias que opera a través de procesos bioquímicos.
+
+
+---
+
+## ácido
+
+ sustancia química que puede donar protones (iones de hidrógeno, H⁺) o aceptar pares de electrones, dependiendo de la definición que usemos. 
+ 
+-  **ADN (ácido desoxirribonucleico)** se llama "ácido" porque sus grupos fosfato pueden donar H⁺, dándole propiedades ácidas. Estos grupos ayudan a estabiliz
+
+---
+
+[[ácido sim 1]]
+
+---
+
+
+---
+
+Perspectiva Filosófica de los Ácidos
+
+---
+
+1. Disolución y transformación
+
+Los ácidos simbolizan cambio, destrucción y regeneración.
+Desde Heráclito hasta Hegel, representan el flujo entre caos y orden, muerte y creación.
+
+---
+
+2. Alquimia: Solve et Coagula
+
+En la alquimia, el ácido era el solvente universal.
+Disolver para transmutar: el oro espiritual surge tras la disolución de lo impuro.
+La fermentación de hongos repite este principio: vida que nace de la descomposición.
+
+---
+
+3. Filosofía de la química
+
+La acidez plantea si las propiedades químicas son naturales o conceptuales.
+De Arrhenius a Lewis, la definición de ácido evoluciona con la ciencia.
+Los ácidos nucleicos y aminoácidos muestran que la acidez habilita la autoorganización molecular.
+
+---
+
+4. Puente entre física y biología
+
+Filósofos como Eric Scerri ven en la química —y en los ácidos— el vínculo entre materia y vida.
+No solo “química + información”: un emergentismo ácido donde la evolución surge de la reactividad.
+
+---
+
+[[ácido sim 2]]
+
+---
+
+
+
+
+
+---
+
+Héctor Parra, Inscape 2018 
+
+<iframe title="Hèctor Parra, Inscape - Ensemble intercontemporain - Orchestre National de Lille" src="https://www.youtube.com/embed/szlNwrSBf1s?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;" allowfullscreen="" allow="fullscreen"></iframe>
+
+note: 
+«Inscape, para un conjunto de 16 solistas, gran orquesta y electrónica, con una duración de más de 30 minutos, desarrollará un viaje psicoacústico hasta los límites del mundo conocido con el fin de sumergirnos virtualmente en un universo que está mucho más allá de nuestra experiencia sensorial. Por consiguiente, emprenderemos un viaje utópico a través de un agujero negro gigante como el descrito por el físico Jean-Pierre Luminet, experto de renombre mundial en agujeros negros y relatividad, con quien colaboramos activamente en este proyecto.
+
+Así, todo comenzará, una vez cerrados los ojos, en un mundo sonoro compuesto por diminutos fragmentos de sonido, casi vocales, en el que los susurros del público, los sonidos instrumentales y el propio espacio físico forman un todo coherente y orgánico, un espacio-tiempo plano en el que es posible el desarrollo de la vida y la conciencia. Pero poco a poco, el creciente poder de la orquesta y los instrumentos solistas, acelerado por una electrónica cada vez más desarrollada, nos impulsa hacia zonas de energía extremadamente potente. Estas zonas distorsionan nuestra percepción del espacio-tiempo musical, transformando la fragilidad del comienzo en una energía áspera y contorsionada. Es entonces cuando llega el momento de sumergirse en el horizonte de sucesos del agujero negro acústico giratorio. Nos penetran poderosas ondas gravitacionales, aquí producidas literalmente por el sonido electrónico. Su espectro y su densidad cambiante laten al ritmo de la compresión espectral y la espacialización, un ritmo que transforma nuestra percepción del espacio físico de la sala, que se dilata y se retrae de forma cíclica siguiendo el ritmo de las ondas. Pero mientras sobrevivimos a esta experiencia extrema, acabamos siendo conducidos a un nuevo universo a través de un agujero de gusano en forma de anillo, atravesándolo sin sufrir ningún daño por la increíblemente poderosa gravedad que hay aquí.
+
+¿Cómo será este nuevo paraíso, un paraíso que no podemos explorar —por ahora— salvo a través de la música que se está componiendo? ¿Somos nosotros mismos, como han sugerido algunos físicos modernos, la proyección holográfica de una realidad más profunda codificada en los confines del universo? ¿Somos simplemente la sombra de los susurros que escuchamos al comienzo de la pieza?
+*Héctor Parra (enero de 2017)*
+
+«La estrella que era luz se ha vuelto oscura, silenciosa, insondable. Agujero negro, embudo hacia fríos inframundos. Una vez que cruzamos su horizonte, se convierte en una caída infinita hacia un núcleo sin fondo. Mezclados, intercambiados, el tiempo y el espacio colisionan y se contraen. El estado primigenio del mundo se evapora en motas elementales entrelazadas. ¿Qué ocurre con la materia, la energía y las ondas que caen? ¿Hay un fondo, un punto final de caída, una singularidad aplastante? Sin embargo, no puede haber un final absoluto. El único resultado posible es un chorro inagotable. Entonces, se abre un túnel al final del agujero negro, un atajo que conduce a otro lugar dentro de nuestro universo o incluso dentro de otros universos. Cuando todos los marcadores en ambas direcciones desaparecen, no queda remedio para el vértigo. Nuevos mundos maduran, suculentos y plenos. Un big bang no es más que el momento en que se produce la inversión. A partir de ese momento, la metamorfosis de los mundos es más rápida de lo que se podría pensar. Donde termina la matriz cuántica, los universos bebés están dotados de formas inimaginables. Los ignorantes los consideran planos, mientras que la naturaleza les da forma. Y el espacio se extiende cada vez más, expandiéndose, siempre expandiéndose más allá, de nuevo, y para siempre más allá. El cielo, rebosante de energía oscura, se vuelve aterrador en su transparencia».
+*Jean-Pierre Luminet (enero de 2017)*
+
+
+---
+
+ ## **Pinar Yoldas** – *An Ecosystem of Excess* (2014)
+  diseño especulativo posthumano, organismos sintéticos.
+
+https://www.pinaryoldas.info/RESEARCH
+
+---
+
+<iframe title="An Ecosystem of Excess" src="https://www.youtube.com/embed/aDzZnF0X0jE?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;" allowfullscreen="" allow="fullscreen"></iframe>
+
+---
+
+## Pamela Rosenkranz, Our product , 2015
+<iframe title="Pamela Rosenkranz | OUR PRODUCT | Biennale di Venezia | 2015" src="https://www.youtube.com/embed/_rRXyI4Wq3M?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;" allowfullscreen="" allow="fullscreen"></iframe>
+
+---
+<iframe title="Pamela Rosenkranz: Our Product. Swiss Pavilion at Venice Art Biennale 2015" src="https://www.youtube.com/embed/03QDL-xwyvY?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;" allowfullscreen="" allow="fullscreen"></iframe>
+
+---
+
+
+## metáfora regulada morfogenética
+- metáfora basada en reglas
+- invariantes estructurales entre dominios. 
+- morfología histórica comparada: leo procesos como transformaciones de forma en el tiempo. 
+
+---
+
+# 0. cosmos química primordial
+
+
+- vida: nucleosíntesis ligera, química preorgánica, acidez básica para definir $[H^+]$ y gradientes.
+- a-life/ai: reglas mínimas y autómatas elementales.
+- música: piedra-percusión, gesto-resonancia, voz como excitador primario.
+
+---
+
+
+27. Metabolismo primitivo
+- Reacciones químicas cerca de fuentes hidrotermales → ciclos auto-sostenidos.
+- Intercambio de energía y materia prefigura la organización biológica.
+- Estos ciclos establecen el esqueleto del metabolismo.
+
+---
+
+```mermaid
+flowchart LR
+title["John von Neumann"]
+A[Formación] --> A1[Doctorado en Matemática 1926\nPázmány Péter Univ Budapest\nTesis: Axiomatización de la teoría de conjuntos]
+  A1 --> A2[Tutor doctoral: Lipót Fejér]
+  B[Centros] --> B1[Berlin y Göttingen años 20]
+  B --> B2[IAS Princeton 1933-1957]
+  B --> B3[Los Alamos 1940s]
+  C[Temas] --> C1[Lógica y fundamentos]
+  C --> C2[Computación y teoría de autómatas]
+  C --> C3[Teoría de juegos, física matemática]
+  D[Aportes] --> D1[Arquitectura de von Neumann en computación]
+  D --> D2[Autómata celular 29 estados con constructor universal]
+  D --> D3[Teoría de auto-reproducción en autómatas]
+  title --- A & B & C & D
+  classDef head fill:#1f77b4,color:#fff,stroke:#0b3a6d
+  class title head
+```
+
+
+---
+
+# autómatas celulares (von Neumman, S. Ulam 1948-1952)
+- modelar **auto-reproducción** y **complejidad emergente** en sistemas puramente **discretos**, sin hardware biológico.
+- Von Neumann diseña un autómata de 29 estados en una cuadrícula que podía copiar su propia “descripción” y construirse a sí mismo.
+- Ulam introduce la idea de espacios de celdas con reglas locales, lo que abre el camino a los modelos de autopoiesis y evolución artificial.
+
+---
+
+[[0 cosmos química inicial]]
+
+---
+
+
+6. Convergencia de procesos
+- Cuando las protocélulas lipídicas incorporan ARN y metabolismo →
+primer sistema autopoiético completo.
+- Unidad capaz de mantener su estructura, replicarse y evolucionar.
+
+---
+![](https://i.imgur.com/PXx16kS.png)
+
+7. Evolución darwiniana
+- Desde el LUCA (Last Universal Common Ancestor):
+- Mutación, selección natural y diversificación.
+- Nace la historia evolutiva de la biosfera.
+
+note: 
+La evolución darwiniana, a partir del LUCA (Last Universal Common Ancestor), marca el inicio de la historia biológica de la Tierra como un proceso continuo de transformación y diversificación de formas de vida. Este punto de partida hipotético representa el último ancestro común de todos los organismos actuales, una forma de vida celular que ya poseía los mecanismos básicos de replicación, metabolismo y herencia genética.
+
+Desde ese origen, la vida se diversificó mediante tres principios fundamentales:
+	1.	Mutación: alteraciones aleatorias del material genético que introducen variabilidad en las poblaciones.
+	2.	Selección natural: proceso por el cual ciertas variaciones ofrecen ventajas reproductivas en un entorno dado, y por tanto se transmiten con mayor probabilidad a las siguientes generaciones.
+	3.	Diversificación: resultado acumulativo de las mutaciones y la selección en distintos contextos ecológicos, que genera nuevas especies y estructuras biológicas.
+
+Este proceso, descrito con precisión por Eigen como una dinámica de replicación, mutación y selección ￼, define lo que podríamos llamar el “motor” de la biosfera. A partir del LUCA, la vida evoluciona en un espacio morfogenético y ecológico cada vez más complejo, dando lugar a toda la biodiversidad que conocemos hoy.
+
+A nivel sistémico, la evolución darwiniana no solo explica el origen de las especies, sino que establece una narrativa de emergencia y autoorganización de sistemas biológicos cada vez más complejos, desde moléculas hasta sociedades ￼. En ese sentido, no es solo una teoría sobre el pasado de la vida, sino una plataforma para pensar sus futuros posibles, tanto en entornos naturales como en escenarios de vida artificial o sintética.
+
+---
+
+La vida emerge cuando convergen tres procesos:
+
+1.	**Membranas** — establecen la frontera y organización.
+2.	**Replicación** — asegura la herencia y variación.
+3.	**Metabolismo** — mantiene el flujo de energía y materia.
+
+Cuando estos tres circuitos se acoplan de forma estable,
+aparece el primer sistema vivo.
+
+---
 

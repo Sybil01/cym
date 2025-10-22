@@ -4,7 +4,7 @@ tags:
   - matemática
   - operativos/sistemasparamétricos
 ---
-
+ 
 El movimiento browniano se formaliza en matemáticas como un proceso estocástico de tiempo continuo. La representación más básica es la ecuación diferencial estocástica que define el movimiento browniano estándar (Wiener):
 
 ---

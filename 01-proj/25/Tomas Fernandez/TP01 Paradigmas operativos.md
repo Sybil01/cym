@@ -54,6 +54,7 @@ flowchart TD
     g[Sala oscura]
     
 ```
+
 - Aislar su funcionamiento en una demostración / sonificación / visualización interactiva.
 - Diseñar una micro-obra en 7 días partiendo de un único paradigma operativo elegido.
   

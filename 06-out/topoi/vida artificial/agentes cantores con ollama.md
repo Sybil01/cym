@@ -168,12 +168,13 @@ btn.onclick=()=>{
 
 
 
-•	Lenguaje: agrega acción hablar() y usa el LLM para redactar frases que expliquen lo que siente/va a hacer.
-•	Instrumento propio: en crear_instrumento, deja que el RAG sugiera cadena de nodos (p. ej., “oscilador→waveshaper→bandpass→delay”) y parsealo en WebAudio.
-•	Lyrics: crea generar_letra(tema) que consulta lyrics/ y devuelve texto; cantar() ya mapea sílabas→notas.
-•	Aprendizaje: logueá pares (estado, acción, resultado) a un .md y deja que el RAG los reutilice como recetas exitosas.
+- Lenguaje: agrega acción hablar() y usa el LLM para redactar frases que expliquen lo que siente/va a hacer.
+- Instrumento propio: en crear_instrumento, deja que el RAG sugiera cadena de nodos (p. ej., “oscilador→waveshaper→bandpass→delay”) y parsealo en WebAudio.
+- Lyrics: crea generar_letra(tema) que consulta lyrics/ y devuelve texto; cantar() ya mapea sílabas→notas.
+- Aprendizaje: logueá pares (estado, acción, resultado) a un .md y deja que el RAG los reutilice como recetas exitosas.
 
-Si te va, te preparo una versión BT (árbol de comportamientos) con los mismos nodos y un pequeño inspector en pantalla.
+( ver → versión BT (árbol de comportamientos) con los mismos nodos y un pequeño inspector en pantalla.)
+
 
 
 ```dataviewjs
@@ -789,6 +790,8 @@ function idleStep(){
 drawGrid(); updateBars();
 setInterval(idleStep, 1000/Math.max(1,TICKS));
 ```
+
+
 
 
 
