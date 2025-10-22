@@ -4,115 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d543c3392895b8c5",
-        "type": "split",
-        "dimension": 84.744469870328,
-        "children": [
-          {
-            "id": "3725d11978a61d83",
-            "type": "split",
-            "dimension": 79.69543147208121,
-            "children": [
-              {
-                "id": "0cd1336cfafabfd3",
-                "type": "tabs",
-                "dimension": 59.56454121306376,
-                "children": [
-                  {
-                    "id": "a43015f3dc13bc11",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "06-out/obras/Horos.md",
-                        "mode": "source",
-                        "source": true,
-                        "backlinks": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "Horos"
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "aef1d9e0003d1743",
-                "type": "tabs",
-                "dimension": 40.43545878693623,
-                "children": [
-                  {
-                    "id": "8ccaa8dbf2851fb5",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "b/01-dataview js MOC.md",
-                        "mode": "source",
-                        "source": false,
-                        "backlinks": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "01-dataview js MOC"
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
-          },
-          {
-            "id": "eaefc7f7ca47b333",
-            "type": "tabs",
-            "dimension": 20.304568527918782,
-            "children": [
-              {
-                "id": "3114a30900997363",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "b/02-vida -dev.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "02-vida -dev"
-                }
-              },
-              {
-                "id": "9e14a4c7aa6d3df4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "b/01-vida-cod-moc.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "01-vida-cod-moc"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
         "id": "853095fe4fd8616f",
         "type": "tabs",
-        "dimension": 15.255530129672007,
         "children": [
           {
-            "id": "9d243ddcb4ed55e2",
+            "id": "d8b069b78a2a1564",
             "type": "leaf",
             "state": {
-              "type": "reveal-preview-view",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03-cla/c-cym04-introducción al código.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "c-cym04-introducción al código"
             }
           }
         ]
@@ -357,109 +264,49 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian42-brat:BRAT": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian42-text-transporter:Text Transporter": false
+      "obsidian42-text-transporter:Text Transporter": false,
+      "translate:Open translation view": false
     }
   },
-  "floating": {
-    "id": "4062530e4e636379",
-    "type": "floating",
-    "children": [
-      {
-        "id": "094c0e8bceac80a6",
-        "type": "window",
-        "children": [
-          {
-            "id": "f035ff95af3b79cc",
-            "type": "tabs",
-            "dimension": 56.98847262247838,
-            "children": [
-              {
-                "id": "197493521c1e8319",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "06-out/obras/Horos.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Horos"
-                }
-              }
-            ]
-          },
-          {
-            "id": "d636c586b763acbe",
-            "type": "tabs",
-            "dimension": 43.01152737752162,
-            "children": [
-              {
-                "id": "a5f359b2d909fa51",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "06-out/topoi/vida artificial/0 cosmos química inicial.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "0 cosmos química inicial"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 580,
-        "y": 1343,
-        "width": 1666,
-        "height": 1001,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "a43015f3dc13bc11",
+  "active": "d8b069b78a2a1564",
   "lastOpenFiles": [
+    "03-cla/c-cym04-introducción al código.md",
+    "03-cla/c-cym05-metáfora y re.md",
+    "03-cla/c-cym06-generatividad.md",
+    "03-cla/c-cym07-complejidad.md",
     "03-cla/c-cym08-vida.md",
-    "b/Vida artificial.md",
+    "b/c-cym-09-biomúsica.md",
+    "03-cla/página 1.md",
+    "03-cla/[0 cosmos química inicial.md",
+    "05-obs/img/Pasted image 20251022164933.png",
+    "05-obs/img/Pasted image 20251022163702.png",
+    "05-obs/img/Pasted image 20251022163642.png",
+    "05-obs/img/Pasted image 20251022163435.png",
+    "b/02-vida -dev.md",
+    "b/01-vida-cod-moc.md",
     "06-out/obras/Horos.md",
+    "conflict-files-obsidian-git.md",
+    "cym",
+    "06-out/topoi/vida artificial/genetic algortighms.md",
+    "05-obs/img/TP_1.pdf",
+    "01-proj/25/Peterschmitt/TP 01/(aun no se como subir el codigo aca perdOOOOOOOOON, pero dejo el link).md",
+    "01-proj/25/Peterschmitt/TP 01",
+    "01-proj/25/Peterschmitt/Proyecto Final/La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana..md",
+    "01-proj/25/Peterschmitt/Proyecto Final",
+    "b/Vida artificial.md",
     "06-out/topoi/vida artificial/0 cosmos química inicial.md",
     "b/ácido sim 1.md",
     "b/01-dataview js MOC.md",
-    "b/01-vida-cod-moc.md",
-    "b/02-vida -dev.md",
     "06-out/topoi/vida artificial/ácido sim 2.md",
-    "03-cla/página 1.md",
     "b/mis esqueletos de código.md",
     "06-out/casos/vida simulada en Jupiter/ontogenia simulada en Jupiter.md",
     "02-mat/código/jasvascript/js-03 dataviewjs y html.md",
     "06-out/topoi/vida artificial/agentes cantores con ollama.md",
     "06-out/casos/vida simulada en Jupiter/lenguaje simbólico en Jupiter.md",
     "06-out/casos/vida simulada en Jupiter/instrumentos musicales de jupiter.md",
-    "05-obs/a-plugins.md",
-    "03-cla/[0 cosmos química inicial.md",
-    "b/c-cym-09-biomúsica.md",
-    "b/dataviewjs y tiempo.md",
-    "b/youtube play.md",
-    "06-out/topoi/música visual/Música Visual.md",
     "06-out/topoi/música visual",
-    "06-out/home.md",
-    "06-out/coloquial/Écouter, observer, hacker-ed.md",
-    "06-out/topoi/generatividad/Autómatas.md",
-    "06-out/obras/from dataviewjs a lilypond.md",
     "06-out/obras/obras.base",
     "06-out/sistemas paramétricos/paramétricos.base",
     "05-obs/img/frankenstein.gif",
@@ -467,18 +314,10 @@
     "06-out/topoi/vida artificial/const/03-scratch.html",
     "06-out/topoi/vida artificial/const/02-shader.html",
     "06-out/topoi/vida artificial/const/01-grid.html",
-    "06-out/topoi/vida artificial/const",
-    "06-out/topoi/vida artificial/01-grid.html",
-    "06-out/topoi/vida artificial/const:01-grid.html",
-    "06-out/topoi/vida artificial/procedural.html",
     "05-obs/img/Pasted image 20250926112238.png",
     "05-obs/img/Pasted image 20250926104149.png",
     "05-obs/img/Pasted image 20250924090749.png",
     "05-obs/img/Pasted image 20250924090727.png",
-    "05-obs/img/Pasted image 20250924090534.png",
-    "06-out/sistemas paramétricos/turing_gray_scott.gif",
-    "05-obs/img/eventos MOC-1755180996389.jpeg",
-    "05-obs/img/Pasted image 20250618122453.png",
     "Untitled.canvas",
     "cym-metamap.canvas",
     "Sin título 1.canvas",
