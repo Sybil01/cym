@@ -168,3 +168,23 @@ flowchart TD
 | **Computación** | Sistemas generativos / Modelos procedurales | Perlin noise, L-systems, shaders |
 | **Teoría de la complejidad** | Sistemas complejos adaptativos | Kuramoto, boids, autómatas celulares |
 | **Diseño y arte generativo** | Sistemas dinámicos paramétricos | Modelos sonoros, visuales o híbridos controlados por parámetros |
+
+
+# impacto de sistemas dinámicos en la cultura popular
+
+| Modelo científico / matemático | Principio dinámico | Aplicación en software y cultura visual | Ejemplos concretos |
+|--------------------------------|--------------------|----------------------------------------|--------------------|
+| **Ruido blanco / Gaussiano / Perlin** | Aleatoriedad coherente y campos correlacionados | Síntesis de texturas naturales, cielos, humo, piel, terreno, fuego | Photoshop: *Filter → Noise*, *Clouds*; After Effects: *Fractal Noise*; videojuegos y CGI (Terragen, Blender, Unity shaders) |
+| **Procesos estocásticos (Wiener, Browniano)** | Movimiento aleatorio continuo, difusión | Simulación de polvo, partículas, fluidos ligeros, “grano” cinematográfico | Houdini, Maya, After Effects *Turbulent Displace*; filtros de cine (*film grain*) |
+| **Mapas logísticos y caos determinista** | Bifurcaciones, sensibilidad a condiciones iniciales | Generación procedural de eventos caóticos, variación no repetitiva | Música generativa (Xenakis, Brian Eno), visuales fractales, videojuegos *No Man’s Sky* |
+| **Autómatas celulares (Wolfram, Game of Life)** | Reglas locales → patrones globales emergentes | Generación procedural, patrones autoorganizados, simulaciones biológicas | Minecraft (mecánicas de bloques), simulaciones de colonias, efectos de crecimiento o propagación en animación |
+| **L-systems (Lindenmayer)** | Reglas de crecimiento fractal | Modelado de plantas, vegetación y geometrías orgánicas | Blender Geometry Nodes, Houdini, SpeedTree, fractales de paisajes en videojuegos |
+| **Reacción–difusión (Turing, Gray–Scott)** | Autoorganización por interacción química | Texturas animales, mármoles, patrones epidérmicos, camuflaje digital | Shaders GLSL, Substance Designer (*masks procedurales*), bioarte (Pearson, Somorjai) |
+| **Sistemas de partículas y campos vectoriales** | Movimiento continuo de agentes en campos de fuerza | Simulaciones físicas, humo, fuego, multitudes, fluidos visuales | After Effects *Particular*, Houdini *POP solver*, Unity Particle Systems |
+| **Redes de osciladores (Kuramoto)** | Sincronización y fase colectiva | Dinámicas rítmicas y coreográficas, efectos de sincronía | Sistemas de audio-reactividad, instalaciones cinéticas, música electrónica (LFOs sincronizados) |
+| **Dinámica de fluidos (Navier–Stokes discretizado)** | Advección, difusión, vorticidad | Simulación hiperreal de agua, aire, fuego, humo | Blender *Mantaflow*, RealFlow, Houdini *FLIP solver*, motores físicos de GPU |
+| **Patrones fractales (Mandelbrot, Julia)** | Auto-similitud y escala infinita | Estética fractal en diseño, logos, motion graphics | Cultura digital 90s, *Electric Sheep*, fractal wallpapers, visualizadores de audio |
+| **Modelos de arena / criticalidad autoorganizada** | Equilibrio entre estabilidad y colapso | Simulación de derrumbes, montañas, sistemas de cascada, redes | Houdini VEX, engines de destrucción, visualizaciones de datos de “cascadas críticas” |
+| **Simulación de agentes (boids de Reynolds)** | Reglas locales simples → comportamiento colectivo | Flocking, enjambres, multitudes, danza computacional | Crowd simulation (Maya, Houdini), animaciones de bandadas, IA básica de videojuegos |
+| **Reacción no lineal + feedback** | Realimentación continua → estabilidad oscilante | Sistemas visuales autoorganizados y feedback de video | Visuales analógicos, Hydra.js, feedbacks de cámara o shader |
+| **Campos de potencial / morphons (Deacon, Hoffmeyer)** | Formas emergentes por interacción simbólica o energética | Bioarte, escultura algorítmica, diseño de materiales “vivos” | Instalaciones biohíbridas, arte generativo especulativo (Eduardo Kac, Pinar Yoldas) |

@@ -721,16 +721,12 @@ Con esto demuestra la factibilidad lógica de la autorreproducción y sienta bas
 
 ⸻
 
-Cómo tocar esto en clase (sugerencia rápida)
-- Pasa por todos los combos (Play all) y pide a la clase identificar cuál macro-sinte asocian con qué rol del autómata (conductor, señal, barrera…).
-- Tarea: que cada grupo redacte su propia tabla de transición tímbrica: cuándo un combo “se propaga”, cuándo “muere”, cuándo “se bifurca”, y que programen una regla de vecindad musical (usando tu grid CA de antes) que dispare estos 28 sonidos como “señales”.
+Cómo tocar
+- Pasa por todos los combos (Play all) e identificar cuál macro-sinte asocian con qué rol del autómata (conductor, señal, barrera…).
+- que cada grupo redacte su propia tabla de transición tímbrica: cuándo un combo “se propaga”, cuándo “muere”, cuándo “se bifurca”, y que programen una regla de vecindad musical (usando tu grid CA de antes) que dispare estos 28 sonidos como “señales”.
 
 ## ejemplos
 
-perfecto, pensemos en 5 ejemplos compuestos, cada uno combinando 10 de los 28 estados sonoros que definiste en el autómata–sonificación.
-Los agrupo conceptualmente —no sólo por número de estado— sino por familias tímbricas y roles estructurales, como si cada ejemplo fuera un “micro–ecosistema” musical que encarna un tipo de comportamiento del autómata.
-
-⸻
 
 1. Flujo conductor
 
@@ -742,7 +738,6 @@ Descripción:
 	•	Se percibe como una textura suave, casi acuática, con pequeñas modulaciones en el centro del campo estéreo.
 Analógicamente: representa la conductividad del autómata; un flujo estable de energía.
 
-⸻
 
 2. Choque y propagación
 
@@ -754,7 +749,6 @@ Descripción:
 	•	Este conjunto recrea la propagación–colisión: impulsos que se transmiten y apagan.
 Analógicamente: la vida mínima — un sistema excitado que se reorganiza en cada impacto.
 
-⸻
 
 3. Auto-replicación y bucles
 
@@ -766,8 +760,6 @@ Descripción:
 	•	Los transitorios (15, 19) simulan la copia de una forma sonora a otra.
 Analógicamente: representa la auto-reproducción del modelo de Von Neumann, traducida a motivos sonoros recurrentes.
 
-⸻
-
 4. Emergencia compleja
 
 Estados → [5,6,7,8,9,10,16,17,26,27]
@@ -778,7 +770,6 @@ Descripción:
 	•	Los marcadores (26–27) funcionan como ganchos tímbricos.
 Analógicamente: un ecosistema que se densifica, donde cada célula sonora genera otra antes de extinguirse.
 
-⸻
 
 5. Perturbación y equilibrio
 
@@ -790,13 +781,10 @@ Descripción:
 	•	Suena como un “sistema que intenta volver al equilibrio” luego de una perturbación.
 Analógicamente: el impacto del meteorito de tu metáfora — una reorganización global del paisaje.
 
-⸻
 
-cómo podrías escucharlos
-	1.	En la grilla: pinta sólo esos estados.
-	2.	Dale Seed, luego Play, y escuchá cómo el patrón se reorganiza.
-	3.	Cambiá las coordenadas en Y: las frecuencias varían verticalmente, creando armonías emergentes.
-	4.	Si querés documentar, grabá la salida del AudioContext y usá los ejemplos como gestos sonoros de tus topologías de vida artificial.
+### cómo se pueden  escuchar
 
-⸻
-
+1.	En la grilla: pinto sólo esos estados.
+2.	Apretar Seed, luego Play, y escuchar cómo el patrón se reorganiza.
+3.	Cambiar las coordenadas en Y: las frecuencias varían verticalmente, creando armonías emergentes.
+4.	Si querés documentar, grabá la salida del AudioContext y usá los ejemplos como gestos sonoros de tus topologías de vida artificial.
