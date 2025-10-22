@@ -8,11 +8,11 @@
 }
 \score {
   \relative c' {
-    \clef bass
+    \clef treble
     \key c \major
     \time 4/4
-    \tempo 4 = 80
-    cis d e f | g a b c
+    \tempo 4 = 120
+    c d eis f | g aes b c
   }
   \layout { }
 }

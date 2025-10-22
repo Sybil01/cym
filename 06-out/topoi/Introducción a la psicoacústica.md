@@ -4,7 +4,7 @@ tags: psicoacústica, topoi
 unit: 00
 author: Ezequiel A. Petroccelli
 publish: 2023
-banner: "https://c8.alamy.com/compit/2g7me18/bianco-e-nero-sfondo-illusione-ottica-illustrazione-vettoriale-2g7me18.jpg"
+img: "https://c8.alamy.com/compit/2g7me18/bianco-e-nero-sfondo-illusione-ottica-illustrazione-vettoriale-2g7me18.jpg"
 ---
 
 
@@ -35,7 +35,7 @@ Hay distintos tipos de OAES que se manifiestan naturalmente o según el estímul
 - Emisiones otoacústicas de frecuencia sostenida (SFOAEs) – Sonidos emitidos como respuesta a un tono continuo.
     
 
-## OAES como herramienta compositiva : [[Marianne Amacher]]
+## OAES como herramienta compositiva : [[Maryanne Amacher]]
 
 El interés por la psicoacústica en los y las artistas del siglo XX, contrajo nuevas formas y nuevas herramientas para la composición musical. Una artista contemporánea que se interesó por estas investigaciones y profundizó en estos conocimientos fue [Maryanne Amacher.](https://www.blankforms.org/the-maryanne-amacher-foundation)
 

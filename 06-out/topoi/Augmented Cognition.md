@@ -3,7 +3,7 @@ type: topoi
 tags: topoi,
 unit: 0
 author:
-banner: "https://i.imgur.com/G9QGKHP.png"
+img: "https://i.imgur.com/G9QGKHP.png"
 ---
 
 

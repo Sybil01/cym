@@ -1,8 +1,11 @@
 ---
 connections:
+synopsis:
 city:
 url:
 tags:
 year:
 works:
+img:
+person:
 ---

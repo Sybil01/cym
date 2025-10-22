@@ -8,7 +8,7 @@ theme: consult
 center : true
 margin: 0.1
 ---
-<!-- slide bg="#010100"--> 
+<!-- slide bg="#010100"⇉ 
 ![[untref-logo-w.svg|100]]
 UNTREF | CYM24
 # vida digital
@@ -66,7 +66,7 @@ end
 
 ---
 
-![[Pasted image 20230829223415.png]]
+
 
 note: los lenguajes de programación en cambio son lenguajes formales, no emergen de forma natural sino de modo estructurado. Esto es un poco lo que provoca el shock cultural que sentimos cuando empezamos a programar. La forma de hablar con los sistemas exo-humanos es aun formal en el sentido que le damos al lenguaje. Esta es también la revolución del 2017 con los Transformers de ML. Que por primera vez un lenguaje natural llega a la convergencia de los históricos lenguajes formales. Lo ampliaremos al hablar de ML. 
 Los lenguajes formales están compuestos por 1. albabeto, sintáxis y semántica. Tenemos símbolos , que son unidades de significado.
@@ -76,18 +76,18 @@ Los lenguajes formales están compuestos por 1. albabeto, sintáxis y semántica
 ### alfabeto
 paul klee
 
-![[Pasted image 20230829224100.png]]
+
 ---
 
 ### alfabeto
 
 arnold schoenberg
 
-![[Pasted image 20230829224222.png]]
+
 ---
 ### alfabeto
 arnold schoenberg
-![[Pasted image 20230829224242.png]]
+
 - [[r-memex]]
 - [[hi augmentation]]
 - [[hypertext]]
@@ -97,12 +97,12 @@ arnold schoenberg
 ### alfabeto
 mark andre
 
-![[Pasted image 20230829224353.png]]
+
 
 ---
 ### alfabeto
 helmut lachenmann 
-![[Pasted image 20230829224438.png]]
+
 ---
 ### alfabeto
 
@@ -228,7 +228,7 @@ ejemplos en obisidian
 - cultura del like-comment → imperfección → aprendizaje en público.
 
 ---
-![[Pasted image 20230829230008.png]]
+
 
 ---
 
@@ -245,7 +245,7 @@ ejemplos en obisidian
 note:todos ellos tienen también enlaces a una nueva ciencia del artículo científico, representación en látex sin js, comentarios en disqus, gestores de referencias (mendeley, zotero, paperbox) y link-ificación automática.
 
 ---
-![[Pasted image 20230829230127.png]]
+
 
 ---
 Gestores de notas , referencias, vida etc.
@@ -256,7 +256,7 @@ Gestores de notas , referencias, vida etc.
 
 Niklas Luhman
 
-![[Pasted image 20230829230243.png]]
+
 
 ---
 <iframe title="Einblicke in das System der Zettel - Geheimnis um Niklas Luhmanns Zettelkasten" src="https://www.youtube.com/embed/4veq2i3teVk?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
@@ -274,4 +274,10 @@ project-based subject
 executable books
 dynamic music scores
 new papers
+
+
+---
+
+[[blog MOC]]
+
 

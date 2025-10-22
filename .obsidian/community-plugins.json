@@ -1,4 +1,38 @@
 [
+<<<<<<< HEAD
   "digitalgarden",
   "obsidian-git"
+=======
+  "dataview",
+  "music-code-blocks",
+  "obsidian-activity-history",
+  "obsidian-advanced-slides",
+  "table-editor-obsidian",
+  "better-fn",
+  "better-inline-fields",
+  "obsidian-book-search-plugin",
+  "obsidian-plugin-groups",
+  "obsidian-git",
+  "neighbouring-files",
+  "obsidian-minimal-settings",
+  "obsidian-imgur-plugin",
+  "obsidian-drag-n-drop-plugin",
+  "obsidian-plotly",
+  "convert-url-to-iframe",
+  "shortcuts-extender",
+  "obsidian-textgenerator-plugin",
+  "text-snippets-obsidian",
+  "colored-tags",
+  "obsidian-icon-folder",
+  "colored-text",
+  "obsidian42-brat",
+  "canvas-presentation",
+  "obsidian-contextual-typography",
+  "code-emitter",
+  "obsidian-enhancing-export",
+  "omnisearch",
+  "obsidian-style-settings",
+  "css-editor",
+  "obsidian42-text-transporter"
+>>>>>>> origin/main
 ]

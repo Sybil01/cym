@@ -3,7 +3,7 @@ type: topoi
 author: Sabrina Beltrame
 tags: forma musical
 publish: 2023
-banner: https://i.imgur.com/r0lTWQM.png
+img: https://i.imgur.com/r0lTWQM.png
 ---
 
 ![](https://i.imgur.com/r0lTWQM.png)

@@ -1,16 +1,19 @@
 ---
-instrument: 
-abrev: 
+instrument:
+abrev:
 family: electronics
 connect:
-  - Trista Perich
+  - Tristan Perich
 tags:
   - orq
 year: 2004
-url: 
+url:
 timeline:
   - dssCaseInstruments
 aat-render-enabled: true
+img: https://i.imgur.com/2jHaWWn.png
+person: Trista Perich
 ---
 
-![](https://i.imgur.com/2jHaWWn.png)
+
+]

@@ -1,6 +1,6 @@
 ---
 type: obra
-photo:
+img: https://i.imgur.com/9DqOJ7C.png
 year: 1961
 tags: músicaescrita
 person: "[[György Ligeti]]"
@@ -9,6 +9,7 @@ url:
 connect: "[[Arte de datos]]"
 premierePlace: Donaueschingen Musiktagen
 ---
+
 Ligeti en Atmosphères construye una textura donde la microestructura (fluctuación) y la macroforma (corriente) se superponen de manera casi física, muy cercana a la idea de turbulencia o flujo continuo. Podemos pensarlo en términos análogos a la hidrodinámica y al caos determinista (Lorenz, Prigogine):
 
 ## Fluctuación
@@ -148,7 +149,9 @@ para cada paso de tiempo:
     # Mapeo sonoro (ejemplo)
     frecuencia = min_freq + (1 - y / height) * (max_freq - min_freq)
     actualizar_oscilador(frecuencia)
+    
 ```
+
 
 
 **Explicación**: Este loop integra todos los términos. Ejecutado por partícula, simula el enjambre orquestal. Ajusta $f$ y $s$ para explorar interacciones.
@@ -704,8 +707,8 @@ root.__ligetiCleanup = async ()=>{
 
 ## versiones
 
-### Berliner Philharmoniker. cond. JOnathan Nott
-https://www.youtube.com/watch?v=qPr4vRRQKvQ
+### Berliner Philharmoniker. cond. Jonathan Nott
+<iframe title="Atmosphères - György Ligeti" src="https://www.youtube.com/embed/qPr4vRRQKvQ?feature=oembed" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 
 [[lírica lorenz]]
@@ -1092,6 +1095,9 @@ root.__lorenzCleanup = async ()=>{
   els.view.innerHTML="";
 };
 ```
+
+
+
 
 
 
