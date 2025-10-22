@@ -18,8 +18,21 @@
               "icon": "lucide-file-audio",
               "title": "TP1 Salida -VacaMuertaDatos"
             }
+          },
+          {
+            "id": "275a532f4ffbdd1c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 450.5
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -233,7 +246,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "275a532f4ffbdd1c",
   "lastOpenFiles": [
     "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
     "01-proj/25/Carlos Lescano/TP1/TP1 Salida -VacaMuertaDatos.mp3",
