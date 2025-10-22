@@ -1,202 +1,40 @@
 {
   "main": {
-    "id": "06155fffeb6c2afa",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "14dd20cceae5a46a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "585ba4d5a9ec9eb7",
+            "id": "adfcdc7c669aeae7",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/generatividad/artistas procedurales.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "artistas procedurales"
-            }
-          },
-          {
-            "id": "ef5234424baa7489",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/BRUTALISM/BRU-9/releases",
-                "title": "Releases · BRUTALISM/BRU-9",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Releases · BRUTALISM/BRU-9"
-            }
-          },
-          {
-            "id": "370b5ba9294796a4",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "03-cla/c-cym08-vida.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "mode": "preview",
+                "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "c-cym08-vida"
-            }
-          },
-          {
-            "id": "ac14bdf750dd81eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/vida artificial/n-agente vida.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "n-agente vida"
-            }
-          },
-          {
-            "id": "ee317b5a2ae79e66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/energía/estructuras disipativas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "estructuras disipativas"
-            }
-          },
-          {
-            "id": "0164432e76f3bccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/energía/John Whitney.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "John Whitney"
-            }
-          },
-          {
-            "id": "e0105e07bb0cc6f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "b/gendy3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "gendy3"
-            }
-          },
-          {
-            "id": "bbc2bc6cc2ba9971",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "06-out/sistemas paramétricos/paramétricos.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "paramétricos"
-            }
-          },
-          {
-            "id": "0f62c31b9ef6beae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/sistemas paramétricos/paramétricos MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "paramétricos MOC"
-            }
-          }
-        ],
-        "currentTab": 7
-      },
-      {
-        "id": "21fd10dcf7131545",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fce386f83ad6692b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/sistemas paramétricos/paramétricos MOC.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "paramétricos MOC"
-            }
-          },
-          {
-            "id": "a95f0131f96e65a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/topoi/vida artificial/Hidden Markov Models (HMM).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Hidden Markov Models (HMM)"
             }
           }
         ]
       },
       {
-        "id": "550b309c251c6cb6",
+        "id": "fa9b3e3393309dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "20d4c54c97fd9bba",
+            "id": "1be4d534ebadb26b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-out/home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "reveal-preview-view",
+              "state": {},
               "icon": "lucide-file",
-              "title": "home"
+              "title": "Slide Preview"
             }
           }
         ]
@@ -231,8 +69,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#operativos/sistemasparamétricos",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -251,22 +89,12 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "ce5a133c33390c30",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 200
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -275,7 +103,7 @@
       {
         "id": "aaca835876e592bb",
         "type": "tabs",
-        "dimension": 65.98639455782312,
+        "dimension": 71.05643994211287,
         "children": [
           {
             "id": "8c7ec6495dcddec6",
@@ -283,13 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06-out/home.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "00-moc/obras MOC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of home"
+              "title": "Outline of obras MOC"
             }
           },
           {
@@ -298,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-obs/img/23112422.excalidraw.md",
+                "file": "00-moc/obras MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +133,41 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 23112422.excalidraw"
+              "title": "Backlinks for obras MOC"
+            }
+          },
+          {
+            "id": "e36f2709c75460b4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "52f74587519419f6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "dadcd00ddeddea13",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           },
           {
@@ -317,81 +176,21 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-obs/img/Pasted image 20250529151452.png",
+                "file": "06-out/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20250529151452"
-            }
-          },
-          {
-            "id": "412b1e1aab99248c",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "93f055f68d96e0c5",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
-            }
-          },
-          {
-            "id": "cb5613f9692767ad",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "fd6fb8369f9936c5",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "QUICKSHARE_SIDE_VIEW"
-            }
-          },
-          {
-            "id": "789d82c372e71b42",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "8c7a74ccafdf2a69",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "QUICKSHARE_SIDE_VIEW"
+              "title": "Outgoing links from home"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       },
       {
         "id": "b33cb9828f682814",
         "type": "tabs",
-        "dimension": 17.00680272108844,
+        "dimension": 28.943560057887115,
         "children": [
           {
             "id": "20c732dc2cc0ecaf",
@@ -409,94 +208,78 @@
             }
           }
         ]
-      },
-      {
-        "id": "0b21d0481a2a08a7",
-        "type": "tabs",
-        "dimension": 17.00680272108844,
-        "children": [
-          {
-            "id": "d666d2187372564f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 389.5,
+    "width": 236.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "daily-notes:Open today's daily note": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fce386f83ad6692b",
+  "active": "adfcdc7c669aeae7",
   "lastOpenFiles": [
-    "06-out/sistemas paramétricos/paramétricos.base",
-    "06-out/home.md",
-    "06-out/sistemas paramétricos/distribución probabilística.md",
-    "06-out/sistemas paramétricos/paramétricos MOC.md",
-    "06-out/sistemas paramétricos/agregación difusión de Gray-Scott.md",
-    "06-out/sistemas paramétricos/Agregación limitada por difusión.md",
-    "06-out/sistemas paramétricos/máquinas de Boltzmann.md",
-    "06-out/sistemas paramétricos/morfógenos.md",
-    "06-out/sistemas paramétricos/Movimiento browniano.md",
-    "06-out/sistemas paramétricos/patrones de Turing.md",
-    "06-out/sistemas paramétricos/perlin noise.md",
-    "06-out/sistemas paramétricos/Probabilistic Graphical Models.md",
-    "06-out/sistemas paramétricos/proceso de Wiener.md",
-    "06-out/sistemas paramétricos/random walk.md",
-    "06-out/sistemas paramétricos/transformaciones energéticas.md",
-    "06-out/topoi/vida artificial/Hidden Markov Models (HMM).md",
-    "b/Convexión de Raleigh-Benard.md",
-    "b/RW practice.md",
-    "b/gendy3.md",
-    "b/c1 axiomas de generativdad.md",
-    "b/disipativos explicación.md",
-    "b/ei dinámica.md",
-    "b/guatari.md",
+    "03-cla/c-cym-09-biomúsica.md",
     "03-cla/c-cym08-vida.md",
-    "b/251001.md",
-    "b/vida-cod-moc.md",
+    "06-out/home.md",
+    "06-out/bibliografía/Yasmin B Kafai Quinn Burke_Connected Code.md",
+    "06-out/bibliografía/Boris Groys_Arte y flujo.md",
+    "06-out/bibliografía/Jane Bennet_Vibrant Matter.md",
+    "06-out/bibliografía/Myriam Robayo Pedraza_La canción social como expresión de inconformismo.md",
+    "06-out/bibliografía/Steyerl_Los condenados de la pantalla.md",
+    "02-mat/herramientas/r-como hacer un proyectual.md",
+    "03-cla/c-cym04-introducción al código.md",
+    "02-mat/blog/01-digital garden.md",
+    "concret-lab.md",
+    "06-out/topoi/vida artificial/ácidos.md",
+    "06-out/topoi/vida artificial/procedural.html",
+    "06-out/topoi/vida artificial/n-audio-alpaca.md",
+    "06-out/topoi/vida artificial/n-agente vida.md",
+    "06-out/topoi/vida artificial/l-systems.md",
+    "06-out/topoi/vida artificial/l-system.js",
+    "06-out/topoi/vida artificial/l-system.html",
     "06-out/topoi/vida artificial/const/03-scratch.html",
     "06-out/topoi/vida artificial/const/02-shader.html",
     "06-out/topoi/vida artificial/const/01-grid.html",
     "06-out/topoi/vida artificial/const",
-    "06-out/topoi/vida artificial/01-grid.html",
-    "06-out/topoi/vida artificial/const:01-grid.html",
-    "06-out/topoi/vida artificial/procedural.html",
     "06-out/topoi/vida artificial/birds.js",
-    "06-out/topoi/vida artificial/l-system.html",
+    "06-out/topoi/vida artificial/Untitled.md",
+    "06-out/topoi/vida artificial/Hidden Markov Models (HMM).md",
+    "06-out/topoi/vida artificial/0 cosmos química inicial.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/n-gram.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/llm.base",
+    "06-out/topoi/generatividad/modelos de lenguaje/dialogGPT.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/Shrdlu.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/Prolog.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/NNLM NPLM de Bengio.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/Mycin.md",
+    "06-out/topoi/generatividad/modelos de lenguaje/Mikolov RNNLM.md",
+    "06-out/topoi/generatividad/modelos de lenguaje",
+    "06-out/sistemas paramétricos/turing_gray_scott.gif",
     "05-obs/img/Pasted image 20250926112238.png",
     "05-obs/img/Pasted image 20250926104149.png",
     "05-obs/img/Pasted image 20250924090749.png",
     "05-obs/img/Pasted image 20250924090727.png",
     "05-obs/img/Pasted image 20250924090534.png",
-    "06-out/sistemas paramétricos/turing_gray_scott.gif",
-    "05-obs/img/eventos MOC-1755180996389.jpeg",
-    "05-obs/img/Pasted image 20250618122453.png",
-    "05-obs/img/Pasted image 20250529151452.png",
-    "05-obs/img/untref-logo-w.svg",
-    "Untitled.canvas",
+    "05-obs/img/Pasted image 20250827130347.png",
+    "05-obs/img/Pasted image 20250827124029.png",
+    "05-obs/img/Pasted image 20250827114255.png",
+    "06-out/operativos/sistemas paramétricos/turing_gray_scott.gif",
     "cym-metamap.canvas",
     "Sin título 1.canvas",
     "Sin título.canvas",
+    "Untitled.canvas",
     "03-cla/cym-map.canvas"
   ]
 }
