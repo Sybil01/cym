@@ -14,7 +14,7 @@ connect:
 ---
 
 
-Aquí va un “mínimo viable” para tu idea de autómata celular 1D a la Xenakis: grilla x–t con valores {0,1,2,4}, coloración tipo “Newton” mapeada a semitonos, y sonificación orquestal sencilla en WebAudio (síntesis mixta). Incluye botón start/stop que crea y destruye el AudioContext. Luego tienes el marco matemático y un comentario crítico con 20 preceptos.
+ Xenakis: grilla x–t con valores {0,1,2,4}, coloración tipo “Newton” mapeada a semitonos, y sonificación orquestal sencilla en WebAudio (síntesis mixta). Incluye botón start/stop que crea y destruye el AudioContext. Luego tienes el marco matemático y un comentario crítico con 20 preceptos.
 
 1. DataviewJS: visualización + sonificación orquestal mínima
 
@@ -1169,3 +1169,117 @@ bRec.onclick=()=>{
   } else { rec.stop(); bRec.textContent='⏺ rec'; }
 };
 ```
+
+
+
+---
+
+
+# ejemplo melo gattacca
+
+```dataviewjs
+// === PARÁMETROS ===
+const pitches = ["c'", "cis'", "d'", "dis'", "e'", "f'", "fis'", "g'", "gis'", "a'", "ais'", "b'"];
+const rhythms = ["16", "16", "\\tuplet 3/2 { 16 16 16 }", "8", "\\tuplet 3/2 { 8 8 8 }"];
+const defaultAdn = "AGAATTACCCACCGGAAAAATTTCCAAACCATT";
+
+// === ESTILO ===
+const style = `
+<style>
+.melody-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: monospace;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 14px;
+}
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+</style>
+`;
+dv.container.innerHTML += style;
+
+// === CONTENEDOR ===
+const container = document.createElement("div");
+container.className = "melody-box";
+dv.container.appendChild(container);
+
+// === TEXTAREA ===
+const textArea = document.createElement("textarea");
+textArea.value = "";
+container.appendChild(textArea);
+
+// === INPUT ADN ===
+const input = document.createElement("input");
+input.type = "text";
+input.value = defaultAdn;
+input.placeholder = "ADN (ej. AGAATTAC...)";
+container.appendChild(input);
+
+// === BOTONES ===
+const controls = document.createElement("div");
+controls.className = "controls";
+
+const genButton = document.createElement("button");
+genButton.textContent = "Generar";
+
+const copyButton = document.createElement("button");
+copyButton.textContent = "Copiar";
+
+controls.appendChild(genButton);
+controls.appendChild(copyButton);
+container.appendChild(controls);
+
+// === FUNCIONES ===
+function getRandom(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+function generateLilypond(adn) {
+  let notes = adn.split("").map(() => {
+    const pitch = getRandom(pitches);
+    const rhythm = getRandom(rhythms);
+    return `${pitch}${rhythm}`;
+  });
+
+  // Agrupar en compases de forma sencilla (cada ~8 notas)
+  let measures = [];
+  for (let i = 0; i < notes.length; i += 8) {
+    measures.push(notes.slice(i, i + 8).join(" "));
+  }
+
+  return `
+\\version "2.24.2"
+\\score {
+  \\new Staff {
+    \\relative c' {
+      ${measures.join(" |\n      ")} |
+    }
+  }
+}`.trim();
+}
+
+// === EVENTOS ===
+genButton.onclick = () => {
+  const adn = input.value.toUpperCase().replace(/[^AGCT]/g, "");
+  const lily = generateLilypond(adn);
+  textArea.value = lily;
+};
+
+copyButton.onclick = () => {
+  navigator.clipboard.writeText(textArea.value);
+};
+```
+

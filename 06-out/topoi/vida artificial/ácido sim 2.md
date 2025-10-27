@@ -91,6 +91,7 @@ el._loop=setInterval(step,1000/P.fps);
 
 
 
+
 ##  protonación de un carboxilato proteico (–COO⁻⇄–COOH)
 
  análogo a cómo $H^+$ se une a Asp/Glu del rotor de la ATP sintasa y gatilla un cambio conformacional. Lo controlamos con Henderson–Hasselbalch: $f_{prot}=1/(1+10^{(pH-pK_a)})$.
@@ -230,6 +231,7 @@ function step(){
 }
 draw(); if(root._loop) clearInterval(root._loop); root._loop=setInterval(step,1000/P.fps);
 ```
+
 
 - Modificar pump, leak, threshold para observar regímenes: sin reacción (agotamiento), oscilación homeostática, estallidos con recuperación.
 - Pedir que mapeen eventos ATP a acentos rítmicos: tempo≈tempoBase·(1+energy/k). Quien quiera, agrega un oscilador WebAudio en un bloque aparte.
