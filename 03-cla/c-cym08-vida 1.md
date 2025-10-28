@@ -3,24 +3,6 @@ title: vida
 tags: class
 type: class
 ---
-<grid drag="60 55" drop="5 10" bg="transparent" align="left">
-# vida
-## Clase 9
-</grid>
-
-<grid drag="25 55" drop="-5 10" bg="black" align="top">
--  matrices <br>
-- metáfora regulada morfogenética <br>
-- paramétricos<br>
-- obras<br>
-</grid>
-
-<grid drag="-5 10" drop="5 -10" bg="black">
-![](https://i.imgur.com/3dKJzNX.png)  
-</grid>
-
-<grid drag="80 10" drop="12 -12">
-<b>Ciencia y Música</b> 900 | 2025 | Luciano Azzigotti</grid>
 
 
 $$
