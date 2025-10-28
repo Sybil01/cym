@@ -13,8 +13,6 @@ $$
 \newcommand{\ent}[1]{\boxed{#1}}
 \newcommand{\branch}{\twoheadrightarrow}
 $$
-
-
 ---
 ![](https://i.imgur.com/bbHbS2L.png)
 
