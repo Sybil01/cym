@@ -6,7 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 67.53670473083197,
+        "dimension": 50,
         "children": [
           {
             "id": "adfcdc7c669aeae7",
@@ -28,24 +28,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a-advancedslides.md",
+                "file": "03-cla/c-cym08-vida.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "a-advancedslides"
+              "title": "c-cym08-vida"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "04aa8e15811b2bbc",
+        "id": "b0eea01692780d0f",
         "type": "tabs",
-        "dimension": 32.46329526916802,
+        "dimension": 50,
         "children": [
           {
-            "id": "db5d72355ecc233c",
+            "id": "e148936a07e919ad",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -120,7 +120,7 @@
       {
         "id": "aaca835876e592bb",
         "type": "tabs",
-        "dimension": 71.05643994211289,
+        "dimension": 71.05643994211287,
         "children": [
           {
             "id": "8c7ec6495dcddec6",
@@ -207,7 +207,7 @@
       {
         "id": "b33cb9828f682814",
         "type": "tabs",
-        "dimension": 28.943560057887122,
+        "dimension": 28.943560057887115,
         "children": [
           {
             "id": "20c732dc2cc0ecaf",
@@ -234,7 +234,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "daily-notes:Open today's daily note": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
@@ -245,10 +244,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "e148936a07e919ad",
   "lastOpenFiles": [
-    "a-advancedslides.md",
+    "03-cla/c-cym00-calendario.md",
     "conflict-files-obsidian-git.md",
+    "a-advancedslides.md",
     "a-mermaid.md",
     "concret-lab.md",
     "03-cla/c-cym08-vida.md",
@@ -264,7 +264,6 @@
     "01-proj/25/Peterschmitt/Proyecto Final/La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana..md",
     "01-proj/25/Peterschmitt/Proyecto Final",
     "03-cla/23/c-cym08-github pages+hydra.md",
-    "03-cla/c-cym00-calendario.md",
     "03-cla/[0 cosmos química inicial.md",
     "06-out/topoi/vida artificial/ácido sim 2.md",
     "06-out/topoi/vida artificial/agentes cantores con ollama.md",
