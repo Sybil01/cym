@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 50.32626427406199,
         "children": [
           {
             "id": "adfcdc7c669aeae7",
@@ -14,38 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym08-vida.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "c-cym08-vida"
-            }
-          },
-          {
-            "id": "89c5bc5120f8be1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-cla/c-cym08-vida 1.md",
+                "file": "03-cla/c-cym10-proyectual.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "c-cym08-vida 1"
+              "title": "c-cym10-proyectual"
+            }
+          },
+          {
+            "id": "95dca166cdb5c9fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-mat/herramientas/r-como hacer un proyectual.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "r-como hacer un proyectual"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "b0eea01692780d0f",
+        "id": "5528ead152aac95d",
         "type": "tabs",
-        "dimension": 49.67373572593801,
         "children": [
           {
-            "id": "e148936a07e919ad",
+            "id": "9c643223e2b72cca",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -111,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 200
   },
   "right": {
     "id": "f8c878636ee6998f",
@@ -244,10 +241,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89c5bc5120f8be1d",
+  "active": "9c643223e2b72cca",
   "lastOpenFiles": [
+    "02-mat/herramientas/r-como hacer un proyectual.md",
+    "03-cla/c-cym10-proyectual.md",
     "03-cla/c-cym08-vida.md",
-    "03-cla/c-cym08-vida 1.md",
+    "06-out/topoi/vida artificial/ácido sim 2.md",
     "03-cla/c-cym00-calendario.md",
     "conflict-files-obsidian-git.md",
     "a-advancedslides.md",
@@ -266,7 +265,6 @@
     "01-proj/25/Peterschmitt/Proyecto Final",
     "03-cla/23/c-cym08-github pages+hydra.md",
     "03-cla/[0 cosmos química inicial.md",
-    "06-out/topoi/vida artificial/ácido sim 2.md",
     "06-out/topoi/vida artificial/agentes cantores con ollama.md",
     "06-out/topoi/música visual/Música Visual.md",
     "06-out/topoi/música visual",
@@ -282,7 +280,6 @@
     "06-out/bibliografía/Jane Bennet_Vibrant Matter.md",
     "06-out/bibliografía/Myriam Robayo Pedraza_La canción social como expresión de inconformismo.md",
     "06-out/bibliografía/Steyerl_Los condenados de la pantalla.md",
-    "02-mat/herramientas/r-como hacer un proyectual.md",
     "06-out/topoi/vida artificial/procedural.html",
     "06-out/topoi/vida artificial/l-system.js",
     "06-out/topoi/vida artificial/l-system.html",
