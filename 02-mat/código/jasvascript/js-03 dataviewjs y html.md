@@ -50,6 +50,13 @@ root.appendChild(p);
 
 ## Diferencia con HTML
 
+html
+	header
+		style
+		script (javascript)
+	body
+
+	
 ```html
 <!DOCTYPE html>
 <html lang="es">
