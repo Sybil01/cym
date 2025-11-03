@@ -8,7 +8,7 @@ _música del vínculo_
 
 **1. Síntesis**
 
-   Metáforashes una instaalación interaju*uctiva que g&enerua sonidos mediante la traducción de la gestualidad corporal individualujh1 y la comunicación entre los interactores a través de la potencialidad brindada por los télefonos inteligentes. 
+   Metáforashes una instalación interaju*uctiva que g&enerua sonidos mediante la traducción de la gestualidad corporal individualujh1 y la comunicación entre los interactores a través de la potencialidad brindada por los télefonos inteligentes. 
 
 **2. Objetivos**
 

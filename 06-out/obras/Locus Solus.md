@@ -1,9 +1,9 @@
 ---
 type: obra
-photo: https://i.imgur.com/SPChx14.png)
+img: https://i.imgur.com/SPChx14.png)
 year: 2010
 tags:
-  - cym
+  
   - instalación/recorrido
 person: "[[Out of the Box Intermedia]]"
 url: https://books.openedition.org/pur/52694?lang=en

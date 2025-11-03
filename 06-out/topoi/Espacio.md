@@ -6,6 +6,6 @@ tags:
   - psicoacústica
   - topoi
 unit: 60
-banner: https://deutsch.ucsd.edu/m/DIANA_DEUTSCH-06_Andre_Delhaye.jpg
+img: https://deutsch.ucsd.edu/m/DIANA_DEUTSCH-06_Andre_Delhaye.jpg
 ---
 

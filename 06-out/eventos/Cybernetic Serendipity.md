@@ -1,13 +1,15 @@
 ---
 tags:
-  - generativad
+  - generatividad
   - eventos
-  - exhibiciones históricas
-place: 
+  - exhibicioneshistóricas
+place: Institute of Contemporary Arts
 year: 1968
-connections: 
+connections:
 url: https://cyberneticserendipity.net/
-photo: https://64.media.tumblr.com/e4ceac36c56d0f6d2fbb8b9807d39798/tumblr_inline_p8ctkjEqZD1qgygll_500.jpg
+img: https://64.media.tumblr.com/e4ceac36c56d0f6d2fbb8b9807d39798/tumblr_inline_p8ctkjEqZD1qgygll_500.jpg
+curators: Jasia Reichardt
+city: New York
 ---
 
 Primera exposición de arte cibernético, Jasia Reichardt, ICA, Londres 1968.

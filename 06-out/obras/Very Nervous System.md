@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://www.fondation-langlois.org/html/inc/corners/cropCorners.php?src=media/CRD/public/d00004229.jpg&radius=10&lettre=&width=410&height=275&type=img
+img: https://www.fondation-langlois.org/html/inc/corners/cropCorners.php?src=media/CRD/public/d00004229.jpg&radius=10&lettre=&width=410&height=275&type=img
 year: 1990
 tags:
   - interactividad

@@ -6,7 +6,7 @@ tags:
 unit: 0
 publish: 2023
 author: 
-banner:  https://i.imgur.com/sJHYoML.png
+img:  https://i.imgur.com/sJHYoML.png
 
 ---
 

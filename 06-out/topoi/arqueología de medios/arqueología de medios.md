@@ -4,7 +4,7 @@ tags: topoi
 unit: 0
 publish: 2025
 author: zztt
-banner: https://i.imgur.com/KM4UToe.png
+img: https://i.imgur.com/KM4UToe.png
 ---
 
 ![](https://i.imgur.com/KM4UToe.png)

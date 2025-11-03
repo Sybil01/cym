@@ -1,13 +1,15 @@
 ---
 tags:
   - netart
+  - energía
 place:
-connections:
+person:
   - "[[Allison Parrish]]"
   - "[[Everest Pipin]]"
 url: http://solarprotocol.net/sunthinking/index.html#parrish
-photo:
+img: https://i.imgur.com/mPIEYFd.png
 year: 2020
 ---
+
 
 

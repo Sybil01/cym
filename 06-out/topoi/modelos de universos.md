@@ -8,7 +8,7 @@ tags:
 unit: 11
 publish: 2015
 author: zztt 
-banner: "https://media.tenor.com/2jV0hjUDz6QAAAAM/galaxy-stars.gif"
+img: "https://media.tenor.com/2jV0hjUDz6QAAAAM/galaxy-stars.gif"
 ---
 # modelos de universos [14^9]
 >[!abstract] > en este topos estudiaremos las cosmogonias históricas para así reflexionar sobre las nociones de verdad y realidad en nuestra era.

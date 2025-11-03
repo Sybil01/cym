@@ -29,3 +29,19 @@ Sobre el pensamiento de Sadin, quien considera a la máquina no como una encarn
 
 Según Éric Sadin, en cuanto al entendimiento del acoplamiento humano-maquínico, está destinada a penetrar y manipular con facilidad como una duplicación consustancial a nuestra vida cotidiana, citando a Jacques Ellul: “El universo cifrado de la computadora se convierte progresivamente en el universo que tenemos por la realidad y en el cual nos insertamos”. ​La “condición dual” que ha emergido entrelaza espíritus humanos y maquínicos y traza cartografías recompuestas entre organismos biológicos y potencias computacionales.
 
+
+Conceptos
+- machine learning
+- motor de búsqueda
+- inteligencia artificial
+- trading algorítmico
+- antrobología
+- acomplamiento humano-maquínico
+- cuerpo-interfaz
+- magia
+
+Con la aparición del smartphone en tanto objeto globalizado (que permite una continuidad de uso espacio-temporal) desemboca en el fin de la *revolución digital* emergiendo así una **antrobología**, una nueva condición humana duplicada por *asistentes inteligentes*, como un universo cerebral paralelo en expansión continua.
+
+Sadin, quien considera a la máquina no como una encarnación doble de la figura humana, con la búsqueda de duplicar nuestra naturaleza, sino por el contrario, un acoplamiento hacia y desde el humano, entiende que esto no significa la erradicación de la figura humana. En todo caso, es *la muerte del Hombre del siglo XXI*, “ciertamente abordado como un ser actante, pero que, para su bien y el de la humanidad entera, debe ahora despojarse de sus prerrogativas históricas para delegárselas a sistemas más aptos de otra manera para ordenar perfectamente el mundo y garantizarle una vida libre de sus imperfecciones.”
+
+Este acoplamiento humano-maquínico, está destinado a penetrar y manipular con facilidad como una duplicación consustancial a nuestra vida cotidiana, citando a Jacques Ellul: “El universo cifrado de la computadora se convierte progresivamente en el universo que tenemos por la realidad y en el cual nos insertamos”. ​La “condición dual” que ha emergido entrelaza espíritus humanos y maquínicos y traza cartografías recompuestas entre organismos biológicos y potencias computacionales.

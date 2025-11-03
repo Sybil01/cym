@@ -2,12 +2,13 @@
 tags:
   - eventos
   - electronicsarts
-place: 
-connections: 
+place: Howard Wise Gallery
+connections:
 url: https://www.eai.org/eai/index.htm
-photo: https://i.imgur.com/CpirdDN.png
+img: https://i.imgur.com/CpirdDN.png
 year: 1971
 curators: Howard Wise
+city: New York
 ---
 
 

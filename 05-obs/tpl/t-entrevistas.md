@@ -1,11 +1,10 @@
 ---
 tags:
-  - entrevistas
 place: 
-persona: 
+person: 
 connections: 
 url: 
-photo: 
+img: 
 topoi:
 year: 2023
 ---

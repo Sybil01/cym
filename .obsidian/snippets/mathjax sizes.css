@@ -1,5 +1,0 @@
-/* Agrandar todas las fórmulas LaTeX renderizadas en Obsidian */
-.math.math-display,
-mjx-container[jax="CHTML"] {
-  font-size: 1.6em; /* Ajustá este valor a gusto: 1.2em, 1.6em, etc. */
-}

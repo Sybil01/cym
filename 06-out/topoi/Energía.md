@@ -6,10 +6,15 @@ tags:
 unit: 0
 publish: 2025
 author: zztt
-banner: "https://i.imgur.com/J3FZ1Ba.png"
+img: "https://i.imgur.com/J3FZ1Ba.png"
 ---
-![](https://i.imgur.com/J3FZ1Ba.png)
-*Massoud Hassani. Desminador eólico Mine Kafon. 2011. Bambú y plásticos biodegradables, 221 × 221 × 221 cm. Donación del Consejo de Arte Contemporáneo del Museo de Arte Moderno.*
+```dataview
+list from #energía 
+```
+
+
+
+
 
 # 1. Contextualización científica, económica y cultural de la energía
 - Fundamentos físicos: energía como magnitud física (trabajo, calor, potencia, conservación, transformaciones).
@@ -38,3 +43,6 @@ banner: "https://i.imgur.com/J3FZ1Ba.png"
 - Proyectos site-specific que trabajen en diálogo con centrales, subestaciones, espacios industriales o entornos de generación comunitaria.
 - Documentación y archivo de los procesos energéticos en la producción de la obra: huella energética como parte de la partitura o memoria del proyecto.
 
+
+![](https://i.imgur.com/J3FZ1Ba.png)
+*Massoud Hassani. Desminador eólico Mine Kafon. 2011. Bambú y plásticos biodegradables, 221 × 221 × 221 cm. Donación del Consejo de Arte Contemporáneo del Museo de Arte Moderno.*

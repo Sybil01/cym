@@ -1,6 +1,6 @@
 ---
 type: obra
-photo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Boids_OpenGL_example.webm/500px--Boids_OpenGL_example.webm.jpg
+img: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Boids_OpenGL_example.webm/500px--Boids_OpenGL_example.webm.jpg
 tags:
   - complejidad
   - sistemascomplejos

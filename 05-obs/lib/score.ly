@@ -1,4 +1,5 @@
 \version "2.24.0"
+\header { title = "Escala de Do Mayor (JS→LilyPond→SVG)" }
 \paper {
   tagline = ##f
   paper-width  = #(* 20 cm)
@@ -6,12 +7,12 @@
   system-count = #1
 }
 \score {
-  {
+  \relative c' {
     \clef treble
     \key c \major
-    \cadenzaOn
-    c'4 d''2. | b'8
-    \cadenzaOff
+    \time 4/4
+    \tempo 4 = 120
+    c d eis f | g aes b c
   }
   \layout { }
 }
