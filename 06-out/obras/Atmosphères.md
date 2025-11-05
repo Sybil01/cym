@@ -1272,4 +1272,6 @@ print(f"[OK] Generadas {NUM_PARTICLES} curvas de Lorenz en colección '{COLLECTI
 
 
 
+
+
 ![|600](https://i.imgur.com/vwaPwyw.png)
