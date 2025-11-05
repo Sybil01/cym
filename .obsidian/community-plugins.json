@@ -1,4 +1,6 @@
 [
+<<<<<<< HEAD
+=======
   "colored-text",
   "colored-tags",
   "obsidian-contextual-typography",
@@ -12,6 +14,7 @@
   "obsidian-activity-history",
   "obsidian-advanced-slides",
   "music-code-blocks",
+<<<<<<< HEAD
   "obsidian-git",
   "omnisearch",
   "table-editor-obsidian",
@@ -90,4 +93,8 @@
   "buttons",
   "obsidian42-brat",
   "obsidian-book-search-plugin"
+=======
+>>>>>>> origin/main
+  "obsidian-git"
+>>>>>>> origin/main
 ]
