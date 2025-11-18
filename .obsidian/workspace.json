@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-cla/c-cym10-proyectual.md",
+                "file": "04-tp/tpfinal-proyectual.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "c-cym10-proyectual"
-            }
-          },
-          {
-            "id": "95dca166cdb5c9fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-mat/herramientas/r-como hacer un proyectual.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "r-como hacer un proyectual"
+              "title": "tpfinal-proyectual"
             }
           }
         ]
@@ -225,19 +211,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58a6bf3eeea06c75",
+  "active": "adfcdc7c669aeae7",
   "lastOpenFiles": [
     "03-cla/c-cym10-proyectual.md",
+    "02-mat/herramientas/r-como hacer un proyectual.md",
+    "04-tp/tpfinal-proyectual.md",
+    "04-tp/tp02-blog.md",
+    "04-tp/tp01-paradigmas operativos.md",
+    "03-cla/c-cym00-calendario.md",
+    "02-mat/herramientas/r-plantilla-latex.md",
     "conflict-files-obsidian-git.md",
     "06-out/topoi/performance en red/BogdanVera_SSSP_preview.pdf",
     "06-out/topoi/performance en red/Blockchain_Paper_ICMC_20222.pdf",
     "06-out/topoi/performance en red",
     "06-out/obras/mud muse.md",
     "03-cla/c-cym09-performance en red.md",
-    "02-mat/herramientas/r-como hacer un proyectual.md",
     "03-cla/c-cym08-vida.md",
     "06-out/topoi/vida artificial/ácido sim 2.md",
-    "03-cla/c-cym00-calendario.md",
     "a-advancedslides.md",
     "a-mermaid.md",
     "concret-lab.md",
@@ -263,9 +253,6 @@
     "05-obs/img/frankenstein.gif",
     "05-obs/img/Pasted image 20251015081906.png",
     "03-cla/c-cym-09-biomúsica.md",
-    "06-out/home.md",
-    "06-out/bibliografía/Yasmin B Kafai Quinn Burke_Connected Code.md",
-    "06-out/bibliografía/Boris Groys_Arte y flujo.md",
     "06-out/topoi/vida artificial/procedural.html",
     "06-out/topoi/vida artificial/l-system.js",
     "06-out/sistemas paramétricos/turing_gray_scott.gif",
