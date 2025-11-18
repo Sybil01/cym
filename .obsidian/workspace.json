@@ -36,22 +36,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "5528ead152aac95d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9c643223e2b72cca",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +225,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c643223e2b72cca",
+  "active": "adfcdc7c669aeae7",
   "lastOpenFiles": [
     "02-mat/herramientas/r-como hacer un proyectual.md",
     "03-cla/c-cym10-proyectual.md",
