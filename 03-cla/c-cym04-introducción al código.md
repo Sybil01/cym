@@ -12,7 +12,6 @@ type: class
 ![[cym-header]]
 </grid>
 test label 250930 luc zztt
-
 # Introducción a la web web
 
 ## html
