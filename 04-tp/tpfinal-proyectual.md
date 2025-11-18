@@ -16,7 +16,7 @@ arte y tecnología
 
 ## Formato de entrega
 
-- PDF hecho en Latex (ver plantillas)
+- PDF hecho en Latex - plantilla cym --> https://app.crixet.com/?u=d399766a-c63a-4c6e-ba9c-71a4b728754e&pg=1&m=main.tex&d=7
 - Prototipo / demostración / concierto
 ## Entrega
 
@@ -27,7 +27,7 @@ arte y tecnología
 
 ### online
   
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////0+Pbd5+HU4Nje6OJ5oIYNaTYAWBIAWRUAVgsAXB3i6uVvmn4AUwAAXyQAYitOhWIAVQi4zMAEZTBDf1mauKYkb0GFqJHq8e3F1ssAXSBKg14+fVZbjGyuxbbC08gASgBnlHczd02YtaKOrpkpc0b/dCz7AAAA00lEQVR4AWKgEwD0PhcJEoNAFEArinTQGBKX+x9xvA2ynrfBqfpJmmV5AhfSokQIE0ToDUIV40JQIUul4zNcC9LotsM9hAwTSOa2c85DxCphE084HiCSUQnQjl0zQWReVhjZtl+GYB42Rp1DGiIlgnGdpgoJFp1O7Eh/cptSEBMcbup2D4RdkDJRHO4KVwbtkA7uNCXJe0bEn5nCQ6Nwdp/vjsO7kzf3ac3X4FAj+tfjyFkGAeloMxujT4cLiEjEKUKUqwouTB3BWG0zXDM2M/APPgHhRQvZvnEI2QAAAABJRU5ErkJggg==) Overleaf (https://es.overleaf.com/) plantilla cym --> 
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAclBMVEX////0+Pbd5+HU4Nje6OJ5oIYNaTYAWBIAWRUAVgsAXB3i6uVvmn4AUwAAXyQAYitOhWIAVQi4zMAEZTBDf1mauKYkb0GFqJHq8e3F1ssAXSBKg14+fVZbjGyuxbbC08gASgBnlHczd02YtaKOrpkpc0b/dCz7AAAA00lEQVR4AWKgEwD0PhcJEoNAFEArinTQGBKX+x9xvA2ynrfBqfpJmmV5AhfSokQIE0ToDUIV40JQIUul4zNcC9LotsM9hAwTSOa2c85DxCphE084HiCSUQnQjl0zQWReVhjZtl+GYB42Rp1DGiIlgnGdpgoJFp1O7Eh/cptSEBMcbup2D4RdkDJRHO4KVwbtkA7uNCXJe0bEn5nCQ6Nwdp/vjsO7kzf3ac3X4FAj+tfjyFkGAeloMxujT4cLiEjEKUKUqwouTB3BWG0zXDM2M/APPgHhRQvZvnEI2QAAAABJRU5ErkJggg==) Overleaf (https://es.overleaf.com/)
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAXVBMVEVHcEwcHDMbGzEcHDMfHzhERoUXGCspKkgMDRxCQklWVmEICBOQkJjk5OX9/f3GxsgSEyPy8vJ7e4HX19ipqaxmZmsAAAIoKU44OW8xMmBXWKw+P3xWWK1KS5VhYr+6EmoaAAAAH3RSTlMAVbjt/xb//////////////////////++5/1X//P/bvwr1ewAAAUtJREFUeAFt0oeagyAQBGCi3LKKBSybhr7/Y97skus3ifX/BmxOc2la/yNtc3E1b7/k5W9m/xF5ItWPXvjF1GK+b8fMXR8ikxJycU2tKQ3jpJn7SKqpwahkzH02ysogYOvoZUslyzRHxQRUpW5a10/bzAw9/hHT9fuc4esWXsZAWOox1ypRIonEBAIyu6TKG0acyAIxM1SVNQN3/mSzCITKmJGFq3xYdJwQxTEv8bPHMAaqYljwzlVqDwGCZcvjmLmC1SrGiH3pgbMgCYuJIVedx9zZQ5jGLYiRsEtsO12e1wn1dR3x+Kom56EM3U1q8ixq3l2hbN31E7XJ5K/uFjwZiyxzpU4iJwr3m3s878rJWHxHWIN8uD8fzpWnsieqt84JonQU/TTLAb6HYF8kEsIddJT64Z7lMK+BoFVOM+RxnqUcGjQA5TwfDnkHKWwjxBuSseAAAAAASUVORK5CYII=) Crixet (https://crixet.com/) plantilla cym --> https://app.crixet.com/?u=d399766a-c63a-4c6e-ba9c-71a4b728754e&pg=1&m=main.tex&d=7
 
