@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador/Proyectual final.md",
+                "file": "01-proj/25/Peterschmitt/TP 02/Blog.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Proyectual final"
+              "title": "Blog"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador/Proyectual final.md",
+                "file": "01-proj/25/Peterschmitt/TP 02/Blog.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Proyectual final"
+              "title": "Esquema de Blog"
             }
           }
         ],
@@ -175,10 +175,12 @@
   },
   "active": "adc83c284210624b",
   "lastOpenFiles": [
+    "01-proj/25/Peterschmitt/TP 02/Blog.md",
+    "01-proj/25/Peterschmitt/TP 01/Paradigmas Operativos.md",
+    "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador/Proyectual final.md",
     "Proyectual ultimo actualizado.pdf",
     "conflict-files-obsidian-git.md",
     "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador.pdf",
-    "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador/Proyectual final.md",
     "06-out/topoi/performance en red/BogdanVera_SSSP_preview.pdf",
     "06-out/topoi/performance en red/Blockchain_Paper_ICMC_20222.pdf",
     "06-out/topoi/performance en red",
@@ -198,15 +200,12 @@
     "a-mermaid.md",
     "concret-lab.md",
     "2025-11-23.md",
-    "01-proj/25/Peterschmitt/TP 02/Blog.md",
-    "01-proj/25/Peterschmitt/TP 01/Paradigmas Operativos.md",
     "01-proj/25/Dai Miauro/tp1.pdf",
     "01-proj/25/Carlos Lescano/TP1/TP1_Lescano_Carlos__Daniel (1).pdf",
     "01-proj/25/Carlos Lescano/TP1/TP1 Salida -VacaMuertaDatos.mp3",
     "01-proj/25/Tomas Fernandez/TP01 Paradigmas operativos.md",
     "01-proj/25/Peterschmitt/Ideas/La Teoría Sintérgica de Jacobo Grinberg postula que la realidad, tal como la conocemos, no es una creación de nuestros sentidos, sino una construcción de la conciencia humana..md",
     "01-proj/25/Ada Gomiz/tp1_Ada_Gomiz.pdf",
-    "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador",
     "01-proj/25/Peterschmitt/Sin título.md",
     "04-tp/tp02-blog.md",
     "04-tp/tp01-paradigmas operativos.md",
