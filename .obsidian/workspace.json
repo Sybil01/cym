@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,6 +175,7 @@
   },
   "active": "adc83c284210624b",
   "lastOpenFiles": [
+    "Proyectual ultimo actualizado.pdf",
     "conflict-files-obsidian-git.md",
     "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador.pdf",
     "01-proj/25/Peterschmitt/Proyectual Sombrero Disociador/Proyectual final.md",
