@@ -606,6 +606,7 @@ drawGrid(); log('Elegí un preset y Load. 9=ancla: 10 pulsos con gradiente visua
 
 
 
+
 - Diseño sonoro (28 combos): 7 motores en 4 macro-sintes para cumplir “sintes × 7 alturas = 28 combinaciones”, cubriendo todos tus motores en el conjunto:
 - A = ruido blanco + saw
 - B = FM (carrier cuadrada) + sustractiva de triángulo
